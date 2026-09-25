@@ -52,9 +52,22 @@ export const entrySchema = z
   .object({ id, text: z.string().min(1).optional(), media: mediaSchema.optional() })
   .refine((e) => e.text !== undefined || e.media !== undefined, "text か media のどちらかが必要");
 
+/** 問題が知識カードの何を問うか（docs/content-guide.md） */
+export const askSchema = z.enum(["what", "who", "when", "where", "why", "result"]);
+export type Ask = z.infer<typeof askSchema>;
+export const askLabel: Record<Ask, string> = {
+  what: "何",
+  who: "誰",
+  when: "いつ",
+  where: "どこ",
+  why: "なぜ",
+  result: "結果",
+};
+
 const questionBase = {
   id,
   itemIds: z.array(id).min(1),
+  asks: z.array(askSchema).min(1),
   prompt: z.string().min(1),
   media: z.array(mediaSchema).optional(),
   explanation: z.string().min(1),
@@ -205,6 +218,23 @@ export function parseContent(raw: RawContent): { content: ParsedContent; errors:
     }
   }
   return { content: { themes, categories, maps }, errors };
+}
+
+/**
+ * 問いの抜けの警告（エラーにはしない）。
+ * - 問題が 1 つもない知識カード
+ * - why があるのに「なぜ」を問う問題がない知識カード
+ */
+export function coverageWarnings(content: ParsedContent): string[] {
+  const warnings: string[] = [];
+  for (const [key, c] of content.categories)
+    for (const it of c.items) {
+      const qs = c.questions.filter((q) => q.status === "active" && q.itemIds.includes(it.id));
+      if (qs.length === 0) warnings.push(`${key}/${it.id}: 問題がない`);
+      else if (it.why && !qs.some((q) => q.asks.includes("why")))
+        warnings.push(`${key}/${it.id}: 「なぜ」を問う問題がない`);
+    }
+  return warnings;
 }
 
 /** マーカー同士の最小距離（画像サイズに対する比率） */

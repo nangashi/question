@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { grade, toRating } from "./grading";
 import type { Question } from "./schema";
 
-const base = { id: "q", itemIds: ["i"], prompt: "p", explanation: "e", status: "active" as const };
+const base = { id: "q", itemIds: ["i"], asks: ["what" as const], prompt: "p", explanation: "e", status: "active" as const };
 
 describe("grade", () => {
   it("並べ替えは完全一致で正解、一部一致は部分正解", () => {

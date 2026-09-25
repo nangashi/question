@@ -3,7 +3,7 @@
 //   出力: .cache/reviews/<theme>-<category>.md
 //   content/<theme>/<category>.notes.md（生成時の確認メモ）があれば末尾に含める
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { parseContent, type Entry, type Item, type Question } from "../src/schema.ts";
+import { askLabel, askSchema, coverageWarnings, parseContent, type Entry, type Item, type Question } from "../src/schema.ts";
 import { loadRawContent } from "./load-content.ts";
 import { loadChecks, uncheckedMarkerErrors } from "./marker-checks.ts";
 
@@ -54,6 +54,21 @@ if (cat.description) out.push(`> ${cat.description}`, "");
 out.push(`知識カード ${data.items.length} 枚 / 問題 ${data.questions.length} 問`, "");
 out.push(errors.length === 0 ? "検証: OK" : `検証エラー ${errors.length} 件:\n${errors.map((e) => `- ${e}`).join("\n")}`, "");
 
+// 問いの網羅状況: 知識カードごとに、何を問う問題が何問あるか
+const asks = askSchema.options;
+out.push("## 問いの網羅状況", "");
+out.push(`| 知識カード | ${asks.map((a) => askLabel[a]).join(" | ")} | 計 |`, `|---|${asks.map(() => "---").join("|")}|---|`);
+for (const it of [...data.items].sort((a, b) => a.unlockOrder - b.unlockOrder)) {
+  const qs = data.questions.filter((q) => q.status === "active" && q.itemIds.includes(it.id));
+  const cells = asks.map((a) => {
+    const n = qs.filter((q) => q.asks.includes(a)).length;
+    return n > 0 ? String(n) : a === "why" && it.why ? "**0**" : "";
+  });
+  out.push(`| ${it.title} | ${cells.join(" | ")} | ${qs.length} |`);
+}
+const warns = coverageWarnings(content).filter((w) => w.startsWith(`${key}/`));
+out.push("", warns.length === 0 ? "抜けの警告: なし" : `抜けの警告 ${warns.length} 件（**0** は why があるのに「なぜ」を問う問題がないもの）`, "");
+
 out.push("## 知識カード", "");
 for (const it of [...data.items].sort((a, b) => a.unlockOrder - b.unlockOrder)) {
   out.push(`### ${it.unlockOrder + 1}. ${it.title}（${yearText(it)}）`, "");
@@ -73,7 +88,7 @@ data.questions.forEach((q) => counts.set(q.type, (counts.get(q.type) ?? 0) + 1))
 out.push(`形式: ${[...counts].map(([t, n]) => `${t} ${n}`).join(" ／ ")}`, "");
 data.questions.forEach((q, i) => {
   out.push(`### Q${i + 1}. [${q.type}] ${q.prompt}`, "");
-  out.push(`\`${q.id}\` ・ 知識カード: ${q.itemIds.map(itemTitle).join("、")}${q.status === "retired" ? " ・ **retired**" : ""}`, "");
+  out.push(`\`${q.id}\` ・ 問うこと: ${q.asks.map((a) => askLabel[a]).join("・")} ・ 知識カード: ${q.itemIds.map(itemTitle).join("、")}${q.status === "retired" ? " ・ **retired**" : ""}`, "");
   if (q.media?.length) out.push(`画像: ${q.media.map((m) => `${m.src}${m.markers ? `（マーカー ${m.markers.length}）` : ""}`).join("、")}`, "");
   out.push(...answerBlock(q), "");
   out.push(`**解説**: ${q.explanation}`, "");

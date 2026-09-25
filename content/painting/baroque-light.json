@@ -133,6 +133,7 @@
       "id": "q-pt-baroque-pearl-artist",
       "type": "choice",
       "itemIds": ["pt-baroque-pearl-earring"],
+      "asks": ["who"],
       "prompt": "この作品を描いたのは？",
       "media": [
         {
@@ -158,6 +159,7 @@
       "id": "q-pt-baroque-rembrandt-work",
       "type": "choice",
       "itemIds": ["pt-baroque-night-watch"],
+      "asks": ["who"],
       "prompt": "レンブラントの作品はどれ？",
       "choices": [
         { "id": "night-watch", "media": { "kind": "image", "src": "images/night-watch.jpg", "alt": "作品A" } },
@@ -173,6 +175,7 @@
       "id": "q-pt-baroque-meninas-painter",
       "type": "choice",
       "itemIds": ["pt-baroque-las-meninas"],
+      "asks": ["what"],
       "prompt": "この絵の中で、作者ベラスケス自身が描かれているのはどれ？",
       "media": [
         {
@@ -204,6 +207,7 @@
       "id": "q-pt-baroque-meninas-mirror",
       "type": "choice",
       "itemIds": ["pt-baroque-las-meninas"],
+      "asks": ["what"],
       "prompt": "この絵の奥の壁にかかった鏡に映っているのは誰？",
       "media": [
         {
@@ -229,6 +233,7 @@
       "id": "q-pt-baroque-match-artist",
       "type": "match",
       "itemIds": ["pt-baroque-calling-of-matthew", "pt-baroque-night-watch", "pt-baroque-las-meninas", "pt-baroque-milkmaid"],
+      "asks": ["who"],
       "prompt": "作品と作者を結ぼう",
       "left": [
         { "id": "calling", "text": "聖マタイの召命" },
@@ -255,6 +260,7 @@
       "id": "q-pt-baroque-classify-era",
       "type": "classify",
       "itemIds": ["pt-baroque-calling-of-matthew", "pt-baroque-night-watch", "pt-baroque-las-meninas"],
+      "asks": ["when"],
       "prompt": "画家を、活躍した時代で分けよう",
       "buckets": [
         { "id": "renaissance", "text": "ルネサンス" },
@@ -275,6 +281,7 @@
       "id": "q-pt-baroque-night-watch-year",
       "type": "year",
       "itemIds": ["pt-baroque-night-watch"],
+      "asks": ["when"],
       "prompt": "レンブラントの「夜警」が完成したのは何年ごろ？",
       "media": [
         {
@@ -295,6 +302,7 @@
       "id": "q-pt-baroque-order-works",
       "type": "order",
       "itemIds": ["pt-baroque-calling-of-matthew", "pt-baroque-night-watch", "pt-baroque-las-meninas", "pt-baroque-pearl-earring"],
+      "asks": ["when"],
       "prompt": "描かれた順に並べ替えよう（古い順）",
       "entries": [
         { "id": "calling", "text": "聖マタイの召命（カラヴァッジョ）" },

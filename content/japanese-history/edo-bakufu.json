@@ -98,6 +98,7 @@
       "id": "q-jh-edo-sankin-shogun",
       "type": "choice",
       "itemIds": ["jh-edo-sankin"],
+      "asks": ["who"],
       "prompt": "武家諸法度を改め、参勤交代を制度として定めた将軍は？",
       "choices": [
         { "id": "ieyasu", "text": "徳川家康" },
@@ -113,6 +114,7 @@
       "id": "q-jh-edo-sankin-purpose",
       "type": "choice",
       "itemIds": ["jh-edo-sankin"],
+      "asks": ["why"],
       "prompt": "参勤交代が制度化された主なねらいとして、最も適切なものは？",
       "choices": [
         { "id": "loyalty", "text": "将軍と大名の主従関係を確かめ、大名を統制する" },
@@ -128,6 +130,7 @@
       "id": "q-jh-edo-sakoku-false",
       "type": "choice",
       "itemIds": ["jh-edo-portuguese-ban", "jh-edo-dejima"],
+      "asks": ["what"],
       "prompt": "いわゆる「鎖国」の時代の説明として、誤っているものは？",
       "choices": [
         { "id": "dutch", "text": "オランダとの交易は出島で続けられた" },
@@ -143,6 +146,7 @@
       "id": "q-jh-edo-order-early",
       "type": "order",
       "itemIds": ["jh-edo-shogunate", "jh-edo-buke-shohatto", "jh-edo-shimabara", "jh-edo-portuguese-ban"],
+      "asks": ["when"],
       "prompt": "古い順に並べ替えよう",
       "entries": [
         { "id": "shogunate", "text": "徳川家康が江戸幕府を開く" },
@@ -158,6 +162,7 @@
       "id": "q-jh-edo-match-people",
       "type": "match",
       "itemIds": ["jh-edo-shogunate", "jh-edo-buke-shohatto", "jh-edo-sankin", "jh-edo-shimabara"],
+      "asks": ["who"],
       "prompt": "出来事と、関わりの深い人物を結ぼう",
       "left": [
         { "id": "shogunate", "text": "江戸幕府を開く" },
@@ -184,6 +189,7 @@
       "id": "q-jh-edo-shimabara-year",
       "type": "year",
       "itemIds": ["jh-edo-shimabara"],
+      "asks": ["when"],
       "prompt": "島原・天草一揆が始まったのは何年？",
       "answer": 1637,
       "tolerance": 3,
@@ -194,6 +200,7 @@
       "id": "q-jh-edo-shimabara-map",
       "type": "map",
       "itemIds": ["jh-edo-shimabara"],
+      "asks": ["where"],
       "prompt": "島原・天草一揆が起きた島原半島は、現在のどの都道府県？",
       "map": "japan-prefectures",
       "answer": "jp-42",

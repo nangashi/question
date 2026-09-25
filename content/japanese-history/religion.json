@@ -235,6 +235,7 @@
       "id": "q-jh-religion-order-overview",
       "type": "order",
       "itemIds": ["jh-religion-buddhism-arrival", "jh-religion-kokubunji", "jh-religion-mappo", "jh-religion-christianity-arrival", "jh-religion-shinbutsu-bunri"],
+      "asks": ["when"],
       "prompt": "古い順に並べ替えよう",
       "entries": [
         { "id": "arrival", "text": "百済から仏教が伝わる" },
@@ -251,6 +252,7 @@
       "id": "q-jh-religion-arrival-year",
       "type": "year",
       "itemIds": ["jh-religion-buddhism-arrival"],
+      "asks": ["when"],
       "prompt": "百済から仏教が公式に伝わったのは何年ごろ？",
       "answer": 538,
       "tolerance": 15,
@@ -261,6 +263,7 @@
       "id": "q-jh-religion-sobutsu-opponent",
       "type": "choice",
       "itemIds": ["jh-religion-sobutsu-dispute"],
+      "asks": ["who"],
       "prompt": "仏教を受け入れることに反対し、587年に蘇我馬子に滅ぼされた豪族は？",
       "choices": [
         { "id": "mononobe", "text": "物部氏" },
@@ -276,6 +279,7 @@
       "id": "q-jh-religion-sanbo",
       "type": "choice",
       "itemIds": ["jh-religion-seventeen-articles"],
+      "asks": ["what"],
       "prompt": "十七条憲法の第二条「篤く三宝を敬え」の「三宝」とは何？",
       "choices": [
         { "id": "buddhism", "text": "仏・法（仏の教え）・僧" },
@@ -291,6 +295,7 @@
       "id": "q-jh-religion-kokubunji-purpose",
       "type": "choice",
       "itemIds": ["jh-religion-kokubunji"],
+      "asks": ["why"],
       "prompt": "聖武天皇が全国に国分寺を建てさせた主な目的は？",
       "choices": [
         { "id": "protect", "text": "仏教の力で国を守り、安定させるため" },
@@ -306,6 +311,7 @@
       "id": "q-jh-religion-todaiji-map",
       "type": "map",
       "itemIds": ["jh-religion-kokubunji"],
+      "asks": ["where"],
       "prompt": "全国の国分寺の中心とされた東大寺があるのは、現在のどの都道府県？",
       "map": "japan-prefectures",
       "answer": "jp-29",
@@ -316,6 +322,7 @@
       "id": "q-jh-religion-saicho-temple",
       "type": "choice",
       "itemIds": ["jh-religion-saicho-kukai"],
+      "asks": ["where"],
       "prompt": "天台宗を開いた最澄が拠点とした寺は？",
       "choices": [
         { "id": "enryakuji", "text": "比叡山延暦寺" },
@@ -331,6 +338,7 @@
       "id": "q-jh-religion-honji-meaning",
       "type": "choice",
       "itemIds": ["jh-religion-honji-suijaku"],
+      "asks": ["what"],
       "prompt": "本地垂迹説の考え方として正しいものは？",
       "choices": [
         { "id": "buddha-as-kami", "text": "日本の神々は、仏が仮に神の姿で現れたものだ" },
@@ -346,6 +354,7 @@
       "id": "q-jh-religion-byodoin-image",
       "type": "choice",
       "itemIds": ["jh-religion-mappo"],
+      "asks": ["what"],
       "prompt": "極楽浄土をこの世に表そうとして建てられた、この建物は？",
       "media": [
         {
@@ -371,6 +380,7 @@
       "id": "q-jh-religion-kamakura-match",
       "type": "match",
       "itemIds": ["jh-religion-kamakura-buddhism"],
+      "asks": ["who"],
       "prompt": "宗派と、それを開いた人物を結ぼう",
       "left": [
         { "id": "jodo", "text": "浄土宗" },
@@ -400,6 +410,7 @@
       "id": "q-jh-religion-kamakura-classify",
       "type": "classify",
       "itemIds": ["jh-religion-kamakura-buddhism"],
+      "asks": ["what"],
       "prompt": "宗派を、中心となる実践で分けよう",
       "buckets": [
         { "id": "nenbutsu", "text": "念仏" },
@@ -421,6 +432,7 @@
       "id": "q-jh-religion-kamakura-why",
       "type": "choice",
       "itemIds": ["jh-religion-kamakura-buddhism"],
+      "asks": ["why"],
       "prompt": "鎌倉時代の新しい仏教が、武士や庶民に広まった主な理由は？",
       "choices": [
         { "id": "easy", "text": "厳しい修行や寄進がなくても、易しい実践ひとつで救われると説いたから" },
@@ -436,6 +448,7 @@
       "id": "q-jh-religion-xavier-map",
       "type": "map",
       "itemIds": ["jh-religion-christianity-arrival"],
+      "asks": ["where"],
       "prompt": "1549年にザビエルが来て、キリスト教の布教を始めた地は、現在のどの都道府県？",
       "map": "japan-prefectures",
       "answer": "jp-46",
@@ -446,6 +459,7 @@
       "id": "q-jh-religion-xavier-year",
       "type": "year",
       "itemIds": ["jh-religion-christianity-arrival"],
+      "asks": ["when"],
       "prompt": "ザビエルが日本に来てキリスト教を伝えたのは何年？",
       "answer": 1549,
       "tolerance": 10,
@@ -456,6 +470,7 @@
       "id": "q-jh-religion-daimyo-why",
       "type": "choice",
       "itemIds": ["jh-religion-christianity-arrival"],
+      "asks": ["why"],
       "prompt": "戦国大名の中に、キリスト教の布教を認めたり自ら信者になったりする者がいたのは、なぜ？",
       "choices": [
         { "id": "trade", "text": "南蛮貿易の利益や、硝石などの物資を得たかったから" },
@@ -471,6 +486,7 @@
       "id": "q-jh-religion-kinkyo-who",
       "type": "choice",
       "itemIds": ["jh-religion-kinkyo"],
+      "asks": ["what"],
       "prompt": "宣教師の追放だけでなく、キリスト教の信仰そのものを禁じて徹底した取り締まりを始めたのは？",
       "choices": [
         { "id": "tokugawa", "text": "江戸幕府の禁教令（1612年〜）" },
@@ -486,6 +502,7 @@
       "id": "q-jh-religion-terauke-purpose",
       "type": "choice",
       "itemIds": ["jh-religion-terauke"],
+      "asks": ["why"],
       "prompt": "江戸幕府が寺請制度をつくった主な目的は？",
       "choices": [
         { "id": "ban", "text": "キリシタンではないことを寺に証明させ、禁教を徹底するため" },
@@ -501,6 +518,7 @@
       "id": "q-jh-religion-bunri-intent",
       "type": "choice",
       "itemIds": ["jh-religion-shinbutsu-bunri"],
+      "asks": ["why"],
       "prompt": "明治政府の神仏分離令についての説明として、正しいものは？",
       "choices": [
         { "id": "separate", "text": "神と仏を分けることを命じたが、仏教を壊すことまでは命じていなかった" },
@@ -516,6 +534,7 @@
       "id": "q-jh-religion-freedom-meiji",
       "type": "choice",
       "itemIds": ["jh-religion-freedom"],
+      "asks": ["what"],
       "prompt": "大日本帝国憲法（1889年）での信教の自由は、どのように扱われた？",
       "choices": [
         { "id": "conditional", "text": "秩序を乱さず臣民の義務に背かない限り、という条件つきで認められた" },
