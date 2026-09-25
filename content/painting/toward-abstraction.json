@@ -153,7 +153,7 @@
         {
           "kind": "image",
           "src": "images/hiroshige-van-gogh-plum.jpg",
-          "alt": "梅の木の太い枝を画面の手前に大きく描いた、よく似た2枚の絵が並んでいる",
+          "alt": "左は梅の木の太い枝を画面の手前に大きく描いた浮世絵、右はそれをもとに、周りに漢字入りの枠を加えて油絵で描いた絵",
           "credit": "Utagawa Hiroshige / Vincent van Gogh, Public domain, via Wikimedia Commons",
           "license": "Public domain",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshige_Van_Gogh_1.JPG"
@@ -760,12 +760,12 @@
       "asks": [
         "who"
       ],
-      "prompt": "この2枚のうち一方は歌川広重の浮世絵、もう一方はそれを油絵で模写したものです。模写したのは誰？",
+      "prompt": "左は歌川広重の浮世絵《名所江戸百景 亀戸梅屋舗》、右はそれを油絵で模写したものです。模写したのは誰？",
       "media": [
         {
           "kind": "image",
           "src": "images/hiroshige-van-gogh-plum.jpg",
-          "alt": "梅の木の太い枝を画面の手前に大きく描いた、よく似た2枚の絵が並んでいる",
+          "alt": "左は梅の木の太い枝を画面の手前に大きく描いた浮世絵、右はそれをもとに、周りに漢字入りの枠を加えて油絵で描いた絵",
           "credit": "Utagawa Hiroshige / Vincent van Gogh, Public domain, via Wikimedia Commons",
           "license": "Public domain",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshige_Van_Gogh_1.JPG"
@@ -790,7 +790,7 @@
         }
       ],
       "answer": "gogh",
-      "explanation": "ゴッホです。ゴッホはパリで浮世絵を買い集め、1887年に広重の《名所江戸百景 亀戸梅屋舗》を油絵で模写しました。",
+      "explanation": "ゴッホです。ゴッホはパリで浮世絵を買い集め、1887年にこの作品を油絵で模写しました。手前に大きく枝を置く大胆な構図や平らな色面をそのまま取り入れています。周りの漢字入りの枠は元の浮世絵にはなく、ゴッホが描き加えたものです。",
       "status": "active"
     },
     {

@@ -43,4 +43,4 @@
 | malevich-black-square.jpg | マレーヴィチ《黒の正方形》1915年 | Kazimir_Malevich,_1915,_Black_Suprematic_Square,...jpg |
 | mondrian-composition-1930.jpg | モンドリアン《赤・青・黄のコンポジション》1930年 | Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg |
 
-- 注意: 広重とゴッホを並べた画像は、どちらが左右かを画像を見て確かめてから問題文を最終確定する（現状の問題文は左右に依存しない書き方にしている）
+- 取得した 10 枚すべてを画像で確認し、作品と代替テキストが合っていることを確かめた。広重とゴッホを並べた画像は、左が広重、右がゴッホの模写（周りに漢字入りの枠を描き加えている）で、問題文と解説をこれに合わせた
