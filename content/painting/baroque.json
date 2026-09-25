@@ -1,0 +1,282 @@
+{
+  "items": [
+    {
+      "id": "pt-baroque-calling-of-matthew",
+      "title": "聖マタイの召命",
+      "summary": "カラヴァッジョの作品。薄暗い部屋に差し込む一筋の光が、キリストに呼ばれる徴税人マタイを照らし出す。",
+      "year": { "from": 1599, "to": 1600 },
+      "place": { "name": "ローマ（サン・ルイジ・デイ・フランチェージ聖堂）" },
+      "people": ["カラヴァッジョ"],
+      "tags": ["イタリア", "宗教画", "明暗法"],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/calling-of-matthew.jpg",
+          "alt": "薄暗い部屋で、右から入ってきたキリストがテーブルを囲む人々の一人を指さしている絵",
+          "credit": "Caravaggio, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Calling_of_Saint_Matthew-Caravaggo_(1599-1600).jpg"
+        }
+      ],
+      "links": [
+        { "axis": "比較", "text": "強い明暗の対比はヨーロッパ各地の画家に広がり、レンブラントの「夜警」にもその表現が見られます。", "itemIds": ["pt-baroque-night-watch"] }
+      ],
+      "trivia": "描かれたのは、いまも作品が飾られているローマの聖堂の礼拝堂のためでした。",
+      "sources": ["高階秀爾『名画を見る眼』"],
+      "unlockOrder": 0
+    },
+    {
+      "id": "pt-baroque-night-watch",
+      "title": "夜警",
+      "summary": "レンブラントの集団肖像画。アムステルダムの市民隊を、光と影の劇的な対比で描いた。",
+      "year": { "from": 1642 },
+      "place": { "name": "アムステルダム（アムステルダム国立美術館）" },
+      "people": ["レンブラント"],
+      "tags": ["オランダ", "集団肖像画", "明暗法"],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/night-watch.jpg",
+          "alt": "暗い背景の中、隊長と副官を中心に武装した市民たちが動き出そうとしている大きな集団肖像画",
+          "credit": "Rembrandt, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg"
+        }
+      ],
+      "links": [
+        { "axis": "時代", "text": "完成の3年前、1639年に日本ではポルトガル船の来航が禁止されました。オランダは出島で日本との交易を続けます。", "itemIds": ["jh-edo-portuguese-ban", "jh-edo-dejima"] }
+      ],
+      "trivia": "実は昼の場面を描いたものとされ、表面のニスが暗く変色したことから「夜警」と呼ばれるようになりました。",
+      "sources": ["高階秀爾『名画を見る眼』"],
+      "unlockOrder": 1
+    },
+    {
+      "id": "pt-baroque-las-meninas",
+      "title": "ラス・メニーナス",
+      "summary": "ベラスケスの作品。スペイン王女マルガリータと侍女たち、そして制作中の画家自身が描かれている。",
+      "year": { "from": 1656 },
+      "place": { "name": "マドリード（プラド美術館）" },
+      "people": ["ディエゴ・ベラスケス"],
+      "tags": ["スペイン", "宮廷画"],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/las-meninas.jpg",
+          "alt": "宮廷の広い部屋で、中央の幼い王女を侍女たちが囲み、左に大きなキャンバスに向かう画家が立つ絵",
+          "credit": "Diego Velázquez, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg"
+        }
+      ],
+      "links": [
+        { "axis": "比較", "text": "同じころのオランダでは、フェルメールが室内の一場面を静かな光で描いていました。", "itemIds": ["pt-baroque-milkmaid"] }
+      ],
+      "trivia": "奥の壁の鏡には国王夫妻が映っており、見る人が国王夫妻の立ち位置にいるような構図になっています。",
+      "sources": ["高階秀爾『名画を見る眼』"],
+      "unlockOrder": 2
+    },
+    {
+      "id": "pt-baroque-milkmaid",
+      "title": "牛乳を注ぐ女",
+      "summary": "フェルメールの作品。窓からの光が差す台所で、女性が静かに牛乳を注ぐ一瞬を描いた。",
+      "year": { "from": 1658, "approx": true },
+      "place": { "name": "アムステルダム（アムステルダム国立美術館）" },
+      "people": ["ヨハネス・フェルメール"],
+      "tags": ["オランダ", "風俗画"],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/milkmaid.jpg",
+          "alt": "窓からの光が差す台所で、黄色い上着に青いエプロンの女性が水差しから牛乳を注いでいる絵",
+          "credit": "Johannes Vermeer, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg"
+        }
+      ],
+      "links": [
+        { "axis": "人物", "text": "同じフェルメールの「真珠の耳飾りの少女」にも、高価な青い顔料が使われています。", "itemIds": ["pt-baroque-pearl-earring"] }
+      ],
+      "sources": ["高階秀爾『名画を見る眼』"],
+      "unlockOrder": 3
+    },
+    {
+      "id": "pt-baroque-pearl-earring",
+      "title": "真珠の耳飾りの少女",
+      "summary": "フェルメールの作品。暗い背景から振り返る少女を描いた、特定のモデルの肖像ではない「トローニー」と呼ばれる人物像。",
+      "year": { "from": 1665, "approx": true },
+      "place": { "name": "デン・ハーグ（マウリッツハイス美術館）" },
+      "people": ["ヨハネス・フェルメール"],
+      "tags": ["オランダ", "トローニー"],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/pearl-earring.jpg",
+          "alt": "暗い背景の前で、青と黄色のターバンを巻き真珠の耳飾りをつけた少女がこちらを振り返っている絵",
+          "credit": "Johannes Vermeer, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
+        }
+      ],
+      "links": [
+        { "axis": "人物", "text": "同じフェルメールの「牛乳を注ぐ女」は、窓の光が差す室内の日常を描いています。", "itemIds": ["pt-baroque-milkmaid"] }
+      ],
+      "trivia": "ターバンの青は、宝石ラピスラズリを砕いて作る高価な顔料「ウルトラマリン」です。",
+      "sources": ["高階秀爾『名画を見る眼』"],
+      "unlockOrder": 4
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-pt-baroque-pearl-artist",
+      "type": "choice",
+      "itemIds": ["pt-baroque-pearl-earring"],
+      "prompt": "この作品を描いたのは？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/pearl-earring.jpg",
+          "alt": "暗い背景の前で、ターバンを巻いた少女がこちらを振り返っている絵",
+          "credit": "Johannes Vermeer, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
+        }
+      ],
+      "choices": [
+        { "id": "rembrandt", "text": "レンブラント" },
+        { "id": "vermeer", "text": "フェルメール" },
+        { "id": "velazquez", "text": "ベラスケス" },
+        { "id": "caravaggio", "text": "カラヴァッジョ" }
+      ],
+      "answer": "vermeer",
+      "explanation": "「真珠の耳飾りの少女」はフェルメールの作品です。暗い背景に浮かぶ人物と、ターバンの鮮やかな青が特徴です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-baroque-rembrandt-work",
+      "type": "choice",
+      "itemIds": ["pt-baroque-night-watch"],
+      "prompt": "レンブラントの作品はどれ？",
+      "choices": [
+        { "id": "night-watch", "media": { "kind": "image", "src": "images/night-watch.jpg", "alt": "作品A" } },
+        { "id": "milkmaid", "media": { "kind": "image", "src": "images/milkmaid.jpg", "alt": "作品B" } },
+        { "id": "las-meninas", "media": { "kind": "image", "src": "images/las-meninas.jpg", "alt": "作品C" } },
+        { "id": "calling", "media": { "kind": "image", "src": "images/calling-of-matthew.jpg", "alt": "作品D" } }
+      ],
+      "answer": "night-watch",
+      "explanation": "レンブラントの「夜警」です。ほかはフェルメール「牛乳を注ぐ女」、ベラスケス「ラス・メニーナス」、カラヴァッジョ「聖マタイの召命」です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-baroque-meninas-painter",
+      "type": "choice",
+      "itemIds": ["pt-baroque-las-meninas"],
+      "prompt": "この絵の中で、作者ベラスケス自身が描かれているのはどれ？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/las-meninas.jpg",
+          "alt": "宮廷の部屋に王女と侍女たち、画家、犬などが描かれた絵",
+          "credit": "Diego Velázquez, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg",
+          "markers": [
+            { "id": "painter", "label": "1", "x": 0.3, "y": 0.4 },
+            { "id": "infanta", "label": "2", "x": 0.47, "y": 0.52 },
+            { "id": "doorway", "label": "3", "x": 0.63, "y": 0.33 },
+            { "id": "dog", "label": "4", "x": 0.75, "y": 0.84 }
+          ]
+        }
+      ],
+      "choices": [
+        { "id": "painter", "text": "1" },
+        { "id": "infanta", "text": "2" },
+        { "id": "doorway", "text": "3" },
+        { "id": "dog", "text": "4" }
+      ],
+      "answer": "painter",
+      "explanation": "左側で大きなキャンバスに向かっているのがベラスケス本人です。中央は王女マルガリータ、奥の戸口には王妃の侍従が立っています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-baroque-match-artist",
+      "type": "match",
+      "itemIds": ["pt-baroque-calling-of-matthew", "pt-baroque-night-watch", "pt-baroque-las-meninas", "pt-baroque-milkmaid"],
+      "prompt": "作品と作者を結ぼう",
+      "left": [
+        { "id": "calling", "text": "聖マタイの召命" },
+        { "id": "night-watch", "text": "夜警" },
+        { "id": "las-meninas", "text": "ラス・メニーナス" },
+        { "id": "milkmaid", "text": "牛乳を注ぐ女" }
+      ],
+      "right": [
+        { "id": "caravaggio", "text": "カラヴァッジョ" },
+        { "id": "rembrandt", "text": "レンブラント" },
+        { "id": "velazquez", "text": "ベラスケス" },
+        { "id": "vermeer", "text": "フェルメール" }
+      ],
+      "pairs": [
+        ["calling", "caravaggio"],
+        ["night-watch", "rembrandt"],
+        ["las-meninas", "velazquez"],
+        ["milkmaid", "vermeer"]
+      ],
+      "explanation": "イタリアのカラヴァッジョ、オランダのレンブラントとフェルメール、スペインのベラスケス。いずれも17世紀前後に活躍したバロック期の画家です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-baroque-classify-era",
+      "type": "classify",
+      "itemIds": ["pt-baroque-calling-of-matthew", "pt-baroque-night-watch", "pt-baroque-las-meninas"],
+      "prompt": "画家を、活躍した時代で分けよう",
+      "buckets": [
+        { "id": "renaissance", "text": "ルネサンス" },
+        { "id": "baroque", "text": "バロック" }
+      ],
+      "entries": [
+        { "id": "caravaggio", "text": "カラヴァッジョ", "bucket": "baroque" },
+        { "id": "botticelli", "text": "ボッティチェリ", "bucket": "renaissance" },
+        { "id": "rembrandt", "text": "レンブラント", "bucket": "baroque" },
+        { "id": "raphael", "text": "ラファエロ", "bucket": "renaissance" },
+        { "id": "velazquez", "text": "ベラスケス", "bucket": "baroque" },
+        { "id": "leonardo", "text": "レオナルド・ダ・ヴィンチ", "bucket": "renaissance" }
+      ],
+      "explanation": "ボッティチェリ、レオナルド、ラファエロは15〜16世紀のルネサンスの画家。カラヴァッジョ、レンブラント、ベラスケスは17世紀前後のバロックの画家で、劇的な光と動きが特徴です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-baroque-night-watch-year",
+      "type": "year",
+      "itemIds": ["pt-baroque-night-watch"],
+      "prompt": "レンブラントの「夜警」が完成したのは何年ごろ？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/night-watch.jpg",
+          "alt": "暗い背景の中、武装した市民たちを描いた大きな集団肖像画",
+          "credit": "Rembrandt, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg"
+        }
+      ],
+      "answer": 1642,
+      "tolerance": 10,
+      "explanation": "1642年の完成です。日本では江戸時代の初め、ポルトガル船の来航が禁止された3年後にあたります。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-baroque-order-works",
+      "type": "order",
+      "itemIds": ["pt-baroque-calling-of-matthew", "pt-baroque-night-watch", "pt-baroque-las-meninas", "pt-baroque-pearl-earring"],
+      "prompt": "描かれた順に並べ替えよう（古い順）",
+      "entries": [
+        { "id": "calling", "text": "聖マタイの召命（カラヴァッジョ）" },
+        { "id": "night-watch", "text": "夜警（レンブラント）" },
+        { "id": "las-meninas", "text": "ラス・メニーナス（ベラスケス）" },
+        { "id": "pearl", "text": "真珠の耳飾りの少女（フェルメール）" }
+      ],
+      "answer": ["calling", "night-watch", "las-meninas", "pearl"],
+      "explanation": "1600年ごろ → 1642年 → 1656年 → 1665年ごろ。イタリアで始まったバロックの明暗表現が、オランダやスペインへと広がっていきました。",
+      "status": "active"
+    }
+  ]
+}

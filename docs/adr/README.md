@@ -32,6 +32,7 @@
 | [0006](0006-learning-stats-for-claude.md) | 学習データを要約して Claude に連携し、定期実行で問題を改善する | 承認（未実装） |
 | [0007](0007-optional-oauth-login.md) | ログインは任意とし、Google / GitHub の OAuth でログインして同期する | 提案 |
 | [0008](0008-question-formats-and-data-model.md) | 出題形式とデータモデル（知識カードと問題の 2 層） | 承認（未実装） |
+| [0009](0009-frontend-stack.md) | フロントエンドは Vite + Preact + TypeScript、パッケージ管理は pnpm | 承認（未実装） |
 
 ## テンプレート
 

@@ -6,6 +6,21 @@
 - [docs/roadmap.md](docs/roadmap.md): フェーズとタスク。タスクと進捗の唯一の正本。運用ルールはファイル冒頭を参照
 - [docs/adr/](docs/adr/README.md): アーキテクチャ上の意思決定
 
+## 開発
+
+| コマンド | 内容 |
+|---|---|
+| `pnpm dev` | 開発サーバー（`--host` 付き。同じ LAN のスマホから確認できる） |
+| `pnpm validate` | `content/` のスキーマ検証と参照整合性チェック |
+| `pnpm test` | 採点ロジックと全画面・全出題形式の動作確認（Vitest + jsdom） |
+| `pnpm typecheck` | 型チェック |
+| `pnpm fetch:images` | 作品画像を Wikimedia Commons から取得して縮小保存 |
+| `pnpm check:markers` | マーカー付き画像を `.cache/markers/` に描画（位置の目視確認用） |
+| `pnpm build:map` | Natural Earth から都道府県地図（`content/_maps/`）を生成 |
+
+- 問題データ（知識カードと問題）は `content/<theme>/<category>.json`、形式は ADR-0008 と `src/schema.ts`
+- 問題データを追加・変更したら `pnpm validate` を通す。マーカーを追加・変更したら `pnpm check:markers` の画像を見て位置を確認する
+
 ## アーキテクチャ上の意思決定（ADR）
 
 - 設計上の意思決定は `docs/adr/` に ADR として記録している。一覧・ステータス・テンプレートは [docs/adr/README.md](docs/adr/README.md) を参照

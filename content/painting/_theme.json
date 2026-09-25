@@ -1,0 +1,10 @@
+{
+  "id": "painting",
+  "name": "絵画",
+  "categories": [
+    { "id": "renaissance", "name": "ルネサンス", "period": [1400, 1600] },
+    { "id": "baroque", "name": "バロック", "period": [1600, 1700] },
+    { "id": "ukiyoe", "name": "浮世絵", "period": [1660, 1900] },
+    { "id": "impressionism", "name": "印象派", "period": [1860, 1900] }
+  ]
+}
