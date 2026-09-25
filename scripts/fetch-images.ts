@@ -23,19 +23,54 @@ const images: { file: string; out: string }[] = [
   { file: "Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg", out: "content/painting/images/mondrian-composition-1930.jpg" },
 ];
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/** 取得に失敗したら、間隔を空けて再試行する */
+async function download(file: string): Promise<Buffer> {
+  const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=1600`;
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: { "User-Agent": "question-app/0.1 (study app; content build script)" },
+        signal: AbortSignal.timeout(30_000),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return Buffer.from(await res.arrayBuffer());
+    } catch (e) {
+      lastError = e;
+      const cause = e instanceof Error && e.cause instanceof Error ? `（${e.cause.message}）` : "";
+      console.warn(`  失敗 ${attempt}/3: ${e instanceof Error ? e.message : e}${cause}`);
+      if (attempt < 3) await sleep(5_000 * attempt);
+    }
+  }
+  throw lastError;
+}
+
+const failed: string[] = [];
 for (const { file, out } of images) {
   if (existsSync(out)) {
     console.log(`skip ${out}`);
     continue;
   }
-  const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=1600`;
-  const res = await fetch(url, { headers: { "User-Agent": "question-app/0.1 (study app; content build script)" } });
-  if (!res.ok) throw new Error(`${file}: HTTP ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  mkdirSync(dirname(out), { recursive: true });
-  writeFileSync(
-    out,
-    await sharp(buf).resize(1200, 1200, { fit: "inside", withoutEnlargement: true }).jpeg({ quality: 82, mozjpeg: true }).toBuffer(),
-  );
-  console.log(`saved ${out}`);
+  console.log(`get  ${out}`);
+  try {
+    const buf = await download(file);
+    mkdirSync(dirname(out), { recursive: true });
+    writeFileSync(
+      out,
+      await sharp(buf).resize(1200, 1200, { fit: "inside", withoutEnlargement: true }).jpeg({ quality: 82, mozjpeg: true }).toBuffer(),
+    );
+    console.log(`saved ${out}`);
+  } catch {
+    failed.push(out);
+  }
+  // Wikimedia に負荷をかけないよう、1 枚ごとに間を空ける
+  await sleep(1_000);
+}
+
+if (failed.length > 0) {
+  console.error(`\n${failed.length} 枚を取得できませんでした（時間をおいて再実行すると、取得済みのものは飛ばして続きから取得します）:`);
+  for (const f of failed) console.error(`  - ${f}`);
+  process.exit(1);
 }
