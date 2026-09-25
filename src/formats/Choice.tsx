@@ -41,9 +41,10 @@ export function Choice({ q, themeId, response, onSubmit }: FormatProps<"choice">
                 <span class="choice-label">{String.fromCharCode(65 + i)}</span>
               </>
             ) : (
-              c.text
+              <span class="choice-text">{c.text}</span>
             )}
-            {answered && c.id === chosen && <span class="tag">あなたの回答</span>}
+            {answered && c.id === q.answer && <span class="pill ok">正解</span>}
+            {answered && c.id === chosen && c.id !== q.answer && <span class="pill ng">あなたの回答</span>}
           </button>
         ))}
       </div>

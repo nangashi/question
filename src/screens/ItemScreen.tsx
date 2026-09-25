@@ -1,4 +1,5 @@
 import { activeQuestions, getItem, getTheme } from "../content";
+import { InfoCard, LinkList } from "../info";
 import { labelOf } from "../formats";
 import { stars } from "../mockProgress";
 import { href } from "../router";
@@ -31,12 +32,14 @@ export function ItemScreen({ itemId }: { itemId: string }) {
           <Credit media={m} />
         </figure>
       ))}
-      <section class="card">
-        <p class="body">{item.summary}</p>
-        {item.why && <Why text={item.why} />}
-        {item.trivia && <p class="trivia"><b>へぇ</b> {item.trivia}</p>}
-      </section>
-      <Links itemIds={[item.id]} />
+      <InfoCard
+        sections={[
+          { label: "概要", icon: "note", body: <p class="body">{item.summary}</p> },
+          { label: "なぜ", icon: "why", body: item.why && <p class="body">{item.why}</p> },
+          { label: "つながり", icon: "link", body: <LinkList itemIds={[item.id]} /> },
+          { label: "へぇ", icon: "bulb", body: item.trivia && <p class="body">{item.trivia}</p> },
+        ]}
+      />
       <h2 class="section">この知識の問題</h2>
       <div class="card list">
         {qs.map((q) => (
@@ -49,43 +52,5 @@ export function ItemScreen({ itemId }: { itemId: string }) {
       </div>
       <PlayLink big href={href.play(`item:${item.id}`)} label="この知識の問題を解く" />
     </Screen>
-  );
-}
-
-/** 知識カードの「なぜ」 */
-export function Why({ text }: { text: string }) {
-  return (
-    <div class="why">
-      <div class="why-label">なぜ？</div>
-      <p class="body">{text}</p>
-    </div>
-  );
-}
-
-/** 知識カードのつながりを表示する（解説画面と共通） */
-export function Links({ itemIds }: { itemIds: string[] }) {
-  const links = itemIds.flatMap((id) => getItem(id)?.item.links ?? []);
-  if (links.length === 0) return null;
-  return (
-    <section class="stack tight">
-      <h2 class="section">つながり</h2>
-      {links.slice(0, 3).map((l, i) => {
-        const target = getItem(l.itemIds[0]!);
-        return (
-          <a class="card link link-card" href={href.item(l.itemIds[0]!)} key={i}>
-            <span class="row gap">
-              <span class="axis">{l.axis}</span>
-              {target && (
-                <span class="muted tiny">
-                  {target.item.title}
-                  {target.item.year && ` ・ ${target.item.year.from}年`}
-                </span>
-              )}
-            </span>
-            <span class="small">{l.text}</span>
-          </a>
-        );
-      })}
-    </section>
   );
 }

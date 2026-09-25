@@ -5,7 +5,7 @@ import { grade, toRating, type Grade, type Rating, type Response } from "../grad
 import { href } from "../router";
 import { categoryOf, pickQuestions } from "../session";
 import { Screen } from "../ui";
-import { Links, Why } from "./ItemScreen";
+import { InfoCard, LinkList } from "../info";
 
 type Result = { questionId: string; grade: Grade; rating: Rating };
 
@@ -28,8 +28,9 @@ export function Play({ scope }: { scope: string }) {
   };
   const cat = getTheme(ref.themeId)?.categories.find((c) => c.id === ref.categoryId);
   const trivia = q.itemIds.map((id) => getItem(id)?.item.trivia).find(Boolean);
-  // なぜは、知識カードが 1 つの問題だけ表示する（ADR-0008）
-  const why = q.itemIds.length === 1 ? getItem(q.itemIds[0]!)?.item.why : undefined;
+  // なぜは、知識カードが 1 つで、問題自体が「なぜ」を問うていない場合だけ表示する（解説と重なるため。ADR-0008）
+  const why = q.itemIds.length === 1 && !q.asks.includes("why") ? getItem(q.itemIds[0]!)?.item.why : undefined;
+  const links = LinkList({ itemIds: q.itemIds });
 
   return (
     <Screen>
@@ -51,7 +52,6 @@ export function Play({ scope }: { scope: string }) {
         <span class="chip">{cat?.name}</span>
         <span class="chip">{labelOf(q)}</span>
       </div>
-      {g && <Verdict g={g} />}
       <p class="prompt">{q.prompt}</p>
       <QuestionView key={q.id} q={q} themeId={ref.themeId} response={response} onSubmit={setResponse} />
       {!response && (
@@ -61,13 +61,18 @@ export function Play({ scope }: { scope: string }) {
       )}
       {response && (
         <>
-          <section class="card">
-            <div class="muted small bold">解説</div>
-            <p class="body">{q.explanation}</p>
-            {why && <Why text={why} />}
-          </section>
-          <Links itemIds={q.itemIds} />
-          {trivia && <p class="trivia"><b>へぇ</b> {trivia}</p>}
+          <div class="feedback">
+            <Verdict g={g!} />
+            <InfoCard
+              attached
+              sections={[
+                { label: "解説", icon: "book", body: <p class="body">{q.explanation}</p> },
+                { label: "なぜ", icon: "why", body: why && <p class="body">{why}</p> },
+                { label: "つながり", icon: "link", body: links },
+                { label: "へぇ", icon: "bulb", body: trivia && <p class="body">{trivia}</p> },
+              ]}
+            />
+          </div>
           <div class="sticky-actions">
             {g?.outcome === "correct" ? (
               <>
@@ -88,10 +93,22 @@ export function Play({ scope }: { scope: string }) {
   );
 }
 
+/** 判定の帯。解答後のブロックの先頭に置き、問題との境目を示す */
 function Verdict({ g }: { g: Grade }) {
-  const text =
-    g.outcome === "correct" ? "正解" : g.outcome === "near" ? "惜しい" : g.outcome === "partial" ? `${g.correctCount} / ${g.total} 正解` : "不正解";
-  return <div class={`verdict ${g.outcome}`}>{text}</div>;
+  const [mark, text] =
+    g.outcome === "correct"
+      ? ["✓", "正解"]
+      : g.outcome === "near"
+        ? ["△", "惜しい"]
+        : g.outcome === "partial"
+          ? ["△", `${g.correctCount} / ${g.total} 正解`]
+          : ["×", "不正解"];
+  return (
+    <div class={`verdict-bar ${g.outcome}`} role="status">
+      <span class="verdict-mark" aria-hidden="true">{mark}</span>
+      {text}
+    </div>
+  );
 }
 
 function Summary({ questions, results, scope }: { questions: ReturnType<typeof pickQuestions>; results: Result[]; scope: string }) {

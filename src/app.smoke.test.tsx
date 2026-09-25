@@ -74,7 +74,7 @@ describe("全出題形式", () => {
       } else {
         await click(root.querySelector(".choice"));
       }
-      expect(root.querySelector(".verdict"), `${chip} の判定が出ない`).toBeTruthy();
+      expect(root.querySelector(".verdict-bar"), `${chip} の判定が出ない`).toBeTruthy();
       expect(root.textContent).toContain("解説");
       await click(buttons("自信あり")[0] ?? buttons("次へ")[0]);
     }
