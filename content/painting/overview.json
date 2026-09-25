@@ -1,0 +1,1135 @@
+{
+  "items": [
+    {
+      "id": "pt-overview-medieval",
+      "title": "中世の絵画（5〜14世紀ごろ）",
+      "summary": "中世ヨーロッパの絵画の多くは、教会や修道院と結びついた宗教の絵だった。モザイク、写本の挿絵、ステンドグラス、イコン（聖像画）などとして描かれ、背景には金がよく使われた。",
+      "why": "神聖な存在への畏れと敬いを、見る人に感じさせるためでした。金色の背景は神の光を表し、描かれた場面を、地上の時間や空間とは別の次元に置く役割があったとされます。",
+      "year": {
+        "from": 500,
+        "to": 1400,
+        "approx": true
+      },
+      "tags": [
+        "中世",
+        "宗教画"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/icon-christ-pantocrator-sinai.jpg",
+          "alt": "金色を帯びた背景の前で、右手を上げ、左手に宝石で飾られた本を持つキリストを正面から描いた古い板絵",
+          "credit": "Unknown artist, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "ルネサンスになると、画家は人間や自然をよく観察し、本物らしい空間を描くことを目指しました。",
+          "itemIds": [
+            "pt-overview-renaissance"
+          ]
+        }
+      ],
+      "sources": [
+        "Wikipedia「中世美術」 — https://ja.wikipedia.org/wiki/中世美術",
+        "ウフィツィ美術館「Between Human and Divine: Cimabue and the Santa Trinita Maestà」 — https://www.uffizi.it/en/online-exhibitions/between-human-and-divine-cimabue-and-the-santa-trinita-maesta"
+      ],
+      "unlockOrder": 0
+    },
+    {
+      "id": "pt-overview-renaissance",
+      "title": "ルネサンス（14〜16世紀）",
+      "summary": "14世紀のイタリアで始まり、古代ギリシア・ローマの文化を手本に、人間性を尊重する美術が花開いた。16世紀初めには、レオナルド・ダ・ヴィンチ、ミケランジェロ、ラファエロの「三大巨匠」が活躍した。",
+      "why": "人間や自然をよく観察し、本物らしい空間と人間を描こうとしたためです。平らな画面に奥行きを表す線遠近法が、アルベルティの『絵画論』（1435年）などで理論化されました。ネーデルラントでは、ファン・エイク兄弟らが油絵の技法を発展させ、細かく写実的な表現を可能にしました。",
+      "year": {
+        "from": 1300,
+        "to": 1600,
+        "approx": true
+      },
+      "place": {
+        "name": "イタリア（フィレンツェなど）"
+      },
+      "people": [
+        "レオナルド・ダ・ヴィンチ",
+        "ミケランジェロ",
+        "ラファエロ",
+        "サンドロ・ボッティチェリ"
+      ],
+      "tags": [
+        "ルネサンス",
+        "イタリア"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/botticelli-birth-of-venus.jpg",
+          "alt": "海に浮かぶ大きな貝の上に立つ女神と、左から風を吹きかける神々、右から布を差し出す女性を描いた絵",
+          "credit": "Sandro Botticelli, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "バロックの画家たちは、ルネサンスの調和のとれた表現から離れ、劇的な明暗と動きで見る人の感情に訴えました。",
+          "itemIds": [
+            "pt-overview-baroque-rococo"
+          ]
+        }
+      ],
+      "sources": [
+        "Wikipedia「ルネサンス美術」 — https://ja.wikipedia.org/wiki/ルネサンス美術",
+        "ロンドン・ナショナル・ギャラリー「Linear perspective」 — https://www.nationalgallery.org.uk/paintings/glossary/linear-perspective",
+        "ロンドン・ナショナル・ギャラリー「Leonardo, Michelangelo, Raphael, about 1500」 — https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/leonardo-michelangelo-raphael-about-1500"
+      ],
+      "unlockOrder": 1
+    },
+    {
+      "id": "pt-overview-baroque-rococo",
+      "title": "バロックとロココ（17〜18世紀）",
+      "summary": "17世紀を中心に、劇的な明暗と激しい動きで描くバロック美術が広まった（カラヴァッジョ、ルーベンス、レンブラント、ベラスケスら）。18世紀のフランスでは、優美で繊細なロココが流行した。",
+      "why": "宗教改革に対抗するカトリック教会や、絶対王政の王たちが、見る人の感情に直接訴え、信仰や権威を示すために劇的な美術を求めたことが背景にあります。ロココは、貴族の女性たちを中心とする華やかな社交生活の中で好まれました。",
+      "year": {
+        "from": 1590,
+        "to": 1780,
+        "approx": true
+      },
+      "people": [
+        "カラヴァッジョ",
+        "ルーベンス",
+        "レンブラント",
+        "ベラスケス",
+        "ヴァトー",
+        "ブーシェ",
+        "フラゴナール"
+      ],
+      "tags": [
+        "バロック",
+        "ロココ"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/calling-of-matthew.jpg",
+          "alt": "薄暗い部屋で、右から入ってきた人物がテーブルを囲む人々の一人を指さし、斜めの光が差し込んでいる絵",
+          "credit": "Caravaggio, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Calling_of_Saint_Matthew-Caravaggo_(1599-1600).jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "ロココは、あまりに甘美で貴族的だと批判され、古代の秩序を理想とする新古典主義にとって代わられました。",
+          "itemIds": [
+            "pt-overview-revolution"
+          ]
+        }
+      ],
+      "sources": [
+        "Wikipedia「バロック美術」 — https://ja.wikipedia.org/wiki/バロック美術",
+        "Wikipedia「ロココ」 — https://ja.wikipedia.org/wiki/ロココ",
+        "ヴィクトリア＆アルバート博物館「The Baroque style」 — https://www.vam.ac.uk/articles/the-baroque-style"
+      ],
+      "unlockOrder": 2
+    },
+    {
+      "id": "pt-overview-revolution",
+      "title": "新古典主義・ロマン主義・写実主義（18世紀後半〜19世紀半ば）",
+      "summary": "古代の秩序と理想を描く新古典主義（ダヴィッド）、感情や想像力を劇的な色で描くロマン主義（ドラクロワ）、目の前の現実をありのままに描く写実主義（クールベ）が、次々に現れた。",
+      "why": "新古典主義は、ポンペイ遺跡の発掘で高まった古代への関心と、甘美なロココへの反発から生まれました。ロマン主義は、理性を重んじる新古典主義への反発として、感情や個性を重んじました。写実主義は、空想や理想化をやめ、同時代の人々の暮らしや労働を主題に選んで描こうとしました。",
+      "year": {
+        "from": 1760,
+        "to": 1860,
+        "approx": true
+      },
+      "place": {
+        "name": "フランス"
+      },
+      "people": [
+        "ジャック＝ルイ・ダヴィッド",
+        "ウジェーヌ・ドラクロワ",
+        "ギュスターヴ・クールベ"
+      ],
+      "tags": [
+        "新古典主義",
+        "ロマン主義",
+        "写実主義"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/delacroix-liberty.jpg",
+          "alt": "旗を掲げた女性が、銃を持った人々を率いて、倒れた人々を乗り越えながら前へ進む場面を描いた絵",
+          "credit": "Eugène Delacroix, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "19世紀後半、アカデミーのサロンに入選できない若い画家たちが、印象派展を開きます。",
+          "itemIds": [
+            "pt-overview-impressionism"
+          ]
+        }
+      ],
+      "trivia": "ドラクロワの《民衆を導く自由の女神》は、1830年のパリの七月革命を描いた作品です。",
+      "sources": [
+        "Wikipedia「新古典主義」 — https://ja.wikipedia.org/wiki/新古典主義",
+        "Wikipedia「ロマン主義」 — https://ja.wikipedia.org/wiki/ロマン主義",
+        "Wikipedia「写実主義」 — https://ja.wikipedia.org/wiki/写実主義"
+      ],
+      "unlockOrder": 3
+    },
+    {
+      "id": "pt-overview-impressionism",
+      "title": "印象派とその後（19世紀後半）",
+      "summary": "1874年、モネらがサロンとは別の展覧会を開き、移り変わる光の一瞬を描く印象派が登場した。その後、セザンヌ、ゴッホ、ゴーギャンらが、それぞれのやり方で印象派を乗り越えようとした。",
+      "why": "保守的なサロンの審査への反発に加え、現実を正確に写す写真の登場が、「絵にしかできないことは何か」という問いを画家たちに投げかけたためと考えられています。",
+      "year": {
+        "from": 1860,
+        "to": 1900,
+        "approx": true
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "people": [
+        "クロード・モネ",
+        "ポール・セザンヌ",
+        "フィンセント・ファン・ゴッホ"
+      ],
+      "tags": [
+        "印象派",
+        "ポスト印象派"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/monet-impression-sunrise.jpg",
+          "alt": "青くかすんだ港に赤い太陽が昇り、小舟が浮かぶ様子を、すばやい筆のタッチで描いた絵",
+          "credit": "Claude Monet, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "詳しくは「印象派とその後」のサブカテゴリで学べます。印象派展は、サロンでの落選が続いたことから始まりました。",
+          "itemIds": [
+            "pt-abstract-impressionism"
+          ]
+        }
+      ],
+      "sources": [
+        "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派",
+        "Wikipedia「ポスト印象派」 — https://ja.wikipedia.org/wiki/ポスト印象派"
+      ],
+      "unlockOrder": 4
+    },
+    {
+      "id": "pt-overview-early-20th",
+      "title": "20世紀前半の革新",
+      "summary": "1905年のフォーヴィスム（色の解放）、1907年ごろからのキュビスム（形の分解）を経て、1910年代には、物の形をまったく描かない抽象絵画が生まれた。",
+      "why": "見たままを写すことから離れ、色や形、絵そのものの力を突きつめようとしたためです。",
+      "year": {
+        "from": 1900,
+        "to": 1945,
+        "approx": true
+      },
+      "people": [
+        "アンリ・マティス",
+        "パブロ・ピカソ",
+        "ワシリー・カンディンスキー"
+      ],
+      "tags": [
+        "フォーヴィスム",
+        "キュビスム",
+        "抽象絵画"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/kandinsky-composition-7.jpg",
+          "alt": "物の形は描かれず、色とりどりの形や線が画面いっぱいに渦巻くように重なり合う絵",
+          "credit": "Wassily Kandinsky, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1913_-_Composition_7.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "物を描かない絵は、戦後のアメリカで、描く行為そのものを見せる抽象表現主義へと広がりました。",
+          "itemIds": [
+            "pt-overview-postwar"
+          ]
+        }
+      ],
+      "sources": [
+        "Wikipedia「フォーヴィスム」 — https://ja.wikipedia.org/wiki/フォーヴィスム",
+        "Wikipedia「キュビスム」 — https://ja.wikipedia.org/wiki/キュビスム",
+        "Wikipedia「ワシリー・カンディンスキー」 — https://ja.wikipedia.org/wiki/ワシリー・カンディンスキー"
+      ],
+      "unlockOrder": 5
+    },
+    {
+      "id": "pt-overview-postwar",
+      "title": "戦後から現代",
+      "summary": "第二次世界大戦後、美術の中心はパリからニューヨークへ移り、抽象表現主義が広がった。1950〜60年代には、広告や漫画など大衆文化のイメージを使うポップ・アート（ウォーホルら）が登場した。",
+      "why": "何を、どう描くかを突きつめた末に、「そもそも何が芸術なのか」が問われるようになりました。その出発点とされるのが、1917年、既製品の便器に署名して作品として出品しようとしたデュシャンの《泉》です。",
+      "year": {
+        "from": 1945,
+        "to": 2000,
+        "approx": true
+      },
+      "place": {
+        "name": "ニューヨーク"
+      },
+      "people": [
+        "ジャクソン・ポロック",
+        "アンディ・ウォーホル",
+        "マルセル・デュシャン"
+      ],
+      "tags": [
+        "抽象表現主義",
+        "ポップ・アート",
+        "現代美術"
+      ],
+      "trivia": "ウォーホルは、キャンベル・スープの缶やマリリン・モンローの写真を使った版画を、大量に作りました。",
+      "sources": [
+        "Wikipedia「抽象表現主義」 — https://ja.wikipedia.org/wiki/抽象表現主義",
+        "Wikipedia「ポップアート」 — https://ja.wikipedia.org/wiki/ポップアート",
+        "Wikipedia「泉 (デュシャン)」 — https://ja.wikipedia.org/wiki/泉_(デュシャン)",
+        "サンフランシスコ近代美術館「Fountain」 — https://www.sfmoma.org/artwork/98.291/"
+      ],
+      "unlockOrder": 6
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-pt-overview-image-medieval",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-medieval"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "金色の背景の前にキリストを正面から描いた、この絵が描かれた時代は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/icon-christ-pantocrator-sinai.jpg",
+          "alt": "金色を帯びた背景の前で、右手を上げ、左手に宝石で飾られた本を持つキリストを正面から描いた古い板絵",
+          "credit": "Unknown artist, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "medieval",
+          "text": "中世"
+        },
+        {
+          "id": "renaissance",
+          "text": "ルネサンス"
+        },
+        {
+          "id": "baroque",
+          "text": "バロック"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        }
+      ],
+      "answer": "medieval",
+      "explanation": "6世紀ごろのイコン（聖像画）で、中世の宗教画の特徴がよく表れています。現実の空間や光を写すより、神聖な存在を正面から、金色の輝きの中に表しています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-image-renaissance",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-renaissance"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "古代ローマの女神の誕生を描いた、この絵が描かれた時代は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/botticelli-birth-of-venus.jpg",
+          "alt": "海に浮かぶ大きな貝の上に立つ女神と、左から風を吹きかける神々、右から布を差し出す女性を描いた絵",
+          "credit": "Sandro Botticelli, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "renaissance",
+          "text": "ルネサンス"
+        },
+        {
+          "id": "medieval",
+          "text": "中世"
+        },
+        {
+          "id": "baroque",
+          "text": "バロック"
+        },
+        {
+          "id": "romanticism",
+          "text": "ロマン主義"
+        }
+      ],
+      "answer": "renaissance",
+      "explanation": "ボッティチェリの《ヴィーナスの誕生》（1485年ごろ）で、ルネサンスの作品です。中世にはほとんど描かれなかった古代ギリシア・ローマの神話が、再び主題になりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-image-baroque",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-baroque-rococo"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "暗い部屋に斜めの光が劇的に差し込む、この絵が描かれた時代は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/calling-of-matthew.jpg",
+          "alt": "薄暗い部屋で、右から入ってきた人物がテーブルを囲む人々の一人を指さし、斜めの光が差し込んでいる絵",
+          "credit": "Caravaggio, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Calling_of_Saint_Matthew-Caravaggo_(1599-1600).jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "baroque",
+          "text": "バロック"
+        },
+        {
+          "id": "medieval",
+          "text": "中世"
+        },
+        {
+          "id": "renaissance",
+          "text": "ルネサンス"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        }
+      ],
+      "answer": "baroque",
+      "explanation": "カラヴァッジョの《聖マタイの召命》（1600年ごろ）で、バロックの始まりを告げる作品です。強い明暗の対比で、場面の劇的さを見る人に直接感じさせます。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-image-romanticism",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-revolution"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "1830年の革命を描いた、この絵が属する動きは？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/delacroix-liberty.jpg",
+          "alt": "旗を掲げた女性が、銃を持った人々を率いて、倒れた人々を乗り越えながら前へ進む場面を描いた絵",
+          "credit": "Eugène Delacroix, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "romanticism",
+          "text": "ロマン主義"
+        },
+        {
+          "id": "renaissance",
+          "text": "ルネサンス"
+        },
+        {
+          "id": "realism",
+          "text": "写実主義"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        }
+      ],
+      "answer": "romanticism",
+      "explanation": "ドラクロワの《民衆を導く自由の女神》（1830年）で、ロマン主義の代表作です。激しい動きと劇的な色で、革命の熱気と感情を描いています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-image-realism",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-revolution"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "道ばたで石を割る労働者を、飾らずに描いたこの絵が属する動きは？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/courbet-stonebreakers.jpg",
+          "alt": "道ばたで、ぼろぼろの服を着た若者と老人が石を運び、割っている様子を描いた絵",
+          "credit": "Gustave Courbet, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_The_Stonebreakers_-_WGA05457.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "realism",
+          "text": "写実主義"
+        },
+        {
+          "id": "romanticism",
+          "text": "ロマン主義"
+        },
+        {
+          "id": "renaissance",
+          "text": "ルネサンス"
+        },
+        {
+          "id": "baroque",
+          "text": "バロック"
+        }
+      ],
+      "answer": "realism",
+      "explanation": "クールベの《石割り》（1849年）で、写実主義の代表作です。神話や英雄ではなく、同時代の貧しい労働者を、理想化せずにありのまま描きました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-image-impressionism",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-impressionism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "港の朝の光を、すばやい筆のタッチで描いたこの絵が属する動きは？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/monet-impression-sunrise.jpg",
+          "alt": "青くかすんだ港に赤い太陽が昇り、小舟が浮かぶ様子を、すばやい筆のタッチで描いた絵",
+          "credit": "Claude Monet, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        },
+        {
+          "id": "romanticism",
+          "text": "ロマン主義"
+        },
+        {
+          "id": "realism",
+          "text": "写実主義"
+        },
+        {
+          "id": "abstract",
+          "text": "20世紀の抽象絵画"
+        }
+      ],
+      "answer": "impressionism",
+      "explanation": "モネの《印象・日の出》（1872年）で、「印象派」の名前の由来になった作品です。細部を仕上げるより、移り変わる光の一瞬を捉えています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-order-early",
+      "type": "order",
+      "itemIds": [
+        "pt-overview-medieval",
+        "pt-overview-renaissance",
+        "pt-overview-baroque-rococo",
+        "pt-overview-revolution"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "medieval",
+          "text": "金色の背景のイコンやモザイク（中世）"
+        },
+        {
+          "id": "renaissance",
+          "text": "線遠近法で奥行きのある空間を描く（ルネサンス）"
+        },
+        {
+          "id": "baroque",
+          "text": "劇的な明暗と動きで感情に訴える（バロック）"
+        },
+        {
+          "id": "neoclassicism",
+          "text": "古代の秩序を理想とする（新古典主義）"
+        }
+      ],
+      "answer": [
+        "medieval",
+        "renaissance",
+        "baroque",
+        "neoclassicism"
+      ],
+      "explanation": "中世（〜14世紀）→ ルネサンス（14〜16世紀）→ バロック（17世紀）→ 新古典主義（18世紀後半〜）。信仰のための絵から、人間と自然を描く絵へ、そして劇的な表現、古代の理想へと移り変わりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-order-late",
+      "type": "order",
+      "itemIds": [
+        "pt-overview-revolution",
+        "pt-overview-impressionism",
+        "pt-overview-early-20th",
+        "pt-overview-postwar"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "liberty",
+          "text": "ドラクロワが《民衆を導く自由の女神》を描く"
+        },
+        {
+          "id": "impressionism",
+          "text": "モネらが第1回印象派展を開く"
+        },
+        {
+          "id": "abstract",
+          "text": "カンディンスキーが抽象絵画を描き始める"
+        },
+        {
+          "id": "pop",
+          "text": "ウォーホルらのポップ・アートが広まる"
+        }
+      ],
+      "answer": [
+        "liberty",
+        "impressionism",
+        "abstract",
+        "pop"
+      ],
+      "explanation": "1830年《民衆を導く自由の女神》→ 1874年 第1回印象派展 → 1910年ごろ 抽象絵画の誕生 → 1960年代 ポップ・アート。19世紀から20世紀にかけて、絵画は見たままを描くことから大きく離れていきました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-match-painters",
+      "type": "match",
+      "itemIds": [
+        "pt-overview-renaissance",
+        "pt-overview-baroque-rococo",
+        "pt-overview-revolution",
+        "pt-overview-impressionism"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "画家と、その画家が活躍した時代・動きを結ぼう",
+      "left": [
+        {
+          "id": "leonardo",
+          "text": "レオナルド・ダ・ヴィンチ"
+        },
+        {
+          "id": "rembrandt",
+          "text": "レンブラント"
+        },
+        {
+          "id": "delacroix",
+          "text": "ドラクロワ"
+        },
+        {
+          "id": "monet",
+          "text": "モネ"
+        }
+      ],
+      "right": [
+        {
+          "id": "renaissance",
+          "text": "ルネサンス"
+        },
+        {
+          "id": "baroque",
+          "text": "バロック"
+        },
+        {
+          "id": "romanticism",
+          "text": "ロマン主義"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        }
+      ],
+      "pairs": [
+        [
+          "leonardo",
+          "renaissance"
+        ],
+        [
+          "rembrandt",
+          "baroque"
+        ],
+        [
+          "delacroix",
+          "romanticism"
+        ],
+        [
+          "monet",
+          "impressionism"
+        ]
+      ],
+      "explanation": "レオナルドはルネサンス、レンブラントはバロック、ドラクロワはロマン主義、モネは印象派を代表する画家です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-classify-features",
+      "type": "classify",
+      "itemIds": [
+        "pt-overview-renaissance",
+        "pt-overview-baroque-rococo",
+        "pt-overview-impressionism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "特徴を、時代・動きごとに分けよう",
+      "buckets": [
+        {
+          "id": "renaissance",
+          "text": "ルネサンス"
+        },
+        {
+          "id": "baroque",
+          "text": "バロック"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        }
+      ],
+      "entries": [
+        {
+          "id": "perspective",
+          "text": "線遠近法で奥行きを描く",
+          "bucket": "renaissance"
+        },
+        {
+          "id": "light",
+          "text": "戸外で光の一瞬を捉える",
+          "bucket": "impressionism"
+        },
+        {
+          "id": "drama",
+          "text": "劇的な明暗と動きで感情に訴える",
+          "bucket": "baroque"
+        },
+        {
+          "id": "antiquity",
+          "text": "古代ギリシア・ローマを手本にする",
+          "bucket": "renaissance"
+        },
+        {
+          "id": "touch",
+          "text": "筆のタッチを残して色を重ねる",
+          "bucket": "impressionism"
+        },
+        {
+          "id": "counter",
+          "text": "カトリック教会が信仰に訴える絵を求めた",
+          "bucket": "baroque"
+        }
+      ],
+      "explanation": "ルネサンスは古代の再生と遠近法、バロックは劇的な明暗と信仰に訴える表現、印象派は戸外での光の一瞬がそれぞれの特徴です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-renaissance-where",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-renaissance"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "ルネサンスの美術が始まった国は？",
+      "choices": [
+        {
+          "id": "italy",
+          "text": "イタリア"
+        },
+        {
+          "id": "france",
+          "text": "フランス"
+        },
+        {
+          "id": "netherlands",
+          "text": "ネーデルラント"
+        },
+        {
+          "id": "spain",
+          "text": "スペイン"
+        }
+      ],
+      "answer": "italy",
+      "explanation": "イタリアです。14世紀に始まり、やがてヨーロッパ各地に広がりました。同じころネーデルラント（今のオランダ・ベルギーのあたり）では、油絵の技法が発展し、イタリアにも影響を与えました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-renaissance-masters",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-renaissance"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "ルネサンスの「三大巨匠」に入らない画家は？",
+      "choices": [
+        {
+          "id": "rembrandt",
+          "text": "レンブラント"
+        },
+        {
+          "id": "leonardo",
+          "text": "レオナルド・ダ・ヴィンチ"
+        },
+        {
+          "id": "michelangelo",
+          "text": "ミケランジェロ"
+        },
+        {
+          "id": "raphael",
+          "text": "ラファエロ"
+        }
+      ],
+      "answer": "rembrandt",
+      "explanation": "三大巨匠は、レオナルド・ダ・ヴィンチ、ミケランジェロ、ラファエロで、16世紀初めのイタリアで活躍しました。レンブラントは、17世紀オランダのバロックの画家です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-medieval-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-medieval"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "中世の宗教画で、背景に金がよく使われたのはなぜ？",
+      "choices": [
+        {
+          "id": "divine",
+          "text": "神の光を表し、場面を地上の時間や空間から切り離して神聖さを示すため"
+        },
+        {
+          "id": "cheap",
+          "text": "当時は金がいちばん安い絵具だったため"
+        },
+        {
+          "id": "night",
+          "text": "夜の場面を明るく見せるため"
+        },
+        {
+          "id": "sun",
+          "text": "太陽の光を本物らしく写すため"
+        }
+      ],
+      "answer": "divine",
+      "explanation": "金色の背景は神の光を表し、描かれた場面を地上の時間や空間とは別の次元に置く役割があったとされます。中世の宗教画は、本物らしい空間を描くことより、神聖さへの畏れと敬いを感じさせることを重んじました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-renaissance-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-renaissance"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "ルネサンスの画家たちが、線遠近法や油絵の技法を取り入れたねらいは？",
+      "choices": [
+        {
+          "id": "real",
+          "text": "人間や自然を観察し、本物らしい空間と人間を描くため"
+        },
+        {
+          "id": "gold",
+          "text": "金色の背景をより美しく輝かせるため"
+        },
+        {
+          "id": "fast",
+          "text": "絵を早く大量に仕上げるため"
+        },
+        {
+          "id": "abstract",
+          "text": "物の形を描かず、色だけで表すため"
+        }
+      ],
+      "answer": "real",
+      "explanation": "中世の絵が神聖さを表すことを重んじたのに対し、ルネサンスの画家は人間や自然をよく観察し、本物らしい空間と人間を描こうとしました。そのための道具が、線遠近法や油絵の技法でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-baroque-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-baroque-rococo"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "17世紀のバロック美術が、劇的な明暗や動きで感情に訴えた背景は？",
+      "choices": [
+        {
+          "id": "counter",
+          "text": "教会や王が、感情に訴えて信仰や権威を示す美術を求めたから"
+        },
+        {
+          "id": "photo",
+          "text": "写真の登場で、本物らしさが求められなくなったから"
+        },
+        {
+          "id": "museum",
+          "text": "美術館で多くの人に見せる必要があったから"
+        },
+        {
+          "id": "japan",
+          "text": "浮世絵の大胆な構図に影響を受けたから"
+        }
+      ],
+      "answer": "counter",
+      "explanation": "宗教改革に対抗するカトリック教会や絶対王政の王たちが、見る人の感情に直接訴え、信仰や権威を示すために、劇的な美術を求めたためです。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-revolution-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-revolution"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "19世紀半ば、クールベらの写実主義が目指したものは？",
+      "choices": [
+        {
+          "id": "reality",
+          "text": "空想や理想化をやめ、同時代の人々の暮らしや労働を描くこと"
+        },
+        {
+          "id": "antique",
+          "text": "古代ギリシア・ローマの理想の姿を描くこと"
+        },
+        {
+          "id": "feeling",
+          "text": "激しい感情や想像の世界を劇的な色で描くこと"
+        },
+        {
+          "id": "light",
+          "text": "戸外で光の一瞬を捉えること"
+        }
+      ],
+      "answer": "reality",
+      "explanation": "新古典主義は古代の理想を、ロマン主義は感情や想像を描きました。写実主義は、空想や理想化をやめ、同時代の人々の暮らしや労働を主題に選んで描こうとしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-neoclassicism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-revolution"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "18世紀後半、ダヴィッドらの新古典主義が、古代ギリシア・ローマを理想とした背景は？",
+      "choices": [
+        {
+          "id": "pompeii",
+          "text": "遺跡の発掘で古代への関心が高まり、甘美なロココへの反発もあったから"
+        },
+        {
+          "id": "church",
+          "text": "カトリック教会が古代の神々を描くよう命じたから"
+        },
+        {
+          "id": "photo",
+          "text": "写真では古代を写せなかったから"
+        },
+        {
+          "id": "ukiyoe",
+          "text": "浮世絵に古代の神話が描かれていたから"
+        }
+      ],
+      "answer": "pompeii",
+      "explanation": "ポンペイなどの遺跡の発掘で古代への関心が高まったことと、甘美で貴族的だと批判されたロココへの反発が背景にあります。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-impressionism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-impressionism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "19世紀後半、印象派の画家たちが、見たままの細部より光の一瞬を描こうとした背景は？",
+      "choices": [
+        {
+          "id": "photo",
+          "text": "写真の登場で、絵にしかできないことは何かが問われたから"
+        },
+        {
+          "id": "church",
+          "text": "教会が明るい絵を求めたから"
+        },
+        {
+          "id": "king",
+          "text": "王が宮殿を飾る絵を求めたから"
+        },
+        {
+          "id": "ban",
+          "text": "細かく描くことが禁止されたから"
+        }
+      ],
+      "answer": "photo",
+      "explanation": "保守的なサロンへの反発に加え、現実を正確に写す写真が登場し、「絵にしかできないことは何か」が問われたためと考えられています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-early-20th-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-early-20th"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "20世紀前半、フォーヴィスム、キュビスム、抽象絵画が次々に生まれた、共通のねらいは？",
+      "choices": [
+        {
+          "id": "beyond",
+          "text": "見たままを写すことから離れ、色や形、絵そのものの力を突きつめること"
+        },
+        {
+          "id": "real",
+          "text": "写真よりも本物そっくりに描くこと"
+        },
+        {
+          "id": "myth",
+          "text": "古代の神話を描き直すこと"
+        },
+        {
+          "id": "church",
+          "text": "教会の壁を飾ること"
+        }
+      ],
+      "answer": "beyond",
+      "explanation": "色を自由にしたフォーヴィスム、形を組み立て直したキュビスム、物を描かない抽象絵画は、いずれも見たままを写すことから離れ、絵そのものの力を突きつめようとしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-postwar-duchamp",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-postwar"
+      ],
+      "asks": [
+        "who",
+        "why"
+      ],
+      "prompt": "1917年、既製品の男性用便器に署名し《泉》という作品として出品しようとして、「何が芸術か」を問いかけた美術家は？",
+      "choices": [
+        {
+          "id": "duchamp",
+          "text": "マルセル・デュシャン"
+        },
+        {
+          "id": "warhol",
+          "text": "アンディ・ウォーホル"
+        },
+        {
+          "id": "pollock",
+          "text": "ジャクソン・ポロック"
+        },
+        {
+          "id": "picasso",
+          "text": "パブロ・ピカソ"
+        }
+      ],
+      "answer": "duchamp",
+      "explanation": "フランス出身の美術家マルセル・デュシャンです。既製品をそのまま作品として示すこのやり方（レディメイド）は、芸術の概念そのものを問い直すもので、現代美術の出発点とされます。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-overview-postwar-pop",
+      "type": "choice",
+      "itemIds": [
+        "pt-overview-postwar"
+      ],
+      "asks": [
+        "what",
+        "why"
+      ],
+      "prompt": "ウォーホルらのポップ・アートが作品に取り入れたものは？",
+      "choices": [
+        {
+          "id": "mass",
+          "text": "広告や漫画など、大衆文化のイメージ"
+        },
+        {
+          "id": "myth",
+          "text": "古代ギリシア・ローマの神話"
+        },
+        {
+          "id": "saint",
+          "text": "聖人やキリストの姿"
+        },
+        {
+          "id": "nature",
+          "text": "戸外の自然の光"
+        }
+      ],
+      "answer": "mass",
+      "explanation": "雑誌や広告、漫画、報道写真など、大量生産・大量消費の社会にあふれる大衆文化のイメージです。大衆文化を低く見た抽象表現主義への反抗でもありました。",
+      "status": "active"
+    }
+  ]
+}

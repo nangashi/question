@@ -21,6 +21,11 @@ const images: { file: string; out: string }[] = [
   { file: "Vassily_Kandinsky,_1913_-_Composition_7.jpg", out: "content/painting/images/kandinsky-composition-7.jpg" },
   { file: "Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg", out: "content/painting/images/malevich-black-square.jpg" },
   { file: "Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg", out: "content/painting/images/mondrian-composition-1930.jpg" },
+  { file: "Spas_vsederzhitel_sinay.jpg", out: "content/painting/images/icon-christ-pantocrator-sinai.jpg" },
+  { file: "Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg", out: "content/painting/images/botticelli-birth-of-venus.jpg" },
+  { file: "Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg", out: "content/painting/images/leonardo-mona-lisa.jpg" },
+  { file: "Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg", out: "content/painting/images/delacroix-liberty.jpg" },
+  { file: "Gustave_Courbet_-_The_Stonebreakers_-_WGA05457.jpg", out: "content/painting/images/courbet-stonebreakers.jpg" },
 ];
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
