@@ -6,6 +6,11 @@
       "id": "baroque-light",
       "name": "バロック絵画の光と影",
       "description": "17世紀の画家たちは、光と影で何を描こうとしたのか"
+    },
+    {
+      "id": "toward-abstraction",
+      "name": "抽象絵画への道",
+      "description": "絵画はなぜ、見たままを描くことをやめたのか"
     }
   ]
 }

@@ -1,0 +1,1748 @@
+{
+  "items": [
+    {
+      "id": "pt-abstract-academy",
+      "title": "アカデミーとサロン",
+      "summary": "19世紀のフランスでは、美術アカデミーが開く公式の展覧会（サロン）で認められることが、画家として成功する主な道だった。",
+      "why": "アカデミーは、神話や歴史を描く歴史画を最も格の高い絵とし、風景画や静物画を軽く見ていました。審査もこの考え（アカデミズム）に沿って行われたため、新しい描き方の絵は落選しやすかったのです。",
+      "year": {
+        "from": 1850,
+        "to": 1880,
+        "approx": true
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "tags": [
+        "フランス",
+        "アカデミズム"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/cabanel-birth-of-venus.jpg",
+          "alt": "波の上に横たわる裸の女神と、その上を飛ぶ幼い天使たちを、なめらかに描いた絵",
+          "credit": "Alexandre Cabanel, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "サロンで落選が続いたモネらは、1874年にサロンとは別に自分たちの展覧会を開きました。",
+          "itemIds": [
+            "pt-abstract-impressionism"
+          ]
+        }
+      ],
+      "trivia": "1863年は審査が特に厳しく落選者が続出したため、ナポレオン3世の命で「落選展」が開かれ、マネの《草上の昼食》が大きな騒ぎを起こしました。",
+      "sources": [
+        "Wikipedia「サロン・ド・パリ」 — https://ja.wikipedia.org/wiki/サロン・ド・パリ",
+        "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
+      ],
+      "unlockOrder": 0
+    },
+    {
+      "id": "pt-abstract-photography",
+      "title": "写真の発明",
+      "summary": "1839年、フランスのダゲールが、世界で初めての実用的な写真の方法（ダゲレオタイプ）を発表した。",
+      "why": "写真が現実を正確に写し取れるようになると、見たとおりに描く画家の技術の価値は下がりました。「では、絵にしかできないことは何か」という問いが、印象派をはじめとする新しい絵画の背景の一つになったと考えられています。",
+      "year": {
+        "from": 1839
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "people": [
+        "ルイ・ジャック・マンデ・ダゲール"
+      ],
+      "tags": [
+        "フランス",
+        "写真"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/daguerre-boulevard-du-temple.jpg",
+          "alt": "建物が並ぶパリの大通りを高い位置から写した、古い白黒の写真",
+          "credit": "Louis Daguerre, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "印象派の登場は、写真が突きつけた問いへの、画家たちの答えの一つとも考えられています。",
+          "itemIds": [
+            "pt-abstract-impressionism"
+          ]
+        }
+      ],
+      "sources": [
+        "Wikipedia「ダゲレオタイプ」 — https://ja.wikipedia.org/wiki/ダゲレオタイプ",
+        "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
+      ],
+      "unlockOrder": 1
+    },
+    {
+      "id": "pt-abstract-impressionism",
+      "title": "印象派",
+      "summary": "モネやルノワールらが、1874年にサロンとは別の展覧会を開いた。出品されたモネの《印象・日の出》が、「印象派」という名前の由来になった。",
+      "why": "移り変わる光や空気の一瞬を捉えようとしたためです。戸外で描き、筆のタッチを残したまま色を重ねました。チューブ入りの絵具が出回ったことも、戸外での制作を助けました。",
+      "year": {
+        "from": 1874
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "people": [
+        "クロード・モネ",
+        "ピエール＝オーギュスト・ルノワール",
+        "エドガー・ドガ"
+      ],
+      "tags": [
+        "フランス",
+        "印象派"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/monet-impression-sunrise.jpg",
+          "alt": "青くかすんだ港に赤い太陽が昇り、小舟が浮かぶ様子を、すばやい筆のタッチで描いた絵",
+          "credit": "Claude Monet, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "印象派から出発したセザンヌは、移ろう光よりも、物の確かな形を描くことへ向かいました。",
+          "itemIds": [
+            "pt-abstract-cezanne"
+          ]
+        }
+      ],
+      "trivia": "「印象派」は、批評家ルイ・ルロワが、この展覧会を皮肉って記事で使った呼び名から広まりました。",
+      "sources": [
+        "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
+      ],
+      "unlockOrder": 2
+    },
+    {
+      "id": "pt-abstract-japonisme",
+      "title": "ジャポニスム（浮世絵の影響）",
+      "summary": "19世紀後半、万国博覧会などをきっかけに日本の美術がヨーロッパで流行し、浮世絵がモネやゴッホ、ドガらに大きな影響を与えた。",
+      "why": "浮世絵は立体感をほとんど描かず、平らな色面、はっきりした輪郭線、大胆で左右非対称な構図、上から見下ろす視点で描かれていました。陰影や遠近法で本物らしく描く西洋の絵とはまったく違う見方を、画家たちに示したのです。",
+      "year": {
+        "from": 1860,
+        "to": 1900,
+        "approx": true
+      },
+      "people": [
+        "歌川広重",
+        "フィンセント・ファン・ゴッホ"
+      ],
+      "tags": [
+        "日本",
+        "浮世絵"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/hiroshige-van-gogh-plum.jpg",
+          "alt": "梅の木の太い枝を画面の手前に大きく描いた、よく似た2枚の絵が並んでいる",
+          "credit": "Utagawa Hiroshige / Vincent van Gogh, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshige_Van_Gogh_1.JPG"
+        }
+      ],
+      "links": [
+        {
+          "axis": "人物",
+          "text": "ゴッホは浮世絵を買い集め、広重の作品を油絵で模写しました。",
+          "itemIds": [
+            "pt-abstract-gogh-gauguin"
+          ]
+        }
+      ],
+      "trivia": "浮世絵は、日本からの輸入品を包む紙としてフランスに渡ることもありました。",
+      "sources": [
+        "Wikipedia「ジャポニスム」 — https://ja.wikipedia.org/wiki/ジャポニスム",
+        "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
+      ],
+      "unlockOrder": 3
+    },
+    {
+      "id": "pt-abstract-cezanne",
+      "title": "セザンヌ",
+      "summary": "セザンヌは印象派から出発し、色彩で形をしっかり組み立てる絵を目指した。故郷の近くのサント＝ヴィクトワール山を、数十点も描いた。",
+      "why": "移ろう光の印象だけでなく、物の確かな存在感や量感を描こうとしたためです。1904年の手紙では「自然を円筒、球、円錐によって扱う」と書いています。",
+      "year": {
+        "from": 1880,
+        "to": 1906
+      },
+      "place": {
+        "name": "エクス＝アン＝プロヴァンス"
+      },
+      "people": [
+        "ポール・セザンヌ"
+      ],
+      "tags": [
+        "フランス",
+        "ポスト印象派"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/cezanne-sainte-victoire.jpg",
+          "alt": "手前の緑の畑や家の向こうにそびえる山を、色の面を積み重ねるように描いた絵",
+          "credit": "Paul Cézanne, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_Cézanne_108.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "形を幾何学的に捉えるセザンヌの考えは、のちのキュビスムの土台になりました。",
+          "itemIds": [
+            "pt-abstract-cubism"
+          ]
+        }
+      ],
+      "trivia": "のちの画家たちに大きな影響を与えたことから、「近代絵画の父」と呼ばれます。",
+      "sources": [
+        "Wikipedia「ポール・セザンヌ」 — https://ja.wikipedia.org/wiki/ポール・セザンヌ",
+        "Wikipedia「ポスト印象派」 — https://ja.wikipedia.org/wiki/ポスト印象派",
+        "コトバンク「セザンヌ」（世界大百科事典・日本大百科全書・百科事典マイペディア） — https://kotobank.jp/word/%E3%81%9B%E3%81%96%E3%82%93%E3%81%AC-3157136"
+      ],
+      "unlockOrder": 4
+    },
+    {
+      "id": "pt-abstract-gogh-gauguin",
+      "title": "ゴッホとゴーギャン",
+      "summary": "ゴッホは大胆な色とタッチで、ゴーギャンは平らな色面としっかりした輪郭線で、印象派の先へ進んだ。1888年、2人は南フランスのアルルで共同生活をした。",
+      "why": "見たままの色を写すことよりも、色や線そのものの力で、自分の内面や感情、象徴的な意味を表そうとしたためです。",
+      "year": {
+        "from": 1888,
+        "to": 1898
+      },
+      "place": {
+        "name": "アルル（南フランス）"
+      },
+      "people": [
+        "フィンセント・ファン・ゴッホ",
+        "ポール・ゴーギャン"
+      ],
+      "tags": [
+        "フランス",
+        "ポスト印象派"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/gogh-starry-night.jpg",
+          "alt": "うねるような渦を巻く夜空に星と月が輝き、手前に炎のような糸杉と村がある絵",
+          "credit": "Vincent van Gogh, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "見たままの色から離れる流れは、1905年、色をさらに自由に使うフォーヴィスムへ進みました。",
+          "itemIds": [
+            "pt-abstract-fauvism"
+          ]
+        }
+      ],
+      "trivia": "アルルでの共同生活はわずか2か月ほどで行き詰まり、その直後にゴッホは自分の耳を切る事件を起こしました。",
+      "sources": [
+        "Wikipedia「フィンセント・ファン・ゴッホ」 — https://ja.wikipedia.org/wiki/フィンセント・ファン・ゴッホ",
+        "Wikipedia「ポール・ゴーギャン」 — https://ja.wikipedia.org/wiki/ポール・ゴーギャン",
+        "Wikipedia「ポスト印象派」 — https://ja.wikipedia.org/wiki/ポスト印象派"
+      ],
+      "unlockOrder": 5
+    },
+    {
+      "id": "pt-abstract-fauvism",
+      "title": "フォーヴィスム（野獣派）",
+      "summary": "1905年の展覧会（サロン・ドートンヌ）で、マティスらの強烈な色の絵を集めた展示室が、批評家ヴォークセルに「野獣（フォーヴ）の檻」にたとえられ、フォーヴィスムと呼ばれるようになった。",
+      "why": "色を、物の本当の色を再現するためではなく、画家の感覚を表す道具として自由に使ったためです。木の幹を赤く塗るなど、原色を大胆に使いました。",
+      "year": {
+        "from": 1905
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "people": [
+        "アンリ・マティス",
+        "アンドレ・ドラン",
+        "モーリス・ド・ヴラマンク"
+      ],
+      "tags": [
+        "フランス",
+        "フォーヴィスム"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/matisse-woman-with-a-hat.jpg",
+          "alt": "大きな帽子をかぶった女性を、緑や紫などの強い色で、荒々しい筆づかいで描いた絵",
+          "credit": "Henri Matisse, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matisse-Woman-with-a-Hat.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "フォーヴィスムが色を解き放ったのに対し、ほぼ同じころに始まったキュビスムは形を解き放ちました。",
+          "itemIds": [
+            "pt-abstract-cubism"
+          ]
+        }
+      ],
+      "sources": [
+        "Wikipedia「フォーヴィスム」 — https://ja.wikipedia.org/wiki/フォーヴィスム",
+        "コトバンク「野獣派」（世界大百科事典・旺文社世界史事典） — https://kotobank.jp/word/%E9%87%8E%E7%8D%A3%E6%B4%BE-143668"
+      ],
+      "unlockOrder": 6
+    },
+    {
+      "id": "pt-abstract-cubism",
+      "title": "キュビスム",
+      "summary": "1907年のピカソ《アビニヨンの娘たち》や、1908年のブラックの風景画から始まった。物を幾何学的な面に分解し、画面の上で組み立て直した。",
+      "why": "1つの視点から見た姿ではなく、複数の視点から捉えた物の形を、1枚の画面にまとめようとしたためです。セザンヌの形の捉え方が土台になりました。",
+      "year": {
+        "from": 1907,
+        "to": 1914,
+        "approx": true
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "people": [
+        "パブロ・ピカソ",
+        "ジョルジュ・ブラック"
+      ],
+      "tags": [
+        "フランス",
+        "キュビスム"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "キュビスムに感銘を受けたモンドリアンは、その抽象化をさらに徹底していきました。",
+          "itemIds": [
+            "pt-abstract-mondrian"
+          ]
+        }
+      ],
+      "trivia": "名前は、批評家ヴォークセルが「ブラックは一切を立方体（キューブ）に還元する」と評したことからきているとされます。",
+      "sources": [
+        "Wikipedia「キュビスム」 — https://ja.wikipedia.org/wiki/キュビスム"
+      ],
+      "unlockOrder": 7
+    },
+    {
+      "id": "pt-abstract-kandinsky",
+      "title": "カンディンスキーと抽象絵画",
+      "summary": "カンディンスキーは1910年ごろから、物の形を描かない抽象絵画を手がけた。作品に「コンポジション」「インプロヴィゼーション」という、音楽のような題をつけた。",
+      "why": "音楽が音だけで人の心を動かすように、絵画も物を描かず、色と形だけで見る人の心に働きかけられると考えたためです。",
+      "year": {
+        "from": 1910,
+        "to": 1913
+      },
+      "people": [
+        "ワシリー・カンディンスキー"
+      ],
+      "tags": [
+        "ドイツ",
+        "ロシア",
+        "抽象絵画"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/kandinsky-composition-7.jpg",
+          "alt": "物の形は描かれず、色とりどりの形や線が画面いっぱいに渦巻くように重なり合う絵",
+          "credit": "Wassily Kandinsky, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1913_-_Composition_7.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "数年後の1915年、ロシアのマレーヴィチは、黒い正方形だけの絵を発表します。",
+          "itemIds": [
+            "pt-abstract-malevich"
+          ]
+        }
+      ],
+      "trivia": "1911年、画家フランツ・マルクとともに「青騎士」というグループを結成しました。",
+      "sources": [
+        "Wikipedia「ワシリー・カンディンスキー」 — https://ja.wikipedia.org/wiki/ワシリー・カンディンスキー",
+        "京都国立近代美術館「カンディンスキー展」 — https://www.momak.go.jp/Japanese/exhibitionArchive/1987/185.html"
+      ],
+      "unlockOrder": 8
+    },
+    {
+      "id": "pt-abstract-malevich",
+      "title": "マレーヴィチ《黒の正方形》",
+      "summary": "1915年、マレーヴィチはペトログラードの「0,10」展で、白い地に黒い正方形だけを描いた《黒の正方形》を発表した。",
+      "why": "自然の物を描くことをやめ、色や形そのものによる純粋な感覚を表そうとしたためです。この考えをシュプレマティスムと呼びます。",
+      "year": {
+        "from": 1915
+      },
+      "place": {
+        "name": "ペトログラード（ロシア）"
+      },
+      "people": [
+        "カジミール・マレーヴィチ"
+      ],
+      "tags": [
+        "ロシア",
+        "抽象絵画"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/malevich-black-square.jpg",
+          "alt": "白い地の中央に、黒い正方形がひとつだけ描かれた絵",
+          "credit": "Kazimir Malevich, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "オランダのモンドリアンも、垂直・水平の線と三原色だけで、物を描かない絵を追求しました。",
+          "itemIds": [
+            "pt-abstract-mondrian"
+          ]
+        }
+      ],
+      "trivia": "展覧会では、ロシアの家庭で聖像画（イコン）を飾る「部屋の隅の天井近く」に掛けられました。",
+      "sources": [
+        "Wikipedia「黒の正方形」 — https://ja.wikipedia.org/wiki/黒の正方形",
+        "ティッセン＝ボルネミッサ美術館「Kazimir Malevich」 — https://www.museothyssen.org/en/collection/artists/malevich-kazimir"
+      ],
+      "unlockOrder": 9
+    },
+    {
+      "id": "pt-abstract-mondrian",
+      "title": "モンドリアン",
+      "summary": "モンドリアンは、水平と垂直の直線で画面を分け、赤・青・黄の三原色と白・黒などだけを使って描いた。1917年には雑誌『デ・ステイル』の創刊に加わった。",
+      "why": "宇宙の調和や純粋なリアリティを表すには、完全に抽象的な芸術が必要だと考えたためです。キュビスムの抽象化はまだ徹底していないと考え、さらに推し進めました。",
+      "year": {
+        "from": 1917,
+        "to": 1944
+      },
+      "people": [
+        "ピエト・モンドリアン"
+      ],
+      "tags": [
+        "オランダ",
+        "抽象絵画"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/mondrian-composition-1930.jpg",
+          "alt": "黒い水平・垂直の線で画面が区切られ、大きな赤の四角と、小さな青と黄の四角がある絵",
+          "credit": "Piet Mondrian, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "第二次世界大戦後、抽象絵画の中心はアメリカのニューヨークへ移っていきます。",
+          "itemIds": [
+            "pt-abstract-abstract-expressionism"
+          ]
+        }
+      ],
+      "trivia": "晩年に移り住んだニューヨークで、ジャズの一種ブギウギに触発され《ブロードウェイ・ブギウギ》を描きました。",
+      "sources": [
+        "Wikipedia「ピエト・モンドリアン」 — https://ja.wikipedia.org/wiki/ピエト・モンドリアン"
+      ],
+      "unlockOrder": 10
+    },
+    {
+      "id": "pt-abstract-abstract-expressionism",
+      "title": "抽象表現主義",
+      "summary": "1940年代後半、アメリカのニューヨークで広がった抽象絵画の動き。ポロックは、床に置いたキャンバスの上を動き回り、絵具を垂らしたり撥ねかけたりして描いた。",
+      "why": "何を描いたかよりも、描く行為そのものを画面に残そうとしたためです。批評家ローゼンバーグは、こうした絵をアクション・ペインティングと呼びました。",
+      "year": {
+        "from": 1947,
+        "to": 1960,
+        "approx": true
+      },
+      "place": {
+        "name": "ニューヨーク"
+      },
+      "people": [
+        "ジャクソン・ポロック",
+        "マーク・ロスコ"
+      ],
+      "tags": [
+        "アメリカ",
+        "抽象絵画"
+      ],
+      "trivia": "戦前はアメリカの画家がパリへ学びに行くのが一般的でしたが、戦後はニューヨークが、パリに代わって美術の中心地になりました。",
+      "sources": [
+        "Wikipedia「抽象表現主義」 — https://ja.wikipedia.org/wiki/抽象表現主義"
+      ],
+      "unlockOrder": 11
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-pt-abstract-academy-genre",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-academy"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "19世紀フランスの美術アカデミーが、最も格の高い絵としたのは？",
+      "choices": [
+        {
+          "id": "history",
+          "text": "歴史画（神話や歴史の場面）"
+        },
+        {
+          "id": "landscape",
+          "text": "風景画"
+        },
+        {
+          "id": "still-life",
+          "text": "静物画"
+        },
+        {
+          "id": "genre",
+          "text": "庶民の暮らしを描く風俗画"
+        }
+      ],
+      "answer": "history",
+      "explanation": "神話や歴史の場面を描く歴史画です。宗教画や肖像画も重んじられた一方、風景画や静物画は軽く見られていました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-academy-style",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-academy"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "サロンで高く評価された、この絵のような描き方の特徴は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/cabanel-birth-of-venus.jpg",
+          "alt": "波の上に横たわる裸の女神と、その上を飛ぶ幼い天使たちを、なめらかに描いた絵",
+          "credit": "Alexandre Cabanel, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "academic",
+          "text": "神話を題材に、筆の跡を残さずなめらかに本物らしく描く"
+        },
+        {
+          "id": "flat",
+          "text": "平らな色面と太い輪郭線で描く"
+        },
+        {
+          "id": "touch",
+          "text": "筆のタッチを残し、光の一瞬を捉える"
+        },
+        {
+          "id": "geometric",
+          "text": "物を幾何学的な面に分解して描く"
+        }
+      ],
+      "answer": "academic",
+      "explanation": "カバネル《ヴィーナスの誕生》（1863年）のように、神話を題材に、筆の跡を残さずなめらかに、本物らしく描くのがアカデミーの好んだ描き方でした。印象派以降の画家たちは、ここから離れていきます。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-independent-show-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-academy",
+        "pt-abstract-impressionism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "1874年、モネらがサロンとは別に、自分たちの展覧会を開いた理由は？",
+      "choices": [
+        {
+          "id": "rejected",
+          "text": "サロンの保守的な審査で、落選することが多かったから"
+        },
+        {
+          "id": "free",
+          "text": "サロンの出品料が高すぎたから"
+        },
+        {
+          "id": "abroad",
+          "text": "サロンが外国人の作品しか受け付けなくなったから"
+        },
+        {
+          "id": "closed",
+          "text": "サロンが廃止されてしまったから"
+        }
+      ],
+      "answer": "rejected",
+      "explanation": "サロンはアカデミーの考えに沿う保守的な審査で、モネたちの作品は落選することが多かったためです。サロンに頼らず、自分たちで作品を見せる場をつくりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-photography-year",
+      "type": "year",
+      "itemIds": [
+        "pt-abstract-photography"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "ダゲールが、世界初の実用的な写真の方法（ダゲレオタイプ）を発表したのは何年？",
+      "answer": 1839,
+      "tolerance": 10,
+      "explanation": "1839年です。第1回印象派展（1874年）の35年前にあたります。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-photography-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-photography"
+      ],
+      "asks": [
+        "why",
+        "result"
+      ],
+      "prompt": "写真が広まったことは、画家たちにどんな問いを投げかけた？",
+      "choices": [
+        {
+          "id": "unique",
+          "text": "見たとおりに写すことは写真にもできる。では、絵にしかできないことは何か"
+        },
+        {
+          "id": "price",
+          "text": "写真は高価なので、絵をもっと安く売るにはどうするか"
+        },
+        {
+          "id": "color",
+          "text": "写真はカラーなのに、なぜ絵は白黒なのか"
+        },
+        {
+          "id": "ban",
+          "text": "写真が禁止されたので、代わりに何を描くか"
+        }
+      ],
+      "answer": "unique",
+      "explanation": "写真が現実を正確に写し取れるようになり、見たとおりに描く技術の価値は下がりました。「では、絵にしかできないことは何か」という問いが、新しい絵画の背景の一つになったと考えられています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-impressionism-image",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-impressionism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "この絵の題名が、名前の由来になった美術の動きは？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/monet-impression-sunrise.jpg",
+          "alt": "青くかすんだ港に赤い太陽が昇り、小舟が浮かぶ様子を、すばやい筆のタッチで描いた絵",
+          "credit": "Claude Monet, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        },
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        },
+        {
+          "id": "academism",
+          "text": "アカデミズム"
+        }
+      ],
+      "answer": "impressionism",
+      "explanation": "モネ《印象・日の出》（1872年）です。1874年の展覧会に出品され、批評家ルロワが皮肉を込めて使った「印象」という言葉から、「印象派」の名が広まりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-impressionism-year",
+      "type": "year",
+      "itemIds": [
+        "pt-abstract-impressionism"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "モネらが、サロンとは別に最初の展覧会（第1回印象派展）を開いたのは何年？",
+      "answer": 1874,
+      "tolerance": 5,
+      "explanation": "1874年です。この展覧会のあと、印象派展は何度も開かれました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-impressionism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-impressionism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "印象派の画家たちが、戸外で、筆のタッチを残して描いた主なねらいは？",
+      "choices": [
+        {
+          "id": "light",
+          "text": "移り変わる光や空気の一瞬を捉えるため"
+        },
+        {
+          "id": "fast",
+          "text": "たくさん描いて安く売るため"
+        },
+        {
+          "id": "myth",
+          "text": "神話の場面を本物らしく描くため"
+        },
+        {
+          "id": "geometry",
+          "text": "物を幾何学的な形に分解するため"
+        }
+      ],
+      "answer": "light",
+      "explanation": "移り変わる光や空気の一瞬を捉えるためです。細かく仕上げるより、その場の光の印象を素早く画面に残すことを大切にしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-japonisme-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-japonisme",
+        "pt-abstract-gogh-gauguin"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "この2枚のうち一方は歌川広重の浮世絵、もう一方はそれを油絵で模写したものです。模写したのは誰？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/hiroshige-van-gogh-plum.jpg",
+          "alt": "梅の木の太い枝を画面の手前に大きく描いた、よく似た2枚の絵が並んでいる",
+          "credit": "Utagawa Hiroshige / Vincent van Gogh, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshige_Van_Gogh_1.JPG"
+        }
+      ],
+      "choices": [
+        {
+          "id": "gogh",
+          "text": "ゴッホ"
+        },
+        {
+          "id": "monet",
+          "text": "モネ"
+        },
+        {
+          "id": "cezanne",
+          "text": "セザンヌ"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        }
+      ],
+      "answer": "gogh",
+      "explanation": "ゴッホです。ゴッホはパリで浮世絵を買い集め、1887年に広重の《名所江戸百景 亀戸梅屋舗》を油絵で模写しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-japonisme-not",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-japonisme"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "西洋の画家たちが浮世絵から取り入れた特徴として、あてはまらないものは？",
+      "choices": [
+        {
+          "id": "perspective",
+          "text": "陰影と遠近法で、本物らしい奥行きを描く"
+        },
+        {
+          "id": "flat",
+          "text": "立体感を描かず、平らな色面で塗る"
+        },
+        {
+          "id": "outline",
+          "text": "はっきりした輪郭線で形を描く"
+        },
+        {
+          "id": "composition",
+          "text": "大胆で、左右非対称な構図にする"
+        }
+      ],
+      "answer": "perspective",
+      "explanation": "陰影と遠近法で本物らしい奥行きを描くのは、それまでの西洋の絵のやり方です。浮世絵は、平らな色面や輪郭線、大胆な構図で、それとは違う見方を示しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-japonisme-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-japonisme"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "浮世絵が、西洋の画家たちに新しい見方を与えたのはなぜ？",
+      "choices": [
+        {
+          "id": "different",
+          "text": "陰影や遠近法を使わず、平らな色面と線で描く、まったく違う表し方だったから"
+        },
+        {
+          "id": "realistic",
+          "text": "写真よりも本物そっくりに描かれていたから"
+        },
+        {
+          "id": "oil",
+          "text": "西洋より上質な油絵具を使っていたから"
+        },
+        {
+          "id": "myth",
+          "text": "西洋の神話を題材にしていたから"
+        }
+      ],
+      "answer": "different",
+      "explanation": "それまでの西洋の絵は、陰影や遠近法で本物らしく描くのが基本でした。浮世絵は、平らな色面と線、大胆な構図で描かれており、まったく違う表し方を示したのです。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-cezanne-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-cezanne"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "故郷の近くの山を何十点も描いた、この絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/cezanne-sainte-victoire.jpg",
+          "alt": "手前の緑の畑や家の向こうにそびえる山を、色の面を積み重ねるように描いた絵",
+          "credit": "Paul Cézanne, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_Cézanne_108.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "cezanne",
+          "text": "セザンヌ"
+        },
+        {
+          "id": "monet",
+          "text": "モネ"
+        },
+        {
+          "id": "gogh",
+          "text": "ゴッホ"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        }
+      ],
+      "answer": "cezanne",
+      "explanation": "セザンヌの《サント＝ヴィクトワール山》（1904年）です。色の面を積み重ねるようにして、山や畑の形をしっかり組み立てています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-cezanne-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-cezanne"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "セザンヌは「自然を円筒、球、円錐によって扱う」と手紙に書いた。印象派と比べて、目指したものは？",
+      "choices": [
+        {
+          "id": "structure",
+          "text": "移ろう光よりも、物の確かな形や量感をしっかり組み立てて描くこと"
+        },
+        {
+          "id": "light",
+          "text": "光の一瞬の印象を、より素早く描くこと"
+        },
+        {
+          "id": "emotion",
+          "text": "強い色で、自分の怒りや悲しみを表すこと"
+        },
+        {
+          "id": "myth",
+          "text": "神話の場面を本物らしく描くこと"
+        }
+      ],
+      "answer": "structure",
+      "explanation": "印象派が移ろう光の一瞬を捉えようとしたのに対し、セザンヌは、物の確かな形や量感をしっかりした構造として描こうとしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-cubism-root",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-cubism",
+        "pt-abstract-cezanne"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "物を幾何学的な面に分解して描くキュビスムの、土台になったとされる画家は？",
+      "choices": [
+        {
+          "id": "cezanne",
+          "text": "セザンヌ"
+        },
+        {
+          "id": "monet",
+          "text": "モネ"
+        },
+        {
+          "id": "renoir",
+          "text": "ルノワール"
+        },
+        {
+          "id": "cabanel",
+          "text": "カバネル"
+        }
+      ],
+      "answer": "cezanne",
+      "explanation": "セザンヌです。自然を円筒・球・円錐として捉える考えや、形を組み立てる描き方が、ピカソやブラックのキュビスムに受け継がれました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-gogh-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-gogh-gauguin"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "この絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/gogh-starry-night.jpg",
+          "alt": "うねるような渦を巻く夜空に星と月が輝き、手前に炎のような糸杉と村がある絵",
+          "credit": "Vincent van Gogh, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "gogh",
+          "text": "ゴッホ"
+        },
+        {
+          "id": "gauguin",
+          "text": "ゴーギャン"
+        },
+        {
+          "id": "monet",
+          "text": "モネ"
+        },
+        {
+          "id": "cezanne",
+          "text": "セザンヌ"
+        }
+      ],
+      "answer": "gogh",
+      "explanation": "ゴッホの《星月夜》（1889年）です。うねるような筆のタッチと強い色で、夜空を見たまま以上に激しく描いています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-gogh-gauguin-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-gogh-gauguin"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "ゴッホやゴーギャンが、見たままとは違う強い色や、はっきりした輪郭線を使ったねらいは？",
+      "choices": [
+        {
+          "id": "inner",
+          "text": "色や線の力で、内面や感情、象徴的な意味を表すため"
+        },
+        {
+          "id": "light",
+          "text": "目に映る光の一瞬を正確に写すため"
+        },
+        {
+          "id": "cheap",
+          "text": "安い絵具しか手に入らなかったため"
+        },
+        {
+          "id": "academy",
+          "text": "サロンの審査に合格するため"
+        }
+      ],
+      "answer": "inner",
+      "explanation": "印象派が目に映る光を写そうとしたのに対し、2人は色や線そのものの力で、自分の内面や感情、象徴的な意味を表そうとしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-arles",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-gogh-gauguin"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "1888年、ゴッホとゴーギャンが共同生活をした南フランスの町は？",
+      "choices": [
+        {
+          "id": "arles",
+          "text": "アルル"
+        },
+        {
+          "id": "paris",
+          "text": "パリ"
+        },
+        {
+          "id": "tahiti",
+          "text": "タヒチ"
+        },
+        {
+          "id": "aix",
+          "text": "エクス＝アン＝プロヴァンス"
+        }
+      ],
+      "answer": "arles",
+      "explanation": "アルルです。ゴッホが先に移り住み、ゴーギャンを呼び寄せました。共同生活は2か月ほどで終わりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-fauvism-image",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-fauvism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "この絵の画家が中心となった、1905年に「野獣」と呼ばれた動きは？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/matisse-woman-with-a-hat.jpg",
+          "alt": "大きな帽子をかぶった女性を、緑や紫などの強い色で、荒々しい筆づかいで描いた絵",
+          "credit": "Henri Matisse, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matisse-Woman-with-a-Hat.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム（野獣派）"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        },
+        {
+          "id": "suprematism",
+          "text": "シュプレマティスム"
+        }
+      ],
+      "answer": "fauvism",
+      "explanation": "マティスの《帽子の女》（1905年）で、フォーヴィスム（野獣派）の代表作です。顔や服に、見たままとは違う緑や紫などの強い色が使われています。名前は、批評家が展示室を「野獣の檻」にたとえたことに由来します。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-fauvism-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-fauvism"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "フォーヴィスム（野獣派）の中心となった画家は？",
+      "choices": [
+        {
+          "id": "matisse",
+          "text": "マティス"
+        },
+        {
+          "id": "picasso",
+          "text": "ピカソ"
+        },
+        {
+          "id": "kandinsky",
+          "text": "カンディンスキー"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        }
+      ],
+      "answer": "matisse",
+      "explanation": "マティスです。ドランやヴラマンクらとともに、原色を大胆に使った絵を描きました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-fauvism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-fauvism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "フォーヴィスムの画家が、木の幹を赤く塗るような色の使い方をしたのはなぜ？",
+      "choices": [
+        {
+          "id": "feeling",
+          "text": "色を、物の色の再現ではなく、画家の感覚を表す道具として使ったから"
+        },
+        {
+          "id": "light",
+          "text": "夕日に照らされた幹を正確に写したから"
+        },
+        {
+          "id": "paint",
+          "text": "赤い絵具しか手に入らなかったから"
+        },
+        {
+          "id": "symbol",
+          "text": "赤い幹が、宗教的な決まりだったから"
+        }
+      ],
+      "answer": "feeling",
+      "explanation": "それまで色は、物の本当の色を再現するために使うものでした。フォーヴィスムの画家は、色を、自分の感覚を表す道具として自由に使いました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-cubism-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-cubism"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "1907年に《アビニヨンの娘たち》を描き、ブラックとともにキュビスムを始めた画家は？",
+      "choices": [
+        {
+          "id": "picasso",
+          "text": "ピカソ"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        },
+        {
+          "id": "cezanne",
+          "text": "セザンヌ"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        }
+      ],
+      "answer": "picasso",
+      "explanation": "ピカソです。1908年にはブラックも、物を幾何学的な形で描いた風景画を発表しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-cubism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-cubism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "キュビスムの絵で、物がいくつもの面に分かれて見えるのはなぜ？",
+      "choices": [
+        {
+          "id": "viewpoints",
+          "text": "複数の視点から見た形を、1枚の画面にまとめたから"
+        },
+        {
+          "id": "broken",
+          "text": "割れたガラス越しに見た景色を描いたから"
+        },
+        {
+          "id": "fast",
+          "text": "速く描くため、細部を省いたから"
+        },
+        {
+          "id": "light",
+          "text": "光の反射を一瞬で捉えたから"
+        }
+      ],
+      "answer": "viewpoints",
+      "explanation": "それまでの絵は、1つの視点から見た姿を遠近法で描いていました。キュビスムは、複数の視点から捉えた形を分解し、1枚の画面に組み立て直しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-kandinsky-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-kandinsky"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "物の形を描かず、色と形だけで描かれたこの絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/kandinsky-composition-7.jpg",
+          "alt": "物の形は描かれず、色とりどりの形や線が画面いっぱいに渦巻くように重なり合う絵",
+          "credit": "Wassily Kandinsky, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1913_-_Composition_7.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "kandinsky",
+          "text": "カンディンスキー"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        },
+        {
+          "id": "malevich",
+          "text": "マレーヴィチ"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        }
+      ],
+      "answer": "kandinsky",
+      "explanation": "カンディンスキーの《コンポジションVII》（1913年）です。「コンポジション（作曲）」という音楽のような題がつけられています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-kandinsky-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-kandinsky"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "カンディンスキーが、作品に「コンポジション」「インプロヴィゼーション」のような音楽の言葉を題につけたことが示す、目指したものは？",
+      "choices": [
+        {
+          "id": "music",
+          "text": "音楽のように、色と形だけで見る人の心に働きかける絵"
+        },
+        {
+          "id": "score",
+          "text": "楽譜をそのまま絵にすること"
+        },
+        {
+          "id": "concert",
+          "text": "演奏会のポスターとして使うこと"
+        },
+        {
+          "id": "realistic",
+          "text": "音楽家の姿を本物らしく描くこと"
+        }
+      ],
+      "answer": "music",
+      "explanation": "音楽が音だけで人の心を動かすように、物を描かず、色と形だけで見る人の心に働きかける絵画を目指しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-kandinsky-year",
+      "type": "year",
+      "itemIds": [
+        "pt-abstract-kandinsky"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "カンディンスキーが、物の形を描かない抽象絵画を手がけ始めたのは何年ごろ？",
+      "answer": 1910,
+      "tolerance": 5,
+      "explanation": "1910年ごろです。フォーヴィスム（1905年）やキュビスム（1907年）の数年後で、第一次世界大戦（1914年）の少し前にあたります。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-malevich-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-malevich"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "1915年に発表された、この絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/malevich-black-square.jpg",
+          "alt": "白い地の中央に、黒い正方形がひとつだけ描かれた絵",
+          "credit": "Kazimir Malevich, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "malevich",
+          "text": "マレーヴィチ"
+        },
+        {
+          "id": "kandinsky",
+          "text": "カンディンスキー"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        },
+        {
+          "id": "picasso",
+          "text": "ピカソ"
+        }
+      ],
+      "answer": "malevich",
+      "explanation": "マレーヴィチの《黒の正方形》です。白い地に黒い正方形だけが描かれ、物は何も描かれていません。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-malevich-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-malevich"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "マレーヴィチが《黒の正方形》で、物を何も描かなかったのはなぜ？",
+      "choices": [
+        {
+          "id": "pure",
+          "text": "物の描写を捨て、色や形そのものによる純粋な感覚を表そうとしたから"
+        },
+        {
+          "id": "unfinished",
+          "text": "未完成のまま展覧会に出したから"
+        },
+        {
+          "id": "censor",
+          "text": "物を描くことが法律で禁じられていたから"
+        },
+        {
+          "id": "cheap",
+          "text": "黒い絵具が一番安かったから"
+        }
+      ],
+      "answer": "pure",
+      "explanation": "自然の物を描くことをやめ、色や形そのものによる純粋な感覚を表そうとしたためです。マレーヴィチはこれをシュプレマティスムと呼びました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-mondrian-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-mondrian"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "水平・垂直の線と、赤・青・黄の色面だけで描かれた、この絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/mondrian-composition-1930.jpg",
+          "alt": "黒い水平・垂直の線で画面が区切られ、大きな赤の四角と、小さな青と黄の四角がある絵",
+          "credit": "Piet Mondrian, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        },
+        {
+          "id": "malevich",
+          "text": "マレーヴィチ"
+        },
+        {
+          "id": "kandinsky",
+          "text": "カンディンスキー"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        }
+      ],
+      "answer": "mondrian",
+      "explanation": "モンドリアンの《赤・青・黄のコンポジション》（1930年）です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-mondrian-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-mondrian"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "モンドリアンが、水平・垂直の線と三原色だけで描いたのはなぜ？",
+      "choices": [
+        {
+          "id": "harmony",
+          "text": "宇宙の調和を表すには、完全に抽象的な芸術が必要だと考えたから"
+        },
+        {
+          "id": "design",
+          "text": "建物の設計図として使うため"
+        },
+        {
+          "id": "flag",
+          "text": "オランダの国旗の色を広めるため"
+        },
+        {
+          "id": "cheap",
+          "text": "絵具を節約するため"
+        }
+      ],
+      "answer": "harmony",
+      "explanation": "宇宙の調和や純粋なリアリティを表すには、完全に抽象的な芸術が必要だと考えたためです。キュビスムの抽象化を、さらに徹底しようとしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-action-painting",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-abstract-expressionism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "ポロックのように、描く行為そのものを強く感じさせる絵画を、批評家ローゼンバーグは何と呼んだ？",
+      "choices": [
+        {
+          "id": "action",
+          "text": "アクション・ペインティング"
+        },
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        }
+      ],
+      "answer": "action",
+      "explanation": "アクション・ペインティングです。何を描いたかより、画家がキャンバスの上で行った行為を感じさせる絵画という意味です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-abstract-expressionism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-abstract-expressionism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "ポロックが、床に置いたキャンバスの上を動き回り、絵具を垂らして描いたねらいは？",
+      "choices": [
+        {
+          "id": "act",
+          "text": "描く行為そのものを、画面に残すため"
+        },
+        {
+          "id": "fast",
+          "text": "速く大量に描いて売るため"
+        },
+        {
+          "id": "realistic",
+          "text": "床の模様を本物らしく写すため"
+        },
+        {
+          "id": "accident",
+          "text": "絵具をこぼした失敗を隠すため"
+        }
+      ],
+      "answer": "act",
+      "explanation": "何を描いたかよりも、描く行為そのものを画面に残そうとしたためです。物を描かない抽象絵画は、ここで「描く行為」にまで広がりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-new-york",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-abstract-expressionism"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "第二次世界大戦のあと、美術の中心地はパリからどの都市へ移った？",
+      "choices": [
+        {
+          "id": "ny",
+          "text": "ニューヨーク"
+        },
+        {
+          "id": "london",
+          "text": "ロンドン"
+        },
+        {
+          "id": "berlin",
+          "text": "ベルリン"
+        },
+        {
+          "id": "rome",
+          "text": "ローマ"
+        }
+      ],
+      "answer": "ny",
+      "explanation": "ニューヨークです。戦前はアメリカの画家がパリへ学びに行くのが一般的でしたが、戦後は抽象表現主義の広がりとともに、ニューヨークが美術の中心になりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-order-movements",
+      "type": "order",
+      "itemIds": [
+        "pt-abstract-impressionism",
+        "pt-abstract-fauvism",
+        "pt-abstract-cubism",
+        "pt-abstract-malevich"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "impressionism",
+          "text": "第1回印象派展が開かれる"
+        },
+        {
+          "id": "fauvism",
+          "text": "マティスらが「野獣」と呼ばれる"
+        },
+        {
+          "id": "cubism",
+          "text": "ピカソが《アビニヨンの娘たち》を描く"
+        },
+        {
+          "id": "malevich",
+          "text": "マレーヴィチが《黒の正方形》を発表する"
+        }
+      ],
+      "answer": [
+        "impressionism",
+        "fauvism",
+        "cubism",
+        "malevich"
+      ],
+      "explanation": "1874年 第1回印象派展 → 1905年 フォーヴィスム → 1907年 キュビスムの始まり → 1915年《黒の正方形》。光、色、形と、見たままから一つずつ離れていき、ついに物を描かない絵に至りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-match-movements",
+      "type": "match",
+      "itemIds": [
+        "pt-abstract-impressionism",
+        "pt-abstract-fauvism",
+        "pt-abstract-cubism",
+        "pt-abstract-mondrian"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "画家と、その画家が中心となった動きを結ぼう",
+      "left": [
+        {
+          "id": "monet",
+          "text": "モネ"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        },
+        {
+          "id": "picasso",
+          "text": "ピカソ"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        }
+      ],
+      "right": [
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        },
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        },
+        {
+          "id": "de-stijl",
+          "text": "デ・ステイル"
+        }
+      ],
+      "pairs": [
+        [
+          "monet",
+          "impressionism"
+        ],
+        [
+          "matisse",
+          "fauvism"
+        ],
+        [
+          "picasso",
+          "cubism"
+        ],
+        [
+          "mondrian",
+          "de-stijl"
+        ]
+      ],
+      "explanation": "モネは印象派、マティスはフォーヴィスム、ピカソはキュビスム、モンドリアンは雑誌『デ・ステイル』を拠点にした抽象絵画の中心となりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-classify-features",
+      "type": "classify",
+      "itemIds": [
+        "pt-abstract-impressionism",
+        "pt-abstract-fauvism",
+        "pt-abstract-cubism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "描き方の特徴を、動きごとに分けよう",
+      "buckets": [
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        },
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        }
+      ],
+      "entries": [
+        {
+          "id": "outdoor",
+          "text": "戸外で、光の一瞬を捉える",
+          "bucket": "impressionism"
+        },
+        {
+          "id": "multi",
+          "text": "複数の視点から見た形をまとめる",
+          "bucket": "cubism"
+        },
+        {
+          "id": "primary",
+          "text": "原色を大胆に使う",
+          "bucket": "fauvism"
+        },
+        {
+          "id": "touch",
+          "text": "筆のタッチを残して色を重ねる",
+          "bucket": "impressionism"
+        },
+        {
+          "id": "planes",
+          "text": "物を幾何学的な面に分解する",
+          "bucket": "cubism"
+        },
+        {
+          "id": "free-color",
+          "text": "物の本当の色にとらわれずに塗る",
+          "bucket": "fauvism"
+        }
+      ],
+      "explanation": "印象派は光の一瞬を、フォーヴィスムは色の自由を、キュビスムは形の組み立て直しを追求しました。見たままから離れる方向が、それぞれ違います。",
+      "status": "active"
+    }
+  ]
+}
