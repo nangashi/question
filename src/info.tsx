@@ -48,17 +48,19 @@ export function InfoCard({ sections, attached }: { sections: InfoSection[]; atta
   );
 }
 
-/** 知識カードのつながり。つながりがなければ null */
-export function LinkList({ itemIds }: { itemIds: string[] }) {
+/**
+ * 知識カードのつながり。つながりがなければ null。
+ * navigable が false のときはリンクにしない（出題中に別の画面へ移ると、解いている流れが途切れるため）
+ */
+export function LinkList({ itemIds, navigable = true }: { itemIds: string[]; navigable?: boolean }) {
   const links = itemIds.flatMap((id) => getItem(id)?.item.links ?? []).slice(0, 3);
   if (links.length === 0) return null;
   return (
     <div class="link-list">
       {links.map((l, i) => {
         const target = getItem(l.itemIds[0]!);
-        return (
-          <a class="link-row" href={href.item(l.itemIds[0]!)} key={i}>
-            <span class="grow">
+        const body = (
+          <span class="grow">
               <span class="row gap">
                 <span class="axis">{l.axis}</span>
                 {target && (
@@ -68,10 +70,18 @@ export function LinkList({ itemIds }: { itemIds: string[] }) {
                   </span>
                 )}
               </span>
-              <span class="small">{l.text}</span>
-            </span>
+            <span class="small">{l.text}</span>
+          </span>
+        );
+        return navigable ? (
+          <a class="link-row" href={href.item(l.itemIds[0]!)} key={i}>
+            {body}
             <span class="chevron" aria-hidden="true">›</span>
           </a>
+        ) : (
+          <div class="link-row" key={i}>
+            {body}
+          </div>
         );
       })}
     </div>

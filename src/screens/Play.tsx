@@ -30,7 +30,8 @@ export function Play({ scope }: { scope: string }) {
   const trivia = q.itemIds.map((id) => getItem(id)?.item.trivia).find(Boolean);
   // なぜは、知識カードが 1 つで、問題自体が「なぜ」を問うていない場合だけ表示する（解説と重なるため。ADR-0008）
   const why = q.itemIds.length === 1 && !q.asks.includes("why") ? getItem(q.itemIds[0]!)?.item.why : undefined;
-  const links = LinkList({ itemIds: q.itemIds });
+  // 出題中はつながりから別の画面へ移らない（戻ると出題がやり直しになり、流れも途切れるため）
+  const links = LinkList({ itemIds: q.itemIds, navigable: false });
 
   return (
     <Screen>
