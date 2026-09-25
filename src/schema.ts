@@ -28,6 +28,8 @@ export const itemSchema = z.object({
   id,
   title: z.string().min(1),
   summary: z.string().min(1),
+  // なぜ: 目的・背景・原因（docs/content-guide.md）
+  why: z.string().min(1).optional(),
   year: z
     .object({ from: z.number().int(), to: z.number().int().optional(), approx: z.boolean().optional() })
     .optional(),

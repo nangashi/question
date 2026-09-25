@@ -33,6 +33,7 @@ export function ItemScreen({ itemId }: { itemId: string }) {
       ))}
       <section class="card">
         <p class="body">{item.summary}</p>
+        {item.why && <Why text={item.why} />}
         {item.trivia && <p class="trivia"><b>へぇ</b> {item.trivia}</p>}
       </section>
       <Links itemIds={[item.id]} />
@@ -48,6 +49,16 @@ export function ItemScreen({ itemId }: { itemId: string }) {
       </div>
       <PlayLink big href={href.play(`item:${item.id}`)} label="この知識の問題を解く" />
     </Screen>
+  );
+}
+
+/** 知識カードの「なぜ」 */
+export function Why({ text }: { text: string }) {
+  return (
+    <div class="why">
+      <div class="why-label">なぜ？</div>
+      <p class="body">{text}</p>
+    </div>
   );
 }
 

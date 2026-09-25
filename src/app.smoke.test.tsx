@@ -67,7 +67,9 @@ describe("全出題形式", () => {
         await click(buttons("+10")[0]);
         await click(buttons(/年で答える/)[0]);
       } else if (root.querySelector(".map-scroll")) {
-        await act(async () => root.querySelector("path.region")!.dispatchEvent(new MouseEvent("click", { bubbles: true })));
+        await act(async () => {
+          root.querySelector("path.region")!.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+        });
         await click(buttons(/で答える/)[0]);
       } else {
         await click(root.querySelector(".choice"));

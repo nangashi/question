@@ -3,6 +3,7 @@
 ## ドキュメント
 
 - [docs/vision.md](docs/vision.md): アプリの目的・コンセプト・やらないこと
+- [docs/content-guide.md](docs/content-guide.md): 問題データ（知識カード・問題）の執筆ガイド。問題を書く・生成するときは必ず従う
 - [docs/roadmap.md](docs/roadmap.md): フェーズとタスク。タスクと進捗の唯一の正本。運用ルールはファイル冒頭を参照
 - [docs/adr/](docs/adr/README.md): アーキテクチャ上の意思決定
 

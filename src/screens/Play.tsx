@@ -5,7 +5,7 @@ import { grade, toRating, type Grade, type Rating, type Response } from "../grad
 import { href } from "../router";
 import { categoryOf, pickQuestions } from "../session";
 import { Screen } from "../ui";
-import { Links } from "./ItemScreen";
+import { Links, Why } from "./ItemScreen";
 
 type Result = { questionId: string; grade: Grade; rating: Rating };
 
@@ -28,6 +28,8 @@ export function Play({ scope }: { scope: string }) {
   };
   const cat = getTheme(ref.themeId)?.categories.find((c) => c.id === ref.categoryId);
   const trivia = q.itemIds.map((id) => getItem(id)?.item.trivia).find(Boolean);
+  // なぜは、知識カードが 1 つの問題だけ表示する（ADR-0008）
+  const why = q.itemIds.length === 1 ? getItem(q.itemIds[0]!)?.item.why : undefined;
 
   return (
     <Screen>
@@ -62,6 +64,7 @@ export function Play({ scope }: { scope: string }) {
           <section class="card">
             <div class="muted small bold">解説</div>
             <p class="body">{q.explanation}</p>
+            {why && <Why text={why} />}
           </section>
           <Links itemIds={q.itemIds} />
           {trivia && <p class="trivia"><b>へぇ</b> {trivia}</p>}

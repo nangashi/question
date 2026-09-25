@@ -262,7 +262,10 @@ img { max-width: 100%; display: block; }
 .map-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 14px; }
 .zoom { display: flex; gap: 6px; }
 
-/* 解説・つながり */
+/* 解説・なぜ・つながり */
+.why { margin-top: 4px; padding: 12px 14px; border-radius: 12px; background: var(--accent-soft); display: flex; flex-direction: column; gap: 4px; }
+.why-label { font-size: 12px; font-weight: 700; color: var(--accent); }
+.why .body { font-size: 14px; line-height: 1.75; }
 .trivia { margin: 0; font-size: 13px; line-height: 1.7; color: var(--muted); }
 .trivia b { color: var(--warn); margin-right: 6px; }
 .link-card { gap: 6px; }
