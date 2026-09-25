@@ -82,6 +82,36 @@ describe("全出題形式", () => {
     expect(new Set(seen)).toEqual(new Set(["択一", "画像", "部分指定", "並べ替え", "組み合わせ", "分類", "年代推定", "地図"]));
   });
 
+  it("別の画面へ移ってから戻ると、出題の続きから再開できる", async () => {
+    localStorage.clear();
+    await act(async () => render(<App />, root));
+    await go("#/play?scope=formats");
+    const playHash = location.hash;
+    expect(playHash).toMatch(/&s=/);
+    const first = root.querySelector(".prompt")?.textContent;
+    // 1 問目を「わからない」で答えて 2 問目へ進む
+    await click(buttons("わからない")[0]);
+    await click(buttons("次へ")[0]);
+    const second = root.querySelector(".prompt")?.textContent;
+    expect(second).not.toBe(first);
+    // 別の画面へ移り、戻る
+    await go("#/item/jh-religion-kokubunji");
+    await go(playHash);
+    expect(root.querySelector(".prompt")?.textContent).toBe(second);
+    expect(root.textContent).toContain("2/");
+  });
+
+  it("新しく始めると、別の出題になる", async () => {
+    localStorage.clear();
+    await act(async () => render(<App />, root));
+    await go("#/play?scope=formats");
+    const firstHash = location.hash;
+    await go("#/");
+    await go("#/play?scope=formats");
+    expect(location.hash).not.toBe(firstHash);
+    expect(root.textContent).toContain("1/");
+  });
+
   it("サンプルデータは全形式を含む", () => {
     const types = new Set([...content.categories.values()].flatMap((c) => c.questions.map((q) => q.type)));
     expect(types).toEqual(new Set(["choice", "order", "match", "classify", "year", "map"]));

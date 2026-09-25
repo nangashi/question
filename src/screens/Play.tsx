@@ -1,19 +1,41 @@
-import { useMemo, useState } from "preact/hooks";
-import { getItem, getTheme } from "../content";
+import { useEffect, useState } from "preact/hooks";
+import { getItem, getQuestion, getTheme } from "../content";
 import { labelOf, QuestionView } from "../formats";
-import { grade, toRating, type Grade, type Rating, type Response } from "../grading";
+import { grade, toRating, type Grade, type Response } from "../grading";
 import { href } from "../router";
 import { categoryOf, pickQuestions } from "../session";
+import { loadSession, newSessionId, saveSession, type SessionResult } from "../sessionStore";
 import { Screen } from "../ui";
 import { InfoCard, LinkList } from "../info";
 
-type Result = { questionId: string; grade: Grade; rating: Rating };
+type Result = SessionResult;
 
-export function Play({ scope }: { scope: string }) {
-  const questions = useMemo(() => pickQuestions(scope), [scope]);
-  const [index, setIndex] = useState(0);
-  const [response, setResponse] = useState<Response | undefined>();
-  const [results, setResults] = useState<Result[]>([]);
+/** URL の出題 ID に保存済みの状態があれば続きから、なければ新しく出題する */
+function initSession(scope: string, sessionId: string | undefined) {
+  const saved = sessionId ? loadSession(sessionId) : undefined;
+  if (saved && saved.scope === scope) {
+    const questions = saved.questionIds.map((id) => getQuestion(id)?.question).filter((q) => q !== undefined);
+    if (questions.length === saved.questionIds.length) return { ...saved, questions };
+  }
+  const questions = pickQuestions(scope);
+  return { id: newSessionId(), scope, questions, index: 0, response: undefined, results: [] as Result[] };
+}
+
+export function Play({ scope, sessionId }: { scope: string; sessionId?: string }) {
+  const [init] = useState(() => initSession(scope, sessionId));
+  const { questions } = init;
+  const [index, setIndex] = useState(init.index);
+  const [response, setResponse] = useState<Response | undefined>(init.response);
+  const [results, setResults] = useState<Result[]>(init.results);
+
+  // URL に出題 ID を入れる（履歴は増やさない）。戻る操作で同じ URL に戻ると続きから再開できる
+  useEffect(() => {
+    if (sessionId !== init.id) history.replaceState(null, "", href.play(scope, init.id));
+  }, []);
+  // 状態が変わるたびに保存する
+  useEffect(() => {
+    saveSession({ id: init.id, scope, questionIds: questions.map((q) => q.id), index, response, results, updatedAt: 0 });
+  }, [index, response, results]);
 
   if (questions.length === 0) return <Screen>出題できる問題がありません</Screen>;
   if (index >= questions.length) return <Summary questions={questions} results={results} scope={scope} />;
@@ -155,7 +177,7 @@ function Summary({ questions, results, scope }: { questions: ReturnType<typeof p
       </div>
       <div class="grid2">
         <a class="btn ghost big" href={href.home()}>ホーム</a>
-        <a class="btn primary big" href={`${href.play(scope)}&r=${Date.now()}`}>もう5問</a>
+        <a class="btn primary big" href={href.play(scope)}>もう5問</a>
       </div>
     </Screen>
   );

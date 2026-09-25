@@ -19,7 +19,7 @@ export function App() {
       {route.name === "home" && <Home />}
       {route.name === "theme" && <ThemeScreen themeId={route.themeId} />}
       {route.name === "category" && <CategoryScreen themeId={route.themeId} categoryId={route.categoryId} />}
-      {route.name === "play" && <Play key={location.hash} scope={route.scope} />}
+      {route.name === "play" && <Play key={`${route.scope}/${route.sessionId ?? ""}`} scope={route.scope} sessionId={route.sessionId} />}
       {route.name === "item" && <ItemScreen itemId={route.itemId} />}
     </>
   );
