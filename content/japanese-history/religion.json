@@ -143,7 +143,8 @@
       "people": ["法然", "親鸞", "一遍", "日蓮", "栄西", "道元"],
       "tags": ["鎌倉", "仏教"],
       "links": [
-        { "axis": "比較", "text": "戦国時代には、ヨーロッパからまったく新しい宗教、キリスト教が伝わります。", "itemIds": ["jh-religion-christianity-arrival"] }
+        { "axis": "比較", "text": "戦国時代には、ヨーロッパからまったく新しい宗教、キリスト教が伝わります。", "itemIds": ["jh-religion-christianity-arrival"] },
+        { "axis": "因果", "text": "親鸞の教えを受け継ぐ本願寺の門徒は、戦国時代には守護を倒すほどの大きな勢力になりました。", "itemIds": ["jh-religion-ikko-ikki"] }
       ],
       "trivia": "鎌倉新仏教を日本仏教の頂点とみる見方は、近代につくられたものです。今では、当時の仏教界の中心はなお天台宗・真言宗などの寺院だったとする学説（顕密体制論）などにより、見直されています。",
       "sources": [
@@ -169,7 +170,7 @@
         "Wikipedia「フランシスコ・ザビエル」 — https://ja.wikipedia.org/wiki/フランシスコ・ザビエル",
         "Wikipedia「キリシタン大名」 — https://ja.wikipedia.org/wiki/キリシタン大名"
       ],
-      "unlockOrder": 8
+      "unlockOrder": 9
     },
     {
       "id": "jh-religion-kinkyo",
@@ -184,7 +185,7 @@
       ],
       "trivia": "全国への禁教令は「1613年」と書かれることが多いですが、出されたのは慶長18年12月で、西暦では1614年1月にあたります。",
       "sources": ["Wikipedia「禁教令」 — https://ja.wikipedia.org/wiki/禁教令"],
-      "unlockOrder": 9
+      "unlockOrder": 11
     },
     {
       "id": "jh-religion-terauke",
@@ -198,7 +199,7 @@
       ],
       "trivia": "寺がつくる宗門人別改帳は今の戸籍のような役割を果たし、引っ越すときには寺の証明書（寺請証文）が必要でした。",
       "sources": ["Wikipedia「寺請制度」 — https://ja.wikipedia.org/wiki/寺請制度"],
-      "unlockOrder": 10
+      "unlockOrder": 12
     },
     {
       "id": "jh-religion-shinbutsu-bunri",
@@ -216,7 +217,7 @@
         "Wikipedia「神仏分離」 — https://ja.wikipedia.org/wiki/神仏分離",
         "Wikipedia「廃仏毀釈」 — https://ja.wikipedia.org/wiki/廃仏毀釈"
       ],
-      "unlockOrder": 11
+      "unlockOrder": 14
     },
     {
       "id": "jh-religion-freedom",
@@ -227,7 +228,143 @@
       "tags": ["近代", "憲法"],
       "trivia": "大日本帝国憲法の信教の自由は「安寧秩序を妨げず、臣民としての義務に背かない限り」という条件つきで、法律によらず命令でも制限できると理解されていました。",
       "sources": ["Wikipedia「信教の自由」 — https://ja.wikipedia.org/wiki/信教の自由"],
-      "unlockOrder": 12
+      "unlockOrder": 15
+    },
+    {
+      "id": "jh-religion-ikko-ikki",
+      "title": "加賀の一向一揆",
+      "summary": "本願寺の門徒が国人と結んで守護の富樫政親を倒し、その後およそ90年にわたって加賀を支配した。",
+      "why": "蓮如の布教によって北陸の門徒が大きくまとまっていました。戦費の負担などに反発した国人と門徒がともに立ち上がり、守護を倒すほどの力になりました。",
+      "year": {
+        "from": 1488,
+        "to": 1580
+      },
+      "place": {
+        "name": "加賀（石川県）",
+        "region": "jp-17"
+      },
+      "people": [
+        "蓮如",
+        "富樫政親"
+      ],
+      "tags": [
+        "戦国",
+        "仏教",
+        "一揆"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "1580年、加賀の門徒の拠点は織田信長の家臣・柴田勝家らに攻め落とされました。",
+          "itemIds": [
+            "jh-religion-nobunaga"
+          ]
+        }
+      ],
+      "trivia": "門徒たちが治めた加賀は「百姓の持ちたる国」と呼ばれました。",
+      "sources": [
+        "コトバンク「加賀一向一揆」（日本大百科全書・世界大百科事典・百科事典マイペディア） — https://kotobank.jp/word/%E5%8A%A0%E8%B3%80%E4%B8%80%E5%90%91%E4%B8%80%E6%8F%86-824247",
+        "Wikipedia「加賀一向一揆」 — https://ja.wikipedia.org/wiki/加賀一向一揆"
+      ],
+      "unlockOrder": 8
+    },
+    {
+      "id": "jh-religion-nobunaga",
+      "title": "織田信長と宗教勢力",
+      "summary": "織田信長は1571年に比叡山延暦寺を焼き討ちし、1570〜1580年には大坂の本願寺（顕如）と戦って、本願寺を大坂から退去させた。",
+      "why": "延暦寺は信長と敵対する浅井・朝倉氏に味方し、本願寺の顕如は諸国の門徒に決起を命じ、毛利氏の援助も受けて信長に対抗しました。武力や経済力を持つ宗教勢力は、信長にとって大名と並ぶ敵だったのです。",
+      "year": {
+        "from": 1570,
+        "to": 1580
+      },
+      "people": [
+        "織田信長",
+        "顕如"
+      ],
+      "tags": [
+        "戦国",
+        "仏教"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "焼き討ちされた延暦寺は、平安時代に最澄が開いた天台宗の中心寺院でした。",
+          "itemIds": [
+            "jh-religion-saicho-kukai"
+          ]
+        }
+      ],
+      "trivia": "当時の記録では数千人が殺されたとされますが、近年の発掘調査などから、焼き討ちの前にすでに廃れていた建物も多く、被害は記録ほど大きくなかったのではないかと見直されています。",
+      "sources": [
+        "Wikipedia「比叡山焼き討ち (1571年)」 — https://ja.wikipedia.org/wiki/比叡山焼き討ち_(1571年)",
+        "Wikipedia「石山合戦」 — https://ja.wikipedia.org/wiki/石山合戦",
+        "コトバンク「石山戦争」（日本大百科全書） — https://kotobank.jp/word/%E7%9F%B3%E5%B1%B1%E6%88%A6%E4%BA%89-1504159",
+        "京都国立博物館「宇佐山からの眺望」 — https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0007/"
+      ],
+      "unlockOrder": 10
+    },
+    {
+      "id": "jh-religion-ise",
+      "title": "伊勢参りとおかげ参り",
+      "summary": "江戸時代、伊勢神宮への参詣が庶民に広まり、1705年・1771年・1830年などには、数百万人が押し寄せる「おかげ参り」が起きた。",
+      "why": "伊勢講という仲間で旅費を積み立て、くじで選ばれた代表が参詣する仕組みや、各地をまわって参詣をすすめる御師の活動がありました。伊勢参りを目的とする旅は通行手形も得やすかったため、庶民でも出かけられました。",
+      "year": {
+        "from": 1705,
+        "to": 1830
+      },
+      "place": {
+        "name": "伊勢（三重県）",
+        "region": "jp-24"
+      },
+      "tags": [
+        "江戸",
+        "神道",
+        "庶民"
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "同じ江戸時代、人々は寺請制度によって、どこかの寺の檀家にもなっていました。",
+          "itemIds": [
+            "jh-religion-terauke"
+          ]
+        }
+      ],
+      "trivia": "奉公人や子どもが主人や親に黙って出かける「抜け参り」も、参詣した証拠の品を持ち帰ればとがめられませんでした。",
+      "sources": [
+        "コトバンク「伊勢講」（デジタル大辞泉・日本国語大辞典・世界大百科事典） — https://kotobank.jp/word/%E4%BC%8A%E5%8B%A2%E8%AC%9B-30948",
+        "Wikipedia「お蔭参り」 — https://ja.wikipedia.org/wiki/お蔭参り"
+      ],
+      "unlockOrder": 13
+    },
+    {
+      "id": "jh-religion-shinto-directive",
+      "title": "国家神道と神道指令",
+      "summary": "1945年12月、GHQは神道指令を出して国家と神社神道を切り離し、神社への公的な支援を禁じ、神祇院を廃止させた。",
+      "why": "GHQは、国家と結びついた神社神道（国家神道）が軍国主義・超国家主義の源になったとみていました。信教の自由を確立し、軍国主義を取り除くためです。",
+      "year": {
+        "from": 1945
+      },
+      "tags": [
+        "近代",
+        "神道",
+        "占領"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "指令の考え方は、日本国憲法の信教の自由（第20条）や、宗教団体への公金支出の禁止（第89条）に引き継がれました。",
+          "itemIds": [
+            "jh-religion-freedom"
+          ]
+        }
+      ],
+      "trivia": "公文書で「大東亜戦争」や「八紘一宇」といった言葉を使うことも禁じられました。",
+      "sources": [
+        "國學院大學デジタルミュージアム「神道指令」 — https://d-museum.kokugakuin.ac.jp/eos/detail/id=8852",
+        "Wikipedia「神道指令」 — https://ja.wikipedia.org/wiki/神道指令"
+      ],
+      "unlockOrder": 16
     }
   ],
   "questions": [
@@ -544,6 +681,805 @@
       ],
       "answer": "conditional",
       "explanation": "第28条は「安寧秩序を妨げず、臣民としての義務に背かない限り」信教の自由を認めました。戦後の日本国憲法では、このような条件をつけずに保障する条文となり、国と宗教を切り離す政教分離も定められました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-arrival-country",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-buddhism-arrival"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "6世紀、仏像や経典を贈って日本に仏教を公式に伝えたのは、どこの国の王？",
+      "choices": [
+        {
+          "id": "baekje",
+          "text": "百済"
+        },
+        {
+          "id": "silla",
+          "text": "新羅"
+        },
+        {
+          "id": "goguryeo",
+          "text": "高句麗"
+        },
+        {
+          "id": "sui",
+          "text": "隋"
+        }
+      ],
+      "answer": "baekje",
+      "explanation": "百済の聖明王が、仏像や経典を欽明天皇に贈りました。百済は倭（日本）との同盟のもとで、軍事的な支援を求めていました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-arrival-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-buddhism-arrival"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "百済が倭（日本）に仏教を伝えた背景として、最も適切なものは？",
+      "choices": [
+        {
+          "id": "alliance",
+          "text": "倭との結びつきを深め、軍事的な支援を得るため"
+        },
+        {
+          "id": "ban",
+          "text": "百済で仏教が禁じられ、僧が国外へ逃れたため"
+        },
+        {
+          "id": "territory",
+          "text": "倭に寺を建て、百済の領土にするため"
+        },
+        {
+          "id": "order",
+          "text": "中国の皇帝に命じられたため"
+        }
+      ],
+      "answer": "alliance",
+      "explanation": "百済は倭との同盟のもとで軍事的な支援を求めており、先進的な文化である仏教を伝えることは、外交を有利に進める手段でもあったと考えられています。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-sobutsu-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-sobutsu-dispute"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "物部尾輿らが仏教の受け入れに反対した理由は？",
+      "choices": [
+        {
+          "id": "kami",
+          "text": "外国の神を拝むと、日本の神々の怒りを招くと考えたから"
+        },
+        {
+          "id": "cost",
+          "text": "寺や仏像をつくる費用が大きすぎたから"
+        },
+        {
+          "id": "enemy",
+          "text": "百済と戦争をしていたから"
+        },
+        {
+          "id": "read",
+          "text": "経典の文字を読める人がいなかったから"
+        }
+      ],
+      "answer": "kami",
+      "explanation": "物部尾輿らは、外国の神（仏）を拝めば、日本の神々の怒りを招くと主張しました（『日本書紀』）。一方、蘇我稲目は、西の国々はみな仏を敬っていると受け入れを主張しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-order-early",
+      "type": "order",
+      "itemIds": [
+        "jh-religion-buddhism-arrival",
+        "jh-religion-sobutsu-dispute",
+        "jh-religion-seventeen-articles",
+        "jh-religion-kokubunji"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "arrival",
+          "text": "百済から仏教が伝わる"
+        },
+        {
+          "id": "sobutsu",
+          "text": "蘇我馬子が物部守屋を滅ぼす"
+        },
+        {
+          "id": "kenpo",
+          "text": "十七条憲法が定められる"
+        },
+        {
+          "id": "kokubunji",
+          "text": "国分寺を建てる詔が出される"
+        }
+      ],
+      "answer": [
+        "arrival",
+        "sobutsu",
+        "kenpo",
+        "kokubunji"
+      ],
+      "explanation": "538年（552年説あり）仏教の公伝 → 587年 物部氏が滅ぶ → 604年 十七条憲法 → 741年 国分寺建立の詔。受け入れをめぐる争いのあと、仏教は国の政治や守りの柱になっていきました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-seventeen-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-seventeen-articles"
+      ],
+      "asks": [
+        "what",
+        "why"
+      ],
+      "prompt": "十七条憲法は、誰に向けて何を示した決まり？",
+      "choices": [
+        {
+          "id": "officials",
+          "text": "豪族や役人に、国に仕える者としての心がまえを示した"
+        },
+        {
+          "id": "farmers",
+          "text": "農民に、年貢の納め方を定めた"
+        },
+        {
+          "id": "monks",
+          "text": "僧に、寺での暮らしの規則を定めた"
+        },
+        {
+          "id": "foreign",
+          "text": "外国の使者に、日本の法律を示した"
+        }
+      ],
+      "answer": "officials",
+      "explanation": "十七条憲法は、豪族や役人に向けて、国に仕える者としての心がまえ（道徳）を示したものです。儒教の考えを中心に、仏教を尊ぶことも説いています。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-saicho-kukai-classify",
+      "type": "classify",
+      "itemIds": [
+        "jh-religion-saicho-kukai"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "最澄と空海、どちらに関係が深い？",
+      "buckets": [
+        {
+          "id": "saicho",
+          "text": "最澄"
+        },
+        {
+          "id": "kukai",
+          "text": "空海"
+        }
+      ],
+      "entries": [
+        {
+          "id": "tendai",
+          "text": "天台宗",
+          "bucket": "saicho"
+        },
+        {
+          "id": "koya",
+          "text": "高野山",
+          "bucket": "kukai"
+        },
+        {
+          "id": "hiei",
+          "text": "比叡山延暦寺",
+          "bucket": "saicho"
+        },
+        {
+          "id": "shingon",
+          "text": "真言宗",
+          "bucket": "kukai"
+        },
+        {
+          "id": "toji",
+          "text": "東寺",
+          "bucket": "kukai"
+        }
+      ],
+      "explanation": "最澄は天台宗を開き、比叡山（延暦寺）を拠点にしました。空海は真言宗を開き、高野山を賜り、東寺を真言密教の道場としました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-saicho-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-saicho-kukai"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "朝廷が、唐で学んだ最澄や空海の新しい仏教を支えた背景は？",
+      "choices": [
+        {
+          "id": "order",
+          "text": "奈良の宗派中心の仏教界とは別に、新しい秩序をつくろうとしたから"
+        },
+        {
+          "id": "fire",
+          "text": "奈良の寺院がすべて焼けてしまったから"
+        },
+        {
+          "id": "tang",
+          "text": "唐が日本に新しい宗派を取り入れるよう求めたから"
+        },
+        {
+          "id": "ban",
+          "text": "貴族たちが奈良の仏教を禁じたから"
+        }
+      ],
+      "answer": "order",
+      "explanation": "朝廷は、奈良の宗派を中心とする仏教界とは別に、新しい仏教界の秩序をつくろうとしていました。空海の密教は、国の安泰を祈る祈祷でも重んじられました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-honji-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-honji-suijaku"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "本地垂迹説は、どのようにして形づくられた？",
+      "choices": [
+        {
+          "id": "gradual",
+          "text": "神と仏の関係づけを重ね、神は仏の仮の姿だという考えにまとまった"
+        },
+        {
+          "id": "meiji",
+          "text": "明治政府が、神と仏を一つにまとめるよう命じた"
+        },
+        {
+          "id": "bakufu",
+          "text": "鎌倉幕府が、武士の信仰をまとめるために定めた"
+        },
+        {
+          "id": "christian",
+          "text": "キリスト教の考えを取り入れて生まれた"
+        }
+      ],
+      "answer": "gradual",
+      "explanation": "仏教が伝わって以来、神と仏の関係が問題になり、神を仏法の守り手とみたり、仏に救われる存在とみたりする段階をへて、神は仏の仮の姿だとする考えにまとまりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-mappo-year",
+      "type": "year",
+      "itemIds": [
+        "jh-religion-mappo"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "日本で「末法」の世に入ったと考えられたのは何年？",
+      "answer": 1052,
+      "tolerance": 10,
+      "explanation": "1052年（永承7年）です。この年、藤原頼通は宇治の別荘を寺（平等院）に改め、翌1053年に鳳凰堂を建てました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-mappo-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-mappo"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "平安時代の後半、極楽浄土への往生を願う浄土信仰が広まった背景は？",
+      "choices": [
+        {
+          "id": "mappo",
+          "text": "末法の世に入ったと考えられ、社会の不安が高まっていたから"
+        },
+        {
+          "id": "bakufu",
+          "text": "幕府が念仏を唱えるよう命じたから"
+        },
+        {
+          "id": "daibutsu",
+          "text": "東大寺の大仏が完成したから"
+        },
+        {
+          "id": "xavier",
+          "text": "宣教師が極楽の教えを伝えたから"
+        }
+      ],
+      "answer": "mappo",
+      "explanation": "1052年から末法の世に入ると考えられていたうえ、武士が力をつけ治安も乱れるなかで、世の中の不安が高まっていました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-kinkyo-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-kinkyo"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "江戸幕府がキリスト教の禁止に踏み切った、きっかけ・理由は？",
+      "choices": [
+        {
+          "id": "okamoto",
+          "text": "岡本大八事件をきっかけに、信者の結びつきが支配を脅かすと警戒したから"
+        },
+        {
+          "id": "attack",
+          "text": "ポルトガルの軍隊が九州に攻めてきたから"
+        },
+        {
+          "id": "emperor",
+          "text": "天皇がキリスト教を禁じるよう命じたから"
+        },
+        {
+          "id": "famine",
+          "text": "キリスト教の広まりで飢饉が起きたから"
+        }
+      ],
+      "answer": "okamoto",
+      "explanation": "キリシタン大名と幕府の役人が関わった岡本大八事件をきっかけに、幕府は宣教師の関与を疑い、信者の結びつきを支配を脅かす勢力として警戒しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-terauke-register",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-terauke"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "寺請制度のもとで、寺がつくった宗門人別改帳は、結果としてどんな役割を果たした？",
+      "choices": [
+        {
+          "id": "koseki",
+          "text": "今の戸籍のように、人々を把握する役割"
+        },
+        {
+          "id": "income",
+          "text": "寺の収入と支出を記録する帳簿"
+        },
+        {
+          "id": "training",
+          "text": "僧の修行の成績の記録"
+        },
+        {
+          "id": "tax",
+          "text": "村ごとの年貢の納入記録"
+        }
+      ],
+      "answer": "koseki",
+      "explanation": "宗門人別改帳は、今の戸籍のように人々を把握する役割を果たしました。引っ越すときには、寺が出す寺請証文が身分証明として必要でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-bunri-result",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-shinbutsu-bunri"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "神仏分離令のあと、各地で起きた、仏像や寺を壊す動きを何という？",
+      "choices": [
+        {
+          "id": "haibutsu",
+          "text": "廃仏毀釈"
+        },
+        {
+          "id": "uchikowashi",
+          "text": "打ちこわし"
+        },
+        {
+          "id": "ikki",
+          "text": "一向一揆"
+        },
+        {
+          "id": "haihan",
+          "text": "廃藩置県"
+        }
+      ],
+      "answer": "haibutsu",
+      "explanation": "廃仏毀釈です。政府の意図は神と仏を分けることでしたが、仏教に圧迫されてきたと考える神職や民衆などによって、全国で仏像や寺が壊されました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-freedom-postwar",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-freedom"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本国憲法が定めた、国と宗教を切り離す原則を何という？",
+      "choices": [
+        {
+          "id": "seikyo",
+          "text": "政教分離"
+        },
+        {
+          "id": "saisei",
+          "text": "祭政一致"
+        },
+        {
+          "id": "shinbutsu",
+          "text": "神仏習合"
+        },
+        {
+          "id": "osei",
+          "text": "王政復古"
+        }
+      ],
+      "answer": "seikyo",
+      "explanation": "政教分離です。第20条は、どの宗教団体も国から特権を受けたり、政治上の権力を使ったりしてはならず、国も宗教的な活動をしてはならないと定めています。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-freedom-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-freedom"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "日本国憲法が、どの宗教も国から特権を受けないよう定めた背景は？",
+      "choices": [
+        {
+          "id": "shrine",
+          "text": "明治の憲法のもとで、神社が国から特別な扱いを受けていたから"
+        },
+        {
+          "id": "buddhism",
+          "text": "江戸時代まで仏教が国の宗教と定められていたから"
+        },
+        {
+          "id": "christian",
+          "text": "明治の憲法がキリスト教だけを認めていたから"
+        },
+        {
+          "id": "none",
+          "text": "それまで日本には宗教に関する決まりがなかったから"
+        }
+      ],
+      "answer": "shrine",
+      "explanation": "明治の憲法のもとでは、神社は「宗教ではない」として国から特別な扱いを受けていました。日本国憲法は、神道も含めてどの宗教も特権を受けないよう、国と宗教を切り離しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-order-late",
+      "type": "order",
+      "itemIds": [
+        "jh-religion-kinkyo",
+        "jh-religion-terauke",
+        "jh-religion-shinbutsu-bunri",
+        "jh-religion-shinto-directive"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "kinkyo",
+          "text": "幕府の直轄地で禁教令が出される"
+        },
+        {
+          "id": "terauke",
+          "text": "全国の寺に寺請証文をつくらせる"
+        },
+        {
+          "id": "bunri",
+          "text": "神仏分離令が出される"
+        },
+        {
+          "id": "directive",
+          "text": "GHQが神道指令を出す"
+        }
+      ],
+      "answer": [
+        "kinkyo",
+        "terauke",
+        "bunri",
+        "directive"
+      ],
+      "explanation": "1612年 禁教令 → 1638年 全国の寺に寺請証文をつくらせる → 1868年 神仏分離令 → 1945年 神道指令。宗教が国の支配の仕組みに組み込まれ、やがて国から切り離されていきました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-ikko-map",
+      "type": "map",
+      "itemIds": [
+        "jh-religion-ikko-ikki"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "一向一揆が守護を倒し、およそ90年にわたって支配した加賀は、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-17",
+      "explanation": "加賀は現在の石川県の南部にあたります。門徒たちが治めたこの国は「百姓の持ちたる国」と呼ばれました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-ikko-who",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-ikko-ikki"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "1488年、加賀の一向一揆に倒された守護は？",
+      "choices": [
+        {
+          "id": "togashi",
+          "text": "富樫政親"
+        },
+        {
+          "id": "imagawa",
+          "text": "今川義元"
+        },
+        {
+          "id": "takeda",
+          "text": "武田信玄"
+        },
+        {
+          "id": "ashikaga",
+          "text": "足利義政"
+        }
+      ],
+      "answer": "togashi",
+      "explanation": "守護の富樫政親です。一揆勢は10万とも20万ともいわれる軍勢で政親を滅ぼしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-ikko-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-ikko-ikki"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "加賀の一向一揆が、守護を倒すほどの力を持てた理由は？",
+      "choices": [
+        {
+          "id": "rennyo",
+          "text": "蓮如の布教でまとまった門徒が、国人と結んで立ち上がったから"
+        },
+        {
+          "id": "bakufu",
+          "text": "室町幕府が一揆を起こすよう命じたから"
+        },
+        {
+          "id": "christian",
+          "text": "キリシタン大名が武器を送って支援したから"
+        },
+        {
+          "id": "ban",
+          "text": "守護が仏教を禁じ、寺をすべて壊したから"
+        }
+      ],
+      "answer": "rennyo",
+      "explanation": "蓮如の布教によって北陸の本願寺門徒が大きくまとまっていたうえ、戦費の負担などに反発した国人が、門徒とともに立ち上がったためです。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-nobunaga-hiei",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-nobunaga"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "1571年、織田信長が焼き討ちした寺は？",
+      "choices": [
+        {
+          "id": "enryakuji",
+          "text": "比叡山延暦寺"
+        },
+        {
+          "id": "honganji",
+          "text": "本願寺"
+        },
+        {
+          "id": "todaiji",
+          "text": "東大寺"
+        },
+        {
+          "id": "kongobuji",
+          "text": "高野山金剛峯寺"
+        }
+      ],
+      "answer": "enryakuji",
+      "explanation": "比叡山延暦寺です。延暦寺が、信長と敵対する浅井・朝倉氏に味方したことが背景にありました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-nobunaga-honganji",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-nobunaga"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "1570年から約10年にわたって、大坂で織田信長と戦い続けたのは？",
+      "choices": [
+        {
+          "id": "honganji",
+          "text": "本願寺（顕如）"
+        },
+        {
+          "id": "enryakuji",
+          "text": "延暦寺"
+        },
+        {
+          "id": "takeda",
+          "text": "武田氏"
+        },
+        {
+          "id": "imagawa",
+          "text": "今川氏"
+        }
+      ],
+      "answer": "honganji",
+      "explanation": "顕如が率いる本願寺です（石山合戦）。顕如は諸国の門徒に決起を命じ、毛利氏の援助も受けて戦い続けましたが、1580年に朝廷の仲立ちで講和し、大坂を退去しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-nobunaga-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-nobunaga"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "織田信長が、延暦寺や本願寺と激しく争った背景は？",
+      "choices": [
+        {
+          "id": "power",
+          "text": "寺が武力を持ち、信長と敵対する大名と結んでいたから"
+        },
+        {
+          "id": "christian",
+          "text": "信長がキリスト教以外の宗教を禁じたから"
+        },
+        {
+          "id": "court",
+          "text": "朝廷から寺を滅ぼすよう命じられたから"
+        },
+        {
+          "id": "gun",
+          "text": "寺が鉄砲を使うことを禁じたから"
+        }
+      ],
+      "answer": "power",
+      "explanation": "延暦寺は信長と敵対する浅井・朝倉氏に味方し、本願寺は諸国の門徒を動かし、毛利氏の援助も受けていました。武力や経済力を持つ宗教勢力は、大名と並ぶ敵でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-ise-map",
+      "type": "map",
+      "itemIds": [
+        "jh-religion-ise"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "江戸時代、多くの庶民が参詣した伊勢神宮があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-24",
+      "explanation": "伊勢神宮は三重県にあります。1830年のおかげ参りでは、400万人をこえる人々が参詣したとされます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-ise-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-ise"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "江戸時代、遠く離れた伊勢への参詣が庶民にも広まった理由は？",
+      "choices": [
+        {
+          "id": "ko",
+          "text": "伊勢講で旅費を積み立てる仕組みがあり、通行手形も出やすかったから"
+        },
+        {
+          "id": "railway",
+          "text": "街道に鉄道が通り、旅が安くなったから"
+        },
+        {
+          "id": "order",
+          "text": "幕府がすべての庶民に参詣を命じたから"
+        },
+        {
+          "id": "temple",
+          "text": "寺請制度で、神社への参詣が義務になったから"
+        }
+      ],
+      "answer": "ko",
+      "explanation": "伊勢講で旅費を積み立て、くじで選ばれた代表が参詣する仕組みや、御師の活動がありました。伊勢参りを目的とする旅は、通行手形も得やすかったとされます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-directive-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-religion-shinto-directive"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "1945年、GHQが神道指令で国家と神社神道を切り離した理由は？",
+      "choices": [
+        {
+          "id": "militarism",
+          "text": "国家神道が軍国主義の源になったとみて、それを取り除くため"
+        },
+        {
+          "id": "christian",
+          "text": "日本をキリスト教の国にするため"
+        },
+        {
+          "id": "buddhism",
+          "text": "仏教を国の宗教にするため"
+        },
+        {
+          "id": "tax",
+          "text": "神社から税を集めるため"
+        }
+      ],
+      "answer": "militarism",
+      "explanation": "GHQは、国家と結びついた神社神道（国家神道）が軍国主義・超国家主義の源になったとみていました。信教の自由を確立し、軍国主義を取り除くことが目的でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-religion-directive-year",
+      "type": "year",
+      "itemIds": [
+        "jh-religion-shinto-directive"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "GHQが神道指令を出したのは何年？",
+      "answer": 1945,
+      "tolerance": 3,
+      "explanation": "1945年12月です。翌1946年に公布された日本国憲法の信教の自由や政教分離に、その考え方が引き継がれました。",
       "status": "active"
     }
   ]
