@@ -38,7 +38,7 @@ description: 学習アプリの問題データ（知識カードと問題）を�
 - `WebFetch` で読む（この環境ではシェルからの外部接続はできない）。1 枚につき少なくとも 1 つ、学説の状況（意図か結果か、定説か異説か）を書く場合は 2 つ以上の資料で確認する
 - **2 つ目の資料は Codex で探す。** Wikipedia 以外の資料が見つからない記述（特に学説の状況・「なぜ」）は、Codex の Web 検索に資料を探させる
   ```bash
-  codex --search exec -m gpt-5.6-luna --skip-git-repo-check -s read-only -o "$TMPDIR/codex-research.md" "<確認したい記述を番号付きで列挙し、Wikipedia 以外の資料（コトバンク掲載の百科事典、公的機関・博物館・寺社・大学のページ）で、判定（支持／一部支持／支持されない／確認できず）・根拠の要約・資料名と URL を答えるよう依頼する>"
+  codex --search exec -m gpt-6-luna --skip-git-repo-check -s read-only -o "$TMPDIR/codex-research.md" "<確認したい記述を番号付きで列挙し、Wikipedia 以外の資料（コトバンク掲載の百科事典、公的機関・博物館・寺社・大学のページ）で、判定（支持／一部支持／支持されない／確認できず）・根拠の要約・資料名と URL を答えるよう依頼する>"
   ```
   - 数分かかるので、確認したい記述はまとめて 1 回で依頼する
   - **Codex の回答をそのまま出典にしない。** 挙がった URL を自分で `WebFetch`（PDF は保存先を `Read`）で開き、書かれている内容を確かめたものだけを `sources` に入れる。開けなかった・読めなかった資料は使わない
