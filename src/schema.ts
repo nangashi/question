@@ -1,5 +1,6 @@
 // 問題データのスキーマ（ADR-0008）
 import { z } from "zod";
+import { parseLesson, type Lesson } from "./lesson.ts";
 
 const id = z.string().regex(/^[a-z0-9][a-z0-9-]*$/, "ID は英小文字・数字・ハイフンのみ");
 
@@ -140,12 +141,14 @@ export type RawContent = {
   categories: Record<string, unknown>; // "themeId/categoryId" -> <category>.json
   maps: Record<string, unknown>; // mapId -> map json
   assets: Set<string>; // "themeId/images/..." の存在するファイル
+  lessons: Record<string, string>; // "themeId/categoryId" -> 読み物の Markdown（ADR-0010）
 };
 
 export type ParsedContent = {
   themes: Theme[];
   categories: Map<string, CategoryContent>; // "themeId/categoryId"
   maps: Map<string, GeoMap>;
+  lessons: Map<string, Lesson>; // "themeId/categoryId"
 };
 
 /** スキーマ検証と ID の参照整合性チェック。エラーがあれば一覧を返す */
@@ -154,6 +157,7 @@ export function parseContent(raw: RawContent): { content: ParsedContent; errors:
   const themes: Theme[] = [];
   const categories = new Map<string, CategoryContent>();
   const maps = new Map<string, GeoMap>();
+  const lessons = new Map<string, Lesson>();
 
   const report = (where: string, e: z.ZodError) =>
     e.issues.forEach((i) => errors.push(`${where}: ${i.path.join(".")} ${i.message}`));
@@ -217,7 +221,16 @@ export function parseContent(raw: RawContent): { content: ParsedContent; errors:
       entries.forEach((e) => checkMedia(w, themeId, e.media));
     }
   }
-  return { content: { themes, categories, maps }, errors };
+  // 読み物（ADR-0010）
+  for (const [key, md] of Object.entries(raw.lessons)) {
+    if (!categories.has(key)) errors.push(`${key}.md: 対応する問題データ（${key}.json）がない`);
+    const { lesson, errors: lessonErrors } = parseLesson(md);
+    lessonErrors.forEach((e) => errors.push(`${key}.md: ${e}`));
+    for (const s of lesson.sections)
+      for (const ref of s.itemIds) if (!itemIds.has(ref)) errors.push(`${key}.md: 節「${s.title}」の知識カードが存在しない ${ref}`);
+    lessons.set(key, lesson);
+  }
+  return { content: { themes, categories, maps, lessons }, errors };
 }
 
 /**
@@ -227,13 +240,17 @@ export function parseContent(raw: RawContent): { content: ParsedContent; errors:
  */
 export function coverageWarnings(content: ParsedContent): string[] {
   const warnings: string[] = [];
-  for (const [key, c] of content.categories)
+  for (const [key, c] of content.categories) {
+    const lesson = content.lessons.get(key);
+    const inLesson = new Set(lesson?.sections.flatMap((s) => s.itemIds));
     for (const it of c.items) {
+      if (lesson && !inLesson.has(it.id)) warnings.push(`${key}/${it.id}: 読み物のどの節にも含まれていない`);
       const qs = c.questions.filter((q) => q.status === "active" && q.itemIds.includes(it.id));
       if (qs.length === 0) warnings.push(`${key}/${it.id}: 問題がない`);
       else if (it.why && !qs.some((q) => q.asks.includes("why")))
         warnings.push(`${key}/${it.id}: 「なぜ」を問う問題がない`);
     }
+  }
   return warnings;
 }
 

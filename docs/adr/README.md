@@ -33,6 +33,7 @@
 | [0007](0007-optional-oauth-login.md) | ログインは任意とし、Google / GitHub の OAuth でログインして同期する | 提案 |
 | [0008](0008-question-formats-and-data-model.md) | 出題形式とデータモデル（知識カードと問題の 2 層） | 承認（未実装） |
 | [0009](0009-frontend-stack.md) | フロントエンドは Vite + Preact + TypeScript、パッケージ管理は pnpm | 承認（未実装） |
+| [0010](0010-lesson-texts.md) | サブカテゴリに読み物を付け、節ごとに問題を解けるようにする | 承認（未実装） |
 
 ## テンプレート
 

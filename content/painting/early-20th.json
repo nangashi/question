@@ -1,0 +1,826 @@
+{
+  "items": [
+    {
+      "id": "pt-abstract-fauvism",
+      "title": "フォーヴィスム（野獣派）",
+      "summary": "1905年の展覧会（サロン・ドートンヌ）で、マティスらの強烈な色の絵を集めた展示室が、批評家ヴォークセルに「野獣（フォーヴ）の檻」にたとえられ、フォーヴィスムと呼ばれるようになった。",
+      "why": "色を、物の本当の色を再現するためではなく、画家の感覚を表す道具として自由に使ったためです。木の幹を赤く塗るなど、原色を大胆に使いました。",
+      "year": {
+        "from": 1905
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "people": [
+        "アンリ・マティス",
+        "アンドレ・ドラン",
+        "モーリス・ド・ヴラマンク"
+      ],
+      "tags": [
+        "フランス",
+        "フォーヴィスム"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/matisse-woman-with-a-hat.jpg",
+          "alt": "大きな帽子をかぶった女性を、緑や紫などの強い色で、荒々しい筆づかいで描いた絵",
+          "credit": "Henri Matisse, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matisse-Woman-with-a-Hat.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "フォーヴィスムが色を解き放ったのに対し、ほぼ同じころに始まったキュビスムは形を解き放ちました。",
+          "itemIds": [
+            "pt-abstract-cubism"
+          ]
+        }
+      ],
+      "sources": [
+        "Wikipedia「フォーヴィスム」 — https://ja.wikipedia.org/wiki/フォーヴィスム",
+        "コトバンク「野獣派」（世界大百科事典・旺文社世界史事典） — https://kotobank.jp/word/%E9%87%8E%E7%8D%A3%E6%B4%BE-143668"
+      ],
+      "unlockOrder": 0
+    },
+    {
+      "id": "pt-abstract-cubism",
+      "title": "キュビスム",
+      "summary": "1907年のピカソ《アビニヨンの娘たち》や、1908年のブラックの風景画から始まった。物を幾何学的な面に分解し、画面の上で組み立て直した。",
+      "why": "1つの視点から見た姿ではなく、複数の視点から捉えた物の形を、1枚の画面にまとめようとしたためです。セザンヌの形の捉え方が土台になりました。",
+      "year": {
+        "from": 1907,
+        "to": 1914,
+        "approx": true
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "people": [
+        "パブロ・ピカソ",
+        "ジョルジュ・ブラック"
+      ],
+      "tags": [
+        "フランス",
+        "キュビスム"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "キュビスムに感銘を受けたモンドリアンは、その抽象化をさらに徹底していきました。",
+          "itemIds": [
+            "pt-abstract-mondrian"
+          ]
+        }
+      ],
+      "trivia": "名前は、批評家ヴォークセルが「ブラックは一切を立方体（キューブ）に還元する」と評したことからきているとされます。",
+      "sources": [
+        "Wikipedia「キュビスム」 — https://ja.wikipedia.org/wiki/キュビスム"
+      ],
+      "unlockOrder": 1
+    },
+    {
+      "id": "pt-abstract-kandinsky",
+      "title": "カンディンスキーと抽象絵画",
+      "summary": "カンディンスキーは1910年ごろから、物の形を描かない抽象絵画を手がけた。作品に「コンポジション」「インプロヴィゼーション」という、音楽のような題をつけた。",
+      "why": "音楽が音だけで人の心を動かすように、絵画も物を描かず、色と形だけで見る人の心に働きかけられると考えたためです。",
+      "year": {
+        "from": 1910,
+        "to": 1913
+      },
+      "people": [
+        "ワシリー・カンディンスキー"
+      ],
+      "tags": [
+        "ドイツ",
+        "ロシア",
+        "抽象絵画"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/kandinsky-composition-7.jpg",
+          "alt": "物の形は描かれず、色とりどりの形や線が画面いっぱいに渦巻くように重なり合う絵",
+          "credit": "Wassily Kandinsky, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1913_-_Composition_7.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "数年後の1915年、ロシアのマレーヴィチは、黒い正方形だけの絵を発表します。",
+          "itemIds": [
+            "pt-abstract-malevich"
+          ]
+        }
+      ],
+      "trivia": "1911年、画家フランツ・マルクとともに「青騎士」というグループを結成しました。",
+      "sources": [
+        "Wikipedia「ワシリー・カンディンスキー」 — https://ja.wikipedia.org/wiki/ワシリー・カンディンスキー",
+        "京都国立近代美術館「カンディンスキー展」 — https://www.momak.go.jp/Japanese/exhibitionArchive/1987/185.html"
+      ],
+      "unlockOrder": 2
+    },
+    {
+      "id": "pt-abstract-malevich",
+      "title": "マレーヴィチ《黒の正方形》",
+      "summary": "1915年、マレーヴィチはペトログラードの「0,10」展で、白い地に黒い正方形だけを描いた《黒の正方形》を発表した。",
+      "why": "自然の物を描くことをやめ、色や形そのものによる純粋な感覚を表そうとしたためです。この考えをシュプレマティスムと呼びます。",
+      "year": {
+        "from": 1915
+      },
+      "place": {
+        "name": "ペトログラード（ロシア）"
+      },
+      "people": [
+        "カジミール・マレーヴィチ"
+      ],
+      "tags": [
+        "ロシア",
+        "抽象絵画"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/malevich-black-square.jpg",
+          "alt": "白い地の中央に、黒い正方形がひとつだけ描かれた絵",
+          "credit": "Kazimir Malevich, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "オランダのモンドリアンも、垂直・水平の線と三原色だけで、物を描かない絵を追求しました。",
+          "itemIds": [
+            "pt-abstract-mondrian"
+          ]
+        }
+      ],
+      "trivia": "展覧会では、ロシアの家庭で聖像画（イコン）を飾る「部屋の隅の天井近く」に掛けられました。",
+      "sources": [
+        "Wikipedia「黒の正方形」 — https://ja.wikipedia.org/wiki/黒の正方形",
+        "ティッセン＝ボルネミッサ美術館「Kazimir Malevich」 — https://www.museothyssen.org/en/collection/artists/malevich-kazimir"
+      ],
+      "unlockOrder": 3
+    },
+    {
+      "id": "pt-abstract-mondrian",
+      "title": "モンドリアン",
+      "summary": "モンドリアンは、水平と垂直の直線で画面を分け、赤・青・黄の三原色と白・黒などだけを使って描いた。1917年には雑誌『デ・ステイル』の創刊に加わった。",
+      "why": "宇宙の調和や純粋なリアリティを表すには、完全に抽象的な芸術が必要だと考えたためです。キュビスムの抽象化はまだ徹底していないと考え、さらに推し進めました。",
+      "year": {
+        "from": 1917,
+        "to": 1944
+      },
+      "people": [
+        "ピエト・モンドリアン"
+      ],
+      "tags": [
+        "オランダ",
+        "抽象絵画"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/mondrian-composition-1930.jpg",
+          "alt": "黒い水平・垂直の線で画面が区切られ、大きな赤の四角と、小さな青と黄の四角がある絵",
+          "credit": "Piet Mondrian, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "第二次世界大戦後、抽象絵画の中心はアメリカのニューヨークへ移っていきます。",
+          "itemIds": [
+            "pt-abstract-abstract-expressionism"
+          ]
+        }
+      ],
+      "trivia": "晩年に移り住んだニューヨークで、ジャズの一種ブギウギに触発され《ブロードウェイ・ブギウギ》を描きました。",
+      "sources": [
+        "Wikipedia「ピエト・モンドリアン」 — https://ja.wikipedia.org/wiki/ピエト・モンドリアン"
+      ],
+      "unlockOrder": 4
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-pt-abstract-cubism-root",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-cubism",
+        "pt-abstract-cezanne"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "物を幾何学的な面に分解して描くキュビスムの、土台になったとされる画家は？",
+      "choices": [
+        {
+          "id": "cezanne",
+          "text": "セザンヌ"
+        },
+        {
+          "id": "monet",
+          "text": "モネ"
+        },
+        {
+          "id": "renoir",
+          "text": "ルノワール"
+        },
+        {
+          "id": "cabanel",
+          "text": "カバネル"
+        }
+      ],
+      "answer": "cezanne",
+      "explanation": "セザンヌです。自然を円筒・球・円錐として捉える考えや、形を組み立てる描き方が、ピカソやブラックのキュビスムに受け継がれました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-fauvism-image",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-fauvism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "この絵の画家が中心となった、1905年に「野獣」と呼ばれた動きは？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/matisse-woman-with-a-hat.jpg",
+          "alt": "大きな帽子をかぶった女性を、緑や紫などの強い色で、荒々しい筆づかいで描いた絵",
+          "credit": "Henri Matisse, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matisse-Woman-with-a-Hat.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム（野獣派）"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        },
+        {
+          "id": "suprematism",
+          "text": "シュプレマティスム"
+        }
+      ],
+      "answer": "fauvism",
+      "explanation": "マティスの《帽子の女》（1905年）で、フォーヴィスム（野獣派）の代表作です。顔や服に、見たままとは違う緑や紫などの強い色が使われています。名前は、批評家が展示室を「野獣の檻」にたとえたことに由来します。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-fauvism-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-fauvism"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "フォーヴィスム（野獣派）の中心となった画家は？",
+      "choices": [
+        {
+          "id": "matisse",
+          "text": "マティス"
+        },
+        {
+          "id": "picasso",
+          "text": "ピカソ"
+        },
+        {
+          "id": "kandinsky",
+          "text": "カンディンスキー"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        }
+      ],
+      "answer": "matisse",
+      "explanation": "マティスです。ドランやヴラマンクらとともに、原色を大胆に使った絵を描きました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-fauvism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-fauvism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "フォーヴィスムの画家が、木の幹を赤く塗るような色の使い方をしたのはなぜ？",
+      "choices": [
+        {
+          "id": "feeling",
+          "text": "色を、物の色の再現ではなく、画家の感覚を表す道具として使ったから"
+        },
+        {
+          "id": "light",
+          "text": "夕日に照らされた幹を正確に写したから"
+        },
+        {
+          "id": "paint",
+          "text": "赤い絵具しか手に入らなかったから"
+        },
+        {
+          "id": "symbol",
+          "text": "赤い幹が、宗教的な決まりだったから"
+        }
+      ],
+      "answer": "feeling",
+      "explanation": "それまで色は、物の本当の色を再現するために使うものでした。フォーヴィスムの画家は、色を、自分の感覚を表す道具として自由に使いました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-cubism-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-cubism"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "1907年に《アビニヨンの娘たち》を描き、ブラックとともにキュビスムを始めた画家は？",
+      "choices": [
+        {
+          "id": "picasso",
+          "text": "ピカソ"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        },
+        {
+          "id": "cezanne",
+          "text": "セザンヌ"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        }
+      ],
+      "answer": "picasso",
+      "explanation": "ピカソです。1908年にはブラックも、物を幾何学的な形で描いた風景画を発表しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-cubism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-cubism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "キュビスムの絵で、物がいくつもの面に分かれて見えるのはなぜ？",
+      "choices": [
+        {
+          "id": "viewpoints",
+          "text": "複数の視点から見た形を、1枚の画面にまとめたから"
+        },
+        {
+          "id": "broken",
+          "text": "割れたガラス越しに見た景色を描いたから"
+        },
+        {
+          "id": "fast",
+          "text": "速く描くため、細部を省いたから"
+        },
+        {
+          "id": "light",
+          "text": "光の反射を一瞬で捉えたから"
+        }
+      ],
+      "answer": "viewpoints",
+      "explanation": "それまでの絵は、1つの視点から見た姿を遠近法で描いていました。キュビスムは、複数の視点から捉えた形を分解し、1枚の画面に組み立て直しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-kandinsky-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-kandinsky"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "物の形を描かず、色と形だけで描かれたこの絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/kandinsky-composition-7.jpg",
+          "alt": "物の形は描かれず、色とりどりの形や線が画面いっぱいに渦巻くように重なり合う絵",
+          "credit": "Wassily Kandinsky, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1913_-_Composition_7.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "kandinsky",
+          "text": "カンディンスキー"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        },
+        {
+          "id": "malevich",
+          "text": "マレーヴィチ"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        }
+      ],
+      "answer": "kandinsky",
+      "explanation": "カンディンスキーの《コンポジションVII》（1913年）です。「コンポジション（作曲）」という音楽のような題がつけられています。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-kandinsky-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-kandinsky"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "ロシア出身の画家カンディンスキーが、作品に「コンポジション」「インプロヴィゼーション」のような音楽の言葉を題につけたことが示す、目指したものは？",
+      "choices": [
+        {
+          "id": "music",
+          "text": "音楽のように、色と形だけで見る人の心に働きかける絵"
+        },
+        {
+          "id": "score",
+          "text": "楽譜をそのまま絵にすること"
+        },
+        {
+          "id": "concert",
+          "text": "演奏会のポスターとして使うこと"
+        },
+        {
+          "id": "realistic",
+          "text": "音楽家の姿を本物らしく描くこと"
+        }
+      ],
+      "answer": "music",
+      "explanation": "音楽が音だけで人の心を動かすように、物を描かず、色と形だけで見る人の心に働きかける絵画を目指しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-kandinsky-year",
+      "type": "year",
+      "itemIds": [
+        "pt-abstract-kandinsky"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "カンディンスキーが、物の形を描かない抽象絵画を手がけ始めたのは何年ごろ？",
+      "answer": 1910,
+      "tolerance": 5,
+      "explanation": "1910年ごろです。フォーヴィスム（1905年）やキュビスム（1907年）の数年後で、第一次世界大戦（1914年）の少し前にあたります。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-malevich-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-malevich"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "1915年に発表された、この絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/malevich-black-square.jpg",
+          "alt": "白い地の中央に、黒い正方形がひとつだけ描かれた絵",
+          "credit": "Kazimir Malevich, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "malevich",
+          "text": "マレーヴィチ"
+        },
+        {
+          "id": "kandinsky",
+          "text": "カンディンスキー"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        },
+        {
+          "id": "picasso",
+          "text": "ピカソ"
+        }
+      ],
+      "answer": "malevich",
+      "explanation": "マレーヴィチの《黒の正方形》です。白い地に黒い正方形だけが描かれ、物は何も描かれていません。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-malevich-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-malevich"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "ロシアで活動した画家マレーヴィチが、《黒の正方形》で物を何も描かなかったのはなぜ？",
+      "choices": [
+        {
+          "id": "pure",
+          "text": "物の描写を捨て、色や形そのものによる純粋な感覚を表そうとしたから"
+        },
+        {
+          "id": "unfinished",
+          "text": "未完成のまま展覧会に出したから"
+        },
+        {
+          "id": "censor",
+          "text": "物を描くことが法律で禁じられていたから"
+        },
+        {
+          "id": "cheap",
+          "text": "黒い絵具が一番安かったから"
+        }
+      ],
+      "answer": "pure",
+      "explanation": "自然の物を描くことをやめ、色や形そのものによる純粋な感覚を表そうとしたためです。マレーヴィチはこれをシュプレマティスムと呼びました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-mondrian-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-mondrian"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "水平・垂直の線と、赤・青・黄の色面だけで描かれた、この絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/mondrian-composition-1930.jpg",
+          "alt": "黒い水平・垂直の線で画面が区切られ、大きな赤の四角と、小さな青と黄の四角がある絵",
+          "credit": "Piet Mondrian, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        },
+        {
+          "id": "malevich",
+          "text": "マレーヴィチ"
+        },
+        {
+          "id": "kandinsky",
+          "text": "カンディンスキー"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        }
+      ],
+      "answer": "mondrian",
+      "explanation": "モンドリアンの《赤・青・黄のコンポジション》（1930年）です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-mondrian-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-mondrian"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "オランダの画家モンドリアンが、水平・垂直の線と三原色だけで描いたのはなぜ？",
+      "choices": [
+        {
+          "id": "harmony",
+          "text": "宇宙の調和を表すには、完全に抽象的な芸術が必要だと考えたから"
+        },
+        {
+          "id": "design",
+          "text": "建物の設計図として使うため"
+        },
+        {
+          "id": "flag",
+          "text": "オランダの国旗の色を広めるため"
+        },
+        {
+          "id": "cheap",
+          "text": "絵具を節約するため"
+        }
+      ],
+      "answer": "harmony",
+      "explanation": "宇宙の調和や純粋なリアリティを表すには、完全に抽象的な芸術が必要だと考えたためです。キュビスムの抽象化を、さらに徹底しようとしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-order-movements",
+      "type": "order",
+      "itemIds": [
+        "pt-abstract-impressionism",
+        "pt-abstract-fauvism",
+        "pt-abstract-cubism",
+        "pt-abstract-malevich"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "impressionism",
+          "text": "第1回印象派展が開かれる"
+        },
+        {
+          "id": "fauvism",
+          "text": "マティスらが「野獣」と呼ばれる"
+        },
+        {
+          "id": "cubism",
+          "text": "ピカソが《アビニヨンの娘たち》を描く"
+        },
+        {
+          "id": "malevich",
+          "text": "マレーヴィチが《黒の正方形》を発表する"
+        }
+      ],
+      "answer": [
+        "impressionism",
+        "fauvism",
+        "cubism",
+        "malevich"
+      ],
+      "explanation": "1874年 第1回印象派展 → 1905年 フォーヴィスム → 1907年 キュビスムの始まり → 1915年《黒の正方形》。光、色、形と、見たままから一つずつ離れていき、ついに物を描かない絵に至りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-match-movements",
+      "type": "match",
+      "itemIds": [
+        "pt-abstract-impressionism",
+        "pt-abstract-fauvism",
+        "pt-abstract-cubism",
+        "pt-abstract-mondrian"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "画家と、その画家が中心となった動きを結ぼう",
+      "left": [
+        {
+          "id": "monet",
+          "text": "モネ"
+        },
+        {
+          "id": "matisse",
+          "text": "マティス"
+        },
+        {
+          "id": "picasso",
+          "text": "ピカソ"
+        },
+        {
+          "id": "mondrian",
+          "text": "モンドリアン"
+        }
+      ],
+      "right": [
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        },
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        },
+        {
+          "id": "de-stijl",
+          "text": "デ・ステイル"
+        }
+      ],
+      "pairs": [
+        [
+          "monet",
+          "impressionism"
+        ],
+        [
+          "matisse",
+          "fauvism"
+        ],
+        [
+          "picasso",
+          "cubism"
+        ],
+        [
+          "mondrian",
+          "de-stijl"
+        ]
+      ],
+      "explanation": "モネは印象派、マティスはフォーヴィスム、ピカソはキュビスム、モンドリアンは雑誌『デ・ステイル』を拠点にした抽象絵画の中心となりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-classify-features",
+      "type": "classify",
+      "itemIds": [
+        "pt-abstract-impressionism",
+        "pt-abstract-fauvism",
+        "pt-abstract-cubism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "描き方の特徴を、動きごとに分けよう",
+      "buckets": [
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        },
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        }
+      ],
+      "entries": [
+        {
+          "id": "outdoor",
+          "text": "戸外で、光の一瞬を捉える",
+          "bucket": "impressionism"
+        },
+        {
+          "id": "multi",
+          "text": "複数の視点から見た形をまとめる",
+          "bucket": "cubism"
+        },
+        {
+          "id": "primary",
+          "text": "原色を大胆に使う",
+          "bucket": "fauvism"
+        },
+        {
+          "id": "touch",
+          "text": "筆のタッチを残して色を重ねる",
+          "bucket": "impressionism"
+        },
+        {
+          "id": "planes",
+          "text": "物を幾何学的な面に分解する",
+          "bucket": "cubism"
+        },
+        {
+          "id": "free-color",
+          "text": "物の本当の色にとらわれずに塗る",
+          "bucket": "fauvism"
+        }
+      ],
+      "explanation": "印象派は光の一瞬を、フォーヴィスムは色の自由を、キュビスムは形の組み立て直しを追求しました。見たままから離れる方向が、それぞれ違います。",
+      "status": "active"
+    }
+  ]
+}

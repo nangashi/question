@@ -8,7 +8,17 @@ const assetFiles = import.meta.glob<string>("/content/**/*.{jpg,jpeg,png,webp,sv
   import: "default",
 });
 
-const raw: RawContent = { themes: {}, categories: {}, maps: {}, assets: new Set() };
+const lessonFiles = import.meta.glob<string>(["/content/**/*.md", "!/content/**/*.notes.md"], {
+  eager: true,
+  query: "?raw",
+  import: "default",
+});
+
+const raw: RawContent = { themes: {}, categories: {}, maps: {}, assets: new Set(), lessons: {} };
+for (const [path, md] of Object.entries(lessonFiles)) {
+  const [top, name] = path.replace("/content/", "").split("/");
+  if (top && name) raw.lessons[`${top}/${name.replace(/\.md$/, "")}`] = md;
+}
 for (const [path, json] of Object.entries(jsonFiles)) {
   const [top, name] = path.replace("/content/", "").split("/");
   if (!top || !name) continue;
@@ -50,6 +60,17 @@ export function yearRange(themeId: string, categoryId: string): [number, number]
     it.year ? [it.year.from, it.year.to ?? it.year.from] : [],
   );
   return years.length > 0 ? [Math.min(...years), Math.max(...years)] : undefined;
+}
+
+export const getLesson = (themeId: string, categoryId: string) => content.lessons.get(`${themeId}/${categoryId}`);
+
+/** 知識カードを含む読み物の節 */
+export function sectionOfItem(itemId: string) {
+  const ref = itemIndex.get(itemId)?.ref;
+  if (!ref) return undefined;
+  const lesson = content.lessons.get(ref.key);
+  const section = lesson?.sections.find((s) => s.itemIds.includes(itemId));
+  return section && { ref, section, total: lesson!.sections.length };
 }
 
 /** media の src（テーマからの相対パス）を URL に変換。画像がなければ undefined */

@@ -1,6 +1,7 @@
-import { activeQuestions, getCategory, getItem, getTheme, yearRange } from "../content";
+import { activeQuestions, getCategory, getItem, getLesson, getTheme, yearRange } from "../content";
 import { distribution, stars } from "../mockProgress";
 import { href } from "../router";
+import { sectionLength } from "../lesson";
 import { BackLink, PlayLink, Screen, StarBar, StarCounts, Stars } from "../ui";
 
 export function CategoryScreen({ themeId, categoryId }: { themeId: string; categoryId: string }) {
@@ -10,6 +11,7 @@ export function CategoryScreen({ themeId, categoryId }: { themeId: string; categ
   if (!theme || !cat || !data) return <Screen>サブカテゴリが見つかりません</Screen>;
   const qs = activeQuestions((r) => r.key === `${themeId}/${categoryId}`);
   const range = yearRange(themeId, categoryId);
+  const lesson = getLesson(themeId, categoryId);
   const d = distribution(qs);
   // ほかのサブカテゴリ・テーマとのつながりの数
   const outer = new Map<string, number>();
@@ -29,6 +31,25 @@ export function CategoryScreen({ themeId, categoryId }: { themeId: string; categ
       <h1 class="title">{cat.name}</h1>
       {cat.description && <p class="lead">{cat.description}</p>}
       {range && <span class="muted small">{range[0]}〜{range[1]}</span>}
+      {lesson && (
+        <section class="card">
+          <div class="row between">
+            <span class="card-title">読み物</span>
+            <span class="muted small">全{lesson.sections.length}節・約{Math.max(1, Math.round(lesson.sections.reduce((n, s) => n + sectionLength(s), 0) / 500))}分</span>
+          </div>
+          <p class="muted small" style={{ margin: 0 }}>流れを読んでから、節ごとに問題を解けます。読まずに解いてもかまいません。</p>
+          <ol class="section-list">
+            {lesson.sections.map((s) => (
+              <li key={s.index}>
+                <a href={href.read(themeId, categoryId, s.index)}>
+                  <span class="muted tiny">第{s.index}節</span> {s.title}
+                </a>
+              </li>
+            ))}
+          </ol>
+          <a class="btn ghost" href={href.read(themeId, categoryId, 1)}>最初から読む</a>
+        </section>
+      )}
       <section class="card">
         <StarBar d={d} thick />
         <StarCounts d={d} />

@@ -1,0 +1,161 @@
+{
+  "items": [
+    {
+      "id": "pt-abstract-abstract-expressionism",
+      "title": "抽象表現主義",
+      "summary": "1940年代後半、アメリカのニューヨークで広がった抽象絵画の動き。ポロックは、床に置いたキャンバスの上を動き回り、絵具を垂らしたり撥ねかけたりして描いた。",
+      "why": "何を描いたかよりも、描く行為そのものを画面に残そうとしたためです。批評家ローゼンバーグは、こうした絵をアクション・ペインティングと呼びました。",
+      "year": {
+        "from": 1947,
+        "to": 1960,
+        "approx": true
+      },
+      "place": {
+        "name": "ニューヨーク"
+      },
+      "people": [
+        "ジャクソン・ポロック",
+        "マーク・ロスコ"
+      ],
+      "tags": [
+        "アメリカ",
+        "抽象絵画"
+      ],
+      "trivia": "戦前はアメリカの画家がパリへ学びに行くのが一般的でしたが、戦後はニューヨークが、パリに代わって美術の中心地になりました。",
+      "sources": [
+        "Wikipedia「抽象表現主義」 — https://ja.wikipedia.org/wiki/抽象表現主義"
+      ],
+      "unlockOrder": 0
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-pt-abstract-pollock-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-abstract-expressionism"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "1940年代後半のアメリカで、床に置いた大きなキャンバスの上を動き回り、絵具を垂らしたり撥ねかけたりして描いた画家は？",
+      "choices": [
+        {
+          "id": "pollock",
+          "text": "ジャクソン・ポロック"
+        },
+        {
+          "id": "mondrian",
+          "text": "ピエト・モンドリアン"
+        },
+        {
+          "id": "kandinsky",
+          "text": "ワシリー・カンディンスキー"
+        },
+        {
+          "id": "matisse",
+          "text": "アンリ・マティス"
+        }
+      ],
+      "answer": "pollock",
+      "explanation": "アメリカの画家ジャクソン・ポロックです。絵筆でキャンバスに描くのではなく、床に広げたキャンバスに絵具を垂らしていく描き方で、抽象表現主義を代表する画家になりました。モンドリアンとカンディンスキーはヨーロッパで抽象絵画を切り開いた画家、マティスはフォーヴィスムの画家です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-action-painting",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-abstract-expressionism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "アメリカの画家ポロックのように、描く行為そのものを強く感じさせる絵画を、批評家ローゼンバーグは何と呼んだ？",
+      "choices": [
+        {
+          "id": "action",
+          "text": "アクション・ペインティング"
+        },
+        {
+          "id": "fauvism",
+          "text": "フォーヴィスム"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスム"
+        },
+        {
+          "id": "impressionism",
+          "text": "印象派"
+        }
+      ],
+      "answer": "action",
+      "explanation": "アクション・ペインティングです。何を描いたかより、画家がキャンバスの上で行った行為を感じさせる絵画という意味です。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-abstract-expressionism-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-abstract-expressionism"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "アメリカの画家ポロックは、床に置いた大きなキャンバスの上を動き回り、絵具を垂らしたり撥ねかけたりして描いた。そのねらいは？",
+      "choices": [
+        {
+          "id": "act",
+          "text": "描く行為そのものを、画面に残すため"
+        },
+        {
+          "id": "fast",
+          "text": "速く大量に描いて売るため"
+        },
+        {
+          "id": "realistic",
+          "text": "床の模様を本物らしく写すため"
+        },
+        {
+          "id": "accident",
+          "text": "絵具をこぼした失敗を隠すため"
+        }
+      ],
+      "answer": "act",
+      "explanation": "何を描いたかよりも、描く行為そのものを画面に残そうとしたためです。物を描かない抽象絵画は、ここで「描く行為」にまで広がりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-abstract-new-york",
+      "type": "choice",
+      "itemIds": [
+        "pt-abstract-abstract-expressionism"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "第二次世界大戦のあと、美術の中心地はパリからどの都市へ移った？",
+      "choices": [
+        {
+          "id": "ny",
+          "text": "ニューヨーク"
+        },
+        {
+          "id": "london",
+          "text": "ロンドン"
+        },
+        {
+          "id": "berlin",
+          "text": "ベルリン"
+        },
+        {
+          "id": "rome",
+          "text": "ローマ"
+        }
+      ],
+      "answer": "ny",
+      "explanation": "ニューヨークです。戦前はアメリカの画家がパリへ学びに行くのが一般的でしたが、戦後は抽象表現主義の広がりとともに、ニューヨークが美術の中心になりました。",
+      "status": "active"
+    }
+  ]
+}

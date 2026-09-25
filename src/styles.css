@@ -300,3 +300,17 @@ img { max-width: 100%; display: block; }
 .link-row:active { background: var(--soft); }
 .chevron { color: var(--muted); font-size: 20px; }
 .axis { padding: 2px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-size: 11px; font-weight: 700; }
+
+/* 読み物（ADR-0010） */
+.lesson-head { display: flex; flex-direction: column; gap: 8px; }
+.lesson { padding: 20px 18px; }
+.lesson-body { display: flex; flex-direction: column; gap: 14px; }
+.lesson-body p { margin: 0; font-size: 16px; line-height: 1.95; }
+.lesson-body ul { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.8; }
+.lesson-body strong { background: linear-gradient(transparent 62%, #f5e3a8 62%); font-weight: 700; }
+.section-list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; }
+.section-list li a { display: block; padding: 10px 0; border-bottom: 1px solid #efece6; font-size: 15px; }
+.section-list li:last-child a { border-bottom: none; }
+.reread summary { cursor: pointer; font-size: 14px; font-weight: 700; color: var(--accent); min-height: 44px; display: flex; align-items: center; }
+.reread[open] summary { margin-bottom: 8px; }
+.reread .lesson-body p { font-size: 14px; line-height: 1.85; }

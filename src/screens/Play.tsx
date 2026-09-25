@@ -1,5 +1,6 @@
 import { useEffect, useState } from "preact/hooks";
-import { getItem, getQuestion, getTheme } from "../content";
+import { getItem, getLesson, getQuestion, getTheme, sectionOfItem } from "../content";
+import { LessonBody } from "../lessonView";
 import { labelOf, QuestionView } from "../formats";
 import { grade, toRating, type Grade, type Response } from "../grading";
 import { href } from "../router";
@@ -54,6 +55,8 @@ export function Play({ scope, sessionId }: { scope: string; sessionId?: string }
   const why = q.itemIds.length === 1 && !q.asks.includes("why") ? getItem(q.itemIds[0]!)?.item.why : undefined;
   // 出題中はつながりから別の画面へ移らない（戻ると出題がやり直しになり、流れも途切れるため）
   const links = LinkList({ itemIds: q.itemIds, navigable: false });
+  // 読み物の該当する節を、画面を移動せずにその場で読み返せるようにする（ADR-0010）
+  const sec = sectionOfItem(q.itemIds[0]!);
 
   return (
     <Screen>
@@ -91,6 +94,16 @@ export function Play({ scope, sessionId }: { scope: string; sessionId?: string }
               sections={[
                 { label: "解説", icon: "book", body: <p class="body">{q.explanation}</p> },
                 { label: "なぜ", icon: "why", body: why && <p class="body">{why}</p> },
+                {
+                  label: "読み物",
+                  icon: "note",
+                  body: sec && (
+                    <details class="reread">
+                      <summary>第{sec.section.index}節「{sec.section.title}」を読み返す</summary>
+                      <LessonBody blocks={sec.section.blocks} />
+                    </details>
+                  ),
+                },
                 { label: "つながり", icon: "link", body: links },
                 { label: "へぇ", icon: "bulb", body: trivia && <p class="body">{trivia}</p> },
               ]}
@@ -164,6 +177,7 @@ function Summary({ questions, results, scope }: { questions: ReturnType<typeof p
           );
         })}
       </div>
+      <NextReading scope={scope} />
       <h2 class="section">進捗を見る</h2>
       <div class="stack tight">
         {cats.map((c) => (
@@ -180,5 +194,22 @@ function Summary({ questions, results, scope }: { questions: ReturnType<typeof p
         <a class="btn primary big" href={href.play(scope)}>もう5問</a>
       </div>
     </Screen>
+  );
+}
+
+/** 読み物の節の問題を解き終えたら、次の節へ進めるようにする */
+function NextReading({ scope }: { scope: string }) {
+  if (!scope.startsWith("sec:")) return null;
+  const [themeId = "", categoryId = "", n = "1"] = scope.slice(4).split("/");
+  const lesson = getLesson(themeId, categoryId);
+  const next = lesson?.sections.find((s) => s.index === Number(n) + 1);
+  return next ? (
+    <a class="btn primary big" href={href.read(themeId, categoryId, next.index)}>
+      次の節を読む：{next.title}
+    </a>
+  ) : (
+    <a class="btn ghost big" href={href.category(themeId, categoryId)}>
+      読み物を読み終えました
+    </a>
   );
 }

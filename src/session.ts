@@ -1,5 +1,5 @@
 // 学習セッションに出す問題を選ぶ
-import { activeQuestions, questionRef, type CategoryRef } from "./content";
+import { activeQuestions, getLesson, questionRef, type CategoryRef } from "./content";
 import { isDue, stars } from "./mockProgress";
 import type { Question } from "./schema";
 
@@ -11,10 +11,15 @@ export const SESSION_SIZE = 5;
  *   theme:<themeId>          テーマ全体
  *   cat:<themeId>/<catId>    サブカテゴリ
  *   item:<itemId>            知識カード
+ *   sec:<themeId>/<catId>/<n>  読み物の第 n 節（ADR-0010）
  *   formats                  全出題形式のお試し（モック用）
  */
 export function pickQuestions(scope: string): Question[] {
   if (scope === "formats") return oneOfEachFormat();
+  if (scope.startsWith("sec:")) {
+    const [themeId = "", categoryId = "", n = "1"] = scope.slice(4).split("/");
+    return shuffle(sectionQuestions(themeId, categoryId, Number(n)));
+  }
   const [kind, arg = ""] = scope.split(/:(.*)/s);
   const filter = (ref: CategoryRef) =>
     kind === "theme" ? ref.themeId === arg : kind === "cat" ? ref.key === arg : true;
@@ -24,6 +29,18 @@ export function pickQuestions(scope: string): Question[] {
   const due = shuffle(pool.filter(isDue));
   const rest = shuffle(pool.filter((q) => !isDue(q))).sort((a, b) => stars(a) - stars(b));
   return [...due, ...rest].slice(0, SESSION_SIZE);
+}
+
+/** 読み物の節が扱う知識カードに関わる問題（まとめ問題は、すべての知識カードがこの節までに出てきたものだけ） */
+export function sectionQuestions(themeId: string, categoryId: string, section: number): Question[] {
+  const lesson = getLesson(themeId, categoryId);
+  const s = lesson?.sections.find((x) => x.index === section);
+  if (!lesson || !s) return [];
+  const here = new Set(s.itemIds);
+  const soFar = new Set(lesson.sections.filter((x) => x.index <= section).flatMap((x) => x.itemIds));
+  return activeQuestions((r) => r.key === `${themeId}/${categoryId}`).filter(
+    (q) => q.itemIds.some((id) => here.has(id)) && q.itemIds.every((id) => soFar.has(id)),
+  );
 }
 
 function oneOfEachFormat(): Question[] {

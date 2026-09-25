@@ -1,16 +1,46 @@
 {
   "id": "painting",
-  "name": "絵画",
+  "name": "西洋絵画史",
   "categories": [
     {
-      "id": "baroque-light",
-      "name": "バロック絵画の光と影",
-      "description": "17世紀の画家たちは、光と影で何を描こうとしたのか"
+      "id": "overview",
+      "name": "西洋絵画の流れ（全体像）",
+      "description": "絵画は何を、どう描いてきたのか"
     },
     {
-      "id": "toward-abstraction",
-      "name": "抽象絵画への道",
+      "id": "ancient-medieval",
+      "name": "古代・中世",
+      "description": "絵は何のために描かれてきたのか"
+    },
+    {
+      "id": "renaissance",
+      "name": "ルネサンス",
+      "description": "画家はどうやって、本物そっくりの世界を描けるようになったのか"
+    },
+    {
+      "id": "baroque",
+      "name": "バロック・ロココ",
+      "description": "光と劇的な表現で、何を伝えようとしたのか"
+    },
+    {
+      "id": "neoclassicism-realism",
+      "name": "新古典主義・ロマン主義・写実主義",
+      "description": "革命と近代化の時代に、絵画は何を描くべきだったのか"
+    },
+    {
+      "id": "impressionism",
+      "name": "印象派とその後",
+      "description": "見たままの光を描くとは、どういうことか"
+    },
+    {
+      "id": "early-20th",
+      "name": "20世紀前半の革新",
       "description": "絵画はなぜ、見たままを描くことをやめたのか"
+    },
+    {
+      "id": "postwar",
+      "name": "戦後から現代",
+      "description": "何が芸術なのか"
     }
   ]
 }

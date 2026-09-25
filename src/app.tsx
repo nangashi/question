@@ -3,6 +3,7 @@ import { useRoute } from "./router";
 import { CategoryScreen } from "./screens/CategoryScreen";
 import { Home } from "./screens/Home";
 import { ItemScreen } from "./screens/ItemScreen";
+import { LessonScreen } from "./screens/LessonScreen";
 import { Play } from "./screens/Play";
 import { ThemeScreen } from "./screens/ThemeScreen";
 
@@ -21,6 +22,7 @@ export function App() {
       {route.name === "category" && <CategoryScreen themeId={route.themeId} categoryId={route.categoryId} />}
       {route.name === "play" && <Play key={`${route.scope}/${route.sessionId ?? ""}`} scope={route.scope} sessionId={route.sessionId} />}
       {route.name === "item" && <ItemScreen itemId={route.itemId} />}
+      {route.name === "read" && <LessonScreen key={`${route.categoryId}/${route.section}`} themeId={route.themeId} categoryId={route.categoryId} section={route.section} />}
     </>
   );
 }
