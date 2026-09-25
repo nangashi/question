@@ -201,6 +201,31 @@
       "status": "active"
     },
     {
+      "id": "q-pt-baroque-meninas-mirror",
+      "type": "choice",
+      "itemIds": ["pt-baroque-las-meninas"],
+      "prompt": "この絵の奥の壁にかかった鏡に映っているのは誰？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/las-meninas.jpg",
+          "alt": "宮廷の部屋に王女と侍女たち、画家などが描かれ、奥の壁に小さな鏡がかかっている絵",
+          "credit": "Diego Velázquez, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg"
+        }
+      ],
+      "choices": [
+        { "id": "king-queen", "text": "国王フェリペ4世と王妃" },
+        { "id": "painter", "text": "画家ベラスケス" },
+        { "id": "infanta", "text": "王女マルガリータ" },
+        { "id": "courtiers", "text": "侍女たち" }
+      ],
+      "answer": "king-queen",
+      "explanation": "鏡には国王フェリペ4世と王妃マリアナが映っています。二人は絵の手前、ちょうど見る人の位置に立っていると考えられます。",
+      "status": "active"
+    },
+    {
       "id": "q-pt-baroque-match-artist",
       "type": "match",
       "itemIds": ["pt-baroque-calling-of-matthew", "pt-baroque-night-watch", "pt-baroque-las-meninas", "pt-baroque-milkmaid"],

@@ -19,7 +19,8 @@ export const mediaSchema = z.object({
   credit: z.string().optional(),
   license: z.string().optional(),
   sourceUrl: z.url().optional(),
-  markers: z.array(markerSchema).min(2).optional(),
+  // 部分指定用のマーカー。3〜4 個まで（docs/content-guide.md）
+  markers: z.array(markerSchema).min(2).max(4).optional(),
 });
 
 export const linkAxisSchema = z.enum(["時代", "地理", "因果", "人物", "比較"]);
@@ -198,6 +199,9 @@ export function parseContent(raw: RawContent): { content: ParsedContent; errors:
   return { content: { themes, categories, maps }, errors };
 }
 
+/** マーカー同士の最小距離（画像サイズに対する比率） */
+export const MIN_MARKER_DISTANCE = 0.1;
+
 function dupIds(list: { id: string }[]): string[] {
   const seen = new Set<string>();
   return list.filter((e) => (seen.has(e.id) ? true : (seen.add(e.id), false))).map((e) => e.id);
@@ -216,6 +220,13 @@ function checkQuestion(w: string, q: Question, maps: Map<string, GeoMap>): strin
         const mk = ids(markers);
         if (q.choices.some((c) => !mk.has(c.id)) || markers.length !== q.choices.length)
           errs.push(`${w}: マーカーと選択肢の ID が一致しない`);
+        // マーカー同士が近すぎると、タップも見分けも難しい
+        for (let i = 0; i < markers.length; i++)
+          for (let j = i + 1; j < markers.length; j++) {
+            const a = markers[i]!, b = markers[j]!;
+            if (Math.hypot(a.x - b.x, a.y - b.y) < MIN_MARKER_DISTANCE)
+              errs.push(`${w}: マーカー ${a.id} と ${b.id} が近すぎる`);
+          }
       }
       break;
     }

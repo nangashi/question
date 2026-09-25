@@ -17,10 +17,11 @@
 | `pnpm typecheck` | 型チェック |
 | `pnpm fetch:images` | 作品画像を Wikimedia Commons から取得して縮小保存 |
 | `pnpm check:markers` | マーカー付き画像を `.cache/markers/` に描画（位置の目視確認用） |
+| `pnpm check:markers --approve <問題ID>` | 画像を見て位置が正しいと確認した記録を残す |
 | `pnpm build:map` | Natural Earth から都道府県地図（`content/_maps/`）を生成 |
 
 - 問題データ（知識カードと問題）は `content/<theme>/<category>.json`、形式は ADR-0008 と `src/schema.ts`
-- 問題データを追加・変更したら `pnpm validate` を通す。マーカーを追加・変更したら `pnpm check:markers` の画像を見て位置を確認する
+- 問題データを追加・変更したら `pnpm validate` を通す。マーカーを追加・変更したら `pnpm check:markers` の画像を見て位置を確認し、正しければ `--approve` で記録する。画像を見ずに記録してはいけない
 
 ## アーキテクチャ上の意思決定（ADR）
 

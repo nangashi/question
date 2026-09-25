@@ -2,8 +2,10 @@
 // 使い方: pnpm validate
 import { parseContent } from "../src/schema.ts";
 import { loadRawContent } from "./load-content.ts";
+import { loadChecks, uncheckedMarkerErrors } from "./marker-checks.ts";
 
 const { content, errors } = parseContent(loadRawContent());
+errors.push(...uncheckedMarkerErrors(content, loadChecks()));
 let items = 0;
 let questions = 0;
 for (const c of content.categories.values()) {
