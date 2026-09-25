@@ -24,12 +24,20 @@ const images: { file: string; out: string }[] = [
 ];
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const ATTEMPTS = 5;
+
+/** fetch の失敗理由を取り出す（接続エラーは AggregateError の中に入っている） */
+function reason(e: unknown): string {
+  const cause = e instanceof Error ? (e.cause as { code?: string; message?: string; errors?: { code?: string }[] } | undefined) : undefined;
+  const code = cause?.code ?? cause?.errors?.map((x) => x.code).join(",");
+  return [e instanceof Error ? e.message : String(e), code || cause?.message].filter(Boolean).join(" / ");
+}
 
 /** 取得に失敗したら、間隔を空けて再試行する */
 async function download(file: string): Promise<Buffer> {
   const url = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=1600`;
   let lastError: unknown;
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
     try {
       const res = await fetch(url, {
         headers: { "User-Agent": "question-app/0.1 (study app; content build script)" },
@@ -39,9 +47,8 @@ async function download(file: string): Promise<Buffer> {
       return Buffer.from(await res.arrayBuffer());
     } catch (e) {
       lastError = e;
-      const cause = e instanceof Error && e.cause instanceof Error ? `（${e.cause.message}）` : "";
-      console.warn(`  失敗 ${attempt}/3: ${e instanceof Error ? e.message : e}${cause}`);
-      if (attempt < 3) await sleep(5_000 * attempt);
+      console.warn(`  失敗 ${attempt}/${ATTEMPTS}: ${reason(e)}`);
+      if (attempt < ATTEMPTS) await sleep(5_000 * attempt);
     }
   }
   throw lastError;
