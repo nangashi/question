@@ -62,7 +62,7 @@ export function Play({ scope }: { scope: string }) {
       {response && (
         <>
           <div class="feedback">
-            <Verdict g={g!} />
+            <Verdict g={g!} skipped={response.type === "skip"} />
             <InfoCard
               attached
               sections={[
@@ -94,7 +94,15 @@ export function Play({ scope }: { scope: string }) {
 }
 
 /** 判定の帯。解答後のブロックの先頭に置き、問題との境目を示す */
-function Verdict({ g }: { g: Grade }) {
+function Verdict({ g, skipped }: { g: Grade; skipped: boolean }) {
+  // 「わからない」を押した場合は、間違えたのではないので中立の表示にする（評価は Again のまま）
+  if (skipped)
+    return (
+      <div class="verdict-bar skip" role="status">
+        <span class="verdict-mark" aria-hidden="true">?</span>
+        答えを確認
+      </div>
+    );
   const [mark, text] =
     g.outcome === "correct"
       ? ["✓", "正解"]

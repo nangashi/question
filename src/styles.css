@@ -286,6 +286,7 @@ img { max-width: 100%; display: block; }
 .verdict-bar.correct { background: var(--ok); }
 .verdict-bar.wrong { background: var(--ng); }
 .verdict-bar.near, .verdict-bar.partial { background: var(--warn); }
+.verdict-bar.skip { background: var(--muted); }
 .verdict-mark { width: 28px; height: 28px; border-radius: 50%; background: rgb(255 255 255 / 0.25); display: flex; align-items: center; justify-content: center; font-family: "Zen Kaku Gothic New", sans-serif; font-size: 16px; }
 .info { background: var(--card); border-radius: var(--radius); padding: 4px 16px; box-shadow: 0 1px 2px rgb(31 35 40 / 0.06); }
 .info.attached { border-radius: 0 0 var(--radius) var(--radius); }
