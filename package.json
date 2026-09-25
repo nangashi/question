@@ -11,7 +11,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "fetch:images": "node scripts/fetch-images.ts",
-    "check:markers": "node scripts/render-markers.ts"
+    "check:markers": "node scripts/render-markers.ts",
+    "review": "node scripts/render-review.ts"
   },
   "dependencies": {
     "preact": "^10.29.8",
