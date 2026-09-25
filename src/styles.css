@@ -52,6 +52,7 @@ img { max-width: 100%; display: block; }
 .center { text-align: center; }
 .body { margin: 0; font-size: 15px; line-height: 1.8; }
 .prompt { margin: 0; font-family: "Shippori Mincho", serif; font-size: 21px; font-weight: 700; line-height: 1.6; }
+.lead { margin: -8px 0 0; font-size: 15px; line-height: 1.7; color: var(--muted); }
 .hint { margin: 0; font-size: 13px; color: var(--muted); }
 
 /* レイアウト */
@@ -126,7 +127,6 @@ img { max-width: 100%; display: block; }
 /* サブカテゴリ一覧 */
 .cat-row { flex-direction: row; align-items: center; gap: 12px; padding: 12px 10px 12px 14px; }
 .cat-link { display: flex; flex-direction: column; gap: 6px; }
-.cat-row.pending { display: flex; justify-content: space-between; min-height: 48px; padding: 0 14px; border-radius: 12px; border: 1.5px dashed #cfcabf; color: var(--muted); }
 .list-row { display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 8px 0; border-bottom: 1px solid #efece6; }
 .list-row:last-child { border-bottom: none; }
 .list-row .year { width: 40px; }

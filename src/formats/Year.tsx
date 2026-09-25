@@ -1,14 +1,15 @@
 // 年代推定: スライダーと ± ボタンで年を答える
 import { useState } from "preact/hooks";
-import { getTheme } from "../content";
+import { yearRange } from "../content";
 import { categoryOf } from "../session";
 import { Credit, Img } from "../ui";
 import type { FormatProps } from "./types";
 
 export function Year({ q, themeId, response, onSubmit }: FormatProps<"year">) {
   const ref = categoryOf(q);
-  const period = getTheme(ref.themeId)?.categories.find((c) => c.id === ref.categoryId)?.period;
-  const [min, max] = period ? [period[0] - 20, period[1] + 20] : [q.answer - 150, q.answer + 150];
+  // サブカテゴリの年代の前後に余白を取り、答えが端に来て推測できないようにする
+  const range = yearRange(ref.themeId, ref.categoryId);
+  const [min, max] = range ? [Math.min(range[0], q.answer) - 40, Math.max(range[1], q.answer) + 40] : [q.answer - 150, q.answer + 150];
   const [year, setYear] = useState(Math.round((min + max) / 2));
   const yours = response?.type === "year" ? response.year : undefined;
   const pos = (y: number) => `${((y - min) / (max - min)) * 100}%`;

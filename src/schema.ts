@@ -90,7 +90,15 @@ export const themeSchema = z.object({
   id,
   name: z.string().min(1),
   categories: z
-    .array(z.object({ id, name: z.string().min(1), period: z.tuple([z.number().int(), z.number().int()]).optional() }))
+    .array(
+      z.object({
+        id,
+        name: z.string().min(1),
+        // サブカテゴリを貫く問い（docs/content-guide.md）
+        description: z.string().min(1).optional(),
+        period: z.tuple([z.number().int(), z.number().int()]).optional(),
+      }),
+    )
     .min(1),
 });
 

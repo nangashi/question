@@ -1,4 +1,4 @@
-import { activeQuestions, getCategory, getTheme } from "../content";
+import { activeQuestions, getTheme, yearRange } from "../content";
 import { distribution } from "../mockProgress";
 import { href } from "../router";
 import { BackLink, PlayLink, Screen, StarBar, StarCounts } from "../ui";
@@ -23,26 +23,19 @@ export function ThemeScreen({ themeId }: { themeId: string }) {
       <h2 class="section">サブカテゴリ</h2>
       <div class="stack tight">
         {theme.categories.map((c) => {
-          const content = getCategory(themeId, c.id);
+          // 問題のあるサブカテゴリだけを表示する（ADR-0001）
           const qs = activeQuestions((r) => r.key === `${themeId}/${c.id}`);
-          if (!content || qs.length === 0)
-            return (
-              <div class="cat-row pending" key={c.id}>
-                <span class="bold">{c.name}</span>
-                <span class="muted small">問題を準備中</span>
-              </div>
-            );
+          if (qs.length === 0) return null;
           const cd = distribution(qs);
+          const range = yearRange(themeId, c.id);
           return (
             <div class="cat-row card" key={c.id}>
               <a class="grow cat-link" href={href.category(themeId, c.id)}>
-                <span>
-                  <span class="card-title">{c.name}</span>
-                  {c.period && <span class="muted tiny"> {c.period[0]}〜{c.period[1]}</span>}
-                </span>
+                <span class="card-title">{c.name}</span>
+                {c.description && <span class="muted small">{c.description}</span>}
                 <StarBar d={cd} />
                 <span class="muted small">
-                  ★★★ {cd.s3} / {cd.total}問{cd.due > 0 && <b class="accent"> ・ 復習 {cd.due}</b>}
+                  {range && `${range[0]}〜${range[1]} ・ `}★★★ {cd.s3} / {cd.total}問{cd.due > 0 && <b class="accent"> ・ 復習 {cd.due}</b>}
                 </span>
               </a>
               <PlayLink href={href.play(`cat:${themeId}/${c.id}`)} label={`${c.name}の問題を解く`} />

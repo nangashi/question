@@ -1,4 +1,4 @@
-import { activeQuestions, getCategory, getItem, getTheme } from "../content";
+import { activeQuestions, getCategory, getItem, getTheme, yearRange } from "../content";
 import { distribution, stars } from "../mockProgress";
 import { href } from "../router";
 import { BackLink, PlayLink, Screen, StarBar, StarCounts, Stars } from "../ui";
@@ -9,6 +9,7 @@ export function CategoryScreen({ themeId, categoryId }: { themeId: string; categ
   const data = getCategory(themeId, categoryId);
   if (!theme || !cat || !data) return <Screen>サブカテゴリが見つかりません</Screen>;
   const qs = activeQuestions((r) => r.key === `${themeId}/${categoryId}`);
+  const range = yearRange(themeId, categoryId);
   const d = distribution(qs);
   // ほかのサブカテゴリ・テーマとのつながりの数
   const outer = new Map<string, number>();
@@ -25,10 +26,9 @@ export function CategoryScreen({ themeId, categoryId }: { themeId: string; categ
   return (
     <Screen>
       <BackLink href={href.theme(themeId)} label={theme.name} />
-      <div class="row baseline">
-        <h1 class="title">{cat.name}</h1>
-        {cat.period && <span class="muted small">{cat.period[0]}〜{cat.period[1]}</span>}
-      </div>
+      <h1 class="title">{cat.name}</h1>
+      {cat.description && <p class="lead">{cat.description}</p>}
+      {range && <span class="muted small">{range[0]}〜{range[1]}</span>}
       <section class="card">
         <StarBar d={d} thick />
         <StarCounts d={d} />

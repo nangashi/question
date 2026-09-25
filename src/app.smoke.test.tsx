@@ -32,8 +32,8 @@ describe("画面", () => {
     await go("#/");
     expect(root.textContent).toContain("今日の学習");
     await go("#/t/japanese-history");
-    expect(root.textContent).toContain("問題を準備中");
-    await go("#/t/japanese-history/edo");
+    expect(root.textContent).toContain("江戸幕府のしくみと鎖国");
+    await go("#/t/japanese-history/edo-bakufu");
     expect(root.textContent).toContain("島原・天草一揆");
     await go("#/item/jh-edo-shimabara");
     expect(root.textContent).toContain("つながり");

@@ -2,9 +2,10 @@
   "id": "painting",
   "name": "絵画",
   "categories": [
-    { "id": "renaissance", "name": "ルネサンス", "period": [1400, 1600] },
-    { "id": "baroque", "name": "バロック", "period": [1600, 1700] },
-    { "id": "ukiyoe", "name": "浮世絵", "period": [1660, 1900] },
-    { "id": "impressionism", "name": "印象派", "period": [1860, 1900] }
+    {
+      "id": "baroque-light",
+      "name": "バロック絵画の光と影",
+      "description": "17世紀の画家たちは、光と影で何を描こうとしたのか"
+    }
   ]
 }

@@ -42,6 +42,16 @@ export const getTheme = (id: string) => content.themes.find((t) => t.id === id);
 export const getCategory = (themeId: string, categoryId: string): CategoryContent | undefined =>
   content.categories.get(`${themeId}/${categoryId}`);
 
+/** サブカテゴリの年代の範囲。period があればそれを、なければ知識カードの年から求める */
+export function yearRange(themeId: string, categoryId: string): [number, number] | undefined {
+  const period = getTheme(themeId)?.categories.find((c) => c.id === categoryId)?.period;
+  if (period) return period;
+  const years = (getCategory(themeId, categoryId)?.items ?? []).flatMap((it) =>
+    it.year ? [it.year.from, it.year.to ?? it.year.from] : [],
+  );
+  return years.length > 0 ? [Math.min(...years), Math.max(...years)] : undefined;
+}
+
 /** media の src（テーマからの相対パス）を URL に変換。画像がなければ undefined */
 export function mediaUrl(themeId: string, m: Media): string | undefined {
   return assetUrls.get(`${themeId}/${m.src}`);
