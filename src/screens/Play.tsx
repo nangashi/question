@@ -197,19 +197,15 @@ function Summary({ questions, results, scope }: { questions: ReturnType<typeof p
   );
 }
 
-/** 読み物の節の問題を解き終えたら、次の節へ進めるようにする */
+/** 読み物から問題に来たときは、読み物の続きへ戻れるようにする */
 function NextReading({ scope }: { scope: string }) {
-  if (!scope.startsWith("sec:")) return null;
-  const [themeId = "", categoryId = "", n = "1"] = scope.slice(4).split("/");
-  const lesson = getLesson(themeId, categoryId);
-  const next = lesson?.sections.find((s) => s.index === Number(n) + 1);
-  return next ? (
-    <a class="btn primary big" href={href.read(themeId, categoryId, next.index)}>
-      次の節を読む：{next.title}
-    </a>
-  ) : (
-    <a class="btn ghost big" href={href.category(themeId, categoryId)}>
-      読み物を読み終えました
+  const [kind, rest = ""] = scope.split(/:(.*)/s);
+  if (kind !== "sec" && kind !== "cat") return null;
+  const [themeId = "", categoryId = ""] = rest.split("/");
+  if (!getLesson(themeId, categoryId)) return null;
+  return (
+    <a class="btn ghost big" href={href.read(themeId, categoryId)}>
+      読み物に戻る（読んでいたところから）
     </a>
   );
 }

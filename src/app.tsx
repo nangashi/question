@@ -22,7 +22,7 @@ export function App() {
       {route.name === "category" && <CategoryScreen themeId={route.themeId} categoryId={route.categoryId} />}
       {route.name === "play" && <Play key={`${route.scope}/${route.sessionId ?? ""}`} scope={route.scope} sessionId={route.sessionId} />}
       {route.name === "item" && <ItemScreen itemId={route.itemId} />}
-      {route.name === "read" && <LessonScreen key={`${route.categoryId}/${route.section}`} themeId={route.themeId} categoryId={route.categoryId} section={route.section} />}
+      {route.name === "read" && <LessonScreen key={`${route.categoryId}/${route.section ?? ""}`} themeId={route.themeId} categoryId={route.categoryId} section={route.section} />}
     </>
   );
 }

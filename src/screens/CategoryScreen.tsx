@@ -32,23 +32,13 @@ export function CategoryScreen({ themeId, categoryId }: { themeId: string; categ
       {cat.description && <p class="lead">{cat.description}</p>}
       {range && <span class="muted small">{range[0]}〜{range[1]}</span>}
       {lesson && (
-        <section class="card">
-          <div class="row between">
-            <span class="card-title">読み物</span>
-            <span class="muted small">全{lesson.sections.length}節・約{Math.max(1, Math.round(lesson.sections.reduce((n, s) => n + sectionLength(s), 0) / 500))}分</span>
-          </div>
-          <p class="muted small" style={{ margin: 0 }}>流れを読んでから、節ごとに問題を解けます。読まずに解いてもかまいません。</p>
-          <ol class="section-list">
-            {lesson.sections.map((s) => (
-              <li key={s.index}>
-                <a href={href.read(themeId, categoryId, s.index)}>
-                  <span class="muted tiny">第{s.index}節</span> {s.title}
-                </a>
-              </li>
-            ))}
-          </ol>
-          <a class="btn ghost" href={href.read(themeId, categoryId, 1)}>最初から読む</a>
-        </section>
+        <a class="card link reading-entry" href={href.read(themeId, categoryId)}>
+          <span class="row between">
+            <span class="card-title">読み物を読む</span>
+            <span class="muted small">約{Math.max(1, Math.round(lesson.sections.reduce((n, s) => n + sectionLength(s), 0) / 500))}分 ›</span>
+          </span>
+          <span class="muted small">この時代の流れを、教科書のように通して読めます。読んでから解いても、先に解いてもかまいません。</span>
+        </a>
       )}
       <section class="card">
         <StarBar d={d} thick />
