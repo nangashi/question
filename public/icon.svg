@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- まなびカードのアイコン: 紺の地に、重ねた 2 枚のカードと★。マスカブル用に、絵柄は中央 80% の円に収める -->
+  <rect width="512" height="512" fill="#2b4c7e"/>
+  <rect x="150" y="128" width="200" height="256" rx="22" fill="#a9bad3" transform="rotate(-10 250 256)"/>
+  <rect x="170" y="128" width="200" height="256" rx="22" fill="#f7f5f0" transform="rotate(6 270 256)"/>
+  <path transform="translate(270 262) rotate(6) scale(3.6)" fill="#2b4c7e"
+    d="M0,-20 L5.9,-8.1 19,-6.2 9.5,3.1 11.8,16.2 0,10 -11.8,16.2 -9.5,3.1 -19,-6.2 -5.9,-8.1 Z"/>
+</svg>

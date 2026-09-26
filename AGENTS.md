@@ -19,6 +19,7 @@
 | `pnpm check:markers` | マーカー付き画像を `.cache/markers/` に描画（位置の目視確認用） |
 | `pnpm check:markers --approve <問題ID>` | 画像を見て位置が正しいと確認した記録を残す |
 | `pnpm review <theme>/<category>` | 知識カードと問題をレビュー用の Markdown（`.cache/reviews/`）に出力 |
+| `pnpm run deploy` | ビルドして Cloudflare Workers に手動でデプロイ（通常は `main` への push で自動。ADR-0012） |
 | `pnpm build:map` | Natural Earth から都道府県地図（`content/_maps/`）を生成 |
 
 - 問題データ（知識カードと問題）は `content/<theme>/<category>.json`、形式は ADR-0008 と `src/schema.ts`。生成時の確認メモは `content/<theme>/<category>.notes.md`

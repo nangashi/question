@@ -38,8 +38,6 @@ C: 問題づくり
 
 A: 学習の仕組み（ローカルで UX を含めて確認）
 
-- [ ] ローカルで数日使って、出題の順・★の基準・1 回の問題数を確かめる
-
 - [x] FSRS による復習スケジュール（`ts-fsrs`）
 - [x] IndexedDB への解答ログ保存
 - [x] 出題の順（復習を優先し、残りは未学習の問題を読み物の順に。ADR-0011）
@@ -49,8 +47,11 @@ A: 学習の仕組み（ローカルで UX を含めて確認）
 
 B: 実環境へデプロイ
 
-- [ ] PWA 化（`navigator.storage.persist()` を含む）
-- [ ] 公開先へのデプロイ（Phase 2 に合わせて Cloudflare Workers に配置）
+- [x] PWA 化（`navigator.storage.persist()` を含む。ADR-0012）
+- [x] デプロイの設定（Cloudflare Workers の静的アセット、`wrangler.jsonc`。ADR-0012）
+- [ ] Cloudflare の Workers Builds で GitHub リポジトリを連携し、公開する
+- [ ] 公開した URL をスマホのホーム画面に追加して使い、出題の順・★の基準・1 回の問題数を確かめる（ローカルでは試しにくいため、A の確認をここで行う）
+- [ ] 1 週間続けて使う（Phase 1 の完了条件）
 
 ## Phase 2: API と Claude 連携
 

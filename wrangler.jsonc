@@ -1,0 +1,9 @@
+// Cloudflare Workers の設定（ADR-0005）。いまは静的配信のみ（API は Phase 2 で追加する）
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "manabi-card",
+  "compatibility_date": "2026-09-26",
+  "assets": {
+    "directory": "./dist"
+  }
+}
