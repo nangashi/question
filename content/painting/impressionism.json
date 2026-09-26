@@ -132,6 +132,51 @@
       "unlockOrder": 2
     },
     {
+      "id": "pt-impressionism-seurat",
+      "title": "スーラと点描（新印象派）",
+      "summary": "1886年の最後の印象派展で、スーラが《グランド・ジャット島の日曜日の午後》を発表した。パレットで絵具を混ぜず、純粋な色の小さな点を並べる点描で描かれている。",
+      "why": "並べた色、特に反対の色（補色）どうしが見る人の目の中で混ざり合い、よりいきいきとした光になると考えたためです。印象派が感覚でとらえた光を、色の理論にもとづいて組み立て直そうとしました。",
+      "year": {
+        "from": 1884,
+        "to": 1886
+      },
+      "place": {
+        "name": "パリ"
+      },
+      "people": [
+        "ジョルジュ・スーラ",
+        "ポール・シニャック"
+      ],
+      "tags": [
+        "フランス",
+        "新印象派"
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/seurat-grande-jatte.jpg",
+          "alt": "川べりの芝生で、日傘をさした人々や犬連れの人々が休日を過ごす様子を、細かな色の点を並べて描いた絵",
+          "credit": "Georges Seurat, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg"
+        }
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "印象派が色を混ぜずにタッチを並べた描き方を、スーラは点にまで細かくし、理論的に押し進めました。",
+          "itemIds": [
+            "pt-abstract-impressionism"
+          ]
+        }
+      ],
+      "trivia": "「新印象派」という呼び名は、批評家フェネオンが1886年の雑誌記事で初めて使いました。",
+      "sources": [
+        "Wikipedia「ジョルジュ・スーラ」 — https://ja.wikipedia.org/wiki/ジョルジュ・スーラ"
+      ],
+      "unlockOrder": 3
+    },
+    {
       "id": "pt-abstract-japonisme",
       "title": "ジャポニスム（浮世絵の影響）",
       "summary": "19世紀後半、万国博覧会などをきっかけに日本の美術がヨーロッパで流行し、浮世絵がモネやゴッホ、ドガらに大きな影響を与えた。",
@@ -173,7 +218,7 @@
         "Wikipedia「ジャポニスム」 — https://ja.wikipedia.org/wiki/ジャポニスム",
         "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
       ],
-      "unlockOrder": 3
+      "unlockOrder": 4
     },
     {
       "id": "pt-abstract-cezanne",
@@ -219,7 +264,7 @@
         "Wikipedia「ポスト印象派」 — https://ja.wikipedia.org/wiki/ポスト印象派",
         "コトバンク「セザンヌ」（世界大百科事典・日本大百科全書・百科事典マイペディア） — https://kotobank.jp/word/%E3%81%9B%E3%81%96%E3%82%93%E3%81%AC-3157136"
       ],
-      "unlockOrder": 4
+      "unlockOrder": 5
     },
     {
       "id": "pt-abstract-gogh-gauguin",
@@ -266,7 +311,7 @@
         "Wikipedia「ポール・ゴーギャン」 — https://ja.wikipedia.org/wiki/ポール・ゴーギャン",
         "Wikipedia「ポスト印象派」 — https://ja.wikipedia.org/wiki/ポスト印象派"
       ],
-      "unlockOrder": 5
+      "unlockOrder": 6
     }
   ],
   "questions": [
@@ -512,6 +557,113 @@
       ],
       "answer": "light",
       "explanation": "移り変わる光や空気の一瞬を捉えるためです。細かく仕上げるより、その場の光の印象を素早く画面に残すことを大切にしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-impressionism-seurat-who",
+      "type": "choice",
+      "itemIds": [
+        "pt-impressionism-seurat"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "近くで見ると、無数の小さな色の点で描かれている、この絵の画家は？",
+      "media": [
+        {
+          "kind": "image",
+          "src": "images/seurat-grande-jatte.jpg",
+          "alt": "川べりの芝生で、日傘をさした人々や犬連れの人々が休日を過ごす様子を、細かな色の点を並べて描いた絵",
+          "credit": "Georges Seurat, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg"
+        }
+      ],
+      "choices": [
+        {
+          "id": "seurat",
+          "text": "スーラ"
+        },
+        {
+          "id": "monet",
+          "text": "モネ"
+        },
+        {
+          "id": "renoir",
+          "text": "ルノワール"
+        },
+        {
+          "id": "cezanne",
+          "text": "セザンヌ"
+        }
+      ],
+      "answer": "seurat",
+      "explanation": "フランスの画家スーラの《グランド・ジャット島の日曜日の午後》（1884〜86年）です。1886年、最後の印象派展となった第8回展で発表され、点描という新しい描き方で注目を集めました。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-impressionism-seurat-why",
+      "type": "choice",
+      "itemIds": [
+        "pt-impressionism-seurat"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "スーラが、パレットで絵具を混ぜずに、純粋な色の小さな点を並べて描いたのはなぜ？",
+      "choices": [
+        {
+          "id": "optical",
+          "text": "並べた色が見る人の目の中で混ざり、よりいきいきとした光になると考えたから"
+        },
+        {
+          "id": "save",
+          "text": "高価な絵具を節約するため"
+        },
+        {
+          "id": "fast",
+          "text": "大きな絵を早く仕上げるため"
+        },
+        {
+          "id": "ukiyoe",
+          "text": "浮世絵の刷り方をまねたため"
+        }
+      ],
+      "answer": "optical",
+      "explanation": "絵具は混ぜるほど色がにごります。スーラは、純粋な色の点、特に反対の色（補色）どうしを近くに並べれば、見る人の目の中で色が混ざり、よりいきいきとした光が生まれると考えました。印象派の感覚的な描き方を、色の理論で組み立て直そうとしたのです。",
+      "status": "active"
+    },
+    {
+      "id": "q-pt-impressionism-seurat-root",
+      "type": "choice",
+      "itemIds": [
+        "pt-impressionism-seurat",
+        "pt-abstract-impressionism"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "スーラの点描は、どの動きの、どんな描き方をさらに押し進めたもの？",
+      "choices": [
+        {
+          "id": "impressionism",
+          "text": "印象派の、色を混ぜずにタッチを並べる描き方"
+        },
+        {
+          "id": "academy",
+          "text": "アカデミーの、筆の跡を残さないなめらかな描き方"
+        },
+        {
+          "id": "cubism",
+          "text": "キュビスムの、物を幾何学的な面に分解する描き方"
+        },
+        {
+          "id": "baroque",
+          "text": "バロックの、強い明暗で劇的に描く描き方"
+        }
+      ],
+      "answer": "impressionism",
+      "explanation": "印象派は、戸外で見た光を、色を混ぜすぎずに筆のタッチを並べて描きました。スーラはそれを小さな点にまで細かくし、色の理論にもとづいて並べました。批評家フェネオンは、スーラたちを「新印象派」と呼びました。",
       "status": "active"
     },
     {

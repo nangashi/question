@@ -26,6 +26,7 @@ const images: { file: string; out: string }[] = [
   { file: "Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg", out: "content/painting/images/leonardo-mona-lisa.jpg" },
   { file: "Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg", out: "content/painting/images/delacroix-liberty.jpg" },
   { file: "Gustave_Courbet_-_The_Stonebreakers_-_WGA05457.jpg", out: "content/painting/images/courbet-stonebreakers.jpg" },
+  { file: "A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg", out: "content/painting/images/seurat-grande-jatte.jpg" },
 ];
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
