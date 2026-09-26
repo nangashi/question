@@ -18,7 +18,7 @@
         {
           "kind": "image",
           "src": "images/icon-christ-pantocrator-sinai.jpg",
-          "alt": "金色を帯びた背景の前で、右手を上げ、左手に宝石で飾られた本を持つキリストを正面から描いた古い板絵",
+          "alt": "頭の後ろに金色の光輪をつけたキリストを正面から描いた古い板絵。右手を上げ、左手に宝石で飾られた本を持っている",
           "credit": "Unknown artist, Public domain, via Wikimedia Commons",
           "license": "Public domain",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay.jpg"
@@ -323,12 +323,12 @@
       "asks": [
         "what"
       ],
-      "prompt": "金色の背景の前にキリストを正面から描いた、この絵が描かれた時代は？",
+      "prompt": "頭の後ろに金色の光輪をつけたキリストを、正面から描いたこの絵が描かれた時代は？",
       "media": [
         {
           "kind": "image",
           "src": "images/icon-christ-pantocrator-sinai.jpg",
-          "alt": "金色を帯びた背景の前で、右手を上げ、左手に宝石で飾られた本を持つキリストを正面から描いた古い板絵",
+          "alt": "頭の後ろに金色の光輪をつけたキリストを正面から描いた古い板絵。右手を上げ、左手に宝石で飾られた本を持っている",
           "credit": "Unknown artist, Public domain, via Wikimedia Commons",
           "license": "Public domain",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay.jpg"
@@ -353,7 +353,7 @@
         }
       ],
       "answer": "medieval",
-      "explanation": "6世紀ごろのイコン（聖像画）で、中世の宗教画の特徴がよく表れています。現実の空間や光を写すより、神聖な存在を正面から、金色の輝きの中に表しています。",
+      "explanation": "6世紀のイコン（聖像画）で、シナイ山の修道院に伝わる《全能者キリスト》です。本物らしい空間を描くことより、神聖な存在を正面からまっすぐ見る人に向き合わせることを重んじた、中世の宗教画の特徴が表れています。",
       "status": "active"
     },
     {

@@ -23,9 +23,11 @@
 
 ## 画像（Wikimedia Commons、パブリックドメイン）
 
-- icon-christ-pantocrator-sinai.jpg: シナイ山の《全能者キリスト》、6 世紀（Spas_vsederzhitel_sinay.jpg）
+- icon-christ-pantocrator-sinai.jpg: シナイ山の《全能者キリスト》、6 世紀（Spas_vsederzhitel_sinay.jpg）。画像を確認したところ、背景は金地ではなく建物と空で、金色なのは光輪だったため、問題文と代替テキストを光輪に合わせて直した
 - botticelli-birth-of-venus.jpg: ボッティチェリ《ヴィーナスの誕生》1485 年ごろ
 - leonardo-mona-lisa.jpg: レオナルド《モナ・リザ》1503〜1506 年（現在は未使用、今後の問題用）
 - delacroix-liberty.jpg: ドラクロワ《民衆を導く自由の女神》1830 年
 - courbet-stonebreakers.jpg: クールベ《石割り》1849 年
 - ダヴィッド《ホラティウス兄弟の誓い》は、見つかったファイルがジロデによる模写だったため使わなかった
+
+- 2026-09-26: 取得した 5 枚すべてを画像で確認した。イコン以外は代替テキストと内容が合っていた
