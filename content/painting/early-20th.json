@@ -3,7 +3,7 @@
     {
       "id": "pt-abstract-fauvism",
       "title": "フォーヴィスム（野獣派）",
-      "summary": "1905年の展覧会（サロン・ドートンヌ）で、マティスらの強烈な色の絵を集めた展示室が、批評家ヴォークセルに「野獣（フォーヴ）の檻」にたとえられ、フォーヴィスムと呼ばれるようになった。",
+      "summary": "1905年の展覧会（サロン・ドートンヌ）で、マティスらの強烈な色の絵が並ぶ展示室を、批評家ヴォークセルが「野獣（フォーヴ）」になぞらえて評した。その言葉が広まり、フォーヴィスムと呼ばれるようになった。",
       "why": "色を、物の本当の色を再現するためではなく、画家の感覚を表す道具として自由に使ったためです。木の幹を赤く塗るなど、原色を大胆に使いました。",
       "year": {
         "from": 1905
@@ -41,7 +41,9 @@
       ],
       "sources": [
         "Wikipedia「フォーヴィスム」 — https://ja.wikipedia.org/wiki/フォーヴィスム",
-        "コトバンク「野獣派」（世界大百科事典・旺文社世界史事典） — https://kotobank.jp/word/%E9%87%8E%E7%8D%A3%E6%B4%BE-143668"
+        "コトバンク「野獣派」（世界大百科事典・旺文社世界史事典） — https://kotobank.jp/word/%E9%87%8E%E7%8D%A3%E6%B4%BE-143668",
+        "SFMOMA「Matisse's Femme au chapeau: From Scandal to Icon」 — https://www.sfmoma.org/read/matisses-femme-au-chapeau-from-scandal-to-icon/",
+        "オランジュリー美術館「Berthe Weill. Gallery owner of the Avant-garde」 — https://www.musee-orangerie.fr/en/program/whats-on/exhibitions/presentation/berthe-weill-gallery-owner-avant-garde"
       ],
       "order": 0
     },
@@ -75,9 +77,11 @@
           ]
         }
       ],
-      "trivia": "名前は、批評家ヴォークセルが「ブラックは一切を立方体（キューブ）に還元する」と評したことからきているとされます。",
+      "trivia": "名前は、批評家ヴォークセルが、ブラックの絵を、形を立方体（キューブ）に還元していると評したことからきているとされます。",
       "sources": [
-        "Wikipedia「キュビスム」 — https://ja.wikipedia.org/wiki/キュビスム"
+        "Wikipedia「キュビスム」 — https://ja.wikipedia.org/wiki/キュビスム",
+        "コトバンク「キュビスム」 — https://kotobank.jp/word/キュビスム",
+        "テート美術館「Cubism」 — https://www.tate.org.uk/art/art-terms/c/cubism"
       ],
       "order": 1
     },
@@ -117,10 +121,12 @@
           ]
         }
       ],
-      "trivia": "1911年、画家フランツ・マルクとともに「青騎士」というグループを結成しました。",
+      "trivia": "1911年には、画家フランツ・マルクらとともに「青騎士」の名で展覧会を開きました。",
       "sources": [
         "Wikipedia「ワシリー・カンディンスキー」 — https://ja.wikipedia.org/wiki/ワシリー・カンディンスキー",
-        "京都国立近代美術館「カンディンスキー展」 — https://www.momak.go.jp/Japanese/exhibitionArchive/1987/185.html"
+        "京都国立近代美術館「カンディンスキー展」 — https://www.momak.go.jp/Japanese/exhibitionArchive/1987/185.html",
+        "レンバッハハウス美術館「The Blue Rider」 — https://www.lenbachhaus.de/en/discover/the-blue-rider",
+        "レンバッハハウス美術館「Wassily Kandinsky」 — https://www.lenbachhaus.de/digital/sammlung-online/person/kandinsky-wassily-7430"
       ],
       "order": 2
     },
@@ -164,7 +170,8 @@
       "trivia": "展覧会では、ロシアの家庭で聖像画（イコン）を飾る「部屋の隅の天井近く」に掛けられました。",
       "sources": [
         "Wikipedia「黒の正方形」 — https://ja.wikipedia.org/wiki/黒の正方形",
-        "ティッセン＝ボルネミッサ美術館「Kazimir Malevich」 — https://www.museothyssen.org/en/collection/artists/malevich-kazimir"
+        "ティッセン＝ボルネミッサ美術館「Kazimir Malevich」 — https://www.museothyssen.org/en/collection/artists/malevich-kazimir",
+        "テート美術館「Suprematism」 — https://www.tate.org.uk/art/art-terms/s/suprematism"
       ],
       "order": 3
     },
@@ -205,7 +212,9 @@
       ],
       "trivia": "晩年に移り住んだニューヨークで、ジャズの一種ブギウギに触発され《ブロードウェイ・ブギウギ》を描きました。",
       "sources": [
-        "Wikipedia「ピエト・モンドリアン」 — https://ja.wikipedia.org/wiki/ピエト・モンドリアン"
+        "Wikipedia「ピエト・モンドリアン」 — https://ja.wikipedia.org/wiki/ピエト・モンドリアン",
+        "コトバンク「モンドリアン」 — https://kotobank.jp/word/モンドリアン",
+        "ハーグ美術館「Biography」（モンドリアン） — https://www.kunstmuseum.nl/en/biography"
       ],
       "order": 4
     }
@@ -283,7 +292,7 @@
         }
       ],
       "answer": "fauvism",
-      "explanation": "マティスの《帽子の女》（1905年）で、フォーヴィスム（野獣派）の代表作です。顔や服に、見たままとは違う緑や紫などの強い色が使われています。名前は、批評家が展示室を「野獣の檻」にたとえたことに由来します。",
+      "explanation": "マティスの《帽子の女》（1905年）で、フォーヴィスム（野獣派）の代表作です。顔や服に、見たままとは違う緑や紫などの強い色が使われています。名前は、批評家ヴォークセルが、これらの絵を「野獣（フォーヴ）」になぞらえて評したことに由来します。",
       "status": "active"
     },
     {
