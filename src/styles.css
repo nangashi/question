@@ -332,3 +332,7 @@ img { max-width: 100%; display: block; }
 .lesson-img { width: 100%; max-height: 60vh; object-fit: contain; border-radius: 6px; background: #2a2420; }
 .lesson-figure figcaption { font-size: 13px; line-height: 1.6; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
 .lesson-figure figcaption .credit { font-size: 11px; }
+
+/* 学習記録 */
+.file-input { position: relative; }
+.file-input input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }

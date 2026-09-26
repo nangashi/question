@@ -5,6 +5,7 @@ import { act } from "preact/test-utils";
 import { beforeEach, describe, expect, it } from "vitest";
 import { App } from "./app";
 import { content } from "./content";
+import { allEntries, resetProgressForTest } from "./progress";
 
 let root: HTMLElement;
 beforeEach(() => {
@@ -49,6 +50,7 @@ describe("画面", () => {
 
 describe("全出題形式", () => {
   it("すべての形式で回答して結果画面まで進める", async () => {
+    resetProgressForTest();
     await act(async () => render(<App />, root));
     await go("#/play?scope=formats");
     const seen: string[] = [];
@@ -86,6 +88,8 @@ describe("全出題形式", () => {
       await click(buttons("自信あり")[0] ?? buttons("次へ")[0]);
     }
     expect(root.textContent).toContain("おつかれさまでした");
+    // 解いた問題はすべて学習記録に残る
+    expect(allEntries().length).toBe(seen.length);
     expect(new Set(seen)).toEqual(new Set(["択一", "画像", "部分指定", "並べ替え", "組み合わせ", "分類", "年代推定", "地図"]));
   });
 

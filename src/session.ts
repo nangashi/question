@@ -1,6 +1,6 @@
 // 学習セッションに出す問題を選ぶ
 import { activeQuestions, compareLearnOrder, getLesson, questionRef, type CategoryRef } from "./content";
-import { isDue, stars } from "./mockProgress";
+import { isDue, stars } from "./progress";
 import type { Question } from "./schema";
 
 export const SESSION_SIZE = 5;
@@ -26,7 +26,7 @@ export function pickQuestions(scope: string): Question[] {
   let pool = activeQuestions(filter);
   if (kind === "item") pool = activeQuestions().filter((q) => q.itemIds.includes(arg));
   // 1. 期限の来た復習 2. 未学習の問題を学ぶ順（読み物の順）に 3. 定着度の低い問題（ADR-0011）
-  const due = shuffle(pool.filter(isDue));
+  const due = shuffle(pool.filter((q) => isDue(q)));
   const fresh = pool.filter((q) => !isDue(q) && stars(q) === 0).sort(compareLearnOrder);
   const rest = shuffle(pool.filter((q) => !isDue(q) && stars(q) > 0)).sort((a, b) => stars(a) - stars(b));
   return [...due, ...fresh, ...rest].slice(0, SESSION_SIZE);

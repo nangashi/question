@@ -1,7 +1,7 @@
 // 画面間で共通の部品
 import type { ComponentChildren } from "preact";
 import { mediaUrl } from "./content";
-import type { Distribution } from "./mockProgress";
+import type { Distribution } from "./progress";
 import type { Media } from "./schema";
 
 /** ★の分布のバー。thick は全体の進捗、thin は知識カードごとの進捗に使う */

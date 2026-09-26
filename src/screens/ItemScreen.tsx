@@ -1,7 +1,7 @@
 import { activeQuestions, getItem, getTheme } from "../content";
 import { InfoCard, LinkList } from "../info";
 import { labelOf } from "../formats";
-import { stars } from "../mockProgress";
+import { stars } from "../progress";
 import { href } from "../router";
 import { Credit, Img, PlayLink, Screen, Stars } from "../ui";
 

@@ -8,6 +8,7 @@ import { categoryOf, pickQuestions } from "../session";
 import { loadSession, newSessionId, saveSession, type SessionResult } from "../sessionStore";
 import { Screen } from "../ui";
 import { InfoCard, LinkList } from "../info";
+import { record, stars } from "../progress";
 
 type Result = SessionResult;
 
@@ -45,7 +46,9 @@ export function Play({ scope, sessionId }: { scope: string; sessionId?: string }
   const ref = categoryOf(q);
   const g = response ? grade(q, response) : undefined;
   const next = (confident: boolean) => {
-    setResults([...results, { questionId: q.id, grade: g!, rating: toRating(g!, confident) }]);
+    const rating = toRating(g!, confident);
+    void record(q.id, g!, rating);
+    setResults([...results, { questionId: q.id, grade: g!, rating }]);
     setResponse(undefined);
     setIndex(index + 1);
   };
@@ -163,7 +166,7 @@ function Summary({ questions, results, scope }: { questions: ReturnType<typeof p
       <h1 class="title">おつかれさまでした</h1>
       <section class="card center">
         <div class="bignum">{correct}<small> / {results.length}問 正解</small></div>
-        <div class="muted small">★が増えた問題 {results.filter((r) => r.rating === "Good").length}問（モック表示）</div>
+        <div class="muted small">★★★（定着）の問題 {questions.filter((q) => stars(q) === 3).length} / {questions.length}問</div>
       </section>
       <div class="card list">
         {questions.map((q, i) => {

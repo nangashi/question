@@ -1,6 +1,8 @@
 import { contentErrors } from "./content";
+import { isStorageAvailable, useProgressVersion } from "./progress";
 import { useRoute } from "./router";
 import { CategoryScreen } from "./screens/CategoryScreen";
+import { DataScreen } from "./screens/DataScreen";
 import { Home } from "./screens/Home";
 import { ItemScreen } from "./screens/ItemScreen";
 import { LessonScreen } from "./screens/LessonScreen";
@@ -9,6 +11,7 @@ import { ThemeScreen } from "./screens/ThemeScreen";
 
 export function App() {
   const route = useRoute();
+  useProgressVersion();
   return (
     <>
       {import.meta.env.DEV && contentErrors.length > 0 && (
@@ -17,11 +20,15 @@ export function App() {
           <ul>{contentErrors.map((e) => <li key={e}>{e}</li>)}</ul>
         </details>
       )}
+      {!isStorageAvailable() && (
+        <div class="content-errors">この環境では学習記録を保存できません（プライベートブラウズなど）。記録はこの画面を閉じると消えます。</div>
+      )}
       {route.name === "home" && <Home />}
       {route.name === "theme" && <ThemeScreen themeId={route.themeId} />}
       {route.name === "category" && <CategoryScreen themeId={route.themeId} categoryId={route.categoryId} />}
       {route.name === "play" && <Play key={`${route.scope}/${route.sessionId ?? ""}`} scope={route.scope} sessionId={route.sessionId} />}
       {route.name === "item" && <ItemScreen itemId={route.itemId} />}
+      {route.name === "data" && <DataScreen />}
       {route.name === "read" && <LessonScreen key={`${route.categoryId}/${route.section ?? ""}`} themeId={route.themeId} categoryId={route.categoryId} section={route.section} />}
     </>
   );

@@ -1,5 +1,5 @@
 import { activeQuestions, getCategory, getItem, getLesson, getTheme, yearRange } from "../content";
-import { distribution } from "../mockProgress";
+import { distribution } from "../progress";
 import { href } from "../router";
 import { sectionLength } from "../lesson";
 import { BackLink, PlayLink, Screen, StarBar, StarCounts } from "../ui";

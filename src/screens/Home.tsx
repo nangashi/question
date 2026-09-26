@@ -1,5 +1,5 @@
 import { activeQuestions, content, getItem } from "../content";
-import { distribution } from "../mockProgress";
+import { distribution, streakDays } from "../progress";
 import { href } from "../router";
 import { Screen, StarBar, StarCounts } from "../ui";
 
@@ -12,7 +12,7 @@ export function Home() {
     <Screen>
       <div class="row between">
         <h1 class="title">今日の学習</h1>
-        <span class="pill">7日連続</span>
+        {streakDays() > 0 && <span class="pill">{streakDays()}日連続</span>}
       </div>
       <section class="card today">
         <div class="grid2">
@@ -60,6 +60,7 @@ export function Home() {
           })}
         </div>
       </section>
+      <a class="btn text small" href={href.data()}>学習記録の書き出し・読み込み</a>
     </Screen>
   );
 }
