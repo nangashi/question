@@ -1,13 +1,14 @@
 // 組み合わせ: 左をタップしてから右をタップして結ぶ
-import { useMemo, useState } from "preact/hooks";
+import { useState } from "preact/hooks";
+import { shuffleUntil } from "../shuffle";
 import type { FormatProps } from "./types";
 
 export function Match({ q, response, onSubmit }: FormatProps<"match">) {
   const [pairs, setPairs] = useState<Record<string, string>>({});
   const [active, setActive] = useState<string | null>(null);
-  // 右側の表示順は正解の並びと揃わないようにずらす
-  const right = useMemo(() => [...q.right.slice(1), ...q.right.slice(0, 1)], [q]);
   const correct = Object.fromEntries(q.pairs);
+  // 右側の表示順はシャッフルし、左と同じ行にすべての正解が並ばないようにする
+  const [right] = useState(() => shuffleUntil(q.right, (a) => q.left.some((l, i) => correct[l.id] !== a[i]?.id)));
 
   if (response) {
     const yours = response.type === "match" ? response.pairs : {};

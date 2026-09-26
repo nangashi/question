@@ -2,6 +2,7 @@
 import { activeQuestions, compareLearnOrder, getLesson, questionRef, type CategoryRef } from "./content";
 import { isDue, stars } from "./progress";
 import type { Question } from "./schema";
+import { shuffle } from "./shuffle";
 
 export const SESSION_SIZE = 5;
 
@@ -59,13 +60,5 @@ function oneOfEachFormat(): Question[] {
   return kinds.map((k) => all.find(k)).filter((q): q is Question => q !== undefined);
 }
 
-function shuffle<T>(xs: T[]): T[] {
-  const a = [...xs];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j]!, a[i]!];
-  }
-  return a;
-}
 
 export const categoryOf = (q: Question) => questionRef(q);

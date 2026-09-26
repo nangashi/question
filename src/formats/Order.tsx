@@ -1,9 +1,12 @@
 // 並べ替え: 項目を順番にタップして番号を振る
 import { useState } from "preact/hooks";
+import { shuffleUntil } from "../shuffle";
 import type { FormatProps } from "./types";
 
 export function Order({ q, response, onSubmit }: FormatProps<"order">) {
   const [picked, setPicked] = useState<string[]>([]);
+  // 表示順はシャッフルし、正解の順のまま出ないようにする
+  const [entries] = useState(() => shuffleUntil(q.entries, (a) => a.some((e, i) => e.id !== q.answer[i])));
   if (response) {
     const order = response.type === "order" ? response.order : [];
     return (
@@ -29,7 +32,7 @@ export function Order({ q, response, onSubmit }: FormatProps<"order">) {
     <div class="format">
       <p class="hint">古いものから順にタップ。もう一度タップで取り消し</p>
       <div class="order-list">
-        {q.entries.map((e) => {
+        {entries.map((e) => {
           const n = picked.indexOf(e.id);
           return (
             <button type="button" key={e.id} class={`order-item${n >= 0 ? " on" : ""}`} onClick={() => toggle(e.id)}>

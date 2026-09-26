@@ -1,8 +1,12 @@
 // 択一（画像付き問題文・画像の選択肢・マーカーによる部分指定を含む）
+import { useState } from "preact/hooks";
+import { shuffle } from "../shuffle";
 import { Credit, Img } from "../ui";
 import type { FormatProps } from "./types";
 
 export function Choice({ q, themeId, response, onSubmit }: FormatProps<"choice">) {
+  // 選択肢の表示順は出題のたびにシャッフルする（ADR-0008）。解答後も同じ並びを保つ
+  const [choices] = useState(() => shuffle(q.choices));
   const answered = response !== undefined;
   const chosen = response?.type === "choice" ? response.choiceId : undefined;
   const markerMedia = q.media?.find((m) => m.markers);
@@ -33,7 +37,7 @@ export function Choice({ q, themeId, response, onSubmit }: FormatProps<"choice">
         </figure>
       ))}
       <div class={imageChoices ? "choices image-grid" : markerMedia ? "choices marker-grid" : "choices"}>
-        {q.choices.map((c, i) => (
+        {choices.map((c, i) => (
           <button type="button" key={c.id} class={`choice ${state(c.id)}`} onClick={() => pick(c.id)} disabled={answered && state(c.id) === "dim"}>
             {c.media ? (
               <>

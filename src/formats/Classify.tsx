@@ -1,14 +1,16 @@
 // 分類: 各項目の分類先をボタンで選ぶ
 import { useState } from "preact/hooks";
+import { shuffle } from "../shuffle";
 import type { FormatProps } from "./types";
 
 export function Classify({ q, response, onSubmit }: FormatProps<"classify">) {
   const [buckets, setBuckets] = useState<Record<string, string>>({});
+  const [entries] = useState(() => shuffle(q.entries));
   const yours = response?.type === "classify" ? response.buckets : undefined;
   return (
     <div class="format">
       <div class="classify">
-        {q.entries.map((e) => {
+        {entries.map((e) => {
           const state = !response ? "" : yours?.[e.id] === e.bucket ? "correct" : "wrong";
           return (
             <div key={e.id} class={`classify-row ${state}`}>
