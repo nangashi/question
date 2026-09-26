@@ -127,6 +127,22 @@
           "credit": "Caravaggio, Public domain, via Wikimedia Commons",
           "license": "Public domain",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Calling_of_Saint_Matthew-Caravaggo_(1599-1600).jpg"
+        },
+        {
+          "kind": "image",
+          "src": "images/night-watch.jpg",
+          "alt": "暗い背景の中、隊長と副官を中心に武装した市民たちが動き出そうとしている大きな集団肖像画",
+          "credit": "Rembrandt, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg"
+        },
+        {
+          "kind": "image",
+          "src": "images/milkmaid.jpg",
+          "alt": "窓からの光が差す台所で、黄色い上着に青いエプロンの女性が水差しから牛乳を注いでいる絵",
+          "credit": "Johannes Vermeer, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg"
         }
       ],
       "links": [

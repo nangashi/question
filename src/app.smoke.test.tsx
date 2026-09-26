@@ -4,7 +4,7 @@ import { render } from "preact";
 import { act } from "preact/test-utils";
 import { beforeEach, describe, expect, it } from "vitest";
 import { App } from "./app";
-import { content } from "./content";
+import { content, contentErrors, getItem } from "./content";
 import { allEntries, resetProgressForTest } from "./progress";
 
 let root: HTMLElement;
@@ -33,10 +33,10 @@ describe("画面", () => {
     await go("#/");
     expect(root.textContent).toContain("今日の学習");
     await go("#/t/japanese-history");
-    expect(root.textContent).toContain("江戸幕府のしくみと鎖国");
-    await go("#/t/japanese-history/edo-bakufu");
-    expect(root.textContent).toContain("島原・天草一揆");
-    await go("#/item/jh-edo-shimabara");
+    expect(root.textContent).toContain("宗教の移り変わり");
+    await go("#/t/japanese-history/religion");
+    expect(root.textContent).toContain(getItem("jh-religion-kokubunji")!.item.title);
+    await go("#/item/jh-religion-kokubunji");
     expect(root.textContent).toContain("つながり");
     // 読み物は 1 ページで通して読め、見出しごとに問題へ移れる
     await go("#/read/painting/overview");
@@ -90,6 +90,9 @@ describe("全出題形式", () => {
     expect(root.textContent).toContain("おつかれさまでした");
     // 解いた問題はすべて学習記録に残る
     expect(allEntries().length).toBe(seen.length);
+    // ホームに、解いた問題の知識カードが出る
+    await go("#/");
+    expect(root.textContent).toContain("最近学んだ知識");
     expect(new Set(seen)).toEqual(new Set(["択一", "画像", "部分指定", "並べ替え", "組み合わせ", "分類", "年代推定", "地図"]));
   });
 
@@ -123,8 +126,10 @@ describe("全出題形式", () => {
     expect(root.textContent).toContain("1/");
   });
 
-  it("サンプルデータは全形式を含む", () => {
-    const types = new Set([...content.categories.values()].flatMap((c) => c.questions.map((q) => q.type)));
-    expect(types).toEqual(new Set(["choice", "order", "match", "classify", "year", "map"]));
+  it("テスト用サンプル（src/test/fixtures/content/）は検証を通り、全形式を含む", () => {
+    expect(contentErrors).toEqual([]);
+    const sample = [...content.categories].filter(([key]) => key.startsWith("sample/")).flatMap(([, c]) => c.questions);
+    expect(new Set(sample.map((q) => q.type))).toEqual(new Set(["choice", "order", "match", "classify", "year", "map"]));
+    expect(sample.some((q) => q.type === "choice" && q.media?.some((m) => m.markers))).toBe(true);
   });
 });

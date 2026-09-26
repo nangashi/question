@@ -1,0 +1,16 @@
+{
+  "id": "sample",
+  "name": "テスト用サンプル",
+  "categories": [
+    {
+      "id": "edo-bakufu",
+      "name": "江戸幕府のしくみと鎖国",
+      "description": "江戸幕府は、どうやって大名を従え、外国との関係を限っていったのか"
+    },
+    {
+      "id": "baroque",
+      "name": "バロック",
+      "description": "光と劇的な表現で、何を伝えようとしたのか"
+    }
+  ]
+}

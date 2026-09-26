@@ -1,26 +1,14 @@
 // content/ をビルド時に取り込み、検証して提供する
+import { assetFiles, jsonFiles, lessonFiles } from "./contentFiles";
 import { parseContent, type CategoryContent, type Item, type Media, type Question, type RawContent } from "./schema";
-
-const jsonFiles = import.meta.glob<unknown>("/content/**/*.json", { eager: true, import: "default" });
-const assetFiles = import.meta.glob<string>("/content/**/*.{jpg,jpeg,png,webp,svg}", {
-  eager: true,
-  query: "?url",
-  import: "default",
-});
-
-const lessonFiles = import.meta.glob<string>(["/content/**/*.md", "!/content/**/*.notes.md"], {
-  eager: true,
-  query: "?raw",
-  import: "default",
-});
 
 const raw: RawContent = { themes: {}, categories: {}, maps: {}, assets: new Set(), lessons: {} };
 for (const [path, md] of Object.entries(lessonFiles)) {
-  const [top, name] = path.replace("/content/", "").split("/");
+  const [top, name] = path.split("/");
   if (top && name) raw.lessons[`${top}/${name.replace(/\.md$/, "")}`] = md;
 }
 for (const [path, json] of Object.entries(jsonFiles)) {
-  const [top, name] = path.replace("/content/", "").split("/");
+  const [top, name] = path.split("/");
   if (!top || !name) continue;
   if (top === "_maps") raw.maps[name.replace(/\.json$/, "")] = json;
   else if (name === "_theme.json") raw.themes[top] = json;
@@ -28,9 +16,8 @@ for (const [path, json] of Object.entries(jsonFiles)) {
 }
 const assetUrls = new Map<string, string>();
 for (const [path, url] of Object.entries(assetFiles)) {
-  const rel = path.replace("/content/", "");
-  raw.assets.add(rel);
-  assetUrls.set(rel, url);
+  raw.assets.add(path);
+  assetUrls.set(path, url);
 }
 
 export const { content, errors: contentErrors } = parseContent(raw);

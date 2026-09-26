@@ -1,11 +1,19 @@
-import { activeQuestions, content, getItem } from "../content";
-import { distribution, streakDays } from "../progress";
+import { activeQuestions, content, getItem, getQuestion } from "../content";
+import { allEntries, distribution, streakDays } from "../progress";
 import { href } from "../router";
 import { Screen, StarBar, StarCounts } from "../ui";
 
+/** 最近解いた問題の知識カード（新しい順、重複なし） */
+function recentItemIds(n: number): string[] {
+  const ids = allEntries()
+    .sort((a, b) => b.at - a.at)
+    .flatMap((e) => getQuestion(e.questionId)?.question.itemIds ?? []);
+  return [...new Set(ids)].slice(0, n);
+}
+
 export function Home() {
   const all = distribution(activeQuestions());
-  const recent = ["jh-edo-shimabara", "jh-edo-portuguese-ban", "pt-baroque-night-watch"]
+  const recent = recentItemIds(3)
     .map((id) => getItem(id))
     .filter((x) => x !== undefined);
   return (
@@ -26,7 +34,6 @@ export function Home() {
           </div>
         </div>
         <a class="btn primary big" href={href.play("all")}>おまかせで5問</a>
-        <a class="btn ghost" href={href.play("formats")}>全出題形式を試す（モック）</a>
       </section>
       <section class="stack">
         <h2 class="section">テーマ</h2>
@@ -44,8 +51,8 @@ export function Home() {
           );
         })}
       </section>
-      <section class="stack">
-        <h2 class="section">最近つながった知識</h2>
+      {recent.length > 0 && <section class="stack">
+        <h2 class="section">最近学んだ知識</h2>
         <div class="grid3">
           {recent.map(({ item, ref }) => {
             const t = content.themes.find((x) => x.id === ref.themeId);
@@ -59,7 +66,7 @@ export function Home() {
             );
           })}
         </div>
-      </section>
+      </section>}
       <a class="btn text small" href={href.data()}>学習記録の書き出し・読み込み</a>
     </Screen>
   );

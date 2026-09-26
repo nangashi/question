@@ -12,7 +12,7 @@ export const SESSION_SIZE = 5;
  *   cat:<themeId>/<catId>    サブカテゴリ
  *   item:<itemId>            知識カード
  *   sec:<themeId>/<catId>/<n>  読み物の第 n 節（ADR-0010）
- *   formats                  全出題形式のお試し（モック用）
+ *   formats                  出題形式ごとに 1 問ずつ（動作確認用。画面からはリンクしない）
  */
 export function pickQuestions(scope: string): Question[] {
   if (scope === "formats") return oneOfEachFormat();

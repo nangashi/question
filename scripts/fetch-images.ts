@@ -6,9 +6,7 @@ import sharp from "sharp";
 
 const images: { file: string; out: string }[] = [
   { file: "La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg", out: "content/painting/images/night-watch.jpg" },
-  { file: "1665_Girl_with_a_Pearl_Earring.jpg", out: "content/painting/images/pearl-earring.jpg" },
   { file: "The_Calling_of_Saint_Matthew-Caravaggo_(1599-1600).jpg", out: "content/painting/images/calling-of-matthew.jpg" },
-  { file: "Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg", out: "content/painting/images/las-meninas.jpg" },
   { file: "Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg", out: "content/painting/images/milkmaid.jpg" },
   { file: "Byodoin_Phoenix_Hall_Uji_2009.jpg", out: "content/japanese-history/images/byodoin-phoenix-hall.jpg" },
   { file: "Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg", out: "content/painting/images/cabanel-birth-of-venus.jpg" },

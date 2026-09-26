@@ -180,8 +180,7 @@
       "year": { "from": 1612, "to": 1614 },
       "tags": ["江戸", "キリスト教"],
       "links": [
-        { "axis": "因果", "text": "禁教を徹底するため、人々がキリシタンでないことを寺に証明させる寺請制度がつくられました。", "itemIds": ["jh-religion-terauke"] },
-        { "axis": "時代", "text": "1637年には、キリスト教徒への弾圧も背景に島原・天草一揆が起きました。", "itemIds": ["jh-edo-shimabara"] }
+        { "axis": "因果", "text": "禁教を徹底するため、人々がキリシタンでないことを寺に証明させる寺請制度がつくられました。", "itemIds": ["jh-religion-terauke"] }
       ],
       "trivia": "全国への禁教令は「1613年」と書かれることが多いですが、出されたのは慶長18年12月で、西暦では1614年1月にあたります。",
       "sources": ["Wikipedia「禁教令」 — https://ja.wikipedia.org/wiki/禁教令"],
