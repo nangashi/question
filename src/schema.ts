@@ -226,11 +226,32 @@ export function parseContent(raw: RawContent): { content: ParsedContent; errors:
     if (!categories.has(key)) errors.push(`${key}.md: 対応する問題データ（${key}.json）がない`);
     const { lesson, errors: lessonErrors } = parseLesson(md);
     lessonErrors.forEach((e) => errors.push(`${key}.md: ${e}`));
-    for (const s of lesson.sections)
+    const themeId = key.split("/")[0]!;
+    for (const s of lesson.sections) {
       for (const ref of s.itemIds) if (!itemIds.has(ref)) errors.push(`${key}.md: 節「${s.title}」の知識カードが存在しない ${ref}`);
+      // 読み物の画像は、クレジットとライセンスを表示するため、同じテーマの知識カードか問題に同じ画像の情報があること
+      for (const b of s.blocks) {
+        if (b.kind !== "img") continue;
+        if (!raw.assets.has(`${themeId}/${b.src}`)) errors.push(`${key}.md: 画像が見つからない ${b.src}`);
+        if (!findThemeMedia({ themes, categories, maps, lessons }, themeId, b.src))
+          errors.push(`${key}.md: 画像 ${b.src} のクレジット・ライセンスが知識カードや問題にない`);
+      }
+    }
     lessons.set(key, lesson);
   }
   return { content: { themes, categories, maps, lessons }, errors };
+}
+
+/** テーマ内の知識カード・問題から、src が一致する画像の情報（クレジット・ライセンス）を探す */
+export function findThemeMedia(content: ParsedContent, themeId: string, src: string): Media | undefined {
+  for (const [key, c] of content.categories) {
+    if (key.split("/")[0] !== themeId) continue;
+    for (const it of c.items) for (const m of it.media ?? []) if (m.src === src && m.license) return m;
+    for (const q of c.questions) {
+      for (const m of q.media ?? []) if (m.src === src && m.license) return m;
+    }
+  }
+  return undefined;
 }
 
 /**

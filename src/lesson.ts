@@ -1,7 +1,12 @@
-// 読み物（ADR-0010）の解析。Markdown のうち、見出し・段落・箇条書き・強調だけを扱う
+// 読み物（ADR-0010）の解析。Markdown のうち、見出し・段落・箇条書き・強調・画像だけを扱う
 
 export type Inline = { text: string; strong?: boolean };
-export type Block = { kind: "p"; inlines: Inline[] } | { kind: "ul"; items: Inline[][] };
+export type Block =
+  | { kind: "p"; inlines: Inline[] }
+  | { kind: "ul"; items: Inline[][] }
+  | { kind: "img"; src: string; caption: string };
+
+const IMAGE = /^!\[(.*?)\]\((.+?)\)$/;
 export type LessonSection = { index: number; title: string; itemIds: string[]; blocks: Block[] };
 export type Lesson = { title?: string; sections: LessonSection[] };
 
@@ -35,6 +40,11 @@ function toBlocks(lines: string[]): Block[] {
     const line = raw.trim();
     if (line === "") {
       flush();
+    } else if (IMAGE.test(line)) {
+      // 画像は単独の行に書く: ![キャプション](images/ファイル名.jpg)
+      flush();
+      const [, caption = "", src = ""] = IMAGE.exec(line)!;
+      blocks.push({ kind: "img", src, caption });
     } else if (line.startsWith("- ")) {
       if (para.length) flush();
       list.push(line.slice(2));
@@ -87,7 +97,7 @@ export function parseLesson(md: string): { lesson: Lesson; errors: string[] } {
 /** 本文の文字数（分量の目安の確認用） */
 export function sectionLength(s: LessonSection): number {
   return s.blocks
-    .flatMap((b) => (b.kind === "p" ? [b.inlines] : b.items))
+    .flatMap((b) => (b.kind === "p" ? [b.inlines] : b.kind === "ul" ? b.items : []))
     .flat()
     .reduce((n, i) => n + i.text.length, 0);
 }

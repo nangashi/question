@@ -100,7 +100,7 @@ export function Play({ scope, sessionId }: { scope: string; sessionId?: string }
                   body: sec && (
                     <details class="reread">
                       <summary>第{sec.section.index}節「{sec.section.title}」を読み返す</summary>
-                      <LessonBody blocks={sec.section.blocks} />
+                      <LessonBody blocks={sec.section.blocks} themeId={sec.ref.themeId} />
                     </details>
                   ),
                 },

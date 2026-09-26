@@ -41,6 +41,8 @@ describe("画面", () => {
     await go("#/read/painting/overview");
     expect(root.querySelectorAll(".lesson-h2").length).toBeGreaterThan(1);
     expect(root.querySelector(".section-quiz")).toBeTruthy();
+    // 読み物の中に作品の画像とキャプションが出る
+    expect(root.querySelector(".lesson-figure figcaption")).toBeTruthy();
     expect(root.textContent).toContain("問題を解く");
   });
 });

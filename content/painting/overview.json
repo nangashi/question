@@ -70,6 +70,14 @@
           "credit": "Sandro Botticelli, Public domain, via Wikimedia Commons",
           "license": "Public domain",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+        },
+        {
+          "kind": "image",
+          "src": "images/leonardo-mona-lisa.jpg",
+          "alt": "腕を組んで座る女性が、かすかにほほえみながらこちらを見ている。背景には、かすんだ山や川が広がっている",
+          "credit": "Leonardo da Vinci, Public domain, via Wikimedia Commons",
+          "license": "Public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
         }
       ],
       "links": [

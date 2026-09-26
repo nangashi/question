@@ -77,7 +77,7 @@ export function LessonScreen({ themeId, categoryId, section }: { themeId: string
           return (
             <section class="lesson-section" id={`sec-${s.index}`} key={s.index}>
               <h2 class="lesson-h2">{s.title}</h2>
-              <LessonBody blocks={s.blocks} />
+              <LessonBody blocks={s.blocks} themeId={themeId} />
               {count > 0 && (
                 <a class="section-quiz" href={href.play(`sec:${themeId}/${categoryId}/${s.index}`)}>
                   <PlayIcon />
