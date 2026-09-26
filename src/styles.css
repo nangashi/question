@@ -323,6 +323,6 @@ img { max-width: 100%; display: block; }
 .section-quiz { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); font-size: 13px; font-weight: 700; }
 .reading-entry { gap: 6px; }
 
-/* 知識カードの一覧の進み具合（★★★ の問題数） */
-.item-progress { flex-shrink: 0; font-size: 12px; color: var(--muted); white-space: nowrap; }
-.item-progress b { color: var(--ink); }
+/* 知識カードごとの進捗（★の分布の細いバー） */
+.starbar.thin { height: 5px; border-radius: 3px; gap: 1px; }
+.item-row { display: flex; flex-direction: column; gap: 8px; }

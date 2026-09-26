@@ -4,10 +4,11 @@ import { mediaUrl } from "./content";
 import type { Distribution } from "./mockProgress";
 import type { Media } from "./schema";
 
-export function StarBar({ d, thick }: { d: Distribution; thick?: boolean }) {
+/** ★の分布のバー。thick は全体の進捗、thin は知識カードごとの進捗に使う */
+export function StarBar({ d, thick, thin }: { d: Distribution; thick?: boolean; thin?: boolean }) {
   const pct = (n: number) => `${d.total === 0 ? 0 : (n / d.total) * 100}%`;
   return (
-    <div class={`starbar${thick ? " thick" : ""}`} aria-hidden="true">
+    <div class={`starbar${thick ? " thick" : ""}${thin ? " thin" : ""}`} aria-hidden="true">
       <span class="s3" style={{ width: pct(d.s3) }} />
       <span class="s2" style={{ width: pct(d.s2) }} />
       <span class="s1" style={{ width: pct(d.s1) }} />

@@ -1,5 +1,5 @@
 import { activeQuestions, content, getItem } from "../content";
-import { distribution, stars } from "../mockProgress";
+import { distribution } from "../mockProgress";
 import { href } from "../router";
 import { Screen, StarBar, StarCounts } from "../ui";
 
@@ -54,7 +54,7 @@ export function Home() {
               <a class="card mini link" href={href.item(item.id)} key={item.id}>
                 <span class="muted tiny">{item.year?.from} ・ {t?.name}</span>
                 <span class="bold small">{item.title}</span>
-                <span class="item-progress">定着 <b>{qs.filter((q) => stars(q) === 3).length}</b> / {qs.length}問</span>
+                <StarBar d={distribution(qs)} thin />
               </a>
             );
           })}
