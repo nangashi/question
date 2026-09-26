@@ -39,10 +39,12 @@ export function Home() {
         <h2 class="section">テーマ</h2>
         {content.themes.map((t) => {
           const d = distribution(activeQuestions((r) => r.themeId === t.id));
+          // テーマ画面と同じく、問題のあるサブカテゴリだけを数える（ADR-0001）
+          const cats = t.categories.filter((c) => activeQuestions((r) => r.key === `${t.id}/${c.id}`).length > 0).length;
           return (
             <a class="card link" href={href.theme(t.id)} key={t.id}>
               <div class="row between">
-                <span class="card-title">{t.name}<span class="muted small"> {t.categories.length}のサブカテゴリ</span></span>
+                <span class="card-title">{t.name}<span class="muted small"> {cats}のサブカテゴリ</span></span>
                 <span class="accent small bold">復習 {d.due} ›</span>
               </div>
               <StarBar d={d} />

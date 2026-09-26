@@ -60,7 +60,7 @@ description: 学習アプリの問題データ（知識カードと問題）を�
 ### 4. 画像を用意する（必要な場合）
 
 - 絵画はパブリックドメイン、写真は CC ライセンスのものだけを使う（ADR-0004）。Wikimedia Commons の API（`action=query&prop=imageinfo&iiprop=url|extmetadata`）を `WebFetch` で読み、ファイル名・作者・ライセンスを確かめる
-- 取得したい画像を `scripts/fetch-images.ts` の一覧に追加し、`credit`・`license`・`sourceUrl` を media に書く
+- media に `credit`・`license`・`sourceUrl` を書く。`sourceUrl` は Commons のファイルページ（`https://commons.wikimedia.org/wiki/File:<ファイル名>`）にする。`pnpm fetch:images` はここから取得する画像を集め、`src` の場所に保存する
 - ダウンロードはユーザーに `pnpm fetch:images` を実行してもらう（この環境からは取得できない）
 - マーカー（部分指定）は、ガイドの「部分指定（マーカー）の使い方」に従う。画像がない状態では作らない。`pnpm check:markers` の画像を `Read` で見て位置を確かめ、正しいときだけ `--approve` する
 

@@ -216,9 +216,7 @@ export function parseContent(raw: RawContent): { content: ParsedContent; errors:
       for (const ref of q.itemIds) if (!itemIds.has(ref)) errors.push(`${w}: 知識カードが存在しない ${ref}`);
       q.media?.forEach((m) => checkMedia(w, themeId, m));
       errors.push(...checkQuestion(w, q, maps));
-      const entries =
-        q.type === "choice" ? q.choices : q.type === "order" ? q.entries : q.type === "match" ? [...q.left, ...q.right] : q.type === "classify" ? [...q.buckets, ...q.entries] : [];
-      entries.forEach((e) => checkMedia(w, themeId, e.media));
+      questionEntries(q).forEach((e) => checkMedia(w, themeId, e.media));
     }
   }
   // 読み物（ADR-0010）
@@ -240,6 +238,26 @@ export function parseContent(raw: RawContent): { content: ParsedContent; errors:
     lessons.set(key, lesson);
   }
   return { content: { themes, categories, maps, lessons }, errors };
+}
+
+/** 問題の選択肢・項目（形式ごとに持ち方が違うものをまとめて返す） */
+export function questionEntries(q: Question): Entry[] {
+  return q.type === "choice" ? q.choices : q.type === "order" ? q.entries : q.type === "match" ? [...q.left, ...q.right] : q.type === "classify" ? [...q.buckets, ...q.entries] : [];
+}
+
+/** 知識カード・問題・選択肢に含まれるすべての media（テーマ ID 付き） */
+export function allMedia(content: ParsedContent): { themeId: string; media: Media }[] {
+  const out: { themeId: string; media: Media }[] = [];
+  for (const [key, c] of content.categories) {
+    const themeId = key.split("/")[0]!;
+    const add = (m: Media | undefined) => m && out.push({ themeId, media: m });
+    c.items.forEach((it) => it.media?.forEach(add));
+    for (const q of c.questions) {
+      q.media?.forEach(add);
+      questionEntries(q).forEach((e) => add(e.media));
+    }
+  }
+  return out;
 }
 
 /** テーマ内の知識カード・問題から、src が一致する画像の情報（クレジット・ライセンス）を探す */

@@ -3,29 +3,20 @@
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import sharp from "sharp";
+import { allMedia, parseContent } from "../src/schema.ts";
+import { loadRawContent } from "./load-content.ts";
 
-const images: { file: string; out: string }[] = [
-  { file: "La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg", out: "content/painting/images/night-watch.jpg" },
-  { file: "The_Calling_of_Saint_Matthew-Caravaggo_(1599-1600).jpg", out: "content/painting/images/calling-of-matthew.jpg" },
-  { file: "Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg", out: "content/painting/images/milkmaid.jpg" },
-  { file: "Byodoin_Phoenix_Hall_Uji_2009.jpg", out: "content/japanese-history/images/byodoin-phoenix-hall.jpg" },
-  { file: "Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg", out: "content/painting/images/cabanel-birth-of-venus.jpg" },
-  { file: "Boulevard_du_Temple_by_Daguerre.jpg", out: "content/painting/images/daguerre-boulevard-du-temple.jpg" },
-  { file: "Monet_-_Impression,_Sunrise.jpg", out: "content/painting/images/monet-impression-sunrise.jpg" },
-  { file: "Hiroshige_Van_Gogh_1.JPG", out: "content/painting/images/hiroshige-van-gogh-plum.jpg" },
-  { file: "Paul_Cézanne_108.jpg", out: "content/painting/images/cezanne-sainte-victoire.jpg" },
-  { file: "Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg", out: "content/painting/images/gogh-starry-night.jpg" },
-  { file: "Matisse-Woman-with-a-Hat.jpg", out: "content/painting/images/matisse-woman-with-a-hat.jpg" },
-  { file: "Vassily_Kandinsky,_1913_-_Composition_7.jpg", out: "content/painting/images/kandinsky-composition-7.jpg" },
-  { file: "Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg", out: "content/painting/images/malevich-black-square.jpg" },
-  { file: "Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg", out: "content/painting/images/mondrian-composition-1930.jpg" },
-  { file: "Spas_vsederzhitel_sinay.jpg", out: "content/painting/images/icon-christ-pantocrator-sinai.jpg" },
-  { file: "Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg", out: "content/painting/images/botticelli-birth-of-venus.jpg" },
-  { file: "Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg", out: "content/painting/images/leonardo-mona-lisa.jpg" },
-  { file: "Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg", out: "content/painting/images/delacroix-liberty.jpg" },
-  { file: "Gustave_Courbet_-_The_Stonebreakers_-_WGA05457.jpg", out: "content/painting/images/courbet-stonebreakers.jpg" },
-  { file: "A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg", out: "content/painting/images/seurat-grande-jatte.jpg" },
-];
+// 取得する画像は、問題データの media から集める（sourceUrl が Commons のファイルページのもの）
+const COMMONS_FILE = /^https:\/\/commons\.wikimedia\.org\/wiki\/File:(.+)$/;
+const images = new Map<string, string>(); // 保存先 -> Commons のファイル名
+const noSource: string[] = [];
+for (const { themeId, media } of allMedia(parseContent(loadRawContent()).content)) {
+  if (media.kind !== "image") continue;
+  const out = `content/${themeId}/${media.src}`;
+  const file = media.sourceUrl?.match(COMMONS_FILE)?.[1];
+  if (file) images.set(out, decodeURIComponent(file));
+  else if (!existsSync(out)) noSource.push(out);
+}
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const ATTEMPTS = 5;
@@ -59,7 +50,7 @@ async function download(file: string): Promise<Buffer> {
 }
 
 const failed: string[] = [];
-for (const { file, out } of images) {
+for (const [out, file] of images) {
   if (existsSync(out)) {
     console.log(`skip ${out}`);
     continue;
@@ -80,8 +71,12 @@ for (const { file, out } of images) {
   await sleep(1_000);
 }
 
+if (noSource.length > 0) {
+  console.error(`\n${noSource.length} 枚は sourceUrl が Commons のファイルページ（https://commons.wikimedia.org/wiki/File:...）でないため取得できません:`);
+  for (const f of noSource) console.error(`  - ${f}`);
+}
 if (failed.length > 0) {
   console.error(`\n${failed.length} 枚を取得できませんでした（時間をおいて再実行すると、取得済みのものは飛ばして続きから取得します）:`);
   for (const f of failed) console.error(`  - ${f}`);
-  process.exit(1);
 }
+if (noSource.length > 0 || failed.length > 0) process.exit(1);
