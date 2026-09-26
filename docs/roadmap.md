@@ -49,7 +49,7 @@ B: 実環境へデプロイ
 
 - [x] PWA 化（`navigator.storage.persist()` を含む。ADR-0012）
 - [x] デプロイの設定（Cloudflare Workers の静的アセット、`wrangler.jsonc`。ADR-0012）
-- [ ] Cloudflare の Workers Builds で GitHub リポジトリを連携し、公開する
+- [x] Cloudflare の Workers Builds で GitHub リポジトリを連携し、公開する（https://manabi-card.tagjmp.workers.dev 。`main` への push で自動デプロイ）
 - [ ] 公開した URL をスマホのホーム画面に追加して使い、出題の順・★の基準・1 回の問題数を確かめる（ローカルでは試しにくいため、A の確認をここで行う）
 - [ ] 1 週間続けて使う（Phase 1 の完了条件）
 
