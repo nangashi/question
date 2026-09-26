@@ -1,7 +1,7 @@
 import { activeQuestions, content, getItem } from "../content";
 import { distribution, stars } from "../mockProgress";
 import { href } from "../router";
-import { Screen, StarBar, StarCounts, Stars } from "../ui";
+import { Screen, StarBar, StarCounts } from "../ui";
 
 export function Home() {
   const all = distribution(activeQuestions());
@@ -49,12 +49,12 @@ export function Home() {
         <div class="grid3">
           {recent.map(({ item, ref }) => {
             const t = content.themes.find((x) => x.id === ref.themeId);
-            const qs = activeQuestions().filter((q) => q.itemIds[0] === item.id);
+            const qs = activeQuestions().filter((q) => q.itemIds.includes(item.id));
             return (
               <a class="card mini link" href={href.item(item.id)} key={item.id}>
                 <span class="muted tiny">{item.year?.from} ・ {t?.name}</span>
                 <span class="bold small">{item.title}</span>
-                {qs[0] && <Stars n={stars(qs[0])} />}
+                <span class="item-progress">定着 <b>{qs.filter((q) => stars(q) === 3).length}</b> / {qs.length}問</span>
               </a>
             );
           })}

@@ -126,7 +126,6 @@ img { max-width: 100%; display: block; }
 .starcounts b { color: var(--ink); }
 .stars { font-size: 12px; letter-spacing: 0.05em; white-space: nowrap; }
 .stars .off { color: #c9c4b8; }
-.stars-col { display: flex; flex-direction: column; align-items: flex-end; }
 .notice { padding: 10px 12px; border-radius: 10px; background: var(--accent-soft); font-size: 13px; }
 
 /* サブカテゴリ一覧 */
@@ -134,7 +133,6 @@ img { max-width: 100%; display: block; }
 .cat-link { display: flex; flex-direction: column; gap: 6px; }
 .list-row { display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 8px 0; border-bottom: 1px solid #efece6; }
 .list-row:last-child { border-bottom: none; }
-.list-row .year { width: 40px; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { padding: 3px 10px; border-radius: 999px; background: var(--soft); font-size: 12px; color: var(--muted); }
 .chip.accent { background: var(--accent-soft); color: var(--accent); font-weight: 700; }
@@ -324,3 +322,7 @@ img { max-width: 100%; display: block; }
 .lesson-h2 { margin: 0; font-family: "Shippori Mincho", serif; font-size: 20px; font-weight: 700; line-height: 1.5; }
 .section-quiz { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); font-size: 13px; font-weight: 700; }
 .reading-entry { gap: 6px; }
+
+/* 知識カードの一覧の進み具合（★★★ の問題数） */
+.item-progress { flex-shrink: 0; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.item-progress b { color: var(--ink); }

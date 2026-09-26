@@ -2,7 +2,7 @@ import { activeQuestions, getCategory, getItem, getLesson, getTheme, yearRange }
 import { distribution, stars } from "../mockProgress";
 import { href } from "../router";
 import { sectionLength } from "../lesson";
-import { BackLink, PlayLink, Screen, StarBar, StarCounts, Stars } from "../ui";
+import { BackLink, PlayLink, Screen, StarBar, StarCounts } from "../ui";
 
 export function CategoryScreen({ themeId, categoryId }: { themeId: string; categoryId: string }) {
   const theme = getTheme(themeId);
@@ -51,13 +51,11 @@ export function CategoryScreen({ themeId, categoryId }: { themeId: string; categ
           const iq = qs.filter((q) => q.itemIds.includes(it.id));
           return (
             <a class="list-row" href={href.item(it.id)} key={it.id}>
-              <span class="muted tiny year">{it.year?.from ?? "—"}</span>
               <span class="grow">{it.title}</span>
-              <span class="stars-col">
-                {iq.map((q) => (
-                  <Stars n={stars(q)} key={q.id} />
-                ))}
+              <span class="item-progress">
+                定着 <b>{iq.filter((q) => stars(q) === 3).length}</b> / {iq.length}問
               </span>
+              <span class="chevron" aria-hidden="true">›</span>
             </a>
           );
         })}
