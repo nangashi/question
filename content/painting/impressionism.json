@@ -41,7 +41,7 @@
         "Wikipedia「サロン・ド・パリ」 — https://ja.wikipedia.org/wiki/サロン・ド・パリ",
         "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
       ],
-      "unlockOrder": 0
+      "order": 0
     },
     {
       "id": "pt-abstract-photography",
@@ -84,7 +84,7 @@
         "Wikipedia「ダゲレオタイプ」 — https://ja.wikipedia.org/wiki/ダゲレオタイプ",
         "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
       ],
-      "unlockOrder": 1
+      "order": 1
     },
     {
       "id": "pt-abstract-impressionism",
@@ -129,7 +129,7 @@
       "sources": [
         "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
       ],
-      "unlockOrder": 2
+      "order": 2
     },
     {
       "id": "pt-impressionism-seurat",
@@ -174,7 +174,7 @@
       "sources": [
         "Wikipedia「ジョルジュ・スーラ」 — https://ja.wikipedia.org/wiki/ジョルジュ・スーラ"
       ],
-      "unlockOrder": 3
+      "order": 3
     },
     {
       "id": "pt-abstract-japonisme",
@@ -218,7 +218,7 @@
         "Wikipedia「ジャポニスム」 — https://ja.wikipedia.org/wiki/ジャポニスム",
         "Wikipedia「印象派」 — https://ja.wikipedia.org/wiki/印象派"
       ],
-      "unlockOrder": 4
+      "order": 4
     },
     {
       "id": "pt-abstract-cezanne",
@@ -264,7 +264,7 @@
         "Wikipedia「ポスト印象派」 — https://ja.wikipedia.org/wiki/ポスト印象派",
         "コトバンク「セザンヌ」（世界大百科事典・日本大百科全書・百科事典マイペディア） — https://kotobank.jp/word/%E3%81%9B%E3%81%96%E3%82%93%E3%81%AC-3157136"
       ],
-      "unlockOrder": 5
+      "order": 5
     },
     {
       "id": "pt-abstract-gogh-gauguin",
@@ -311,7 +311,7 @@
         "Wikipedia「ポール・ゴーギャン」 — https://ja.wikipedia.org/wiki/ポール・ゴーギャン",
         "Wikipedia「ポスト印象派」 — https://ja.wikipedia.org/wiki/ポスト印象派"
       ],
-      "unlockOrder": 6
+      "order": 6
     }
   ],
   "questions": [

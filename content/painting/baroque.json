@@ -24,7 +24,7 @@
       ],
       "trivia": "この絵は美術館ではなく、描かれた当時から400年以上、ローマの聖堂の同じ礼拝堂に飾られています。",
       "sources": ["高階秀爾『名画を見る眼』"],
-      "unlockOrder": 0
+      "order": 0
     },
     {
       "id": "pt-baroque-night-watch",
@@ -50,7 +50,7 @@
       ],
       "trivia": "実は昼の場面を描いたものとされ、表面のニスが暗く変色したことから「夜警」と呼ばれるようになりました。",
       "sources": ["高階秀爾『名画を見る眼』"],
-      "unlockOrder": 1
+      "order": 1
     },
     {
       "id": "pt-baroque-las-meninas",
@@ -76,7 +76,7 @@
       ],
       "trivia": "奥の壁の鏡には国王夫妻が映っており、見る人が国王夫妻の立ち位置にいるような構図になっています。",
       "sources": ["高階秀爾『名画を見る眼』"],
-      "unlockOrder": 2
+      "order": 2
     },
     {
       "id": "pt-baroque-milkmaid",
@@ -100,7 +100,7 @@
         { "axis": "人物", "text": "同じフェルメールの「真珠の耳飾りの少女」にも、高価な青い顔料が使われています。", "itemIds": ["pt-baroque-pearl-earring"] }
       ],
       "sources": ["高階秀爾『名画を見る眼』"],
-      "unlockOrder": 3
+      "order": 3
     },
     {
       "id": "pt-baroque-pearl-earring",
@@ -125,7 +125,7 @@
       ],
       "trivia": "ターバンの青は、宝石ラピスラズリを砕いて作る高価な顔料「ウルトラマリン」です。",
       "sources": ["高階秀爾『名画を見る眼』"],
-      "unlockOrder": 4
+      "order": 4
     }
   ],
   "questions": [

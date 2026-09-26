@@ -58,7 +58,7 @@ out.push(errors.length === 0 ? "検証: OK" : `検証エラー ${errors.length} 
 const asks = askSchema.options;
 out.push("## 問いの網羅状況", "");
 out.push(`| 知識カード | ${asks.map((a) => askLabel[a]).join(" | ")} | 計 |`, `|---|${asks.map(() => "---").join("|")}|---|`);
-for (const it of [...data.items].sort((a, b) => a.unlockOrder - b.unlockOrder)) {
+for (const it of [...data.items].sort((a, b) => a.order - b.order)) {
   const qs = data.questions.filter((q) => q.status === "active" && q.itemIds.includes(it.id));
   const cells = asks.map((a) => {
     const n = qs.filter((q) => q.asks.includes(a)).length;
@@ -70,8 +70,8 @@ const warns = coverageWarnings(content).filter((w) => w.startsWith(`${key}/`));
 out.push("", warns.length === 0 ? "抜けの警告: なし" : `抜けの警告 ${warns.length} 件（**0** は why があるのに「なぜ」を問う問題がないもの）`, "");
 
 out.push("## 知識カード", "");
-for (const it of [...data.items].sort((a, b) => a.unlockOrder - b.unlockOrder)) {
-  out.push(`### ${it.unlockOrder + 1}. ${it.title}（${yearText(it)}）`, "");
+for (const it of [...data.items].sort((a, b) => a.order - b.order)) {
+  out.push(`### ${it.order + 1}. ${it.title}（${yearText(it)}）`, "");
   out.push(`\`${it.id}\`${it.place ? ` ・ ${it.place.name}` : ""}${it.people?.length ? ` ・ ${it.people.join("、")}` : ""}`, "");
   out.push(`- **概要**: ${it.summary}`);
   if (it.why) out.push(`- **なぜ**: ${it.why}`);

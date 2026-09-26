@@ -46,7 +46,7 @@ export const itemSchema = z.object({
   trivia: z.string().optional(),
   asOf: z.string().optional(),
   sources: z.array(z.string().min(1)).min(1),
-  unlockOrder: z.number().int().nonnegative(),
+  order: z.number().int().nonnegative(),
 });
 
 export const entrySchema = z

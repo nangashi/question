@@ -43,7 +43,6 @@ export function CategoryScreen({ themeId, categoryId }: { themeId: string; categ
       <section class="card">
         <StarBar d={d} thick />
         <StarCounts d={d} />
-        <div class="notice">あと<b>2問</b>を★★★にすると、<b>5問</b>解放（モック表示）</div>
         <PlayLink big href={href.play(`cat:${themeId}/${categoryId}`)} label={`${cat.name}を解く`} />
       </section>
       <h2 class="section">知識カード</h2>

@@ -14,7 +14,7 @@
       ],
       "trivia": "家康は2年後の1605年に将軍職を子の秀忠に譲り、徳川家が将軍職を世襲することを示しました。",
       "sources": ["山川出版社『詳説日本史』"],
-      "unlockOrder": 0
+      "order": 0
     },
     {
       "id": "jh-edo-buke-shohatto",
@@ -28,7 +28,7 @@
         { "axis": "因果", "text": "1635年に3代将軍家光が改めた武家諸法度で、参勤交代が制度として定められました。", "itemIds": ["jh-edo-sankin"] }
       ],
       "sources": ["山川出版社『詳説日本史』"],
-      "unlockOrder": 1
+      "order": 1
     },
     {
       "id": "jh-edo-sankin",
@@ -44,7 +44,7 @@
       ],
       "trivia": "「大名の財政を弱めるための制度」と説明されることも多いですが、それが主な目的だったとは考えられていません。大きな出費は、制度の結果として生じた面が強いとされます。",
       "sources": ["山川出版社『詳説日本史』"],
-      "unlockOrder": 2
+      "order": 2
     },
     {
       "id": "jh-edo-shimabara",
@@ -60,7 +60,7 @@
       ],
       "trivia": "一揆の中心とされた天草四郎は、当時16歳前後の少年だったとされます。",
       "sources": ["山川出版社『詳説日本史』"],
-      "unlockOrder": 3
+      "order": 3
     },
     {
       "id": "jh-edo-portuguese-ban",
@@ -75,7 +75,7 @@
         { "axis": "時代", "text": "3年後の1642年、オランダではレンブラントが「夜警」を完成させています。", "itemIds": ["pt-baroque-night-watch"] }
       ],
       "sources": ["山川出版社『詳説日本史』"],
-      "unlockOrder": 4
+      "order": 4
     },
     {
       "id": "jh-edo-dejima",
@@ -90,7 +90,7 @@
       ],
       "trivia": "出島はもともと、ポルトガル人を住まわせるために築かれた島でした。",
       "sources": ["山川出版社『詳説日本史』"],
-      "unlockOrder": 5
+      "order": 5
     }
   ],
   "questions": [

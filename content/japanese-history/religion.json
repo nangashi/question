@@ -16,7 +16,7 @@
         "コトバンク「聖明王」（旺文社日本史事典・山川 日本史小辞典） — https://kotobank.jp/word/%E8%81%96%E6%98%8E%E7%8E%8B-86525",
         "Wikipedia「仏教公伝」 — https://ja.wikipedia.org/wiki/仏教公伝"
       ],
-      "unlockOrder": 0
+      "order": 0
     },
     {
       "id": "jh-religion-sobutsu-dispute",
@@ -34,7 +34,7 @@
         "Wikipedia「蘇我稲目」 — https://ja.wikipedia.org/wiki/蘇我稲目",
         "Wikipedia「丁未の乱」 — https://ja.wikipedia.org/wiki/丁未の乱"
       ],
-      "unlockOrder": 1
+      "order": 1
     },
     {
       "id": "jh-religion-seventeen-articles",
@@ -49,7 +49,7 @@
       ],
       "trivia": "聖徳太子が作ったとされますが、のちに『日本書紀』がまとめられたときに作られたとする説もあり、議論が続いています。",
       "sources": ["Wikipedia「十七条憲法」 — https://ja.wikipedia.org/wiki/十七条憲法"],
-      "unlockOrder": 2
+      "order": 2
     },
     {
       "id": "jh-religion-kokubunji",
@@ -68,7 +68,7 @@
         "Wikipedia「国分寺」 — https://ja.wikipedia.org/wiki/国分寺",
         "Wikipedia「東大寺盧舎那仏像」 — https://ja.wikipedia.org/wiki/東大寺盧舎那仏像"
       ],
-      "unlockOrder": 3
+      "order": 3
     },
     {
       "id": "jh-religion-saicho-kukai",
@@ -86,7 +86,7 @@
         "Wikipedia「最澄」 — https://ja.wikipedia.org/wiki/最澄",
         "Wikipedia「空海」 — https://ja.wikipedia.org/wiki/空海"
       ],
-      "unlockOrder": 4
+      "order": 4
     },
     {
       "id": "jh-religion-honji-suijaku",
@@ -103,7 +103,7 @@
         "コトバンク「本地垂迹説」（ブリタニカ国際大百科事典・山川 日本史小辞典） — https://kotobank.jp/word/%E6%9C%AC%E5%9C%B0%E5%9E%82%E8%BF%B9%E8%AA%AC-135059",
         "Wikipedia「本地垂迹」 — https://ja.wikipedia.org/wiki/本地垂迹"
       ],
-      "unlockOrder": 5
+      "order": 5
     },
     {
       "id": "jh-religion-mappo",
@@ -132,7 +132,7 @@
         "Wikipedia「末法思想」 — https://ja.wikipedia.org/wiki/末法思想",
         "Wikipedia「平等院」 — https://ja.wikipedia.org/wiki/平等院"
       ],
-      "unlockOrder": 6
+      "order": 6
     },
     {
       "id": "jh-religion-kamakura-buddhism",
@@ -151,7 +151,7 @@
         "国際日本文化研究センター「仏教からみた前近代と近代」 — https://www.nichibun.ac.jp/archive/research/coop/2011/2.html",
         "Wikipedia「鎌倉仏教」 — https://ja.wikipedia.org/wiki/鎌倉仏教"
       ],
-      "unlockOrder": 7
+      "order": 7
     },
     {
       "id": "jh-religion-christianity-arrival",
@@ -170,7 +170,7 @@
         "Wikipedia「フランシスコ・ザビエル」 — https://ja.wikipedia.org/wiki/フランシスコ・ザビエル",
         "Wikipedia「キリシタン大名」 — https://ja.wikipedia.org/wiki/キリシタン大名"
       ],
-      "unlockOrder": 9
+      "order": 9
     },
     {
       "id": "jh-religion-kinkyo",
@@ -185,7 +185,7 @@
       ],
       "trivia": "全国への禁教令は「1613年」と書かれることが多いですが、出されたのは慶長18年12月で、西暦では1614年1月にあたります。",
       "sources": ["Wikipedia「禁教令」 — https://ja.wikipedia.org/wiki/禁教令"],
-      "unlockOrder": 11
+      "order": 11
     },
     {
       "id": "jh-religion-terauke",
@@ -199,7 +199,7 @@
       ],
       "trivia": "寺がつくる宗門人別改帳は今の戸籍のような役割を果たし、引っ越すときには寺の証明書（寺請証文）が必要でした。",
       "sources": ["Wikipedia「寺請制度」 — https://ja.wikipedia.org/wiki/寺請制度"],
-      "unlockOrder": 12
+      "order": 12
     },
     {
       "id": "jh-religion-shinbutsu-bunri",
@@ -217,7 +217,7 @@
         "Wikipedia「神仏分離」 — https://ja.wikipedia.org/wiki/神仏分離",
         "Wikipedia「廃仏毀釈」 — https://ja.wikipedia.org/wiki/廃仏毀釈"
       ],
-      "unlockOrder": 14
+      "order": 14
     },
     {
       "id": "jh-religion-freedom",
@@ -228,7 +228,7 @@
       "tags": ["近代", "憲法"],
       "trivia": "大日本帝国憲法の信教の自由は「安寧秩序を妨げず、臣民としての義務に背かない限り」という条件つきで、法律によらず命令でも制限できると理解されていました。",
       "sources": ["Wikipedia「信教の自由」 — https://ja.wikipedia.org/wiki/信教の自由"],
-      "unlockOrder": 15
+      "order": 15
     },
     {
       "id": "jh-religion-ikko-ikki",
@@ -266,7 +266,7 @@
         "コトバンク「加賀一向一揆」（日本大百科全書・世界大百科事典・百科事典マイペディア） — https://kotobank.jp/word/%E5%8A%A0%E8%B3%80%E4%B8%80%E5%90%91%E4%B8%80%E6%8F%86-824247",
         "Wikipedia「加賀一向一揆」 — https://ja.wikipedia.org/wiki/加賀一向一揆"
       ],
-      "unlockOrder": 8
+      "order": 8
     },
     {
       "id": "jh-religion-nobunaga",
@@ -301,7 +301,7 @@
         "コトバンク「石山戦争」（日本大百科全書） — https://kotobank.jp/word/%E7%9F%B3%E5%B1%B1%E6%88%A6%E4%BA%89-1504159",
         "京都国立博物館「宇佐山からの眺望」 — https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0007/"
       ],
-      "unlockOrder": 10
+      "order": 10
     },
     {
       "id": "jh-religion-ise",
@@ -335,7 +335,7 @@
         "コトバンク「伊勢講」（デジタル大辞泉・日本国語大辞典・世界大百科事典） — https://kotobank.jp/word/%E4%BC%8A%E5%8B%A2%E8%AC%9B-30948",
         "Wikipedia「お蔭参り」 — https://ja.wikipedia.org/wiki/お蔭参り"
       ],
-      "unlockOrder": 13
+      "order": 13
     },
     {
       "id": "jh-religion-shinto-directive",
@@ -364,7 +364,7 @@
         "國學院大學デジタルミュージアム「神道指令」 — https://d-museum.kokugakuin.ac.jp/eos/detail/id=8852",
         "Wikipedia「神道指令」 — https://ja.wikipedia.org/wiki/神道指令"
       ],
-      "unlockOrder": 16
+      "order": 16
     }
   ],
   "questions": [

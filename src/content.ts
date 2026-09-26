@@ -82,5 +82,24 @@ export function activeQuestions(filter: (ref: CategoryRef) => boolean = () => tr
   return [...questionIndex.values()].filter((q) => q.question.status === "active" && filter(q.ref)).map((q) => q.question);
 }
 
+/**
+ * 学ぶ順の並びキー（ADR-0011）: テーマ → サブカテゴリ（定義の順）→ 知識カードの order → 問題の並び。
+ * 複数の知識カードにまたがる問題は、最も後ろの知識カードの位置に置く
+ */
+export function learnKey(q: Question): number[] {
+  const ref = questionIndex.get(q.id)!.ref;
+  const themeIdx = content.themes.findIndex((t) => t.id === ref.themeId);
+  const catIdx = content.themes[themeIdx]?.categories.findIndex((c) => c.id === ref.categoryId) ?? 0;
+  const itemOrder = Math.max(...q.itemIds.map((id) => itemIndex.get(id)?.item.order ?? 0));
+  const qIdx = content.categories.get(ref.key)!.questions.findIndex((x) => x.id === q.id);
+  return [themeIdx, catIdx, itemOrder, qIdx];
+}
+
+export function compareLearnOrder(a: Question, b: Question): number {
+  const ka = learnKey(a), kb = learnKey(b);
+  for (let i = 0; i < ka.length; i++) if (ka[i] !== kb[i]) return ka[i]! - kb[i]!;
+  return 0;
+}
+
 /** 問題を参照している知識カード（先頭）のカテゴリ */
 export const questionRef = (q: Question) => questionIndex.get(q.id)!.ref;

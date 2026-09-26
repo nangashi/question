@@ -43,7 +43,7 @@
         "Wikipedia「フォーヴィスム」 — https://ja.wikipedia.org/wiki/フォーヴィスム",
         "コトバンク「野獣派」（世界大百科事典・旺文社世界史事典） — https://kotobank.jp/word/%E9%87%8E%E7%8D%A3%E6%B4%BE-143668"
       ],
-      "unlockOrder": 0
+      "order": 0
     },
     {
       "id": "pt-abstract-cubism",
@@ -79,7 +79,7 @@
       "sources": [
         "Wikipedia「キュビスム」 — https://ja.wikipedia.org/wiki/キュビスム"
       ],
-      "unlockOrder": 1
+      "order": 1
     },
     {
       "id": "pt-abstract-kandinsky",
@@ -122,7 +122,7 @@
         "Wikipedia「ワシリー・カンディンスキー」 — https://ja.wikipedia.org/wiki/ワシリー・カンディンスキー",
         "京都国立近代美術館「カンディンスキー展」 — https://www.momak.go.jp/Japanese/exhibitionArchive/1987/185.html"
       ],
-      "unlockOrder": 2
+      "order": 2
     },
     {
       "id": "pt-abstract-malevich",
@@ -166,7 +166,7 @@
         "Wikipedia「黒の正方形」 — https://ja.wikipedia.org/wiki/黒の正方形",
         "ティッセン＝ボルネミッサ美術館「Kazimir Malevich」 — https://www.museothyssen.org/en/collection/artists/malevich-kazimir"
       ],
-      "unlockOrder": 3
+      "order": 3
     },
     {
       "id": "pt-abstract-mondrian",
@@ -207,7 +207,7 @@
       "sources": [
         "Wikipedia「ピエト・モンドリアン」 — https://ja.wikipedia.org/wiki/ピエト・モンドリアン"
       ],
-      "unlockOrder": 4
+      "order": 4
     }
   ],
   "questions": [

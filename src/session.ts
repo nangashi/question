@@ -1,5 +1,5 @@
 // 学習セッションに出す問題を選ぶ
-import { activeQuestions, getLesson, questionRef, type CategoryRef } from "./content";
+import { activeQuestions, compareLearnOrder, getLesson, questionRef, type CategoryRef } from "./content";
 import { isDue, stars } from "./mockProgress";
 import type { Question } from "./schema";
 
@@ -25,10 +25,11 @@ export function pickQuestions(scope: string): Question[] {
     kind === "theme" ? ref.themeId === arg : kind === "cat" ? ref.key === arg : true;
   let pool = activeQuestions(filter);
   if (kind === "item") pool = activeQuestions().filter((q) => q.itemIds.includes(arg));
-  // 期限の来た復習を優先し、残りを新しい問題などで埋める（ADR-0002）
+  // 1. 期限の来た復習 2. 未学習の問題を学ぶ順（読み物の順）に 3. 定着度の低い問題（ADR-0011）
   const due = shuffle(pool.filter(isDue));
-  const rest = shuffle(pool.filter((q) => !isDue(q))).sort((a, b) => stars(a) - stars(b));
-  return [...due, ...rest].slice(0, SESSION_SIZE);
+  const fresh = pool.filter((q) => !isDue(q) && stars(q) === 0).sort(compareLearnOrder);
+  const rest = shuffle(pool.filter((q) => !isDue(q) && stars(q) > 0)).sort((a, b) => stars(a) - stars(b));
+  return [...due, ...fresh, ...rest].slice(0, SESSION_SIZE);
 }
 
 /** 読み物の節が扱う知識カードに関わる問題（まとめ問題は、すべての知識カードがこの節までに出てきたものだけ） */
