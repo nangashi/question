@@ -1,6 +1,6 @@
 // content/ のスキーマ検証と参照整合性チェック（ADR-0008）
 // 使い方: pnpm validate
-import { coverageWarnings, parseContent } from "../src/schema.ts";
+import { choiceLengthWarnings, coverageWarnings, parseContent } from "../src/schema.ts";
 import { loadRawContent } from "./load-content.ts";
 import { loadChecks, uncheckedMarkerErrors } from "./marker-checks.ts";
 
@@ -17,6 +17,11 @@ const warnings = coverageWarnings(content);
 if (warnings.length > 0) {
   console.warn(`\n${warnings.length} 件の警告（問いの抜け。pnpm review で詳細を確認）:`);
   for (const w of warnings) console.warn(`  - ${w}`);
+}
+const lengthWarnings = choiceLengthWarnings(content);
+if (lengthWarnings.length > 0) {
+  console.warn(`\n${lengthWarnings.length} 件の警告（正解の選択肢だけが長い。docs/content-guide.md の「誤答の選択肢」を参照）:`);
+  for (const w of lengthWarnings) console.warn(`  - ${w}`);
 }
 if (errors.length > 0) {
   console.error(`\n${errors.length} 件のエラー:`);

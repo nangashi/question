@@ -275,6 +275,28 @@ export function coverageWarnings(content: ParsedContent): string[] {
   return warnings;
 }
 
+/**
+ * 択一で、正解の選択肢だけが目立って長い問題の警告（エラーにはしない）。
+ * 正解だけを詳しく書くと、内容を知らなくても長さで当てられてしまうため。
+ * 正解が最も長く、2 番目に長い選択肢の 1.25 倍以上かつ 4 字以上長いときに警告する（文字の選択肢だけが対象）
+ */
+export function choiceLengthWarnings(content: ParsedContent): string[] {
+  const warnings: string[] = [];
+  const len = (t = "") => [...t].length;
+  for (const [key, c] of content.categories) {
+    for (const q of c.questions) {
+      if (q.type !== "choice" || q.status !== "active" || q.choices.some((ch) => ch.media)) continue;
+      const answer = q.choices.find((ch) => ch.id === q.answer);
+      if (!answer) continue;
+      const a = len(answer.text);
+      const others = Math.max(...q.choices.filter((ch) => ch !== answer).map((ch) => len(ch.text)));
+      if (a >= others * 1.25 && a - others >= 4)
+        warnings.push(`${key}/${q.id}: 正解の選択肢だけが長い（正解 ${a} 字、ほかは最長 ${others} 字）`);
+    }
+  }
+  return warnings;
+}
+
 /** マーカー同士の最小距離（画像サイズに対する比率） */
 export const MIN_MARKER_DISTANCE = 0.1;
 
