@@ -37,6 +37,11 @@ describe("画面", () => {
     expect(root.textContent).toContain("島原・天草一揆");
     await go("#/item/jh-edo-shimabara");
     expect(root.textContent).toContain("つながり");
+    // 読み物は 1 ページで通して読め、見出しごとに問題へ移れる
+    await go("#/read/painting/overview");
+    expect(root.querySelectorAll(".lesson-h2").length).toBeGreaterThan(1);
+    expect(root.querySelector(".section-quiz")).toBeTruthy();
+    expect(root.textContent).toContain("問題を解く");
   });
 });
 
