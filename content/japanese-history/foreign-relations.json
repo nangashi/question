@@ -1,0 +1,1849 @@
+{
+  "items": [
+    {
+      "id": "jh-foreign-kenzuishi",
+      "title": "遣隋使",
+      "summary": "600年と607年などに、倭（日本）が中国の隋に送った使節。607年の使節は小野妹子で、隋の皇帝・煬帝にあてた国書を持っていった。",
+      "why": "中国の進んだ文化や制度を取り入れるためです。600年の使節は、倭の政治や儀礼のやり方が国際社会で通用しないことを思い知らされ、国内の改革が進められました。",
+      "year": {
+        "from": 600,
+        "to": 607
+      },
+      "people": [
+        "小野妹子",
+        "煬帝"
+      ],
+      "tags": [
+        "飛鳥",
+        "隋",
+        "外交"
+      ],
+      "trivia": "607年の国書は「日出づる処の天子、書を日没する処の天子に致す」と、隋と対等の書き方をしていたため、煬帝は「無礼だ」と不快に思ったと伝えられます。",
+      "sources": [
+        "コトバンク「遣隋使」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/遣隋使",
+        "福岡市博物館「那津官家と激動の東アジア」 — https://museum.city.fukuoka.jp/archives/leaflet/404/index02.html"
+      ],
+      "order": 0
+    },
+    {
+      "id": "jh-foreign-hakusonko",
+      "title": "白村江の戦い",
+      "summary": "663年、倭は、唐と新羅に滅ぼされた百済を復興させようと朝鮮半島に大軍を送ったが、白村江で唐・新羅の連合軍に大敗した。",
+      "why": "百済の遺臣たちから救援を求められ、朝鮮半島南部での倭の権益を守ろうとしたためです。",
+      "year": {
+        "from": 663
+      },
+      "people": [
+        "中大兄皇子"
+      ],
+      "tags": [
+        "飛鳥",
+        "唐",
+        "新羅",
+        "百済"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "唐・新羅の攻撃に備えるなかで、律令にもとづく国づくりが本格的に進みました。",
+          "itemIds": [
+            "jh-capital-fujiwara"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「白村江の戦」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/白村江の戦",
+        "福岡市博物館「那津官家と激動の東アジア」 — https://museum.city.fukuoka.jp/archives/leaflet/404/index02.html"
+      ],
+      "order": 1
+    },
+    {
+      "id": "jh-foreign-kentoshi",
+      "title": "遣唐使",
+      "summary": "630年の犬上御田鍬に始まり、唐に送られた使節。838年に出発したものが、実際に唐に渡った最後となった。留学生や僧も同行した。",
+      "why": "唐の制度や文化、仏教を取り入れるためです。日本は唐の国の仕組みにならって国づくりを進めていました。",
+      "year": {
+        "from": 630,
+        "to": 838
+      },
+      "people": [
+        "犬上御田鍬",
+        "阿倍仲麻呂",
+        "吉備真備",
+        "最澄",
+        "空海"
+      ],
+      "tags": [
+        "奈良",
+        "平安",
+        "唐"
+      ],
+      "links": [
+        {
+          "axis": "人物",
+          "text": "804年の遣唐使には最澄と空海が加わり、帰国後にそれぞれ天台宗と真言宗を開きました。",
+          "itemIds": [
+            "jh-religion-saicho-kukai"
+          ]
+        }
+      ],
+      "trivia": "留学生の阿倍仲麻呂は唐の朝廷で重く用いられ、日本に帰れないまま唐で亡くなりました。",
+      "sources": [
+        "コトバンク「遣唐使」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/遣唐使"
+      ],
+      "order": 2
+    },
+    {
+      "id": "jh-foreign-kentoshi-stop",
+      "title": "遣唐使の停止",
+      "summary": "894年、遣唐大使に任じられた菅原道真の願い出によって、遣唐使の派遣が取りやめられた。",
+      "why": "唐の国内が乱れて衰えていたことと、海を渡る途中の危険が大きかったためです。",
+      "year": {
+        "from": 894
+      },
+      "people": [
+        "菅原道真"
+      ],
+      "tags": [
+        "平安",
+        "唐"
+      ],
+      "sources": [
+        "コトバンク「遣唐使」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/遣唐使"
+      ],
+      "order": 3
+    },
+    {
+      "id": "jh-foreign-nisso",
+      "title": "日宋貿易",
+      "summary": "12世紀後半、平清盛は宋との貿易に力を入れ、摂津の大輪田泊（現在の神戸市）を改修した。宋からは銅銭（宋銭）が大量に輸入された。",
+      "why": "貿易の利益を得るためです。清盛は瀬戸内海の航路を整え、宋の商船が大輪田泊まで入れるようにしました。",
+      "year": {
+        "from": 1160,
+        "to": 1180,
+        "approx": true
+      },
+      "place": {
+        "name": "大輪田泊（神戸市）",
+        "region": "jp-28"
+      },
+      "people": [
+        "平清盛"
+      ],
+      "tags": [
+        "平安",
+        "平氏",
+        "宋",
+        "貿易"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "1180年、清盛は大輪田泊の近くの福原に都を移しましたが、半年ほどで京都に戻しました。",
+          "itemIds": [
+            "jh-capital-fukuhara"
+          ]
+        }
+      ],
+      "trivia": "大量に入ってきた宋銭は国内で貨幣として使われ、日本で貨幣による取り引きが大きく広がるきっかけになりました。",
+      "sources": [
+        "コトバンク「日宋貿易」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/日宋貿易",
+        "コトバンク「大輪田泊」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/大輪田泊",
+        "神戸市「平清盛と神戸」 — https://www.city.kobe.lg.jp/a09222/kosodate/lifelong/toshokan/furusato/kiyomori_kobe/index.html"
+      ],
+      "order": 4
+    },
+    {
+      "id": "jh-foreign-genko",
+      "title": "元寇",
+      "summary": "モンゴル帝国（元）の皇帝フビライは日本に服属を求めたが、鎌倉幕府の執権北条時宗は拒んだ。元軍は1274年（文永の役）と1281年（弘安の役）の2度、九州北部に攻めてきた。",
+      "why": "元は、日本にたびたび使者を送って服属を求めましたが、日本が応じなかったため攻めてきました。",
+      "year": {
+        "from": 1274,
+        "to": 1281
+      },
+      "place": {
+        "name": "博多湾（福岡県）",
+        "region": "jp-40"
+      },
+      "people": [
+        "フビライ",
+        "北条時宗"
+      ],
+      "tags": [
+        "鎌倉",
+        "元",
+        "御家人"
+      ],
+      "trivia": "1274年の襲来のあと、幕府は再び攻めてくる元軍に備え、1276年から博多湾の海岸線に石の防壁（石築地、元寇防塁）を築きました。",
+      "sources": [
+        "コトバンク「元寇」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/元寇",
+        "福岡市の文化財「元寇防塁」 — https://bunkazai.city.fukuoka.lg.jp/sp/cultural_properties/detail/104"
+      ],
+      "order": 5
+    },
+    {
+      "id": "jh-foreign-nichimin",
+      "title": "日明貿易（勘合貿易）",
+      "summary": "1401年、室町幕府の3代将軍足利義満は明に使者を送り、1404年から明との貿易が始まった。義満は明の皇帝から「日本国王」とされ、貢ぎ物を差し出す（朝貢）形で貿易を行った。",
+      "why": "莫大な利益を生む貿易の権利を得るためです。明は、海賊（倭寇）の取り締まりを求めていました。",
+      "year": {
+        "from": 1401,
+        "to": 1404
+      },
+      "people": [
+        "足利義満"
+      ],
+      "tags": [
+        "室町",
+        "明",
+        "倭寇",
+        "貿易"
+      ],
+      "trivia": "正式な貿易船は、明から与えられた「勘合」という証明書を持ち、明で原簿と照らし合わせて、倭寇と区別されました。",
+      "sources": [
+        "コトバンク「勘合貿易」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/勘合貿易"
+      ],
+      "order": 6
+    },
+    {
+      "id": "jh-foreign-nanban",
+      "title": "南蛮貿易",
+      "summary": "16世紀後半から、ポルトガル人やスペイン人（南蛮人）と行われた貿易。ポルトガル商人は、中国の生糸を日本に運び、日本の銀を持ち出した。",
+      "why": "九州の大名たちは、貿易の利益と、鉄砲や火薬の原料（硝石）を得ようとして、南蛮船を領内に招きました。",
+      "year": {
+        "from": 1550,
+        "to": 1639,
+        "approx": true
+      },
+      "people": [
+        "大村純忠"
+      ],
+      "tags": [
+        "戦国",
+        "ポルトガル",
+        "スペイン",
+        "貿易"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "ポルトガルの貿易はイエズス会の布教と結びついていて、貿易とともにキリスト教も広まりました。",
+          "itemIds": [
+            "jh-religion-christianity-arrival"
+          ]
+        }
+      ],
+      "trivia": "大名の大村純忠は自らキリスト教の信者になり、長崎の港を開いてポルトガル船を招きました。",
+      "sources": [
+        "コトバンク「南蛮貿易」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/南蛮貿易"
+      ],
+      "order": 7
+    },
+    {
+      "id": "jh-foreign-shuinsen",
+      "title": "朱印船貿易",
+      "summary": "江戸時代の初め、徳川家康は海外に渡る商船に、渡航を許可する朱印状を与えた。朱印船は東南アジア各地に渡り、各地に日本町ができた。",
+      "why": "海外との貿易や交流を、幕府の管理のもとに置くためです。",
+      "year": {
+        "from": 1604,
+        "to": 1635
+      },
+      "people": [
+        "徳川家康"
+      ],
+      "tags": [
+        "江戸",
+        "東南アジア",
+        "貿易"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "禁教と貿易の統制が強まり、1635年に日本人の海外渡航が全面的に禁止されて、朱印船貿易は終わりました。",
+          "itemIds": [
+            "jh-foreign-sakoku"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「朱印船貿易」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/朱印船貿易"
+      ],
+      "order": 8
+    },
+    {
+      "id": "jh-foreign-sakoku",
+      "title": "「鎖国」の完成",
+      "summary": "江戸幕府は1639年にポルトガル船の来航を禁止し、1641年には平戸のオランダ商館を長崎の出島に移した。ヨーロッパとの貿易はオランダだけに限られた。",
+      "why": "キリスト教の禁止を徹底し、貿易を幕府の統制のもとに置くためです。島原・天草一揆のあと、国内のキリシタンと外部との連絡を絶つことを口実に、ポルトガル船の来航を止めました。",
+      "year": {
+        "from": 1639,
+        "to": 1641
+      },
+      "place": {
+        "name": "長崎（出島）",
+        "region": "jp-42"
+      },
+      "tags": [
+        "江戸",
+        "キリスト教",
+        "オランダ",
+        "ポルトガル"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "幕府はすでに1612〜14年の禁教令で、キリスト教の信仰を禁じていました。",
+          "itemIds": [
+            "jh-religion-kinkyo"
+          ]
+        }
+      ],
+      "trivia": "出島はもともと、ポルトガル人を住まわせるために1636年に築かれた人工の島で、ポルトガル人が追放されたあとにオランダ商館が移されました。",
+      "sources": [
+        "コトバンク「鎖国」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/鎖国",
+        "コトバンク「出島」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/出島",
+        "国立国会図書館「日蘭交流の歴史 出島の商館」 — https://www.ndl.go.jp/nichiran/s1/s1_2.html"
+      ],
+      "order": 9
+    },
+    {
+      "id": "jh-foreign-yotsunokuchi",
+      "title": "四つの口",
+      "summary": "江戸時代、日本は長崎・対馬・薩摩・松前の「四つの口」を通じて外の世界とつながっていた。長崎ではオランダ・中国と、対馬藩を通じて朝鮮と、薩摩藩を通じて琉球と、松前藩を通じてアイヌと交流した。",
+      "year": {
+        "from": 1641,
+        "to": 1854
+      },
+      "tags": [
+        "江戸",
+        "朝鮮",
+        "琉球",
+        "アイヌ"
+      ],
+      "trivia": "「鎖国」という言葉は江戸時代の初めからあったものではなく、1801年に長崎の通詞（通訳）志筑忠雄が、ドイツ人医師ケンペルの『日本誌』の一部を訳して「鎖国論」と名づけたのが始まりです。",
+      "sources": [
+        "コトバンク「鎖国」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/鎖国",
+        "コトバンク「四つの口」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/四つの口"
+      ],
+      "order": 10
+    },
+    {
+      "id": "jh-foreign-perry",
+      "title": "ペリー来航と日米和親条約",
+      "summary": "1853年、アメリカのペリーが軍艦を率いて浦賀（神奈川県）に来航し、開国を求めた。翌1854年、幕府は日米和親条約を結び、下田と箱館の2港を開いた。",
+      "why": "アメリカは、清（中国）との貿易や、捕鯨の中継地として、日本を開国させようと考えていました。",
+      "year": {
+        "from": 1853,
+        "to": 1854
+      },
+      "place": {
+        "name": "浦賀（神奈川県横須賀市）",
+        "region": "jp-14"
+      },
+      "people": [
+        "ペリー",
+        "阿部正弘"
+      ],
+      "tags": [
+        "幕末",
+        "アメリカ",
+        "開国"
+      ],
+      "trivia": "日米和親条約は、港で水や食料を与えることや、遭難した船員を助けることを定めたもので、貿易はまだ認めていませんでした。",
+      "sources": [
+        "国立国会図書館国際子ども図書館「中高生のための幕末・明治の日本の歴史事典 ペリー来航」 — https://www.kodomo.go.jp/yareki/theme/theme_01.html",
+        "国立国会図書館「近代日本とフランス 開国」 — https://www.ndl.go.jp/modern/cha1/description01.html",
+        "コトバンク「日米和親条約」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/日米和親条約"
+      ],
+      "order": 11
+    },
+    {
+      "id": "jh-foreign-tsusho",
+      "title": "日米修好通商条約",
+      "summary": "1858年、大老井伊直弼のもとで、幕府は天皇の許可（勅許）を得ないまま日米修好通商条約を結び、神奈川・長崎・箱館・新潟・兵庫の開港と自由な貿易を認めた。",
+      "year": {
+        "from": 1858
+      },
+      "people": [
+        "井伊直弼",
+        "ハリス"
+      ],
+      "tags": [
+        "幕末",
+        "アメリカ",
+        "不平等条約"
+      ],
+      "trivia": "日本で罪を犯した外国人を日本の法律で裁けない（領事裁判権）、輸入品の関税を日本だけで決められない（関税自主権がない）という、日本に不利な内容でした。同じ年、オランダ・ロシア・イギリス・フランスとも同様の条約を結びました。",
+      "sources": [
+        "コトバンク「日米修好通商条約」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/日米修好通商条約"
+      ],
+      "order": 12
+    },
+    {
+      "id": "jh-foreign-joyaku-kaisei",
+      "title": "条約改正",
+      "summary": "1894年、外務大臣陸奥宗光のもとで日英通商航海条約が結ばれ、領事裁判権が撤廃された（1899年から実施）。1911年には外務大臣小村寿太郎のもとで関税自主権が回復した。",
+      "why": "幕末に結んだ不平等条約を改め、欧米の国々と対等な独立国として認められるためです。明治政府にとって最大の願いともいえる課題でした。",
+      "year": {
+        "from": 1894,
+        "to": 1911
+      },
+      "people": [
+        "陸奥宗光",
+        "小村寿太郎"
+      ],
+      "tags": [
+        "明治",
+        "不平等条約",
+        "外交"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "改正の相手となったのは、1858年に結んだ日米修好通商条約などの不平等条約です。",
+          "itemIds": [
+            "jh-foreign-tsusho"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「条約改正」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/条約改正"
+      ],
+      "order": 13
+    },
+    {
+      "id": "jh-foreign-sanfrancisco",
+      "title": "サンフランシスコ平和条約",
+      "summary": "1951年、日本は連合国48か国とサンフランシスコ平和条約に調印し、1952年4月28日に条約が発効して、占領が終わり主権を回復した。",
+      "why": "第二次世界大戦を正式に終わらせ、連合国軍の占領下にあった日本が独立を回復するためです。",
+      "year": {
+        "from": 1951,
+        "to": 1952
+      },
+      "people": [
+        "吉田茂"
+      ],
+      "tags": [
+        "戦後",
+        "独立",
+        "外交"
+      ],
+      "trivia": "同じ日に日米安全保障条約にも調印し、独立後もアメリカ軍が日本にとどまることになりました。ソ連などは平和条約に調印しませんでした。",
+      "sources": [
+        "コトバンク「サンフランシスコ平和条約」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/サンフランシスコ平和条約",
+        "コトバンク「日米安全保障条約」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/日米安全保障条約"
+      ],
+      "order": 14
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-jh-foreign-kenzuishi-who",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-kenzuishi"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "607年に遣隋使として隋に渡り、隋の使者を連れて帰国した人物は？",
+      "choices": [
+        {
+          "id": "imoko",
+          "text": "小野妹子"
+        },
+        {
+          "id": "mitasuki",
+          "text": "犬上御田鍬"
+        },
+        {
+          "id": "nakamaro",
+          "text": "阿倍仲麻呂"
+        },
+        {
+          "id": "michizane",
+          "text": "菅原道真"
+        }
+      ],
+      "answer": "imoko",
+      "explanation": "607年の遣隋使は小野妹子です。600年の使節はうまくいきませんでしたが、607年の使節は成功し、隋の使者を伴って帰国しました。犬上御田鍬は630年の最初の遣唐使、阿倍仲麻呂は唐に渡った留学生、菅原道真は894年に遣唐使の停止を願い出た人物です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kenzuishi-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-kenzuishi"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "倭（日本）が隋に遣隋使を送った目的は？",
+      "choices": [
+        {
+          "id": "culture",
+          "text": "中国の進んだ文化や制度を取り入れ、国の改革に生かすため"
+        },
+        {
+          "id": "army",
+          "text": "朝鮮半島の百済を救うため、隋に軍を出すよう頼むため"
+        },
+        {
+          "id": "trade",
+          "text": "隋の銅銭を大量に輸入し、国内で貨幣として使うため"
+        },
+        {
+          "id": "religion",
+          "text": "隋の皇帝に、倭の神々をまつる神社を建てさせるため"
+        }
+      ],
+      "answer": "culture",
+      "explanation": "遣隋使は、中国の進んだ文化や制度を取り入れることを目的とし、留学生や僧も同行しました。600年の使節は、倭の政治や儀礼のやり方が国際社会で通用しないことを知らされ、その後、国内の改革が進められました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kenzuishi-letter",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-kenzuishi"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "607年の遣隋使が持っていった国書に、隋の煬帝が不快に思ったと伝えられるのはなぜ？",
+      "choices": [
+        {
+          "id": "equal",
+          "text": "「日出づる処の天子」と、隋と対等の書き方をしていたから"
+        },
+        {
+          "id": "demand",
+          "text": "朝鮮半島の土地を倭に渡すよう、はっきり求めていたから"
+        },
+        {
+          "id": "late",
+          "text": "隋の皇帝の即位を祝う言葉が、一言も書かれていなかったから"
+        },
+        {
+          "id": "script",
+          "text": "漢字ではなく、倭の言葉を記した文字で書かれていたから"
+        }
+      ],
+      "answer": "equal",
+      "explanation": "国書は「日出づる処の天子、書を日没する処の天子に致す」と書き出され、倭の王も隋の皇帝も同じ「天子」とする、対等の書き方でした。煬帝は「蛮夷の書に無礼なものがある」と不快に思ったと伝えられます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-hakusonko-year",
+      "type": "year",
+      "itemIds": [
+        "jh-foreign-hakusonko"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "倭が百済の復興を助けようとして、唐・新羅の連合軍に大敗した白村江の戦いは何年？",
+      "answer": 663,
+      "tolerance": 15,
+      "explanation": "663年です。唐と新羅が660年に百済を滅ぼしたあと、倭は百済の遺臣たちの求めに応じて大軍を送りましたが、白村江の戦いで大敗しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-hakusonko-result",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-hakusonko"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "白村江の戦いで敗れた倭（日本）が、その後に行ったことは？",
+      "choices": [
+        {
+          "id": "defense",
+          "text": "水城や山城を築き、防人を置いて、唐・新羅の攻撃に備えた"
+        },
+        {
+          "id": "again",
+          "text": "再び大軍を送り、翌年には百済の都を取り戻した"
+        },
+        {
+          "id": "tribute",
+          "text": "唐の皇帝に「日本国王」と認めてもらい、貿易を始めた"
+        },
+        {
+          "id": "close",
+          "text": "すべての外国船の来航を禁じ、長崎だけで交流した"
+        }
+      ],
+      "answer": "defense",
+      "explanation": "敗れた倭は朝鮮半島から兵を引き揚げ、唐・新羅の攻撃に備えて、筑紫（九州北部）に水城や山城を築き、対馬・壱岐・筑紫に防人を置きました。このころから、律令にもとづく国づくりが本格化していきます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-hakusonko-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-hakusonko"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "倭が663年に朝鮮半島へ大軍を送ったのはなぜ？",
+      "choices": [
+        {
+          "id": "baekje",
+          "text": "滅ぼされた百済の遺臣に救援を求められ、半島での権益を守ろうとしたから"
+        },
+        {
+          "id": "sui",
+          "text": "隋の皇帝に命じられ、高句麗を攻める軍に加わる必要があったから"
+        },
+        {
+          "id": "mongol",
+          "text": "モンゴル軍が朝鮮半島を通って、日本に攻めてくると知ったから"
+        },
+        {
+          "id": "trade",
+          "text": "新羅に港を開かせ、朝鮮半島との貿易を独り占めしたかったから"
+        }
+      ],
+      "answer": "baekje",
+      "explanation": "660年に唐と新羅が百済を滅ぼすと、百済の遺臣たちが倭に救援を求めました。倭は、朝鮮半島南部での権益を守るためにも大軍を送りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kentoshi-what",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-kentoshi"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "遣唐使が唐に渡った主な目的は？",
+      "choices": [
+        {
+          "id": "system",
+          "text": "唐の制度や文化、仏教を学び、国づくりに取り入れるため"
+        },
+        {
+          "id": "silver",
+          "text": "日本の銀を唐に売り、唐の生糸を安く手に入れるため"
+        },
+        {
+          "id": "army",
+          "text": "唐の軍隊を日本に招き、新羅との戦いに加わってもらうため"
+        },
+        {
+          "id": "mission",
+          "text": "日本の仏教を唐に広め、唐の人々を信者にするため"
+        }
+      ],
+      "answer": "system",
+      "explanation": "遣唐使は、唐の制度や文化を取り入れることを主な目的とし、留学生や僧も同行しました。吉備真備や玄昉、最澄・空海らは、唐で学んだことを日本に持ち帰りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kentoshi-nakamaro",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-kentoshi"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "唐に渡って唐の朝廷で重く用いられ、日本に帰れないまま唐で亡くなった留学生は？",
+      "choices": [
+        {
+          "id": "nakamaro",
+          "text": "阿倍仲麻呂"
+        },
+        {
+          "id": "kibi",
+          "text": "吉備真備"
+        },
+        {
+          "id": "imoko",
+          "text": "小野妹子"
+        },
+        {
+          "id": "kukai",
+          "text": "空海"
+        }
+      ],
+      "answer": "nakamaro",
+      "explanation": "阿倍仲麻呂は唐の朝廷で重く用いられ、唐で亡くなりました。吉備真備と空海は唐で学んで帰国し、小野妹子は遣隋使です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kentoshi-stop-year",
+      "type": "year",
+      "itemIds": [
+        "jh-foreign-kentoshi-stop"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "菅原道真の願い出によって、遣唐使の派遣が取りやめられたのは何年？",
+      "answer": 894,
+      "tolerance": 15,
+      "explanation": "894年です。遣唐使が実際に唐に渡ったのは838年に出発したものが最後で、それから50年あまりたっていました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kentoshi-stop-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-kentoshi-stop"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "894年、菅原道真が遣唐使の派遣をやめるよう願い出た理由は？",
+      "choices": [
+        {
+          "id": "decline",
+          "text": "唐の国内が乱れて衰えていて、海を渡る途中の危険も大きかったから"
+        },
+        {
+          "id": "war",
+          "text": "唐と日本が戦争を始め、使節を送ることができなくなったから"
+        },
+        {
+          "id": "cost",
+          "text": "唐が貢ぎ物の量を増やすよう求め、朝廷が払えなくなったから"
+        },
+        {
+          "id": "religion",
+          "text": "唐で仏教が禁じられ、僧を留学させる意味がなくなったから"
+        }
+      ],
+      "answer": "decline",
+      "explanation": "遣唐大使に任じられた菅原道真は、唐が衰えていることと、途中の航海が危険であることをあげて、派遣をやめるよう願い出て認められました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nisso-coin",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nisso"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日宋貿易で宋から大量に輸入され、日本国内で貨幣として使われたものは？",
+      "choices": [
+        {
+          "id": "coin",
+          "text": "銅銭（宋銭）"
+        },
+        {
+          "id": "silver",
+          "text": "銀貨"
+        },
+        {
+          "id": "paper",
+          "text": "紙幣"
+        },
+        {
+          "id": "gold",
+          "text": "金の延べ棒"
+        }
+      ],
+      "answer": "coin",
+      "explanation": "宋からは香料や陶磁器、書籍などのほか、銅銭（宋銭）が大量に輸入されました。宋銭は国内で貨幣として使われ、貨幣による取り引きが大きく広がるきっかけになりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nisso-map",
+      "type": "map",
+      "itemIds": [
+        "jh-foreign-nisso"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "平清盛が日宋貿易の拠点として改修した港・大輪田泊は、現在のどの都道府県にあった？",
+      "map": "japan-prefectures",
+      "answer": "jp-28",
+      "explanation": "大輪田泊は、のちの兵庫津、今の神戸港のもとになった港で、現在の兵庫県神戸市にありました。清盛は防波堤となる島（経ヶ島）を築いて、宋の商船が入れるようにしました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nisso-who",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nisso"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "12世紀後半、宋との貿易に力を入れ、瀬戸内海の航路や大輪田泊を整えた人物は？",
+      "choices": [
+        {
+          "id": "kiyomori",
+          "text": "平清盛"
+        },
+        {
+          "id": "yoritomo",
+          "text": "源頼朝"
+        },
+        {
+          "id": "yoshimitsu",
+          "text": "足利義満"
+        },
+        {
+          "id": "michizane",
+          "text": "菅原道真"
+        }
+      ],
+      "answer": "kiyomori",
+      "explanation": "平清盛は、武士の出身で政権を握ると、宋との貿易を積極的に進めました。足利義満は明との貿易（日明貿易）を始めた室町幕府の将軍です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-genko-year",
+      "type": "year",
+      "itemIds": [
+        "jh-foreign-genko"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "元軍が初めて九州北部に攻めてきた文永の役は何年？",
+      "answer": 1274,
+      "tolerance": 15,
+      "explanation": "1274年です。7年後の1281年には、再び元軍が攻めてきました（弘安の役）。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-genko-map",
+      "type": "map",
+      "itemIds": [
+        "jh-foreign-genko"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "元寇に備えて、鎌倉幕府が海岸線に石の防壁（元寇防塁）を築いた博多湾は、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-40",
+      "explanation": "博多湾は現在の福岡県にあります。幕府は1274年の襲来のあと、1276年から博多湾の海岸線に石築地（元寇防塁）を築き、次の襲来に備えました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-genko-result",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-genko"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "元寇のあと、鎌倉幕府の御家人（将軍に仕える武士）のあいだで不満が高まったのはなぜ？",
+      "choices": [
+        {
+          "id": "reward",
+          "text": "戦って守っただけで、十分な恩賞（ほうび）を受けられなかったから"
+        },
+        {
+          "id": "tax",
+          "text": "元に勝った幕府が、御家人の領地をすべて取り上げたから"
+        },
+        {
+          "id": "court",
+          "text": "朝廷が元と手を結び、幕府を倒そうとしたから"
+        },
+        {
+          "id": "trade",
+          "text": "元との貿易が禁じられ、御家人の商売が成り立たなくなったから"
+        }
+      ],
+      "answer": "reward",
+      "explanation": "御家人は戦いに加わると、その働きに応じて恩賞として領地をもらうのがふつうでした。しかし元寇のあとの恩賞の配分は十分ではなく、戦った武士たちの求めを満たせませんでした。さらに、再び攻めてくる元軍に備える警備の負担も続き、御家人の生活は苦しくなりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-genko-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-genko"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "元（モンゴル）が日本に攻めてきたのはなぜ？",
+      "choices": [
+        {
+          "id": "submit",
+          "text": "日本に使者を送って服属を求めたが、日本が応じなかったから"
+        },
+        {
+          "id": "revenge",
+          "text": "日本の軍が朝鮮半島に攻め込み、元の兵を破ったから"
+        },
+        {
+          "id": "silver",
+          "text": "日本の銀山を手に入れるよう、ポルトガル人にすすめられたから"
+        },
+        {
+          "id": "religion",
+          "text": "日本でキリスト教が禁じられ、宣教師が追放されたから"
+        }
+      ],
+      "answer": "submit",
+      "explanation": "元の皇帝フビライは、日本にたびたび使者を送り、服属を求めました。鎌倉幕府の執権北条時宗はこれを拒み、九州の守りを固めました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nichimin-kango",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nichimin"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日明貿易で、正式な貿易船が明から与えられた「勘合」を持ったのはなぜ？",
+      "choices": [
+        {
+          "id": "pirate",
+          "text": "海賊（倭寇）の船と区別するため"
+        },
+        {
+          "id": "tax",
+          "text": "明に払う関税を安くしてもらうため"
+        },
+        {
+          "id": "christian",
+          "text": "キリスト教の宣教師が乗っていないことを示すため"
+        },
+        {
+          "id": "tribute",
+          "text": "日本が明と対等の国であることを示すため"
+        }
+      ],
+      "answer": "pirate",
+      "explanation": "勘合は明との貿易で使われた渡航の証明書で、明で原簿と照らし合わせて、正式な使節の船であることを確かめました。こうして、当時、朝鮮半島や中国の沿岸を荒らしていた倭寇（海賊）の船と区別されました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nichimin-who",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nichimin"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "明の皇帝から「日本国王」とされ、明との貿易（日明貿易）を始めた人物は？",
+      "choices": [
+        {
+          "id": "yoshimitsu",
+          "text": "足利義満"
+        },
+        {
+          "id": "takauji",
+          "text": "足利尊氏"
+        },
+        {
+          "id": "kiyomori",
+          "text": "平清盛"
+        },
+        {
+          "id": "hideyoshi",
+          "text": "豊臣秀吉"
+        }
+      ],
+      "answer": "yoshimitsu",
+      "explanation": "室町幕府の3代将軍足利義満は、1401年に明に使者を送り、明の皇帝から「日本国王」とされて、貢ぎ物を差し出す（朝貢）形で貿易を始めました。足利尊氏は室町幕府を開いた初代将軍です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nichimin-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nichimin"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "足利義満が、明の皇帝に貢ぎ物を差し出す形をとってまで、明との貿易を始めたねらいは？",
+      "choices": [
+        {
+          "id": "profit",
+          "text": "貿易がもたらす莫大な利益を得るため"
+        },
+        {
+          "id": "army",
+          "text": "明の軍の助けを借りて、南朝を倒すため"
+        },
+        {
+          "id": "culture",
+          "text": "明の律令を取り入れ、朝廷の制度を改めるため"
+        },
+        {
+          "id": "religion",
+          "text": "明から新しい仏教の宗派を招き、広めるため"
+        }
+      ],
+      "answer": "profit",
+      "explanation": "明との貿易は、明の皇帝に貢ぎ物を差し出し、その返礼を受ける形でしたが、莫大な利益をもたらしました。義満は多くの献上品を贈って、この貿易の権利を得ました。明の側は、倭寇の取り締まりを求めていました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nanban-what",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nanban"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "南蛮貿易で、ポルトガル商人が日本に運んできた主な品と、日本から持ち出した主な品の組み合わせは？",
+      "choices": [
+        {
+          "id": "silk-silver",
+          "text": "中国の生糸を運び、日本の銀を持ち出した"
+        },
+        {
+          "id": "silver-silk",
+          "text": "ヨーロッパの銀を運び、日本の生糸を持ち出した"
+        },
+        {
+          "id": "coin-rice",
+          "text": "中国の銅銭を運び、日本の米を持ち出した"
+        },
+        {
+          "id": "tea-sword",
+          "text": "インドの茶を運び、日本の刀を持ち出した"
+        }
+      ],
+      "answer": "silk-silver",
+      "explanation": "ポルトガル商人は、中国産の生糸を日本に運び、日本の銀を持ち出す中継貿易で利益をあげました。日本は生糸のほか鉄砲なども輸入し、金・銀・銅・硫黄などを輸出しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nanban-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nanban"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "九州の大名たちが、南蛮船を自分の領地に招こうとしたのはなぜ？",
+      "choices": [
+        {
+          "id": "gun",
+          "text": "貿易の利益と、鉄砲や火薬の原料を手に入れたかったから"
+        },
+        {
+          "id": "order",
+          "text": "幕府から、南蛮船を受け入れるよう命じられていたから"
+        },
+        {
+          "id": "defense",
+          "text": "南蛮人の軍に、元の襲来から守ってもらいたかったから"
+        },
+        {
+          "id": "rice",
+          "text": "南蛮人に、米の新しい育て方を教えてもらいたかったから"
+        }
+      ],
+      "answer": "gun",
+      "explanation": "九州の大名たちは、貿易の利益と、鉄砲や火薬の原料（硝石）などの武器を手に入れようとしました。ポルトガルの貿易はイエズス会の布教と結びついていたため、大名の中には布教を認めたり、大村純忠のように自ら信者になったりする者もいました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-shuinsen-what",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-shuinsen"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "江戸時代の初め、徳川家康が海外に渡る商船に与えた「朱印状」とは何？",
+      "choices": [
+        {
+          "id": "permit",
+          "text": "海外への渡航を許可する証明書"
+        },
+        {
+          "id": "tax",
+          "text": "貿易にかかる税を免除する証明書"
+        },
+        {
+          "id": "map",
+          "text": "東南アジアまでの航路を記した地図"
+        },
+        {
+          "id": "letter",
+          "text": "外国の王にあてた降伏を求める手紙"
+        }
+      ],
+      "answer": "permit",
+      "explanation": "朱印状は、海外への渡航を許可する証明書です。朱印状を持った船（朱印船）は、東南アジア各地に渡って貿易を行い、各地に日本町ができました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-shuinsen-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-shuinsen"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "徳川家康が、朱印状を持つ船だけに海外渡航を認めた主なねらいは？",
+      "choices": [
+        {
+          "id": "control",
+          "text": "海外との貿易や交流を、幕府の管理のもとに置くため"
+        },
+        {
+          "id": "close",
+          "text": "日本人が海外に出るのを、すべて禁止するため"
+        },
+        {
+          "id": "christian",
+          "text": "東南アジアにキリスト教を広めさせるため"
+        },
+        {
+          "id": "war",
+          "text": "東南アジアの国々を攻めて、領土を広げるため"
+        }
+      ],
+      "answer": "control",
+      "explanation": "朱印状を与えることで、幕府は海外への渡航と貿易を管理しました。その後、禁教と貿易の統制が強まると、1635年には日本人の海外渡航が全面的に禁止され、朱印船貿易は終わりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-sakoku-map",
+      "type": "map",
+      "itemIds": [
+        "jh-foreign-sakoku"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "1641年、平戸のオランダ商館が移された出島は、現在のどの都道府県にある？",
+      "map": "japan-prefectures",
+      "answer": "jp-42",
+      "explanation": "出島は長崎の港の中に築かれた扇形の人工の島で、現在の長崎県長崎市にあります。江戸時代を通じて、ヨーロッパとの貿易はここだけで行われました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-sakoku-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-sakoku"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "江戸幕府が1639年にポルトガル船の来航を禁止したねらいは？",
+      "choices": [
+        {
+          "id": "christian",
+          "text": "キリスト教の禁止を徹底し、貿易を幕府の統制下に置くため"
+        },
+        {
+          "id": "war",
+          "text": "ポルトガルと戦争を始め、その船を日本の港から追い出すため"
+        },
+        {
+          "id": "price",
+          "text": "ポルトガルの生糸が高くなりすぎ、貿易で損をしていたため"
+        },
+        {
+          "id": "dutch",
+          "text": "オランダに求められ、ポルトガルとの貿易をやめる約束をしたため"
+        }
+      ],
+      "answer": "christian",
+      "explanation": "幕府は、キリスト教の禁止の徹底と、貿易の統制を進めていました。1637〜38年の島原・天草一揆のあと、国内のキリシタンと外部との連絡を絶つことを口実に、布教と結びついていたポルトガル船の来航を禁止しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-sakoku-dejima",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-sakoku"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "長崎の出島は、もともと誰を住まわせるために築かれた？",
+      "choices": [
+        {
+          "id": "portugal",
+          "text": "ポルトガル人"
+        },
+        {
+          "id": "dutch",
+          "text": "オランダ人"
+        },
+        {
+          "id": "chinese",
+          "text": "中国人"
+        },
+        {
+          "id": "korean",
+          "text": "朝鮮の使節"
+        }
+      ],
+      "answer": "portugal",
+      "explanation": "出島は1636年、ポルトガル人を住まわせるために築かれました。1639年にポルトガル人が追放されると、1641年に平戸からオランダ商館が移されました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-yotsunokuchi-match",
+      "type": "match",
+      "itemIds": [
+        "jh-foreign-yotsunokuchi"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "江戸時代の「四つの口」と、そこでつながっていた相手を結ぼう",
+      "left": [
+        {
+          "id": "nagasaki",
+          "text": "長崎"
+        },
+        {
+          "id": "tsushima",
+          "text": "対馬"
+        },
+        {
+          "id": "satsuma",
+          "text": "薩摩"
+        },
+        {
+          "id": "matsumae",
+          "text": "松前"
+        }
+      ],
+      "right": [
+        {
+          "id": "dutch",
+          "text": "オランダ・中国"
+        },
+        {
+          "id": "korea",
+          "text": "朝鮮"
+        },
+        {
+          "id": "ryukyu",
+          "text": "琉球"
+        },
+        {
+          "id": "ainu",
+          "text": "アイヌ"
+        }
+      ],
+      "pairs": [
+        [
+          "nagasaki",
+          "dutch"
+        ],
+        [
+          "tsushima",
+          "korea"
+        ],
+        [
+          "satsuma",
+          "ryukyu"
+        ],
+        [
+          "matsumae",
+          "ainu"
+        ]
+      ],
+      "explanation": "長崎ではオランダ・中国と貿易し、対馬藩は朝鮮と、薩摩藩は琉球と、松前藩はアイヌと交易しました。いわゆる「鎖国」のもとでも、日本はこの四つの窓口で外の世界とつながっていました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-yotsunokuchi-sakoku-word",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-yotsunokuchi"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "「鎖国」という言葉について正しい説明は？",
+      "choices": [
+        {
+          "id": "shizuki",
+          "text": "1801年に志筑忠雄が、外国人の本の一部を訳した題名に使ったのが始まり"
+        },
+        {
+          "id": "iemitsu",
+          "text": "1639年に徳川家光が出した法令の題名として、初めて使われた言葉"
+        },
+        {
+          "id": "meiji",
+          "text": "明治時代に、開国を進めた政府が江戸幕府を批判して作った言葉"
+        },
+        {
+          "id": "dutch",
+          "text": "オランダ商館長が、日本の政策を報告するときに作った日本語の言葉"
+        }
+      ],
+      "answer": "shizuki",
+      "explanation": "「鎖国」は江戸時代の初めからあった言葉ではありません。1801年、長崎の通詞（通訳）志筑忠雄が、ドイツ人医師ケンペルの『日本誌』の一章を訳して「鎖国論」と題したのが始まりです。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-perry-map",
+      "type": "map",
+      "itemIds": [
+        "jh-foreign-perry"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "1853年、アメリカのペリーが軍艦を率いて来航した浦賀は、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-14",
+      "explanation": "浦賀は現在の神奈川県横須賀市にあります。ペリーはここで開国を求める国書を渡し、翌1854年に再び来航しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-perry-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-perry"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "アメリカが日本に開国を求めた理由として正しいものは？",
+      "choices": [
+        {
+          "id": "whale",
+          "text": "清との貿易や、捕鯨の中継地として日本の港を使いたかったから"
+        },
+        {
+          "id": "silver",
+          "text": "日本の銀山を手に入れ、ヨーロッパに運んで売りたかったから"
+        },
+        {
+          "id": "christian",
+          "text": "日本でキリスト教の布教を認めさせ、信者を増やしたかったから"
+        },
+        {
+          "id": "war",
+          "text": "イギリスとの戦争に備えて、日本と軍事同盟を結びたかったから"
+        }
+      ],
+      "answer": "whale",
+      "explanation": "アメリカは、清（中国）との貿易や、太平洋での捕鯨のための中継地として、日本の港を使いたいと考えていました。日米和親条約では、港で水や食料を与えることや、遭難した船員を助けることが定められました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-perry-ports",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-perry"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "1854年の日米和親条約で開かれた港の組み合わせは？",
+      "choices": [
+        {
+          "id": "shimoda",
+          "text": "下田と箱館"
+        },
+        {
+          "id": "nagasaki",
+          "text": "長崎と平戸"
+        },
+        {
+          "id": "yokohama",
+          "text": "横浜と神戸"
+        },
+        {
+          "id": "niigata",
+          "text": "新潟と兵庫"
+        }
+      ],
+      "answer": "shimoda",
+      "explanation": "日米和親条約では下田と箱館の2港が開かれ、水や食料などを与えることが定められましたが、貿易はまだ認められていませんでした。横浜（神奈川）・新潟・兵庫などの開港は、1858年の日米修好通商条約で定められました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-tsusho-classify",
+      "type": "classify",
+      "itemIds": [
+        "jh-foreign-tsusho"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "1858年の日米修好通商条約の内容と、そうでないものに分けよう",
+      "buckets": [
+        {
+          "id": "yes",
+          "text": "条約の内容"
+        },
+        {
+          "id": "no",
+          "text": "条約の内容ではない"
+        }
+      ],
+      "entries": [
+        {
+          "id": "consul",
+          "text": "日本で罪を犯したアメリカ人は、アメリカの領事が裁く",
+          "bucket": "yes"
+        },
+        {
+          "id": "shimoda",
+          "text": "下田と箱館の2港だけを開き、貿易は認めない",
+          "bucket": "no"
+        },
+        {
+          "id": "tariff",
+          "text": "輸入品の関税は、日本だけで決められない",
+          "bucket": "yes"
+        },
+        {
+          "id": "ports",
+          "text": "神奈川・長崎・新潟・兵庫などを開き、自由な貿易を認める",
+          "bucket": "yes"
+        },
+        {
+          "id": "japanese",
+          "text": "アメリカで罪を犯した日本人は、日本の役人が裁く",
+          "bucket": "no"
+        }
+      ],
+      "explanation": "日米修好通商条約は、神奈川・長崎・箱館・新潟・兵庫を開いて自由な貿易を認める一方、外国人を日本の法律で裁けない（領事裁判権）、関税を日本だけで決められない（関税自主権がない）という、日本に不利な内容でした。下田・箱館の2港だけを開いたのは1854年の日米和親条約です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-tsusho-ii",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-tsusho"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "天皇の許可（勅許）を得ないまま、1858年に日米修好通商条約を結んだ幕府の大老は？",
+      "choices": [
+        {
+          "id": "ii",
+          "text": "井伊直弼"
+        },
+        {
+          "id": "abe",
+          "text": "阿部正弘"
+        },
+        {
+          "id": "tokimune",
+          "text": "北条時宗"
+        },
+        {
+          "id": "mutsu",
+          "text": "陸奥宗光"
+        }
+      ],
+      "answer": "ii",
+      "explanation": "大老井伊直弼は、勅許を待たずに日米修好通商条約に調印させ、朝廷との対立を招きました。阿部正弘はペリー来航のときの老中、陸奥宗光は明治時代に条約改正を進めた外務大臣です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kaisei-match",
+      "type": "match",
+      "itemIds": [
+        "jh-foreign-joyaku-kaisei"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "条約改正で実現したことと、そのときの外務大臣を結ぼう",
+      "left": [
+        {
+          "id": "consul",
+          "text": "領事裁判権の撤廃（1894年）"
+        },
+        {
+          "id": "tariff",
+          "text": "関税自主権の回復（1911年）"
+        }
+      ],
+      "right": [
+        {
+          "id": "mutsu",
+          "text": "陸奥宗光"
+        },
+        {
+          "id": "komura",
+          "text": "小村寿太郎"
+        }
+      ],
+      "pairs": [
+        [
+          "consul",
+          "mutsu"
+        ],
+        [
+          "tariff",
+          "komura"
+        ]
+      ],
+      "explanation": "1894年、陸奥宗光外相のもとで日英通商航海条約が結ばれ、領事裁判権が撤廃されました（1899年から実施）。1911年、小村寿太郎外相のもとで関税自主権が回復し、日本は欧米と対等な関係に入りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kaisei-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-joyaku-kaisei"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "明治政府が、条約改正を最大の課題の一つとしたのはなぜ？",
+      "choices": [
+        {
+          "id": "equal",
+          "text": "不平等条約を改め、欧米と対等な独立国として認められるため"
+        },
+        {
+          "id": "close",
+          "text": "外国との貿易をやめ、再び「鎖国」の状態に戻すため"
+        },
+        {
+          "id": "colony",
+          "text": "欧米の国々に、日本の植民地を認めさせるため"
+        },
+        {
+          "id": "emperor",
+          "text": "天皇が、外国の王と同じ称号を名乗れるようにするため"
+        }
+      ],
+      "answer": "equal",
+      "explanation": "幕末に結んだ条約は、領事裁判権を認め、関税自主権がない不平等なものでした。明治政府にとって、これを改めて欧米と対等な国として認められることは、最大の願いともいえる課題でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nisso-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nisso"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "平清盛が大輪田泊を改修し、瀬戸内海の航路を整えたねらいは？",
+      "choices": [
+        {
+          "id": "profit",
+          "text": "宋の商船を招き、宋との貿易で利益を得るため"
+        },
+        {
+          "id": "defense",
+          "text": "元の襲来に備えて、瀬戸内海の守りを固めるため"
+        },
+        {
+          "id": "envoy",
+          "text": "遣唐使の船を、安全に唐へ送り出すため"
+        },
+        {
+          "id": "christian",
+          "text": "ポルトガル船を招き、キリスト教を広めさせるため"
+        }
+      ],
+      "answer": "profit",
+      "explanation": "清盛は対外貿易を積極的に進め、大輪田泊に防波堤となる島を築くなどして、宋の商船が入れるようにしました。宋からは香料・陶磁器・書籍・銅銭などが輸入され、日本からは刀剣・硫黄・砂金などが輸出されました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-sanfrancisco-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-sanfrancisco"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "日本が1951年にサンフランシスコ平和条約に調印したのは、何のため？",
+      "choices": [
+        {
+          "id": "independence",
+          "text": "連合国との戦争を正式に終わらせ、占領を終えて独立を回復するため"
+        },
+        {
+          "id": "un",
+          "text": "国際連合の安全保障理事会に加わり、世界の平和を守る役目を担うため"
+        },
+        {
+          "id": "trade",
+          "text": "アメリカとのあいだで、関税自主権を初めて認めてもらうため"
+        },
+        {
+          "id": "territory",
+          "text": "戦争の前に持っていた海外の領土を、すべて取り戻すため"
+        }
+      ],
+      "answer": "independence",
+      "explanation": "第二次世界大戦に敗れた日本は、連合国軍の占領下に置かれていました。サンフランシスコ平和条約で連合国との戦争状態を正式に終わらせ、1952年の発効によって主権を回復しました。関税自主権の回復は、明治時代の1911年のことです。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-nanban-omura",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-nanban"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "自らキリスト教の信者になり、長崎の港を開いてポルトガル船を招いた大名は？",
+      "choices": [
+        {
+          "id": "omura",
+          "text": "大村純忠"
+        },
+        {
+          "id": "nobunaga",
+          "text": "織田信長"
+        },
+        {
+          "id": "ieyasu",
+          "text": "徳川家康"
+        },
+        {
+          "id": "yoshimitsu",
+          "text": "足利義満"
+        }
+      ],
+      "answer": "omura",
+      "explanation": "大村純忠は自ら信者（キリシタン大名）になり、長崎の港を開いてポルトガル船を招きました。ポルトガルの貿易はイエズス会の布教と結びついていたため、布教を認めることが、貿易船を招く手段にもなりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-kaisei-year",
+      "type": "year",
+      "itemIds": [
+        "jh-foreign-joyaku-kaisei"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "外務大臣小村寿太郎のもとで、関税自主権が回復したのは何年？",
+      "answer": 1911,
+      "tolerance": 10,
+      "explanation": "1911年です。1858年の日米修好通商条約などで関税自主権を失ってから、50年あまりかかりました。領事裁判権の撤廃は、それより前の1894年に実現していました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-sanfrancisco-year",
+      "type": "year",
+      "itemIds": [
+        "jh-foreign-sanfrancisco"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "日本がサンフランシスコ平和条約に調印したのは何年？",
+      "answer": 1951,
+      "tolerance": 5,
+      "explanation": "1951年9月に調印し、翌1952年4月28日に条約が発効して、日本は主権を回復しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-sanfrancisco-what",
+      "type": "choice",
+      "itemIds": [
+        "jh-foreign-sanfrancisco"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "サンフランシスコ平和条約が発効した1952年、日本はどうなった？",
+      "choices": [
+        {
+          "id": "sovereign",
+          "text": "連合国軍の占領が終わり、主権を回復した"
+        },
+        {
+          "id": "un",
+          "text": "国際連合に加盟し、安全保障理事会の一員になった"
+        },
+        {
+          "id": "constitution",
+          "text": "日本国憲法が公布され、新しい政治が始まった"
+        },
+        {
+          "id": "olympic",
+          "text": "オリンピックを開き、国際社会への復帰を示した"
+        }
+      ],
+      "answer": "sovereign",
+      "explanation": "サンフランシスコ平和条約の発効で、連合国軍の占領下にあった日本は主権を回復しました。同じ日に調印した日米安全保障条約により、独立後もアメリカ軍が日本にとどまりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-order-early",
+      "type": "order",
+      "itemIds": [
+        "jh-foreign-kenzuishi",
+        "jh-foreign-hakusonko",
+        "jh-foreign-kentoshi-stop",
+        "jh-foreign-nisso",
+        "jh-foreign-genko"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "kenzuishi",
+          "text": "小野妹子が隋に渡る"
+        },
+        {
+          "id": "hakusonko",
+          "text": "白村江の戦いで唐・新羅に敗れる"
+        },
+        {
+          "id": "stop",
+          "text": "遣唐使の派遣が取りやめられる"
+        },
+        {
+          "id": "nisso",
+          "text": "平清盛が大輪田泊を改修する"
+        },
+        {
+          "id": "genko",
+          "text": "元軍が九州北部に攻めてくる"
+        }
+      ],
+      "answer": [
+        "kenzuishi",
+        "hakusonko",
+        "stop",
+        "nisso",
+        "genko"
+      ],
+      "explanation": "607年 遣隋使（小野妹子）→ 663年 白村江の戦い → 894年 遣唐使の停止 → 1173年 大輪田泊の改修 → 1274年 文永の役。中国の文化や制度を学ぶための国の使節から、貿易の利益を求める交流へと、付き合い方が変わっていきます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-order-late",
+      "type": "order",
+      "itemIds": [
+        "jh-foreign-nichimin",
+        "jh-foreign-sakoku",
+        "jh-foreign-perry",
+        "jh-foreign-tsusho",
+        "jh-foreign-sanfrancisco"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "nichimin",
+          "text": "足利義満が明との貿易を始める"
+        },
+        {
+          "id": "sakoku",
+          "text": "ポルトガル船の来航が禁止される"
+        },
+        {
+          "id": "perry",
+          "text": "日米和親条約で下田・箱館を開く"
+        },
+        {
+          "id": "tsusho",
+          "text": "日米修好通商条約で自由な貿易を認める"
+        },
+        {
+          "id": "sf",
+          "text": "サンフランシスコ平和条約に調印する"
+        }
+      ],
+      "answer": [
+        "nichimin",
+        "sakoku",
+        "perry",
+        "tsusho",
+        "sf"
+      ],
+      "explanation": "1404年 日明貿易 → 1639年 ポルトガル船の来航禁止 → 1854年 日米和親条約 → 1858年 日米修好通商条約 → 1951年 サンフランシスコ平和条約。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-foreign-classify-openclose",
+      "type": "classify",
+      "itemIds": [
+        "jh-foreign-kentoshi",
+        "jh-foreign-kentoshi-stop",
+        "jh-foreign-nichimin",
+        "jh-foreign-shuinsen",
+        "jh-foreign-sakoku",
+        "jh-foreign-perry"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "外の世界との交流を広げた出来事と、狭めた出来事に分けよう",
+      "buckets": [
+        {
+          "id": "open",
+          "text": "交流を広げた"
+        },
+        {
+          "id": "close",
+          "text": "交流を狭めた"
+        }
+      ],
+      "entries": [
+        {
+          "id": "kentoshi",
+          "text": "犬上御田鍬が最初の遣唐使として唐に渡る",
+          "bucket": "open"
+        },
+        {
+          "id": "stop",
+          "text": "菅原道真の願い出で遣唐使の派遣をやめる",
+          "bucket": "close"
+        },
+        {
+          "id": "nichimin",
+          "text": "足利義満が明との貿易を始める",
+          "bucket": "open"
+        },
+        {
+          "id": "tokou",
+          "text": "日本人の海外渡航を全面的に禁止する",
+          "bucket": "close"
+        },
+        {
+          "id": "portugal",
+          "text": "ポルトガル船の来航を禁止する",
+          "bucket": "close"
+        },
+        {
+          "id": "perry",
+          "text": "日米和親条約で下田・箱館を開く",
+          "bucket": "open"
+        }
+      ],
+      "explanation": "遣唐使の派遣、日明貿易の開始、日米和親条約による開港は、外の世界との交流を広げました。遣唐使の停止（894年）、日本人の海外渡航の禁止（1635年）、ポルトガル船の来航禁止（1639年）は、国が関わる交流を狭めました。",
+      "status": "active"
+    }
+  ]
+}
