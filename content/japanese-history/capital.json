@@ -1,0 +1,1590 @@
+{
+  "items": [
+    {
+      "id": "jh-capital-asuka",
+      "title": "飛鳥の宮々",
+      "summary": "592年の推古天皇の即位から694年に藤原京に移るまでのおよそ100年間、天皇の宮は主に飛鳥（奈良県明日香村のあたり）に置かれ、天皇が代わるごとに新しい宮が造られることが多かった。",
+      "year": {
+        "from": 592,
+        "to": 694
+      },
+      "place": {
+        "name": "飛鳥（奈良県明日香村）",
+        "region": "jp-29"
+      },
+      "people": [
+        "推古天皇",
+        "持統天皇"
+      ],
+      "tags": [
+        "飛鳥",
+        "宮"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "決まった場所に天皇の宮と役所を置き続ける、本格的な都は藤原京から始まります。",
+          "itemIds": [
+            "jh-capital-fujiwara"
+          ]
+        }
+      ],
+      "trivia": "飛鳥時代の「飛鳥京」は一つの都の名前ではなく、飛鳥に次々と営まれた宮々をまとめて呼ぶ言い方です。",
+      "sources": [
+        "奈良県「国づくりの源流『飛鳥京』」 — https://www.pref.nara.lg.jp/miryoku/aruku/kikimanyo/column/c01/",
+        "国営飛鳥歴史公園「飛鳥の歴史」 — https://www.asuka-park.jp/about/history-2/",
+        "コトバンク「飛鳥京」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/飛鳥京"
+      ],
+      "order": 0
+    },
+    {
+      "id": "jh-capital-fujiwara",
+      "title": "藤原京",
+      "summary": "694年、持統天皇が移った都。中国の都城にならい、碁盤の目のように道路で区画した（条坊制）日本で初めての本格的な都で、現在の奈良県橿原市・明日香村にあった。",
+      "why": "唐と肩を並べる国として、律令にもとづく政治を行う中心となる、広く整った都が必要だったためです。宮には天皇の住まいと、政治・儀式の場、役人の集まる建物がまとめて置かれました。",
+      "year": {
+        "from": 694,
+        "to": 710
+      },
+      "place": {
+        "name": "奈良県橿原市・明日香村",
+        "region": "jp-29"
+      },
+      "people": [
+        "持統天皇",
+        "天武天皇"
+      ],
+      "tags": [
+        "飛鳥",
+        "都城",
+        "条坊制",
+        "律令"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "藤原京は宮を都の中央に置きましたが、次の平城京は唐の長安にならって、宮を北の端の中央に置きました。",
+          "itemIds": [
+            "jh-capital-heijo"
+          ]
+        }
+      ],
+      "trivia": "宮を都の中央に置く藤原京の形は、中国の古典『周礼』に描かれた理想の都にならったものとする説があります。",
+      "sources": [
+        "奈良文化財研究所「藤原京跡の紹介」 — https://www.nabunken.go.jp/fujiwara/",
+        "奈良県「国づくりの源流『飛鳥京』」 — https://www.pref.nara.lg.jp/miryoku/aruku/kikimanyo/column/c01/",
+        "コトバンク「藤原京」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/藤原京"
+      ],
+      "order": 1
+    },
+    {
+      "id": "jh-capital-heijo",
+      "title": "平城京",
+      "summary": "710年、元明天皇が藤原京から移った都。唐の都・長安をモデルにし、北の端の中央に天皇の宮（平城宮）を置いた。現在の奈良市にあった。",
+      "why": "702年に派遣された遣唐使が持ち帰った長安の情報から、宮を都の中央に置いた藤原京が、唐の都の形と大きく違うことが分かったことが、最大の理由と考えられています。ほかに、藤原京の衛生の問題などをあげる説もあります。",
+      "year": {
+        "from": 710
+      },
+      "place": {
+        "name": "奈良市",
+        "region": "jp-29"
+      },
+      "people": [
+        "元明天皇"
+      ],
+      "tags": [
+        "奈良",
+        "都城",
+        "長安",
+        "遣唐使"
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "平城京の時代、聖武天皇は国ごとに国分寺を建てさせ、都には東大寺の大仏を造りました。",
+          "itemIds": [
+            "jh-religion-kokubunji"
+          ]
+        }
+      ],
+      "sources": [
+        "奈良県観光公式サイト「平城遷都の理由」 — https://yamatoji.nara-kankou.or.jp/page/page_44.html",
+        "橿原市「藤原宮のその後」 — https://www.city.kashihara.nara.jp/soshiki/1058/gyomu/3/2/3/1/3870.html",
+        "コトバンク「平城京」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/平城京"
+      ],
+      "order": 2
+    },
+    {
+      "id": "jh-capital-shomu",
+      "title": "聖武天皇の遷都のくり返し",
+      "summary": "740年に九州で藤原広嗣の乱が起きると、聖武天皇は平城京を離れ、恭仁京（京都府木津川市）、難波宮（大阪市）、紫香楽宮（滋賀県甲賀市）と都を次々に移し、745年に平城京へ戻った。",
+      "why": "はっきりした理由は分かっていません。恭仁京は、政治の中心にいた橘諸兄の本拠地に招かれたとみる考えが有力で、複数の都を同時に使おうとしたとみる研究者もいます。",
+      "year": {
+        "from": 740,
+        "to": 745
+      },
+      "people": [
+        "聖武天皇",
+        "橘諸兄"
+      ],
+      "tags": [
+        "奈良",
+        "遷都"
+      ],
+      "sources": [
+        "奈良県観光公式サイト「聖武天皇の足跡」 — https://inori.nara-kankou.or.jp/inori/special/49shoumu/",
+        "国土交通省 国営飛鳥歴史公園事務所「平城京の歴史」 — https://www-2.kkr.mlit.go.jp/asuka/initiatives-heijo/history.html",
+        "コトバンク「恭仁京」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/恭仁京"
+      ],
+      "order": 3
+    },
+    {
+      "id": "jh-capital-nagaoka",
+      "title": "長岡京",
+      "summary": "784年、桓武天皇が平城京から移った都。現在の京都府向日市・長岡京市などにあたり、およそ10年で平安京に移された。",
+      "why": "平城京の70年のあいだに強大になった寺院勢力などから離れ、新しい政治を始めるためです。平城京には物資を運ぶ水運の便がなかったのに対し、長岡京は淀川・桂川の水運で瀬戸内海とつながっていました。",
+      "year": {
+        "from": 784,
+        "to": 794
+      },
+      "place": {
+        "name": "京都府向日市・長岡京市",
+        "region": "jp-26"
+      },
+      "people": [
+        "桓武天皇",
+        "藤原種継",
+        "早良親王"
+      ],
+      "tags": [
+        "遷都",
+        "水運",
+        "寺院勢力"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "造営の責任者の暗殺と、その後の災いや怨霊への恐れが、平安京への遷都につながりました。",
+          "itemIds": [
+            "jh-capital-heian"
+          ]
+        }
+      ],
+      "trivia": "天武天皇の血筋に代わって天智天皇の血筋の光仁天皇・桓武天皇が位についたことも、人心を新たにする遷都の背景と考えられています。",
+      "sources": [
+        "コトバンク「長岡京」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/長岡京",
+        "長岡京市「長岡京」 — https://www.city.nagaokakyo.lg.jp/0000000674.html"
+      ],
+      "order": 4
+    },
+    {
+      "id": "jh-capital-heian",
+      "title": "平安京",
+      "summary": "794年、桓武天皇が長岡京から移った都。現在の京都市にあたり、1869年に明治天皇が東京に移るまで、天皇の住む都であり続けた。",
+      "why": "長岡京の造営を指揮した藤原種継が暗殺され、関わったとされた天皇の弟・早良親王が亡くなると、天皇の身内の死や疫病、792年の大洪水などが続き、早良親王の怨霊のたたりと恐れられたためです。",
+      "year": {
+        "from": 794
+      },
+      "place": {
+        "name": "京都市",
+        "region": "jp-26"
+      },
+      "people": [
+        "桓武天皇",
+        "早良親王"
+      ],
+      "tags": [
+        "京都",
+        "遷都",
+        "怨霊"
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "平安京に都が移ったころ、朝廷は、唐で学んだ最澄と空海が開いた新しい仏教を支えました。",
+          "itemIds": [
+            "jh-religion-saicho-kukai"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「平安京」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/平安京",
+        "コトバンク「長岡京」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/長岡京",
+        "長岡京市「長岡京」 — https://www.city.nagaokakyo.lg.jp/0000000674.html"
+      ],
+      "order": 5
+    },
+    {
+      "id": "jh-capital-fukuhara",
+      "title": "福原遷都",
+      "summary": "1180年6月、平清盛は天皇・上皇を連れて、摂津の福原（現在の神戸市）に都を移したが、同じ年の11月には京都に戻した。",
+      "why": "源頼政の挙兵などで政情が不安定になり、延暦寺などの寺院勢力も平氏に反発していたため、その圧力を避けようとしたとされます。福原は、清盛が日宋貿易の拠点として改修した港・大輪田泊の近くにありました。",
+      "year": {
+        "from": 1180
+      },
+      "place": {
+        "name": "神戸市",
+        "region": "jp-28"
+      },
+      "people": [
+        "平清盛"
+      ],
+      "tags": [
+        "平氏",
+        "遷都",
+        "日宋貿易"
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "同じ1180年、源頼朝が挙兵し、鎌倉に入って本拠としました。",
+          "itemIds": [
+            "jh-capital-kamakura"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「福原遷都」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/福原遷都",
+        "兵庫県立歴史博物館「福原の都」 — https://rekihaku.pref.hyogo.lg.jp/digital_museum/etoki/truth2/",
+        "コトバンク「大輪田泊」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/大輪田泊"
+      ],
+      "order": 6
+    },
+    {
+      "id": "jh-capital-kamakura",
+      "title": "鎌倉幕府",
+      "summary": "1180年に挙兵した源頼朝は、同じ年に相模の鎌倉（現在の神奈川県鎌倉市）に入って本拠とし、ここに武士の政権である幕府を開いた。",
+      "why": "鎌倉は源氏ゆかりの地で、南を海、残る三方を丘陵に囲まれ、陸から入るには細い山道か波打ち際の道しかない、守りやすい土地だったためです。",
+      "year": {
+        "from": 1180,
+        "to": 1192
+      },
+      "place": {
+        "name": "神奈川県鎌倉市",
+        "region": "jp-14"
+      },
+      "people": [
+        "源頼朝"
+      ],
+      "tags": [
+        "鎌倉",
+        "幕府",
+        "武士"
+      ],
+      "trivia": "鎌倉幕府の成立は、どの段階を成立とみるかで、1180年（鎌倉に本拠）、1183年（東国の支配を朝廷が認める）、1185年（守護・地頭の設置）、1192年（征夷大将軍に任命）などの説があります。",
+      "sources": [
+        "コトバンク「鎌倉幕府」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/鎌倉幕府",
+        "逗子市「名越切通」 — https://www.city.zushi.kanagawa.jp/shiminkatsudo/bunkazai/1004537/1004538.html",
+        "秦野市「鎌倉時代」 — https://www.city.hadano.kanagawa.jp/kanko-bunka-sports/rekishi-bunkazai/3/2/11151.html"
+      ],
+      "order": 7
+    },
+    {
+      "id": "jh-capital-muromachi",
+      "title": "室町幕府（京都）",
+      "summary": "1336年、足利尊氏は建武式目を定め、京都に新しい武家政権を開いた。3代将軍足利義満が1378年に京都の室町に将軍の邸宅「花の御所」を造ると、将軍は「室町殿」と呼ばれ、のちに室町幕府と呼ばれるようになった。",
+      "year": {
+        "from": 1336,
+        "to": 1378
+      },
+      "place": {
+        "name": "京都市",
+        "region": "jp-26"
+      },
+      "people": [
+        "足利尊氏",
+        "足利義満"
+      ],
+      "tags": [
+        "京都",
+        "幕府",
+        "武士"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "鎌倉幕府は京都から離れた東国に置かれましたが、足利氏は朝廷のある京都に幕府を置きました。",
+          "itemIds": [
+            "jh-capital-kamakura"
+          ]
+        }
+      ],
+      "trivia": "建武式目の第1条では「幕府を元のように鎌倉に置くべきか、ほかの場所にすべきか」が論じられ、政治の良し悪しは場所では決まらない、多くの人が移ることを望むならそれに従うべきだ、と答えています。",
+      "sources": [
+        "九州国立博物館「室町将軍」 — https://www.kyuhaku.jp/exhibition/exhibition_s55.html",
+        "コトバンク「建武式目」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/建武式目",
+        "コトバンク「花の御所」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/花の御所"
+      ],
+      "order": 8
+    },
+    {
+      "id": "jh-capital-azuchi",
+      "title": "安土城",
+      "summary": "1576年、織田信長が近江の安土（現在の滋賀県近江八幡市）に築き始めた城。天下統一をめざす信長の拠点となった。",
+      "why": "それまでの本拠の岐阜よりずっと京都に近く、琵琶湖の水運を押さえられ、北陸の一向一揆や越後の上杉謙信にも備えられる場所だったためです。",
+      "year": {
+        "from": 1576
+      },
+      "place": {
+        "name": "滋賀県近江八幡市",
+        "region": "jp-25"
+      },
+      "people": [
+        "織田信長"
+      ],
+      "tags": [
+        "戦国",
+        "城",
+        "琵琶湖"
+      ],
+      "links": [
+        {
+          "axis": "時代",
+          "text": "信長は、比叡山延暦寺を焼き打ちし、石山本願寺と10年にわたって戦いました。",
+          "itemIds": [
+            "jh-religion-nobunaga"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「安土城」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/安土城"
+      ],
+      "order": 9
+    },
+    {
+      "id": "jh-capital-osaka",
+      "title": "大坂城",
+      "summary": "1583年、豊臣秀吉が石山本願寺の跡地に築き始めた城。3年ほどかけて完成し、秀吉の天下統一の拠点となった。",
+      "why": "北を淀川、東を大和川の支流と低湿地に守られ、西は海に臨む要害の地で、経済や交通のうえでも重要な場所だったためです。",
+      "year": {
+        "from": 1583
+      },
+      "place": {
+        "name": "大阪市",
+        "region": "jp-27"
+      },
+      "people": [
+        "豊臣秀吉"
+      ],
+      "tags": [
+        "安土桃山",
+        "城",
+        "水運"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "この地には、織田信長と10年にわたって戦った浄土真宗の拠点・石山本願寺がありました。",
+          "itemIds": [
+            "jh-religion-nobunaga"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「大坂城」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/大坂城"
+      ],
+      "order": 10
+    },
+    {
+      "id": "jh-capital-edo",
+      "title": "江戸幕府",
+      "summary": "1603年、徳川家康は征夷大将軍に任じられ、江戸に幕府を開いた。江戸は、明治維新まで武家政権の中心となった。",
+      "why": "家康は1590年、北条氏を滅ぼした豊臣秀吉の命令で関東に領地を移され、江戸を本拠として城と城下町を整えていたためです。",
+      "year": {
+        "from": 1603
+      },
+      "place": {
+        "name": "東京都",
+        "region": "jp-13"
+      },
+      "people": [
+        "徳川家康",
+        "豊臣秀吉"
+      ],
+      "tags": [
+        "江戸",
+        "幕府"
+      ],
+      "trivia": "家康とともに江戸へ移り住んだ人々の中には、摂津の佃村（大阪市）の漁民もいて、隅田川の河口の干潟をもらって「佃島」と名づけたといわれます。",
+      "sources": [
+        "国立公文書館「秀吉への臣従」 — https://www.archives.go.jp/exhibition/digital/ieyasu/contents2_03/",
+        "コトバンク「江戸幕府」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/江戸幕府"
+      ],
+      "order": 11
+    },
+    {
+      "id": "jh-capital-tokyo",
+      "title": "東京奠都",
+      "summary": "1868年、明治新政府は江戸を東京と改め、明治天皇が東京に入った。1869年に天皇が再び東京に移ると、そのまま東京が天皇の住む都となった。",
+      "why": "人心を新たにし、旧幕府の本拠地を押さえて、新しい政治を全国に行き渡らせるためです。大名屋敷など、すでにある施設を役所に使えることも利点でした。",
+      "year": {
+        "from": 1868,
+        "to": 1869
+      },
+      "place": {
+        "name": "東京都",
+        "region": "jp-13"
+      },
+      "people": [
+        "明治天皇",
+        "大久保利通",
+        "前島密"
+      ],
+      "tags": [
+        "明治",
+        "首都"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "平安京は、794年から1000年あまり天皇の住む都でした。",
+          "itemIds": [
+            "jh-capital-heian"
+          ]
+        }
+      ],
+      "trivia": "都を移すことを正式に宣言する詔（遷都の詔）は出されなかったため、「遷都」ではなく、都を定めるという意味の「奠都」と呼ばれることがあります。",
+      "sources": [
+        "コトバンク「東京遷都」（日本大百科全書・世界大百科事典ほか） — https://kotobank.jp/word/東京遷都",
+        "国土交通省「首都機能移転問題と『東京遷都』」 — https://www.mlit.go.jp/kokudokeikaku/iten/onlinelecture/lec16.html"
+      ],
+      "order": 12
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-jh-capital-asuka-custom",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-asuka"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "藤原京ができる前の飛鳥時代、天皇の宮はどのように置かれていた？",
+      "choices": [
+        {
+          "id": "new",
+          "text": "天皇が代わるごとに、新しい宮が造られることが多かった"
+        },
+        {
+          "id": "fixed",
+          "text": "一つの宮が、代々の天皇にずっと使われ続けた"
+        },
+        {
+          "id": "rotate",
+          "text": "朝廷が定めた三つの宮を、毎年順番に使っていた"
+        },
+        {
+          "id": "far",
+          "text": "宮は、九州と畿内にそれぞれ一つずつ置かれていた"
+        }
+      ],
+      "answer": "new",
+      "explanation": "飛鳥時代には、天皇が代わるごとに新しい宮を造る習慣があり、一代でいくつもの宮を営んだ天皇もいました。宮の多くは飛鳥（奈良県明日香村のあたり）に置かれ、これらをまとめて「飛鳥京」と呼びます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-asuka-name",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-asuka"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "「飛鳥京」という呼び名は、何を指している？",
+      "choices": [
+        {
+          "id": "group",
+          "text": "飛鳥に次々と営まれた、天皇の宮々をまとめた呼び名"
+        },
+        {
+          "id": "single",
+          "text": "条坊制で区画された、飛鳥の一つの大きな都の名前"
+        },
+        {
+          "id": "temple",
+          "text": "飛鳥寺を中心に広がった、寺院の町並みの名前"
+        },
+        {
+          "id": "later",
+          "text": "平城京に移ったあとの、飛鳥の古い町並みの名前"
+        }
+      ],
+      "answer": "group",
+      "explanation": "「飛鳥京」は平城京などとは違い、一つの都を指す名前ではありません。推古天皇から持統天皇のころまで、飛鳥とその周辺に代わる代わる置かれた宮々をまとめて呼ぶ言い方です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-fujiwara-map",
+      "type": "map",
+      "itemIds": [
+        "jh-capital-fujiwara"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "694年に持統天皇が移った、日本で初めての本格的な都・藤原京があったのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-29",
+      "explanation": "藤原京は、現在の奈良県橿原市と明日香村にまたがる場所にありました。それまで天皇の宮が置かれていた飛鳥のすぐ北にあたります。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-fujiwara-jobo",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-fujiwara"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "藤原京で初めて本格的に取り入れられた「条坊制」とは、どのような仕組み？",
+      "choices": [
+        {
+          "id": "grid",
+          "text": "都を東西・南北の道路で、碁盤の目のように区画する仕組み"
+        },
+        {
+          "id": "wall",
+          "text": "都のまわりをすべて、高い石垣と堀で囲んで守る仕組み"
+        },
+        {
+          "id": "rank",
+          "text": "住む場所を、身分ごとに都の東と西に分けて定める仕組み"
+        },
+        {
+          "id": "tax",
+          "text": "都に住む人から、区画ごとに税を集めて役所を営む仕組み"
+        }
+      ],
+      "answer": "grid",
+      "explanation": "条坊制は、中国の都にならい、縦横に走る道路で都を整然と区画する仕組みです。藤原京は、これを取り入れたことがはっきりしている日本で最初の都です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-fujiwara-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-fujiwara"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "飛鳥の宮々に代わって、藤原京のような広く整った都が造られたのはなぜ？",
+      "choices": [
+        {
+          "id": "state",
+          "text": "唐と肩を並べる国として、律令による政治の中心となる都が必要だったから"
+        },
+        {
+          "id": "flood",
+          "text": "飛鳥の宮々が大洪水で流され、すぐに住む場所が必要になったから"
+        },
+        {
+          "id": "war",
+          "text": "唐と新羅の軍が攻めてきて、飛鳥の宮々が焼かれてしまったから"
+        },
+        {
+          "id": "temple",
+          "text": "飛鳥の大きな寺院の勢力から離れ、新しい政治を始めたかったから"
+        }
+      ],
+      "answer": "state",
+      "explanation": "飛鳥時代には天皇ごとに宮が造られていましたが、律令による国づくりが進むと、天皇の住まい・政治や儀式の場・役所をまとめて置く、大きな都が必要になりました。藤原京は、唐と肩を並べる国をめざして、中国の都城にならって造られました。寺院勢力から離れることは、のちの長岡京への遷都の理由です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-heijo-year",
+      "type": "year",
+      "itemIds": [
+        "jh-capital-heijo"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "元明天皇が藤原京から平城京に都を移したのは何年？",
+      "answer": 710,
+      "tolerance": 10,
+      "explanation": "710年です。784年に長岡京に移るまで、およそ70年間の都でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-heijo-model",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-heijo"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "平城京がモデルにした都は？",
+      "choices": [
+        {
+          "id": "changan",
+          "text": "唐の都・長安"
+        },
+        {
+          "id": "luoyang",
+          "text": "宋の都・開封"
+        },
+        {
+          "id": "gyeongju",
+          "text": "新羅の都・金城"
+        },
+        {
+          "id": "buyeo",
+          "text": "百済の都・泗沘"
+        }
+      ],
+      "answer": "changan",
+      "explanation": "平城京は唐の都・長安をモデルにし、都の北の端の中央に天皇の住まいと政治の場である宮（平城宮）を置きました。藤原京が宮を都の中央に置いていたのとは違う形です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-heijo-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-heijo",
+        "jh-capital-fujiwara"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "藤原京から平城京に移った最大の理由と考えられているのは？",
+      "choices": [
+        {
+          "id": "layout",
+          "text": "遣唐使の報告で、藤原京が唐の都の形と大きく違うと分かったから"
+        },
+        {
+          "id": "temple",
+          "text": "藤原京の大きな寺院が力を持ちすぎ、政治に口を出したから"
+        },
+        {
+          "id": "fire",
+          "text": "藤原京の宮が火事で焼け落ち、建て直す必要があったから"
+        },
+        {
+          "id": "curse",
+          "text": "藤原京で災いが続き、怨霊のたたりと恐れられたから"
+        }
+      ],
+      "answer": "layout",
+      "explanation": "702年に派遣された遣唐使（粟田真人ら）が長安の最新の姿を伝えると、宮を都の中央に置いた藤原京が、宮を北の端に置く唐の都と大きく違うことが分かりました。怨霊への恐れは長岡京から平安京へ、寺院勢力は平城京から長岡京へ移った理由としてあげられます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-shomu-who",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-shomu"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "740年に九州で藤原広嗣の乱が起きたあと、恭仁京・難波宮・紫香楽宮と都を次々に移した天皇は？",
+      "choices": [
+        {
+          "id": "shomu",
+          "text": "聖武天皇"
+        },
+        {
+          "id": "kanmu",
+          "text": "桓武天皇"
+        },
+        {
+          "id": "genmei",
+          "text": "元明天皇"
+        },
+        {
+          "id": "jito",
+          "text": "持統天皇"
+        }
+      ],
+      "answer": "shomu",
+      "explanation": "聖武天皇は、740年から745年にかけて恭仁京（京都府木津川市）、難波宮（大阪市）、紫香楽宮（滋賀県甲賀市）と都を移し、745年に平城京に戻りました。国分寺の建立や東大寺の大仏造りを命じたのも聖武天皇です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-shomu-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-shomu"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "聖武天皇が5年ほどのあいだに都を何度も移した理由について、正しい説明は？",
+      "choices": [
+        {
+          "id": "unclear",
+          "text": "はっきりせず、有力者の本拠地に招かれたとみる考えなど諸説ある"
+        },
+        {
+          "id": "curse",
+          "text": "弟の怨霊を恐れたためと、天皇自身が詔で明らかにしている"
+        },
+        {
+          "id": "trade",
+          "text": "唐との貿易に便利な港を求めたためと、記録で分かっている"
+        },
+        {
+          "id": "flood",
+          "text": "平城京が大洪水で使えなくなったためと、記録で分かっている"
+        }
+      ],
+      "answer": "unclear",
+      "explanation": "理由ははっきりしていません。最初の恭仁京は、政治の中心にいた橘諸兄の本拠地に招かれたとみる考えが有力で、複数の都を同時に使おうとしたとみる研究者もいます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-nagaoka-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-nagaoka"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "784年、桓武天皇が平城京から長岡京に都を移した理由として正しいものは？",
+      "choices": [
+        {
+          "id": "temple",
+          "text": "強くなった寺院勢力から離れ、水運の便もよい地で新しい政治を始めるため"
+        },
+        {
+          "id": "curse",
+          "text": "平城京で天皇の弟が亡くなり、その怨霊のたたりを恐れて逃れるため"
+        },
+        {
+          "id": "trade",
+          "text": "宋との貿易の港に近い地に移り、貿易の利益を朝廷が独占するため"
+        },
+        {
+          "id": "defense",
+          "text": "唐と新羅の攻撃に備え、海から遠く山に囲まれた地に移るため"
+        }
+      ],
+      "answer": "temple",
+      "explanation": "平城京の70年のあいだに、寺院勢力は政治にも影響を持つほど強くなっていました。また平城京には物資を運ぶ水運の便がなく、長岡京は淀川・桂川の水運で瀬戸内海とつながっていました。怨霊への恐れは、長岡京からさらに平安京へ移る理由になったものです。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-nagaoka-result",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-nagaoka"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "長岡京の造営中の785年に起きた出来事は？",
+      "choices": [
+        {
+          "id": "tanetsugu",
+          "text": "造営を指揮していた藤原種継が暗殺された"
+        },
+        {
+          "id": "fire",
+          "text": "完成したばかりの宮が落雷で焼け落ちた"
+        },
+        {
+          "id": "revolt",
+          "text": "九州で藤原広嗣が反乱を起こした"
+        },
+        {
+          "id": "emishi",
+          "text": "蝦夷の軍勢が長岡京に攻め込んできた"
+        }
+      ],
+      "answer": "tanetsugu",
+      "explanation": "遷都を進め、造営を指揮していた藤原種継が暗殺され、関わったとされた皇太子の早良親王（桓武天皇の弟）は皇太子を廃されて亡くなりました。その後に続いた災いが早良親王の怨霊のたたりと恐れられ、平安京への遷都につながります。藤原広嗣の乱は740年、聖武天皇のときの出来事です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-heian-map",
+      "type": "map",
+      "itemIds": [
+        "jh-capital-heian"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "794年に桓武天皇が移った平安京があったのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-26",
+      "explanation": "平安京は現在の京都市にあたります。1869年に明治天皇が東京に移るまで、1000年あまり天皇の住む都でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-heian-year",
+      "type": "year",
+      "itemIds": [
+        "jh-capital-heian"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "桓武天皇が長岡京から平安京に都を移したのは何年？",
+      "answer": 794,
+      "tolerance": 10,
+      "explanation": "794年です。長岡京に移った784年から、わずか10年ほどで再び都を移しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-heian-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-heian",
+        "jh-capital-nagaoka"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "桓武天皇が、わずか10年ほどで長岡京を離れ、平安京に移ったのはなぜ？",
+      "choices": [
+        {
+          "id": "curse",
+          "text": "身内の死や洪水が続き、亡くなった弟・早良親王のたたりと恐れられたから"
+        },
+        {
+          "id": "temple",
+          "text": "長岡京の近くに大きな寺院が建ち、その勢力が政治に口を出したから"
+        },
+        {
+          "id": "war",
+          "text": "長岡京が戦乱で焼け、朝廷の建物の多くが失われてしまったから"
+        },
+        {
+          "id": "trade",
+          "text": "長岡京が港から遠く、唐との貿易に不便だと分かったから"
+        }
+      ],
+      "answer": "curse",
+      "explanation": "長岡京の造営を指揮した藤原種継の暗殺に関わったとされた早良親王が亡くなったあと、天皇の身内の死や疫病、792年の大洪水などが続き、早良親王の怨霊のたたりと恐れられました。寺院勢力から離れることは、平城京から長岡京に移ったときの理由です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-fukuhara-map",
+      "type": "map",
+      "itemIds": [
+        "jh-capital-fukuhara"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "1180年に平清盛が都を移した福原は、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-28",
+      "explanation": "福原は現在の神戸市にあたります。近くには、清盛が日宋貿易の拠点として改修した港・大輪田泊（のちの兵庫津、今の神戸港のもと）がありました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-fukuhara-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-fukuhara"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "平清盛が1180年に京都から福原に都を移した理由とされるものは？",
+      "choices": [
+        {
+          "id": "pressure",
+          "text": "挙兵などで政情が不安定になり、寺院勢力の圧力も避けたかったから"
+        },
+        {
+          "id": "curse",
+          "text": "京都で災いが続き、敵の怨霊のたたりと恐れられたから"
+        },
+        {
+          "id": "genji",
+          "text": "源頼朝との戦いに勝ち、東国に近い場所へ移る必要があったから"
+        },
+        {
+          "id": "song",
+          "text": "宋の皇帝から、港の近くに都を移すよう求められたから"
+        }
+      ],
+      "answer": "pressure",
+      "explanation": "源頼政の挙兵などで政情が不安定になり、延暦寺などの寺院勢力も平氏に反発していました。清盛はその圧力を避けようとしたとされます。福原は、清盛が日宋貿易の拠点とした港・大輪田泊の近くで、清盛の山荘もありました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-fukuhara-result",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-fukuhara"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "1180年6月に移された福原の都は、その後どうなった？",
+      "choices": [
+        {
+          "id": "back",
+          "text": "各地で源氏方の挙兵が相次ぎ、同じ年の11月に京都に戻された"
+        },
+        {
+          "id": "long",
+          "text": "平氏が滅ぶ1185年まで、5年ほどのあいだ都として使われた"
+        },
+        {
+          "id": "kamakura",
+          "text": "源頼朝に引き継がれ、のちに幕府が置かれる町になった"
+        },
+        {
+          "id": "port",
+          "text": "都は完成したが、貿易の町として商人に明け渡された"
+        }
+      ],
+      "answer": "back",
+      "explanation": "福原の都は完成しないまま、わずか半年ほどで京都に戻されました。各地で源氏方の挙兵が相次ぎ、延暦寺の僧たちの反発や、平氏一門の中からの反対もあったためです。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-kamakura-map",
+      "type": "map",
+      "itemIds": [
+        "jh-capital-kamakura"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "源頼朝が1180年に入って本拠とし、幕府を開いた鎌倉は、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-14",
+      "explanation": "鎌倉は現在の神奈川県鎌倉市です。当時は相模国にあたり、京都から遠く離れた東国の武士たちの政権の中心となりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-kamakura-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-kamakura"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "源頼朝が鎌倉を本拠に選んだ理由として正しいものは？",
+      "choices": [
+        {
+          "id": "defense",
+          "text": "源氏ゆかりの地で、海と丘陵に囲まれた守りやすい土地だったから"
+        },
+        {
+          "id": "court",
+          "text": "朝廷のある京都に近く、朝廷の動きを見張りやすい土地だったから"
+        },
+        {
+          "id": "port",
+          "text": "宋との貿易の港があり、貿易の利益を得やすい土地だったから"
+        },
+        {
+          "id": "temple",
+          "text": "大きな寺院が集まり、その力を借りて東国を治められたから"
+        }
+      ],
+      "answer": "defense",
+      "explanation": "鎌倉は源氏ゆかりの地で、南を海、残る三方を丘陵に囲まれていました。陸から入るには細い尾根道か波打ち際の道しかなく、守りやすい「要害の地」でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-kamakura-year",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-kamakura"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "鎌倉幕府の成立年についての説明として正しいものは？",
+      "choices": [
+        {
+          "id": "views",
+          "text": "どの段階を成立とみるかで、1180年・1185年・1192年などの説がある"
+        },
+        {
+          "id": "1192",
+          "text": "頼朝が征夷大将軍になった1192年とすることで、研究者の見方は一致している"
+        },
+        {
+          "id": "1185",
+          "text": "平氏が滅んだ1185年に、頼朝が幕府を開くと宣言した記録が残っている"
+        },
+        {
+          "id": "1180",
+          "text": "頼朝が鎌倉に入った1180年に、朝廷が幕府を開くことを正式に認めた"
+        }
+      ],
+      "answer": "views",
+      "explanation": "鎌倉幕府には「開く」と宣言した日があるわけではないため、どの段階を成立とみるかで、1180年（鎌倉に本拠）、1183年（東国の支配を朝廷が認める）、1185年（守護・地頭の設置）、1192年（征夷大将軍に任命）などの説があります。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-muromachi-name",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-muromachi"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "「室町幕府」という呼び名の由来は？",
+      "choices": [
+        {
+          "id": "house",
+          "text": "将軍の邸宅が京都の室町にあり、将軍が「室町殿」と呼ばれたこと"
+        },
+        {
+          "id": "period",
+          "text": "幕府が開かれた年の元号が「室町」だったこと"
+        },
+        {
+          "id": "castle",
+          "text": "足利尊氏が最初に入った城が、室町城と呼ばれていたこと"
+        },
+        {
+          "id": "region",
+          "text": "足利氏の出身地が、下野国の室町という土地だったこと"
+        }
+      ],
+      "answer": "house",
+      "explanation": "3代将軍足利義満は、1378年に京都の室町に「花の御所」と呼ばれる邸宅を造りました。将軍やその邸宅が「室町殿」と呼ばれたことから、この幕府は室町幕府と呼ばれます。「室町」という元号はありません。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-muromachi-kenmu",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-muromachi"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "1336年に足利尊氏が定めた建武式目の第1条で論じられたことは？",
+      "choices": [
+        {
+          "id": "place",
+          "text": "幕府を元のように鎌倉に置くか、ほかの場所にするか"
+        },
+        {
+          "id": "emperor",
+          "text": "南朝と北朝のどちらの天皇を正統とするか"
+        },
+        {
+          "id": "trade",
+          "text": "明との貿易を、幕府が独占して行うかどうか"
+        },
+        {
+          "id": "religion",
+          "text": "禅宗を、幕府が保護する宗派とするかどうか"
+        }
+      ],
+      "answer": "place",
+      "explanation": "建武式目の第1条では、幕府を鎌倉に戻すか、ほかの場所にするかが論じられ、政治の良し悪しは場所では決まらない、多くの人が移ることを望むならそれに従うべきだ、と答えています。こうして足利氏は、鎌倉幕府とは違い、朝廷のある京都に政権を置きました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-azuchi-map",
+      "type": "map",
+      "itemIds": [
+        "jh-capital-azuchi"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "織田信長が1576年に築き始めた安土城があったのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-25",
+      "explanation": "安土城は、琵琶湖の東岸、現在の滋賀県近江八幡市にありました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-azuchi-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-azuchi"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "織田信長が、本拠を岐阜から安土に移したのはなぜ？",
+      "choices": [
+        {
+          "id": "route",
+          "text": "京都に近く、琵琶湖の水運を押さえ、北陸や越後にも備えられたから"
+        },
+        {
+          "id": "sea",
+          "text": "外海に面した港があり、南蛮貿易の船を直接迎えられたから"
+        },
+        {
+          "id": "mountain",
+          "text": "周りを高い山に囲まれ、どの大名からも攻められにくかったから"
+        },
+        {
+          "id": "temple",
+          "text": "比叡山延暦寺に近く、その僧兵の力を借りられたから"
+        }
+      ],
+      "answer": "route",
+      "explanation": "安土は岐阜よりずっと京都に近く、琵琶湖の水運を押さえられる場所でした。また、北陸の一向一揆や越後の上杉謙信に備える意味もあったとされます。信長はむしろ比叡山延暦寺を焼き打ちしています。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-osaka-map",
+      "type": "map",
+      "itemIds": [
+        "jh-capital-osaka"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "豊臣秀吉が1583年に築き始めた大坂城があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-27",
+      "explanation": "大坂城は、現在の大阪市にあります。北を淀川に面した場所です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-osaka-site",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-osaka"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "豊臣秀吉が大坂城を築いた場所には、もともと何があった？",
+      "choices": [
+        {
+          "id": "honganji",
+          "text": "浄土真宗の拠点・石山本願寺"
+        },
+        {
+          "id": "palace",
+          "text": "聖武天皇が都とした難波宮"
+        },
+        {
+          "id": "port",
+          "text": "平清盛が改修した港・大輪田泊"
+        },
+        {
+          "id": "castle",
+          "text": "織田信長の本拠・安土城"
+        }
+      ],
+      "answer": "honganji",
+      "explanation": "大坂城は、織田信長と10年にわたって戦った浄土真宗の拠点・石山本願寺の跡地に築かれました。大輪田泊は現在の神戸市、安土城は滋賀県にありました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-osaka-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-osaka"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "豊臣秀吉が大坂の地に城を築いた理由として正しいものは？",
+      "choices": [
+        {
+          "id": "water",
+          "text": "川と海に囲まれた守りやすい地で、経済や交通のうえでも重要だったから"
+        },
+        {
+          "id": "court",
+          "text": "朝廷のある京都の中心にあり、天皇を守るのに都合がよかったから"
+        },
+        {
+          "id": "origin",
+          "text": "秀吉の生まれ故郷で、家臣を集めやすい土地だったから"
+        },
+        {
+          "id": "mine",
+          "text": "近くに大きな金山があり、城を築く資金を得やすかったから"
+        }
+      ],
+      "answer": "water",
+      "explanation": "大坂は北を淀川、東を大和川の支流と低湿地に守られ、西は海に臨む要害の地でした。秀吉は、この地の経済や交通のうえでの位置にも目をつけて城を築きました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-edo-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-edo"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "徳川家康が、江戸に幕府を開いた背景として正しいものは？",
+      "choices": [
+        {
+          "id": "kanto",
+          "text": "秀吉の命で関東に移されて以来、江戸を本拠として整えていたから"
+        },
+        {
+          "id": "origin",
+          "text": "家康の生まれ故郷で、祖父の代から徳川家の城と城下町があったから"
+        },
+        {
+          "id": "court",
+          "text": "朝廷が京都から江戸に移ることを、関ヶ原の戦いより前に決めていたから"
+        },
+        {
+          "id": "port",
+          "text": "外国との貿易の港があり、南蛮貿易の船が集まる中心地だったから"
+        }
+      ],
+      "answer": "kanto",
+      "explanation": "豊臣秀吉は1590年に小田原の北条氏を滅ぼすと、家康に関東への領地替えを命じました。家康は江戸を本拠として城と町を整え、1603年に征夷大将軍になると、そのまま江戸に幕府を開きました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-edo-year",
+      "type": "year",
+      "itemIds": [
+        "jh-capital-edo"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "徳川家康が征夷大将軍に任じられ、江戸幕府が開かれたのは何年？",
+      "answer": 1603,
+      "tolerance": 10,
+      "explanation": "1603年です。家康が関東に移された1590年から、江戸はすでに徳川家の本拠でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-tokyo-why",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-tokyo"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "明治新政府が、江戸（東京）を新しい政治の中心にしたねらいとして正しいものは？",
+      "choices": [
+        {
+          "id": "control",
+          "text": "旧幕府の本拠地を押さえ、新しい政治を全国に行き渡らせるため"
+        },
+        {
+          "id": "curse",
+          "text": "京都で災いが続き、怨霊のたたりと恐れられていたため"
+        },
+        {
+          "id": "trade",
+          "text": "横浜の港に近く、外国との貿易の利益を得やすくするため"
+        },
+        {
+          "id": "temple",
+          "text": "京都の大寺院の勢力から離れ、政治への口出しを防ぐため"
+        }
+      ],
+      "answer": "control",
+      "explanation": "新政府は、人心を新たにし、旧幕府の本拠地を押さえて、新しい政治を全国に行き渡らせようとしました。大名屋敷など、すでにある施設を役所に使えることも利点でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-tokyo-osaka",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-tokyo"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "明治新政府の大久保利通が、1868年のはじめに都とするよう唱えた場所は？",
+      "choices": [
+        {
+          "id": "osaka",
+          "text": "大坂"
+        },
+        {
+          "id": "kyoto",
+          "text": "京都"
+        },
+        {
+          "id": "yokohama",
+          "text": "横浜"
+        },
+        {
+          "id": "nagoya",
+          "text": "名古屋"
+        }
+      ],
+      "answer": "osaka",
+      "explanation": "大久保利通は1868年のはじめに大坂への遷都を唱えました。その後、江戸城が明け渡されると江戸を政治の中心とする意見が強くなり、前島密らの意見もあって江戸が選ばれ、東京と改められました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-tokyo-tento",
+      "type": "choice",
+      "itemIds": [
+        "jh-capital-tokyo"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "天皇が東京に移ったことが「遷都」ではなく「奠都」と呼ばれることがあるのはなぜ？",
+      "choices": [
+        {
+          "id": "no-edict",
+          "text": "都を移すことを正式に宣言する詔が出されなかったから"
+        },
+        {
+          "id": "temporary",
+          "text": "天皇が東京にいたのは、数年のあいだだけだったから"
+        },
+        {
+          "id": "both",
+          "text": "京都と東京の二つを、法律で正式に都と定めたから"
+        },
+        {
+          "id": "foreign",
+          "text": "外国の求めに応じて、港に近い東京に移ったから"
+        }
+      ],
+      "answer": "no-edict",
+      "explanation": "東京への移転は、改称・天皇の東京入り・役所の移転を重ねて進み、都を移すと正式に宣言する詔（遷都の詔）は出されませんでした。そのため、都を定めるという意味の「奠都」と呼ばれることがあります。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-order-ancient",
+      "type": "order",
+      "itemIds": [
+        "jh-capital-fujiwara",
+        "jh-capital-heijo",
+        "jh-capital-nagaoka",
+        "jh-capital-heian"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "古代の都を、移った順に並べ替えよう",
+      "entries": [
+        {
+          "id": "fujiwara",
+          "text": "藤原京"
+        },
+        {
+          "id": "heijo",
+          "text": "平城京"
+        },
+        {
+          "id": "nagaoka",
+          "text": "長岡京"
+        },
+        {
+          "id": "heian",
+          "text": "平安京"
+        }
+      ],
+      "answer": [
+        "fujiwara",
+        "heijo",
+        "nagaoka",
+        "heian"
+      ],
+      "explanation": "694年 藤原京（持統天皇）→ 710年 平城京（元明天皇）→ 784年 長岡京（桓武天皇）→ 794年 平安京（桓武天皇）。唐の都の形にならう、寺院勢力から離れる、怨霊から逃れる、と移る理由が変わっていきます。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-order-bushi",
+      "type": "order",
+      "itemIds": [
+        "jh-capital-kamakura",
+        "jh-capital-muromachi",
+        "jh-capital-azuchi",
+        "jh-capital-edo",
+        "jh-capital-tokyo"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "政治の中心となった場所を、古い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "kamakura",
+          "text": "源頼朝が鎌倉を本拠とする"
+        },
+        {
+          "id": "muromachi",
+          "text": "足利尊氏が京都に政権を開く"
+        },
+        {
+          "id": "azuchi",
+          "text": "織田信長が安土城を築き始める"
+        },
+        {
+          "id": "edo",
+          "text": "徳川家康が江戸に幕府を開く"
+        },
+        {
+          "id": "tokyo",
+          "text": "江戸を東京と改める"
+        }
+      ],
+      "answer": [
+        "kamakura",
+        "muromachi",
+        "azuchi",
+        "edo",
+        "tokyo"
+      ],
+      "explanation": "1180年 鎌倉 → 1336年 京都（室町幕府）→ 1576年 安土 → 1603年 江戸 → 1868年 東京。武士の政権の中心は、東国の鎌倉から京都に戻り、戦国の統一の拠点を経て、再び東国の江戸に移りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-match-people",
+      "type": "match",
+      "itemIds": [
+        "jh-capital-fujiwara",
+        "jh-capital-heijo",
+        "jh-capital-heian",
+        "jh-capital-fukuhara",
+        "jh-capital-azuchi"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "都や拠点と、そこに移った人物を結ぼう",
+      "left": [
+        {
+          "id": "fujiwara",
+          "text": "藤原京"
+        },
+        {
+          "id": "heijo",
+          "text": "平城京"
+        },
+        {
+          "id": "heian",
+          "text": "平安京"
+        },
+        {
+          "id": "fukuhara",
+          "text": "福原"
+        },
+        {
+          "id": "azuchi",
+          "text": "安土"
+        }
+      ],
+      "right": [
+        {
+          "id": "jito",
+          "text": "持統天皇"
+        },
+        {
+          "id": "genmei",
+          "text": "元明天皇"
+        },
+        {
+          "id": "kanmu",
+          "text": "桓武天皇"
+        },
+        {
+          "id": "kiyomori",
+          "text": "平清盛"
+        },
+        {
+          "id": "nobunaga",
+          "text": "織田信長"
+        }
+      ],
+      "pairs": [
+        [
+          "fujiwara",
+          "jito"
+        ],
+        [
+          "heijo",
+          "genmei"
+        ],
+        [
+          "heian",
+          "kanmu"
+        ],
+        [
+          "fukuhara",
+          "kiyomori"
+        ],
+        [
+          "azuchi",
+          "nobunaga"
+        ]
+      ],
+      "explanation": "藤原京は694年に持統天皇、平城京は710年に元明天皇、平安京は794年に桓武天皇が移った都です。福原は1180年に平清盛が都を移した地、安土は1576年から織田信長が城を築いた地です。",
+      "status": "active"
+    },
+    {
+      "id": "q-jh-capital-classify",
+      "type": "classify",
+      "itemIds": [
+        "jh-capital-fujiwara",
+        "jh-capital-heijo",
+        "jh-capital-heian",
+        "jh-capital-kamakura",
+        "jh-capital-azuchi",
+        "jh-capital-edo"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "天皇が住んだ都と、武士が政治の拠点とした場所に分けよう",
+      "buckets": [
+        {
+          "id": "tenno",
+          "text": "天皇が住んだ都"
+        },
+        {
+          "id": "bushi",
+          "text": "武士が政治の拠点とした場所"
+        }
+      ],
+      "entries": [
+        {
+          "id": "fujiwara",
+          "text": "藤原京",
+          "bucket": "tenno"
+        },
+        {
+          "id": "kamakura",
+          "text": "鎌倉",
+          "bucket": "bushi"
+        },
+        {
+          "id": "heijo",
+          "text": "平城京",
+          "bucket": "tenno"
+        },
+        {
+          "id": "azuchi",
+          "text": "安土",
+          "bucket": "bushi"
+        },
+        {
+          "id": "heian",
+          "text": "平安京",
+          "bucket": "tenno"
+        },
+        {
+          "id": "edo",
+          "text": "江戸（幕府）",
+          "bucket": "bushi"
+        }
+      ],
+      "explanation": "藤原京・平城京・平安京は、天皇が住み、朝廷が政治を行った都です。鎌倉・安土・江戸は、源頼朝・織田信長・徳川家康が本拠とした場所で、そのあいだも天皇は京都（平安京）に住み続けました。",
+      "status": "active"
+    }
+  ]
+}
