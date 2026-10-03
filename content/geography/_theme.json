@@ -1,0 +1,11 @@
+{
+  "id": "geography",
+  "name": "地理",
+  "categories": [
+    {
+      "id": "landform",
+      "name": "山と川と平野",
+      "description": "日本の地形は、なぜこれほど山がちで、川が短く急なのか"
+    }
+  ]
+}

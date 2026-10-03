@@ -1,0 +1,1738 @@
+{
+  "items": [
+    {
+      "id": "geo-landform-plates",
+      "title": "4枚のプレートの境目にある日本列島",
+      "summary": "日本列島の周りでは、海のプレート（太平洋プレートとフィリピン海プレート）が、陸のプレート（北米プレートとユーラシアプレート）の下に沈み込んでいる。太平洋プレートは東北日本の太平洋側から、フィリピン海プレートは西南日本の太平洋側から沈み込む。",
+      "why": "日本列島が山がちで火山が多い根本の理由とされます。プレートがぶつかり合うことで地殻に大きな力が加わり、長い時間をかけて山脈が隆起します。また、沈み込んだ海のプレートから出る水の働きでマグマができ、火山が生まれます。",
+      "tags": [
+        "プレート",
+        "沈み込み"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "プレートがぶつかり合う力が、日本アルプスのような山脈の隆起に関わっていると考えられています。",
+          "itemIds": [
+            "geo-landform-japan-alps"
+          ]
+        },
+        {
+          "axis": "因果",
+          "text": "沈み込んだ海のプレートから出る水の働きでマグマができ、日本は火山の多い国になりました。",
+          "itemIds": [
+            "geo-landform-volcanoes"
+          ]
+        }
+      ],
+      "sources": [
+        "地震調査研究推進本部「海溝型地震の長期評価」 — https://www.jishin.go.jp/evaluation/long_term_evaluation/subduction_fault/",
+        "地震調査研究推進本部「スラブ内地震」 — https://www.jishin.go.jp/resource/terms/tm_intraslab_earthquake/",
+        "国土地理院「地殻変動の監視」 — https://web2.gsi.go.jp/kanshi/",
+        "気象庁「火山噴火の仕組み」 — https://www.jma.go.jp/jma/kishou/know/whitep/2-4.html"
+      ],
+      "order": 0
+    },
+    {
+      "id": "geo-landform-mountain-ratio",
+      "title": "国土の約4分の3が山地",
+      "summary": "日本の国土は、山地と丘陵地を合わせて約4分の3を占め、低地や台地からなる平野は約4分の1にすぎない。",
+      "tags": [
+        "山地",
+        "平野"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "国土の多くが山地のため、川は山から海へ短い距離で急に流れ下ります。",
+          "itemIds": [
+            "geo-landform-steep-rivers"
+          ]
+        },
+        {
+          "axis": "因果",
+          "text": "人々の暮らしや田畑は、川が運んだ土砂でできた限られた平野に集まりました。",
+          "itemIds": [
+            "geo-landform-plains"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「日本列島」（世界大百科事典・山川 日本史小辞典） — https://kotobank.jp/word/日本列島",
+        "国土交通省『河川事業概要2005』「日本と世界の河川の比較」 — https://www.mlit.go.jp/river/pamphlet_jirei/kasen/gaiyou/panf/gaiyou2005/pdf/c1.pdf"
+      ],
+      "order": 1
+    },
+    {
+      "id": "geo-landform-japan-alps",
+      "title": "日本アルプス",
+      "summary": "本州の中央部に連なる飛騨山脈（北アルプス）・木曽山脈（中央アルプス）・赤石山脈（南アルプス）をまとめた呼び名。日本で唯一、標高3000m級の山々が連なる山域である。",
+      "why": "地質学的には新しい時代に、急激に隆起して誕生したと考えられています。プレートがぶつかり合う力が関わるとされますが、隆起の詳しい仕組みには様々な説があり、まだ完全には分かっていません。",
+      "place": {
+        "name": "本州中部（長野県・富山県・岐阜県・山梨県・静岡県など）"
+      },
+      "people": [
+        "ウィリアム・ゴーランド",
+        "ウォルター・ウェストン"
+      ],
+      "tags": [
+        "山脈",
+        "日本アルプス"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "日本列島は、プレートがぶつかり合う境目の上にあります。",
+          "itemIds": [
+            "geo-landform-plates"
+          ]
+        },
+        {
+          "axis": "地理",
+          "text": "赤石山脈の西側には、本州を東西に分ける糸魚川-静岡構造線が通っています。",
+          "itemIds": [
+            "geo-landform-fossa-magna"
+          ]
+        }
+      ],
+      "trivia": "「日本アルプス」の名は、イギリス人技師ウィリアム・ゴーランドが1881年刊行の『日本案内』で紹介したのが始まりで、宣教師ウォルター・ウェストンが1896年の著書で世界に広めました。",
+      "sources": [
+        "コトバンク「日本アルプス」（世界大百科事典・日本大百科全書） — https://kotobank.jp/word/日本アルプス",
+        "国土地理院「日本アルプスの隆起運動に関する研究」 — https://www.gsi.go.jp/common/000057258.pdf",
+        "環境省「中部山岳国立公園の特徴」 — https://www.env.go.jp/park/chubu/point/index.html",
+        "長野県「山々と共にある長野県。」 — https://150th.pref.nagano.lg.jp/feature/66/"
+      ],
+      "order": 2
+    },
+    {
+      "id": "geo-landform-fossa-magna",
+      "title": "フォッサマグナと糸魚川-静岡構造線",
+      "summary": "フォッサマグナは、本州中央部を南北に横切る大きな溝のような地帯。その西の縁にあたる糸魚川-静岡構造線は、新潟県糸魚川市から諏訪湖を通って静岡へ続く大きな断層で、日本列島を東北日本と西南日本に分けている。",
+      "place": {
+        "name": "新潟県糸魚川市〜長野県諏訪湖〜静岡県",
+        "region": "jp-15"
+      },
+      "people": [
+        "ハインリッヒ・エドムント・ナウマン"
+      ],
+      "tags": [
+        "フォッサマグナ",
+        "断層"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "糸魚川-静岡構造線の西側には、赤石山脈など日本アルプスの高い山々がそびえています。",
+          "itemIds": [
+            "geo-landform-japan-alps"
+          ]
+        }
+      ],
+      "trivia": "フォッサマグナはラテン語で「大きな溝」という意味です。名付けたのは明治時代に日本に招かれたドイツの地質学者ナウマンで、日本でゾウの化石を初めて研究した彼にちなんで、古代のゾウは「ナウマンゾウ」と名付けられました。",
+      "sources": [
+        "コトバンク「フォッサマグナ」（日本大百科全書・ブリタニカ国際大百科事典ほか） — https://kotobank.jp/word/フォッサマグナ",
+        "産総研 地質標本館「糸魚川静岡構造線」 — https://www.gsj.jp/Muse/QR/jp/131-13.html",
+        "産総研 地質調査総合センター『地質ニュース』533号 — https://www.gsj.jp/data/chishitsunews/99_01_08.pdf",
+        "フォッサマグナミュージアム「フォッサマグナとナウマン博士」 — https://fmm.geo-itoigawa.com/event-learning/fmm_dr-naumann/"
+      ],
+      "order": 3
+    },
+    {
+      "id": "geo-landform-volcanoes",
+      "title": "火山の多い国",
+      "summary": "日本には111の活火山がある（気象庁）。世界の活火山はおよそ1500とされ、その約7%が日本に集まっている。",
+      "why": "陸のプレートの下に沈み込んだ海のプレートから出る水の働きで、地下の岩石（上部マントル）の一部がとけてマグマができるためです。そのため火山は、海溝とほぼ平行に並びます。",
+      "tags": [
+        "火山",
+        "活火山"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "海のプレートの沈み込みが、マグマができるもとになっています。",
+          "itemIds": [
+            "geo-landform-plates"
+          ]
+        },
+        {
+          "axis": "比較",
+          "text": "同じ火山でも、噴出物が積み重なった富士山と、巨大噴火の後に陥没した阿蘇のカルデラでは、形がまったく違います。",
+          "itemIds": [
+            "geo-landform-fuji",
+            "geo-landform-aso"
+          ]
+        }
+      ],
+      "trivia": "気象庁のいう活火山は「おおむね過去1万年以内に噴火した火山と、現在活発な噴気活動のある火山」です。今は静かでも、1万年以内に噴火していれば活火山に数えられます。",
+      "sources": [
+        "気象庁「活火山とは」 — https://www.jma.go.jp/jma/kishou/know/kazan/katsukazan_toha/katsukazan_toha.html",
+        "気象庁「はれるんランド 火山についてのよくある質問」 — https://www.jma.go.jp/jma/kids/kids/faq/c1_19.html",
+        "気象庁「火山噴火の仕組み」 — https://www.jma.go.jp/jma/kishou/know/whitep/2-4.html",
+        "環境省「霧島錦江湾国立公園の特徴」 — https://www.env.go.jp/nature/nationalparks/list/kirishima-kinkowan/feature/",
+        "コトバンク「石炭」（日本大百科全書） — https://kotobank.jp/word/石炭",
+        "コトバンク「鍾乳洞」（デジタル大辞泉・日本大百科全書） — https://kotobank.jp/word/鍾乳洞"
+      ],
+      "order": 4
+    },
+    {
+      "id": "geo-landform-fuji",
+      "title": "富士山",
+      "summary": "山梨県と静岡県にまたがる、日本で最も高い山（3776m）。溶岩や火山灰などが積み重なってできた成層火山で、最後の噴火は1707年（宝永4年）の宝永噴火である。",
+      "why": "美しい円錐形は、くり返す噴火で噴き出した溶岩や火山灰などが、古い山をおおいながら山頂のまわりに積み重なってできたためです。",
+      "year": {
+        "from": 1707
+      },
+      "place": {
+        "name": "山梨県・静岡県"
+      },
+      "tags": [
+        "火山",
+        "成層火山"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "阿蘇山のカルデラは、積み重なってできた富士山とは逆に、巨大噴火の後に地面が陥没してできたくぼ地です。",
+          "itemIds": [
+            "geo-landform-aso"
+          ]
+        }
+      ],
+      "trivia": "富士山の標高「3776m」は最高地点の値です。山頂近くの三角点（測量の基準点）は3775.56mで、最高地点より少し低い場所にあります。",
+      "sources": [
+        "コトバンク「富士山」（デジタル大辞泉・日本大百科全書・世界大百科事典） — https://kotobank.jp/word/富士山",
+        "国土地理院「富士山の標高」 — https://www.gsi.go.jp/WNEW/PRESS-RELEASE/keikaku61003.html"
+      ],
+      "order": 5
+    },
+    {
+      "id": "geo-landform-aso",
+      "title": "阿蘇山のカルデラ",
+      "summary": "熊本県の阿蘇山には、南北約25km・東西約18kmの巨大なカルデラ（火山にできた大きなくぼ地）がある。カルデラの中には阿蘇市・高森町・南阿蘇村があって4万人あまりが暮らし、JR豊肥本線や国道57号が通っている。",
+      "why": "約27万年前から約9万年前にかけて起きた4回の巨大噴火で、大量のマグマが火砕流（高温の火山灰や岩が一気に流れ下る現象）となって噴き出し、それにともなって地面が大きく陥没したためです。",
+      "place": {
+        "name": "熊本県阿蘇市・高森町・南阿蘇村",
+        "region": "jp-43"
+      },
+      "tags": [
+        "火山",
+        "カルデラ"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "富士山は、阿蘇のカルデラとは逆に、噴出物が積み重なってできた成層火山です。",
+          "itemIds": [
+            "geo-landform-fuji"
+          ]
+        }
+      ],
+      "trivia": "「カルデラ」は、スペイン語で「鍋」や「釜」を意味する言葉です。",
+      "sources": [
+        "産総研 地質調査総合センター「阿蘇カルデラ阿蘇4火砕流堆積物分布図 解説」 — https://gbank.gsj.jp/volcano/lvi/aso4/text/exp-2.html",
+        "国土交通省「阿蘇山直轄砂防事業 事業評価資料」 — https://www.mlit.go.jp/river/sabo/sabo_hyoka_aso/07shiryo2.pdf",
+        "コトバンク「阿蘇山」（日本大百科全書・世界大百科事典） — https://kotobank.jp/word/阿蘇山",
+        "コトバンク「カルデラ」（デジタル大辞泉・岩石学辞典・世界大百科事典） — https://kotobank.jp/word/カルデラ"
+      ],
+      "order": 6
+    },
+    {
+      "id": "geo-landform-steep-rivers",
+      "title": "短く急な日本の川",
+      "summary": "日本の川は、世界の大陸を流れる川に比べて長さが短く、上流から河口までの傾き（勾配）が急である。",
+      "why": "国土の中央に標高2000〜3000m級の山脈が連なり、山から海までの距離が短いためです。",
+      "tags": [
+        "川",
+        "勾配",
+        "洪水"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "急な川が山から運び出した大量の土砂は、山のふもとに扇状地をつくります。",
+          "itemIds": [
+            "geo-landform-alluvial-fan"
+          ]
+        },
+        {
+          "axis": "因果",
+          "text": "国土の約4分の3が山地で、川は山から海へ一気に流れ下ります。",
+          "itemIds": [
+            "geo-landform-mountain-ratio"
+          ]
+        }
+      ],
+      "trivia": "「これは川ではない、滝だ」は、明治時代にオランダ人技師デ・レイケが富山県の常願寺川を見て言った言葉として知られますが、本人が言ったという記録は見つかっていません。彼が富山に来る前の1888年の富山県会の議事録に、外国人技師が早月川を「川ではなく滝だ」と言ったという発言が残っています。",
+      "sources": [
+        "国土交通省『河川事業概要2005』「日本と世界の河川の比較」 — https://www.mlit.go.jp/river/pamphlet_jirei/kasen/gaiyou/panf/gaiyou2005/pdf/c1.pdf",
+        "国土交通省「世界でも稀、急こう配の河川」 — https://www.mlit.go.jp/river/pamphlet_jirei/bousai/saigai/kiroku/suigai/suigai_3-1-2.html",
+        "国土交通省 大分河川国道事務所「日本は水が多い国なのに、なぜダムがいるの？」 — https://www.qsr.mlit.go.jp/oitagawa/about_us/qanda/q10_answer.html",
+        "是松慧美「デ・レイケが発したとされる言葉『これは川ではない、滝である』に関する初出資料」（富山県立山カルデラ砂防博物館研究紀要16号、2020年） — https://www.tatecal.or.jp/tatecal/proceedings/2020_16/16-01-05.pdf"
+      ],
+      "order": 7
+    },
+    {
+      "id": "geo-landform-long-rivers",
+      "title": "信濃川と利根川",
+      "summary": "日本で最も長い川は信濃川（367km）で、上流の長野県では千曲川と呼ばれ、新潟市で日本海に注ぐ。流域面積（雨水が集まって川に流れこむ範囲の広さ）が最も広い川は利根川（16,840km²）で、長さは信濃川に次ぐ322kmである。",
+      "place": {
+        "name": "新潟県・長野県（信濃川）、関東地方（利根川）",
+        "region": "jp-15"
+      },
+      "tags": [
+        "川",
+        "信濃川",
+        "利根川"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "日本一長い信濃川でも367kmで、大陸を流れる川に比べるとずっと短い川です。",
+          "itemIds": [
+            "geo-landform-steep-rivers"
+          ]
+        }
+      ],
+      "trivia": "利根川は「坂東太郎」という別名をもちます。坂東は関東地方の古い呼び名、太郎は「一番目」の意味で、「坂東で第一の川」を表します。",
+      "sources": [
+        "国土交通省 信濃川河川事務所「なるほど信濃川」 — https://www.hrr.mlit.go.jp/shinano/shinanogawa_info/naruhodo/ryusui.html",
+        "コトバンク「信濃川」（精選版 日本国語大辞典・世界大百科事典ほか） — https://kotobank.jp/word/信濃川",
+        "コトバンク「利根川」（デジタル大辞泉） — https://kotobank.jp/word/利根川",
+        "コトバンク「坂東太郎」（デジタル大辞泉・精選版 日本国語大辞典） — https://kotobank.jp/word/坂東太郎"
+      ],
+      "order": 8
+    },
+    {
+      "id": "geo-landform-alluvial-fan",
+      "title": "扇状地",
+      "summary": "川が山地から平地へ流れ出るところに、運ばれてきた砂や石がたまってできた扇形の地形。山梨県の甲府盆地では扇状地が発達し、水はけのよさを生かしたぶどうやももの果樹園が広がっている。",
+      "why": "山から平地に出たところで川の傾きが急にゆるやかになり、水が土砂を運ぶ力が急に弱まるため、粒の大きい砂や石がそこにたまります。",
+      "place": {
+        "name": "山梨県甲府盆地",
+        "region": "jp-19"
+      },
+      "tags": [
+        "扇状地",
+        "果樹"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "短く急な川は、山から大量の土砂を運び出します。",
+          "itemIds": [
+            "geo-landform-steep-rivers"
+          ]
+        },
+        {
+          "axis": "比較",
+          "text": "扇状地が山のふもとにできるのに対し、三角州は河口の近くに、より細かい砂や泥がたまってできます。",
+          "itemIds": [
+            "geo-landform-delta"
+          ]
+        }
+      ],
+      "trivia": "扇状地の中ほどでは、川の水が砂や石のすき間から地下にしみこんでしまい、ふだんは水の流れていない「水無川」になることがあります。",
+      "sources": [
+        "コトバンク「扇状地」（デジタル大辞泉・世界大百科事典ほか） — https://kotobank.jp/word/扇状地",
+        "コトバンク「甲府盆地」（世界大百科事典・日本歴史地名大系ほか） — https://kotobank.jp/word/甲府盆地",
+        "国土交通省 甲府河川国道事務所「甲府盆地を水害から守る信玄堤」 — https://www.ktr.mlit.go.jp/koufu/koufu00140.html"
+      ],
+      "order": 9
+    },
+    {
+      "id": "geo-landform-delta",
+      "title": "三角州",
+      "summary": "川が海に注ぐ河口の近くに、運ばれてきた細かい砂や泥がたまってできた、低く平らな土地。広島市は、太田川の河口にできた三角州の上に発達した。",
+      "why": "河口で川の流れが弱まり、上流から運ばれてきた細かい砂や泥が、そこにたまるためです。",
+      "place": {
+        "name": "広島県広島市（太田川）",
+        "region": "jp-34"
+      },
+      "tags": [
+        "三角州",
+        "河口"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "山のふもとにできる扇状地は、三角州より粒の大きい砂や石でできていて、水はけがよい土地です。",
+          "itemIds": [
+            "geo-landform-alluvial-fan"
+          ]
+        }
+      ],
+      "trivia": "広島市の中心部には三角州を分けて流れる6本の川があり、多くの橋がかかることから「水の都」と呼ばれます。",
+      "sources": [
+        "コトバンク「三角州」（デジタル大辞泉・日本大百科全書ほか） — https://kotobank.jp/word/三角州",
+        "広島市「水の都ひろしま―橋が語る物語」 — https://www.city.hiroshima.lg.jp/living/doro-kotsu-kasen/1021384/1026408/1047637/index.html"
+      ],
+      "order": 10
+    },
+    {
+      "id": "geo-landform-plains",
+      "title": "関東平野と沖積平野",
+      "summary": "日本最大の平野は関東平野（約1万7000km²）で、川沿いの低地と、周りより一段高く平らな台地からなる。台地の表面の多くは、周りの火山から飛んできた火山灰が積もった関東ローム層におおわれている。",
+      "why": "日本の平野の多くは、洪水のたびに川が上流から運んできた土砂が、長い時間をかけて積もってできた沖積平野です。",
+      "place": {
+        "name": "関東地方"
+      },
+      "tags": [
+        "平野",
+        "台地",
+        "関東平野"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "国土の約4分の3が山地のため、限られた平野に人や田畑が集まっています。",
+          "itemIds": [
+            "geo-landform-mountain-ratio"
+          ]
+        },
+        {
+          "axis": "比較",
+          "text": "南九州のシラス台地は、火山の噴出物が厚く積もってできた台地です。",
+          "itemIds": [
+            "geo-landform-shirasu"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「関東平野」（デジタル大辞泉・世界大百科事典） — https://kotobank.jp/word/関東平野",
+        "国土交通省 岡山河川事務所「岡山平野の成り立ち」 — https://www.cgr.mlit.go.jp/okakawa/bousai/zerometoru/bousai_zero_menu.htm",
+        "コトバンク「日本列島」（世界大百科事典・山川 日本史小辞典） — https://kotobank.jp/word/日本列島"
+      ],
+      "order": 11
+    },
+    {
+      "id": "geo-landform-shirasu",
+      "title": "シラス台地",
+      "summary": "鹿児島県を中心に南九州に広がる台地で、火山の噴火で出た火砕流や軽石・火山灰などが厚く積もった「シラス」でできている。鹿児島県本土の面積の約6割がシラスにおおわれている。",
+      "why": "2万数千年前、鹿児島湾の奥にある姶良カルデラの巨大噴火で噴き出した火砕流などが、厚く積もったためです。",
+      "place": {
+        "name": "鹿児島県を中心とする南九州",
+        "region": "jp-46"
+      },
+      "tags": [
+        "台地",
+        "シラス",
+        "火山"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "関東平野の台地も火山灰（関東ローム層）におおわれていますが、川沿いの低地と組み合わさった平野です。",
+          "itemIds": [
+            "geo-landform-plains"
+          ]
+        },
+        {
+          "axis": "因果",
+          "text": "巨大噴火で大量の噴出物が出る点は、阿蘇のカルデラと同じです。",
+          "itemIds": [
+            "geo-landform-aso"
+          ]
+        }
+      ],
+      "sources": [
+        "鹿児島県歴史・美術センター黎明館「シラスと暮らし」 — https://www.pref.kagoshima.jp/reimeikan/josetsu/bumon/minsoku/shirasu/index.html",
+        "コトバンク「シラス台地」（日本大百科全書） — https://kotobank.jp/word/シラス台地"
+      ],
+      "order": 12
+    },
+    {
+      "id": "geo-landform-ria",
+      "title": "リアス海岸",
+      "summary": "山地の谷に海水が入りこんでできた、出入りの複雑なのこぎりの歯のような海岸。三重県の志摩半島（英虞湾）、三陸海岸の南部、福井県の若狭湾などに見られる。",
+      "why": "川が削ってできた谷が、氷河時代が終わったあとの海面の上昇などによって、海に沈んだためです。",
+      "place": {
+        "name": "三重県志摩半島・三陸海岸南部・福井県若狭湾など",
+        "region": "jp-24"
+      },
+      "tags": [
+        "海岸",
+        "リアス海岸"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "山がちな国土を流れる川が削った谷が、リアス海岸のもとになりました。",
+          "itemIds": [
+            "geo-landform-steep-rivers"
+          ]
+        }
+      ],
+      "trivia": "「リアス」は、スペイン語で「深い入り江」を意味する言葉で、スペイン北西部のガリシア地方の海岸の呼び名に由来します。",
+      "sources": [
+        "コトバンク「リアス海岸」（世界大百科事典・デジタル大辞泉・日本大百科全書） — https://kotobank.jp/word/リアス海岸",
+        "環境省「閉鎖性海域ネット 英虞湾」 — https://www.env.go.jp/water/heisa/heisa_net/waters/agowan.html",
+        "国土交通省 東北地方整備局「津波による環境への影響」 — https://www.pa.thr.mlit.go.jp/tohokukankyoweb/010/090/20200101021000.html"
+      ],
+      "order": 13
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-geo-landform-plates-classify",
+      "type": "classify",
+      "itemIds": [
+        "geo-landform-plates"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本列島の周りにある4枚のプレートを、海のプレートと陸のプレートに分けよう",
+      "buckets": [
+        {
+          "id": "sea",
+          "text": "海のプレート"
+        },
+        {
+          "id": "land",
+          "text": "陸のプレート"
+        }
+      ],
+      "entries": [
+        {
+          "id": "pacific",
+          "text": "太平洋プレート",
+          "bucket": "sea"
+        },
+        {
+          "id": "north-america",
+          "text": "北米プレート",
+          "bucket": "land"
+        },
+        {
+          "id": "philippine",
+          "text": "フィリピン海プレート",
+          "bucket": "sea"
+        },
+        {
+          "id": "eurasia",
+          "text": "ユーラシアプレート",
+          "bucket": "land"
+        }
+      ],
+      "explanation": "海のプレートの太平洋プレートとフィリピン海プレートが、陸のプレートの北米プレートとユーラシアプレートの下に沈み込んでいます。日本列島は、この4枚のプレートの境目の上にあります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-plates-pacific",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-plates"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "東北日本の太平洋側から、日本列島の下に沈み込んでいる海のプレートは？",
+      "choices": [
+        {
+          "id": "pacific",
+          "text": "太平洋プレート"
+        },
+        {
+          "id": "philippine",
+          "text": "フィリピン海プレート"
+        },
+        {
+          "id": "north-america",
+          "text": "北米プレート"
+        },
+        {
+          "id": "eurasia",
+          "text": "ユーラシアプレート"
+        }
+      ],
+      "answer": "pacific",
+      "explanation": "東北日本の太平洋側では、太平洋プレートが西に向かって沈み込んでいます。西南日本の太平洋側では、フィリピン海プレートが北に向かって沈み込みます。北米プレートとユーラシアプレートは、沈み込まれる側の陸のプレートです。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-plates-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-plates"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "日本列島に山地や火山が多い根本の理由として、最も適切なものは？",
+      "choices": [
+        {
+          "id": "plates",
+          "text": "いくつものプレートがぶつかる境目の上にあるから"
+        },
+        {
+          "id": "sea-level",
+          "text": "海面が大きく下がって、海底の山々が現れたから"
+        },
+        {
+          "id": "ash",
+          "text": "大陸から飛んできた火山灰が、厚く積もったから"
+        },
+        {
+          "id": "glacier",
+          "text": "氷河が平地を削り取って、山だけが残ったから"
+        }
+      ],
+      "answer": "plates",
+      "explanation": "日本列島は、海のプレートが陸のプレートの下に沈み込む境目の上にあります。プレートがぶつかり合う力で長い時間をかけて山脈が隆起し、沈み込んだプレートから出る水の働きでマグマができて火山が生まれます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-ratio-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-mountain-ratio"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本の国土のうち、山地と丘陵地（なだらかな低い山地）を合わせた割合は、およそどれくらい？",
+      "choices": [
+        {
+          "id": "quarter",
+          "text": "約4分の1"
+        },
+        {
+          "id": "half",
+          "text": "約2分の1"
+        },
+        {
+          "id": "three-quarters",
+          "text": "約4分の3"
+        },
+        {
+          "id": "nine-tenths",
+          "text": "約10分の9"
+        }
+      ],
+      "answer": "three-quarters",
+      "explanation": "山地と丘陵地を合わせると、国土の約4分の3になります。川沿いの低地や台地からなる平野は、約4分の1にすぎません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-ratio-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-mountain-ratio"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "国土の約4分の3が山地と丘陵地である日本で、人の暮らし方について言えることは？",
+      "choices": [
+        {
+          "id": "lowland",
+          "text": "人口や建物が、川沿いの低い平地に集まっている"
+        },
+        {
+          "id": "slope",
+          "text": "人口の大半が、山の斜面を切り開いた土地に住んでいる"
+        },
+        {
+          "id": "highland",
+          "text": "大きな都市の多くが、標高の高い山地の中にある"
+        },
+        {
+          "id": "even",
+          "text": "人口が、山地と平野のどちらにも同じくらい住んでいる"
+        }
+      ],
+      "answer": "lowland",
+      "explanation": "山地が多いため、人の住む場所や田畑は限られた平野に集まりました。2005年の国土交通省の資料では、川があふれると水につかるおそれのある土地は国土の約1割ですが、そこに人口の約半分が住んでいるとされます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-alps-match",
+      "type": "match",
+      "itemIds": [
+        "geo-landform-japan-alps"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本アルプスの呼び名と、山脈の名前を結ぼう",
+      "left": [
+        {
+          "id": "north",
+          "text": "北アルプス"
+        },
+        {
+          "id": "central",
+          "text": "中央アルプス"
+        },
+        {
+          "id": "south",
+          "text": "南アルプス"
+        }
+      ],
+      "right": [
+        {
+          "id": "hida",
+          "text": "飛騨山脈"
+        },
+        {
+          "id": "kiso",
+          "text": "木曽山脈"
+        },
+        {
+          "id": "akaishi",
+          "text": "赤石山脈"
+        }
+      ],
+      "pairs": [
+        [
+          "north",
+          "hida"
+        ],
+        [
+          "central",
+          "kiso"
+        ],
+        [
+          "south",
+          "akaishi"
+        ]
+      ],
+      "explanation": "北アルプスは飛騨山脈、中央アルプスは木曽山脈、南アルプスは赤石山脈です。3つをまとめて日本アルプスと呼びます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-alps-where",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-japan-alps"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "日本アルプス（飛騨山脈・木曽山脈・赤石山脈）が連なっているのは、本州のどのあたり？",
+      "choices": [
+        {
+          "id": "chubu",
+          "text": "中部地方の中央部"
+        },
+        {
+          "id": "tohoku",
+          "text": "東北地方の中央部"
+        },
+        {
+          "id": "kinki",
+          "text": "近畿地方の南部"
+        },
+        {
+          "id": "chugoku",
+          "text": "中国地方の中央部"
+        }
+      ],
+      "answer": "chubu",
+      "explanation": "日本アルプスは本州の中央部、中部地方の長野県を中心に連なっています。飛騨山脈は新潟・富山・長野・岐阜の4県に、赤石山脈は長野・山梨・静岡の県境にまたがります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-alps-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-japan-alps"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "日本アルプスに3000m級の山々が連なる理由として、最も適切な説明は？",
+      "choices": [
+        {
+          "id": "uplift",
+          "text": "地質学的に新しい時代に、急激に隆起したと考えられるから"
+        },
+        {
+          "id": "glacier",
+          "text": "氷河が周りの土地を削り、硬い岩の部分だけが残ったから"
+        },
+        {
+          "id": "sediment",
+          "text": "大陸から運ばれた土砂が、長い年月をかけて積もったから"
+        },
+        {
+          "id": "sea-level",
+          "text": "海面が大きく下がって、海底にあった山脈が現れたから"
+        }
+      ],
+      "answer": "uplift",
+      "explanation": "日本アルプスは、地質学的に新しい時代の急激な隆起で誕生したと考えられています。プレートがぶつかり合う力が関わるとされますが、隆起の詳しい仕組みには様々な説があり、まだ完全には分かっていません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fossa-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-fossa-magna"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "本州の中央部を南北に横切る、大きな溝のような地帯「フォッサマグナ」について、正しい説明は？",
+      "choices": [
+        {
+          "id": "divide",
+          "text": "西の縁の断層が、日本列島を東北日本と西南日本に分けている"
+        },
+        {
+          "id": "trench",
+          "text": "日本で最も深い海溝が、そのまま陸の上まで続いている部分である"
+        },
+        {
+          "id": "valley",
+          "text": "大昔の大きな川が削った谷が、埋まらずにそのまま残っている地形"
+        },
+        {
+          "id": "canal",
+          "text": "江戸時代に掘られた大きな運河の跡が、地名として残っている地帯"
+        }
+      ],
+      "answer": "divide",
+      "explanation": "フォッサマグナの西の縁にあたる糸魚川-静岡構造線は、日本列島を東北日本と西南日本の2つに分ける大きな断層です。断層の東西で、分布する地層の種類が大きく異なります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fossa-map",
+      "type": "map",
+      "itemIds": [
+        "geo-landform-fossa-magna"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "フォッサマグナの西の縁にあたる糸魚川-静岡構造線の北の端、糸魚川市があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-15",
+      "explanation": "糸魚川市は新潟県の西の端にあり、日本海に面しています。糸魚川-静岡構造線は、ここから長野県の諏訪湖を通って静岡へと続きます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fossa-who",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-fossa-magna"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "本州中央部の大きな溝のような地帯を、ラテン語で「大きな溝」を意味する「フォッサマグナ」と名付けたのは誰？",
+      "choices": [
+        {
+          "id": "naumann",
+          "text": "ナウマン"
+        },
+        {
+          "id": "gowland",
+          "text": "ゴーランド"
+        },
+        {
+          "id": "weston",
+          "text": "ウェストン"
+        },
+        {
+          "id": "de-rijke",
+          "text": "デ・レイケ"
+        }
+      ],
+      "answer": "naumann",
+      "explanation": "明治時代に日本政府に招かれたドイツの地質学者ナウマンが名付けました。ゴーランドは「日本アルプス」の名を紹介したイギリス人技師、ウェストンはそれを世界に広めたイギリス人宣教師、デ・レイケは明治時代に富山県の常願寺川を視察したオランダ人技師です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-volcanoes-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-volcanoes"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本の活火山（111）は、世界の活火山（約1500）のおよそ何%にあたる？",
+      "choices": [
+        {
+          "id": "1",
+          "text": "約1%"
+        },
+        {
+          "id": "7",
+          "text": "約7%"
+        },
+        {
+          "id": "25",
+          "text": "約25%"
+        },
+        {
+          "id": "50",
+          "text": "約50%"
+        }
+      ],
+      "answer": "7",
+      "explanation": "世界の活火山はおよそ1500とされ、そのうち111が日本にあります。約7%で、陸地の面積に比べてとても多い数です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-volcanoes-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-volcanoes"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "日本に火山が多い理由として、最も適切なものは？",
+      "choices": [
+        {
+          "id": "slab",
+          "text": "沈み込んだ海のプレートから出る水の働きで、マグマができるから"
+        },
+        {
+          "id": "core",
+          "text": "地球の中心に近い場所にあり、地下の温度がとくに高いから"
+        },
+        {
+          "id": "onsen",
+          "text": "温泉が多く、地下の熱い湯が周りの岩をとかしてしまうから"
+        },
+        {
+          "id": "rain",
+          "text": "雨が多く、地面にしみこんだ雨水が地下の岩をとかすから"
+        }
+      ],
+      "answer": "slab",
+      "explanation": "陸のプレートの下に沈み込んだ海のプレートから出る水の働きで、地下の岩石の一部がとけてマグマができます。そのため日本の火山は、海溝とほぼ平行に並んでいます。温泉は、火山があることの結果で、原因ではありません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-volcanoes-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-volcanoes"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "火山の多い日本で、火山の恵みとして古くから親しまれてきたものは？",
+      "choices": [
+        {
+          "id": "onsen",
+          "text": "火山のまわりにわく温泉"
+        },
+        {
+          "id": "coal",
+          "text": "地下深くの厚い石炭"
+        },
+        {
+          "id": "cave",
+          "text": "石灰岩の鍾乳洞"
+        }
+      ],
+      "answer": "onsen",
+      "explanation": "火山のまわりには温泉が多く、火山の恵みとして古くから人々に親しまれてきました。火口湖や噴気など、火山がつくる景観も恵みの一つです。石炭は大昔の植物が地中に埋もれてできたもの、鍾乳洞は石灰岩が雨水や地下水に溶けてできた洞窟で、火山がもたらしたものではありません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fuji-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-fuji"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "富士山のように、噴火で噴き出した溶岩や火山灰が積み重なってできた、円錐形の火山を何という？",
+      "choices": [
+        {
+          "id": "stratovolcano",
+          "text": "成層火山"
+        },
+        {
+          "id": "caldera",
+          "text": "カルデラ"
+        },
+        {
+          "id": "lava-dome",
+          "text": "溶岩ドーム"
+        },
+        {
+          "id": "shield",
+          "text": "楯状火山"
+        }
+      ],
+      "answer": "stratovolcano",
+      "explanation": "溶岩や火山灰などが層になって積み重なってできた火山を成層火山といいます。カルデラは火山にできた大きなくぼ地、溶岩ドームはねばり気の強い溶岩が盛り上がってできた丘、楯状火山は流れやすい溶岩が広がってできた、なだらかな火山です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fuji-year",
+      "type": "year",
+      "itemIds": [
+        "geo-landform-fuji"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "富士山が最後に噴火した宝永噴火は何年？",
+      "answer": 1707,
+      "tolerance": 10,
+      "explanation": "1707年（宝永4年）です。山腹で激しい爆発がくり返されました。それから300年以上、富士山は噴火していません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fuji-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-fuji"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "富士山が美しい円錐形をしている理由は？",
+      "choices": [
+        {
+          "id": "layers",
+          "text": "噴火で噴き出した溶岩や火山灰が、山頂のまわりに積み重なったから"
+        },
+        {
+          "id": "collapse",
+          "text": "大きな噴火の後に山頂付近が陥没して、形が整えられたから"
+        },
+        {
+          "id": "uplift",
+          "text": "プレートに押された地面が、一か所だけ高く持ち上がったから"
+        },
+        {
+          "id": "glacier",
+          "text": "氷河が周りの土地を削り取り、硬い岩の部分だけが残ったから"
+        }
+      ],
+      "answer": "layers",
+      "explanation": "富士山は、くり返す噴火で噴き出した溶岩や火山灰などが、古い山をおおいながら積み重なってできた成層火山です。噴火の後に陥没してできるのはカルデラで、阿蘇山がその例です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-aso-map",
+      "type": "map",
+      "itemIds": [
+        "geo-landform-aso"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "南北約25km・東西約18kmの巨大なカルデラをもつ阿蘇山。そのカルデラがあるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-43",
+      "explanation": "阿蘇カルデラは、九州のほぼ中央、熊本県の北東部にあります。カルデラの中には阿蘇市・高森町・南阿蘇村があり、4万人あまりが暮らしています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-aso-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-aso"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "阿蘇山で見られる「カルデラ」とは、どのような地形？",
+      "choices": [
+        {
+          "id": "caldera",
+          "text": "火山の巨大噴火にともなってできた、大きなくぼ地"
+        },
+        {
+          "id": "cone",
+          "text": "溶岩や火山灰が積み重なってできた、円錐形の山"
+        },
+        {
+          "id": "fan",
+          "text": "川が山から平地に出たところにできる、扇形の土地"
+        },
+        {
+          "id": "ria",
+          "text": "海岸近くの谷に海水が入りこんでできた、細長い湾"
+        }
+      ],
+      "answer": "caldera",
+      "explanation": "カルデラは、火山の巨大噴火にともなって地面が陥没するなどしてできた、大きなくぼ地です。阿蘇カルデラは南北約25km・東西約18kmもあり、国内最大級です。円錐形の山は富士山のような成層火山にあたります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-aso-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-aso"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "阿蘇山の巨大なカルデラは、どのようにしてできた？",
+      "choices": [
+        {
+          "id": "eruption",
+          "text": "巨大噴火で大量のマグマが噴き出し、地面が陥没してできた"
+        },
+        {
+          "id": "river",
+          "text": "川が長い時間をかけて、火山の中央を削り取ってできた"
+        },
+        {
+          "id": "meteor",
+          "text": "大きな隕石がぶつかって、地面が丸くへこんでできた"
+        },
+        {
+          "id": "glacier",
+          "text": "氷河が火山の山頂を削り取って、広いくぼ地ができた"
+        }
+      ],
+      "answer": "eruption",
+      "explanation": "約27万年前から約9万年前にかけて、4回の巨大噴火が起き、大量のマグマが火砕流となって噴き出しました。それにともなって地面が大きく陥没し、カルデラができました。最大の噴火（約9万年前）の火砕流は、九州の広い範囲と山口県にまで達しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-rivers-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-steep-rivers"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "世界の大陸を流れる川と比べたときの、日本の川の特徴は？",
+      "choices": [
+        {
+          "id": "short-steep",
+          "text": "長さが短く、流れが急である"
+        },
+        {
+          "id": "long-gentle",
+          "text": "長さが長く、流れがゆるやかである"
+        },
+        {
+          "id": "short-gentle",
+          "text": "長さが短く、流れがゆるやかである"
+        },
+        {
+          "id": "long-steep",
+          "text": "長さが長く、流れが急である"
+        }
+      ],
+      "answer": "short-steep",
+      "explanation": "日本の川は、大陸を流れるセーヌ川やメコン川などに比べて長さが短く、上流から河口までの傾きが急です。山に降った雨は、短い時間で一気に海へ流れ下ります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-rivers-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-steep-rivers"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "日本の川が短く急になる、主な理由は？",
+      "choices": [
+        {
+          "id": "mountains",
+          "text": "国土の中央に高い山脈が連なり、山から海までが近いから"
+        },
+        {
+          "id": "dry",
+          "text": "雨が少なく、川の水が途中で地面にしみこんでしまうから"
+        },
+        {
+          "id": "flat",
+          "text": "国土の大部分が平野で、川がまっすぐ海へ流れているから"
+        },
+        {
+          "id": "canal",
+          "text": "川の多くが人の手で掘られ、まっすぐな水路になったから"
+        }
+      ],
+      "answer": "mountains",
+      "explanation": "日本列島には標高2000〜3000m級の山脈が連なり、山から海までの距離が短いため、川は短く急になります。国土の約4分の3は山地と丘陵地で、平野は約4分の1にすぎません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-rivers-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-steep-rivers"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "短く急な日本の川で、大雨が降ると起こりやすいことは？",
+      "choices": [
+        {
+          "id": "flood",
+          "text": "短い時間で一気に水かさが増え、洪水になりやすい"
+        },
+        {
+          "id": "slow",
+          "text": "水が海に届くまで何週間もかかり、ゆっくりあふれる"
+        },
+        {
+          "id": "absorb",
+          "text": "雨水のほとんどが地下にしみこみ、水かさは増えない"
+        },
+        {
+          "id": "reverse",
+          "text": "川の流れが逆向きになり、海水が上流までさかのぼる"
+        }
+      ],
+      "answer": "flood",
+      "explanation": "雨が山に降ると、短く急な川を一気に流れ下るため、短い時間で水かさが増えて洪水のピークになります。国土交通省の資料では、利根川の洪水のときの流量は平常時の約100倍で、ドナウ川の約4倍、ミシシッピ川の約3倍に比べて変化がとても大きいとされます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-long-basin",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-long-rivers"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "流域面積（雨水が集まって川に流れこむ範囲の広さ）が日本で最も広い川は？",
+      "choices": [
+        {
+          "id": "tone",
+          "text": "利根川"
+        },
+        {
+          "id": "shinano",
+          "text": "信濃川"
+        },
+        {
+          "id": "ishikari",
+          "text": "石狩川"
+        },
+        {
+          "id": "kitakami",
+          "text": "北上川"
+        }
+      ],
+      "answer": "tone",
+      "explanation": "利根川の流域面積は16,840km²で、日本一です。2位は石狩川（14,330km²）、3位は信濃川（11,900km²）です。長さでは信濃川が日本一で、利根川は2位です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-long-map",
+      "type": "map",
+      "itemIds": [
+        "geo-landform-long-rivers"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "日本で最も長い川・信濃川が日本海に注ぐ河口があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-15",
+      "explanation": "信濃川は新潟市で日本海に注ぎます。上流の長野県では千曲川と呼ばれ、新潟県に入ると信濃川と名前が変わります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-long-order",
+      "type": "order",
+      "itemIds": [
+        "geo-landform-long-rivers"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本の川を、長い順に並べ替えよう",
+      "entries": [
+        {
+          "id": "shinano",
+          "text": "信濃川"
+        },
+        {
+          "id": "tone",
+          "text": "利根川"
+        },
+        {
+          "id": "ishikari",
+          "text": "石狩川"
+        }
+      ],
+      "answer": [
+        "shinano",
+        "tone",
+        "ishikari"
+      ],
+      "explanation": "信濃川（367km）→ 利根川（322km）→ 石狩川（268km）の順です。日本一長い信濃川でも、大陸を流れる川に比べるとずっと短い川です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fan-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-alluvial-fan"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "川が山地から平地へ流れ出るところに、砂や石がたまってできた扇形の地形を何という？",
+      "choices": [
+        {
+          "id": "fan",
+          "text": "扇状地"
+        },
+        {
+          "id": "delta",
+          "text": "三角州"
+        },
+        {
+          "id": "terrace",
+          "text": "台地"
+        },
+        {
+          "id": "caldera",
+          "text": "カルデラ"
+        }
+      ],
+      "answer": "fan",
+      "explanation": "扇状地です。山を出たところで川の流れが急に弱まり、運ばれてきた粒の大きい砂や石がたまって、扇を広げたような形になります。三角州は、河口の近くに細かい砂や泥がたまってできる地形です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fan-map",
+      "type": "map",
+      "itemIds": [
+        "geo-landform-alluvial-fan"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "扇状地が発達し、ぶどうやももの果樹園が広がる甲府盆地があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-19",
+      "explanation": "甲府盆地は山梨県にあります。盆地の平地は、釜無川や御勅使川などがつくった扇状地が組み合わさってできています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-fan-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-alluvial-fan"
+      ],
+      "asks": [
+        "why",
+        "result"
+      ],
+      "prompt": "扇状地の中ほどが、水田よりも果樹園や畑に使われてきた理由は？",
+      "choices": [
+        {
+          "id": "drain",
+          "text": "砂や石でできていて水はけがよく、水が地下にしみこむから"
+        },
+        {
+          "id": "wet",
+          "text": "土地が低く湿っていて、水がたまって抜けにくいから"
+        },
+        {
+          "id": "ash",
+          "text": "火山灰が厚く積もっていて、作物がまったく育たないから"
+        },
+        {
+          "id": "salt",
+          "text": "海に近く、潮風で運ばれた塩分が土にたまっているから"
+        }
+      ],
+      "answer": "drain",
+      "explanation": "扇状地は砂や石でできているため水はけがよく、川の水も地下にしみこみやすいので、水田には向きません。甲府盆地では、扇状地でかつては養蚕のための桑畑が、第二次世界大戦後はぶどうやももの果樹園が広がりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-delta-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-delta"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "川の河口の近くに、運ばれてきた細かい砂や泥がたまってできた、低く平らな土地を何という？",
+      "choices": [
+        {
+          "id": "delta",
+          "text": "三角州"
+        },
+        {
+          "id": "fan",
+          "text": "扇状地"
+        },
+        {
+          "id": "terrace",
+          "text": "台地"
+        },
+        {
+          "id": "ria",
+          "text": "リアス海岸"
+        }
+      ],
+      "answer": "delta",
+      "explanation": "三角州です。河口で川の流れが弱まり、細かい砂や泥がたまってできます。土地が低いため水田や都市に使われますが、洪水や高潮の害を受けやすい土地でもあります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-delta-map",
+      "type": "map",
+      "itemIds": [
+        "geo-landform-delta"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "16世紀の終わりに毛利輝元が城を築き、太田川の河口の三角州の上に城下町として発達した都市があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-34",
+      "explanation": "広島市（広島県）です。毛利輝元が広島城を築いて城下町が生まれました。三角州の上にあるため船による交通に恵まれ、のちに西国街道も城下を通って栄えました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-delta-classify",
+      "type": "classify",
+      "itemIds": [
+        "geo-landform-delta",
+        "geo-landform-alluvial-fan"
+      ],
+      "asks": [
+        "what",
+        "why"
+      ],
+      "prompt": "扇状地と三角州の特徴を分けよう",
+      "buckets": [
+        {
+          "id": "fan",
+          "text": "扇状地"
+        },
+        {
+          "id": "delta",
+          "text": "三角州"
+        }
+      ],
+      "entries": [
+        {
+          "id": "mountain-foot",
+          "text": "川が山地から平地に出るところにできる",
+          "bucket": "fan"
+        },
+        {
+          "id": "river-mouth",
+          "text": "川が海に注ぐ河口の近くにできる",
+          "bucket": "delta"
+        },
+        {
+          "id": "gravel",
+          "text": "粒の大きい砂や石がたまってできる",
+          "bucket": "fan"
+        },
+        {
+          "id": "mud",
+          "text": "細かい砂や泥がたまってできる",
+          "bucket": "delta"
+        },
+        {
+          "id": "orchard",
+          "text": "水はけがよく、果樹園に使われる",
+          "bucket": "fan"
+        },
+        {
+          "id": "storm-surge",
+          "text": "土地が低く、高潮の害を受けやすい",
+          "bucket": "delta"
+        }
+      ],
+      "explanation": "扇状地は、川が山から平地に出て流れが弱まるところに、粒の大きい砂や石がたまってできます。水はけがよく、果樹園や畑に使われます。三角州は、河口で流れが弱まるところに細かい砂や泥がたまってできた低い土地で、水田や都市に使われますが、洪水や高潮の害を受けやすい土地です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-plains-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-plains"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本で最も広い平野は？",
+      "choices": [
+        {
+          "id": "kanto",
+          "text": "関東平野"
+        },
+        {
+          "id": "ishikari",
+          "text": "石狩平野"
+        },
+        {
+          "id": "nobi",
+          "text": "濃尾平野"
+        },
+        {
+          "id": "echigo",
+          "text": "越後平野"
+        }
+      ],
+      "answer": "kanto",
+      "explanation": "関東平野で、面積は約1万7000km²です。川沿いの低地と、周りより一段高く平らな台地からなり、台地は平野全体の約半分を占めます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-plains-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-plains"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "日本の平野の多くは、どのようにしてできた？",
+      "choices": [
+        {
+          "id": "sediment",
+          "text": "洪水のたびに川が運んできた土砂が、積もってできた"
+        },
+        {
+          "id": "lava",
+          "text": "火山から流れ出た溶岩が、低い土地を埋めてできた"
+        },
+        {
+          "id": "glacier",
+          "text": "氷河が山を削り取り、そのあとが平らになってできた"
+        },
+        {
+          "id": "reclaim",
+          "text": "ほとんどが、江戸時代以降に人が海を埋め立ててできた"
+        }
+      ],
+      "answer": "sediment",
+      "explanation": "日本の平野の多くは、洪水のたびに川が上流から運んできた土砂が、長い時間をかけて積もってできた沖積平野です。たとえば岡山平野は、吉井川・旭川・高梁川が運んだ土砂に、江戸時代の干拓が加わって広がりました。干拓などで広がった部分はありますが、平野のほとんどを人がつくったわけではありません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-landform-classify",
+      "type": "classify",
+      "itemIds": [
+        "geo-landform-mountain-ratio",
+        "geo-landform-japan-alps",
+        "geo-landform-plains",
+        "geo-landform-alluvial-fan",
+        "geo-landform-delta"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本の地形を、山地と平地（平野・盆地）に分けよう",
+      "buckets": [
+        {
+          "id": "mountain",
+          "text": "山地"
+        },
+        {
+          "id": "flat",
+          "text": "平地（平野・盆地）"
+        }
+      ],
+      "entries": [
+        {
+          "id": "hida",
+          "text": "飛騨山脈",
+          "bucket": "mountain"
+        },
+        {
+          "id": "kanto",
+          "text": "関東平野",
+          "bucket": "flat"
+        },
+        {
+          "id": "kiso",
+          "text": "木曽山脈",
+          "bucket": "mountain"
+        },
+        {
+          "id": "kofu",
+          "text": "甲府盆地の扇状地",
+          "bucket": "flat"
+        },
+        {
+          "id": "akaishi",
+          "text": "赤石山脈",
+          "bucket": "mountain"
+        },
+        {
+          "id": "hiroshima",
+          "text": "広島の三角州",
+          "bucket": "flat"
+        }
+      ],
+      "explanation": "飛騨山脈・木曽山脈・赤石山脈は、3000m級の山々が連なる日本アルプスの山地です。関東平野、甲府盆地の扇状地、広島の三角州は、川が運んだ土砂などでできた平地です。日本の国土の約4分の3は山地と丘陵地で、平野は約4分の1にすぎません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-shirasu-map",
+      "type": "map",
+      "itemIds": [
+        "geo-landform-shirasu"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "火山の噴出物が厚く積もってできたシラス台地が、県の本土の面積の約6割を占めるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-46",
+      "explanation": "鹿児島県です。シラス台地は鹿児島県を中心に、宮崎県南部や熊本県南部にも広がっています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-shirasu-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-shirasu"
+      ],
+      "asks": [
+        "what",
+        "why"
+      ],
+      "prompt": "シラス台地をつくっている「シラス」は、何が積もったもの？",
+      "choices": [
+        {
+          "id": "volcanic",
+          "text": "火山の噴火で出た火砕流や軽石・火山灰"
+        },
+        {
+          "id": "river",
+          "text": "川が洪水のたびに運んできた砂や泥"
+        },
+        {
+          "id": "shell",
+          "text": "大昔の海にすんでいた生き物の殻"
+        },
+        {
+          "id": "glacier",
+          "text": "氷河が山から削って運んできた石"
+        }
+      ],
+      "answer": "volcanic",
+      "explanation": "シラスは、火山の噴火で出た火砕流や、空に舞い上がった軽石・火山灰などが積もったものです。2万数千年前、鹿児島湾の奥にある姶良カルデラの巨大噴火で噴き出しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-shirasu-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-shirasu"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "シラス台地で、昔からサツマイモなど乾燥に強い作物が作られてきた理由は？",
+      "choices": [
+        {
+          "id": "dry",
+          "text": "水もちが悪くやせた土地で、水田に向かないから"
+        },
+        {
+          "id": "wet",
+          "text": "土地が低く湿っていて、畑の作物が育ちにくいから"
+        },
+        {
+          "id": "cold",
+          "text": "標高が高くて夏も涼しく、稲がよく育たないから"
+        },
+        {
+          "id": "salty",
+          "text": "海に近く、塩分をふくんだ地下水がわくから"
+        }
+      ],
+      "answer": "dry",
+      "explanation": "シラスは水もちが悪く、やせた土壌のため、サツマイモや大豆、菜種など乾燥に強い畑作物が作られてきました。近代になって水を引く設備が整うと、茶や野菜も作られるようになりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-ria-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-ria"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "出入りの複雑なのこぎりの歯のような「リアス海岸」は、どのようにしてできた？",
+      "choices": [
+        {
+          "id": "drowned",
+          "text": "山地の谷が、海面の上昇などで海に沈んでできた"
+        },
+        {
+          "id": "sediment",
+          "text": "川が運んだ砂や泥が、河口に積もってできた"
+        },
+        {
+          "id": "lava",
+          "text": "火山の溶岩が海に流れこみ、固まってできた"
+        },
+        {
+          "id": "waves",
+          "text": "強い波が平らな海岸を、長い時間削ってできた"
+        }
+      ],
+      "answer": "drowned",
+      "explanation": "リアス海岸は、川が削ってできた山地の谷が、氷河時代が終わったあとの海面の上昇などで海に沈んでできました。沈んだ谷が細長い入り江になり、岬と入り江が交互に並ぶ複雑な海岸になります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-ria-map",
+      "type": "map",
+      "itemIds": [
+        "geo-landform-ria"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "リアス海岸の湾で、真珠の養殖が日本で初めて行われた英虞湾があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-24",
+      "explanation": "英虞湾は三重県の志摩半島の南部にある、リアス海岸の湾です。入り江が多く、真珠の養殖が日本で初めて行われた場所として知られます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-landform-ria-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-landform-ria"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "リアス海岸の湾について、正しい説明は？",
+      "choices": [
+        {
+          "id": "both",
+          "text": "入り江が多く養殖に使われるが、湾の奥では津波が高くなりやすい"
+        },
+        {
+          "id": "beach",
+          "text": "遠浅の砂浜が長く続いて海水浴に向き、津波にも強い海岸である"
+        },
+        {
+          "id": "cliff",
+          "text": "高いがけがまっすぐ続き、船をつける港をほとんどつくれない"
+        },
+        {
+          "id": "ice",
+          "text": "冬に海が凍りつき、一年の半分は船が出入りできなくなる"
+        }
+      ],
+      "answer": "both",
+      "explanation": "リアス海岸は入り江が多く、古くから漁港が開かれ、英虞湾の真珠のような養殖にも使われてきました。一方、湾の奥ほど幅が狭くなるため、押し寄せた津波は行き場を失って高くなりやすくなります。",
+      "status": "active"
+    }
+  ]
+}
