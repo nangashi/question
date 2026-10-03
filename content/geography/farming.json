@@ -1,0 +1,1373 @@
+{
+  "items": [
+    {
+      "id": "geo-farming-rice",
+      "title": "米どころ・新潟",
+      "summary": "2024年産の米の収穫量は、新潟県（62万2800t）が1位で、北海道、秋田県が続く。上位には北陸・東北・北海道の県が多い。",
+      "why": "信濃川や阿賀野川などの大きな川が、上流から豊富な雪解け水と肥えた土を運び、広い新潟平野の田をうるおすためです。昼と夜の寒暖差がある気候も、おいしい米づくりに向いています。",
+      "place": {
+        "name": "新潟県",
+        "region": "jp-15"
+      },
+      "tags": [
+        "米",
+        "稲作",
+        "新潟"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "冬の日本海側に降る大雪が、春からの米づくりを支える雪解け水の源になります。",
+          "itemIds": [
+            "geo-climate-sea-of-japan-snow"
+          ]
+        },
+        {
+          "axis": "地理",
+          "text": "新潟平野を流れる信濃川は、日本で最も長い川です。",
+          "itemIds": [
+            "geo-landform-long-rivers"
+          ]
+        }
+      ],
+      "asOf": "2024年産",
+      "sources": [
+        "帝国書院「統計 何でも日本一 米の生産」（令和6年産作物統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/34/",
+        "新潟県「お米の質問箱」 — https://www.pref.niigata.lg.jp/sec/nosanengei/1249502659451.html"
+      ],
+      "order": 0
+    },
+    {
+      "id": "geo-farming-hokkaido-rice",
+      "title": "北海道の稲作",
+      "summary": "北海道最大の水田地帯である石狩川流域は、もとは原野や泥炭地（植物が十分に分解されずに積もった湿地）が広がっていたが、用水路の開削や排水の工事、泥炭地の開発によって、全国有数の米どころになった。",
+      "why": "寒さや泥炭地という稲作に不利な条件を、品種改良と、客土（ほかの場所から土を運び入れること）や水の管理などの土地改良を重ねて乗り越えてきたためです。",
+      "place": {
+        "name": "北海道石狩川流域",
+        "region": "jp-01"
+      },
+      "tags": [
+        "米",
+        "稲作",
+        "北海道",
+        "品種改良"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "同じ北海道でも、夏も涼しく霧の多い根釧台地では、稲作ではなく酪農が広がりました。",
+          "itemIds": [
+            "geo-farming-livestock"
+          ]
+        },
+        {
+          "axis": "地理",
+          "text": "石狩川は、長さが日本で3番目の川です。",
+          "itemIds": [
+            "geo-landform-long-rivers"
+          ]
+        }
+      ],
+      "trivia": "北海道の米「ゆめぴりか」は、10年間にわたって150万株の中から選び抜いて生まれた品種で、北海道の米で初めて食味ランキングの最高評価「特A」を獲得しました。",
+      "sources": [
+        "農林水産省 北海道農政事務所「【参考】道央の水田地帯の発展」 — https://www.maff.go.jp/j/council/seisaku/nousin/bukai/R0702_chiho/hokkaido/attach/pdf/siryou-24.pdf",
+        "帝国書院「統計 何でも日本一 米の生産」（令和6年産作物統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/34/",
+        "コトバンク「泥炭」（デジタル大辞泉・世界大百科事典） — https://kotobank.jp/word/泥炭"
+      ],
+      "order": 1
+    },
+    {
+      "id": "geo-farming-forcing",
+      "title": "促成栽培",
+      "summary": "ビニールハウスや温室を使って、野菜などをふつうより早い時期に収穫・出荷する栽培。冬でも暖かい高知県や宮崎県で盛んで、2024年産のなすの収穫量は高知県が1位、ピーマンは宮崎県が2位である。",
+      "why": "露地（屋根のない畑）で育てられる期間が短い野菜は、季節はずれの時期には高い値段で取引されることが多いためです。冬でも暖かい高知県や宮崎県では、その気候を生かして、ほかの産地より早く出荷しています。",
+      "place": {
+        "name": "高知県・宮崎県"
+      },
+      "tags": [
+        "促成栽培",
+        "野菜",
+        "ビニールハウス"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "高冷地農業は逆に、夏の涼しさを生かして、ほかの産地が出荷しにくい時期に出荷します。",
+          "itemIds": [
+            "geo-farming-highland"
+          ]
+        },
+        {
+          "axis": "比較",
+          "text": "ピーマンの収穫量1位は、促成栽培の産地ではなく、東京に近い茨城県です。",
+          "itemIds": [
+            "geo-farming-suburban"
+          ]
+        }
+      ],
+      "trivia": "ピーマンの収穫量（2024年産）は、宮崎県や高知県ではなく、東京に近い茨城県が1位です。",
+      "asOf": "2024年産",
+      "sources": [
+        "コトバンク「促成栽培」（デジタル大辞泉・世界大百科事典・日本大百科全書） — https://kotobank.jp/word/促成栽培",
+        "帝国書院「統計 何でも日本一 なすの生産」（令和6年産野菜生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/31/",
+        "帝国書院「統計 何でも日本一 ピーマンの生産」（令和6年産野菜生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/33/"
+      ],
+      "order": 2
+    },
+    {
+      "id": "geo-farming-highland",
+      "title": "高冷地農業",
+      "summary": "夏でも涼しい高原で、レタスやキャベツなどを夏から秋に出荷する農業。2024年産のレタスの収穫量は長野県が全国の33.3%で1位、夏秋キャベツは群馬県が2025年産まで56年連続1位で、その中心の嬬恋村は標高800〜1200mの高冷地にある。",
+      "why": "ほかの産地では暑くて育てにくい夏に、涼しい高原で育てて出荷できるためです。品薄になる季節はずれの時期に出すと、高い値段で売れることが多くなります。",
+      "place": {
+        "name": "長野県・群馬県の高原",
+        "region": "jp-10"
+      },
+      "tags": [
+        "高冷地農業",
+        "レタス",
+        "キャベツ"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "促成栽培は逆に、冬の暖かさを生かして、ほかの産地より早く出荷します。",
+          "itemIds": [
+            "geo-farming-forcing"
+          ]
+        },
+        {
+          "axis": "地理",
+          "text": "長野県などの中央高地は、夏と冬、昼と夜の気温差が大きい気候です。",
+          "itemIds": [
+            "geo-climate-inland"
+          ]
+        }
+      ],
+      "asOf": "レタスは2024年産、夏秋キャベツは2025年産",
+      "sources": [
+        "コトバンク「抑制栽培」（日本大百科全書） — https://kotobank.jp/word/抑制栽培",
+        "コトバンク「嬬恋村」（ブリタニカ国際大百科事典・日本歴史地名大系） — https://kotobank.jp/word/嬬恋村",
+        "群馬県「令和7年産 夏秋キャベツの収穫量」報道資料 — https://www.pref.gunma.jp/site/houdou/765478.html",
+        "帝国書院「統計 何でも日本一 レタスの生産」（令和6年産野菜生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/7/"
+      ],
+      "order": 3
+    },
+    {
+      "id": "geo-farming-suburban",
+      "title": "近郊農業",
+      "summary": "大都市の近くで、野菜・花・鶏卵などを生産する農業。東京に近い千葉県や茨城県は野菜の大産地で、2024年産のだいこんの収穫量は千葉県が、ピーマンは茨城県が1位である。",
+      "why": "農産物を買う人が多い大都市（市場）に近く、とれた野菜を新鮮なうちに、短い時間で運べるためです。",
+      "place": {
+        "name": "千葉県・茨城県など大都市の周辺"
+      },
+      "tags": [
+        "近郊農業",
+        "野菜"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "促成栽培や高冷地農業は、大都市から遠くても、出荷する時期をずらすことで高く売る工夫をしています。",
+          "itemIds": [
+            "geo-farming-forcing",
+            "geo-farming-highland"
+          ]
+        }
+      ],
+      "asOf": "2024年産",
+      "sources": [
+        "コトバンク「近郊農業」（デジタル大辞泉・日本大百科全書・世界大百科事典） — https://kotobank.jp/word/近郊農業",
+        "帝国書院「統計 何でも日本一 だいこんの生産」（令和6年産野菜生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/1/",
+        "帝国書院「統計 何でも日本一 ピーマンの生産」（令和6年産野菜生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/33/"
+      ],
+      "order": 4
+    },
+    {
+      "id": "geo-farming-fruit",
+      "title": "果物の産地",
+      "summary": "2024年産の収穫量は、りんごは青森県が全国の60.8%で1位（2位長野県）、みかんは和歌山県が1位（静岡県・愛媛県が続く）、ぶどうとももは山梨県が1位である。りんごは涼しい地域、みかんは暖かい地域で多く作られる。",
+      "why": "果物ごとに、育つのに向いた気温が違うためです。りんごは年平均気温7〜12℃ほどの涼しい所が、温州みかんは比較的温暖な地域の、日当たりと水はけのよい斜面が向いています。",
+      "tags": [
+        "果樹",
+        "りんご",
+        "みかん"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "ぶどうやももの産地の山梨県の甲府盆地には、水はけのよい扇状地が広がっています。",
+          "itemIds": [
+            "geo-landform-alluvial-fan"
+          ]
+        }
+      ],
+      "asOf": "2024年産",
+      "sources": [
+        "帝国書院「統計 何でも日本一 りんごの生産」（令和6年産果樹生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/77/",
+        "帝国書院「統計 何でも日本一 みかんの生産」（令和6年産果樹生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/76/",
+        "帝国書院「統計 何でも日本一 ぶどうの生産」（令和6年産果樹生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/72/",
+        "帝国書院「統計 何でも日本一 ももの生産」（令和6年産果樹生産出荷統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/83/",
+        "コトバンク「りんご」（日本大百科全書） — https://kotobank.jp/word/りんご",
+        "コトバンク「温州ミカン」（事典 日本の地域ブランド・名産品） — https://kotobank.jp/word/温州ミカン",
+        "山梨県「日本一の農産物」 — https://www.pref.yamanashi.jp/toukei/nippon_ichi.html"
+      ],
+      "order": 5
+    },
+    {
+      "id": "geo-farming-livestock",
+      "title": "北海道の酪農と南九州の畜産",
+      "summary": "北海道の生乳の生産量は423万3000tで、全国の58%を占める（2024年）。豚の飼養頭数は鹿児島県が全国1位（2024年）で、宮崎県や北海道も多い。",
+      "why": "北海道東部の根釧台地などは、夏も涼しく霧で日照が少ないため、穀物を中心にした畑作がうまくいきませんでした。そこで牧草を育てて乳牛を飼う酪農が広がりました。",
+      "place": {
+        "name": "北海道（根釧台地など）・鹿児島県"
+      },
+      "tags": [
+        "畜産",
+        "酪農",
+        "北海道",
+        "鹿児島"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "鹿児島県には、水もちが悪く稲作に向かないシラス台地が広がっています。",
+          "itemIds": [
+            "geo-landform-shirasu"
+          ]
+        },
+        {
+          "axis": "比較",
+          "text": "同じ北海道でも、石狩川流域では稲作が盛んです。",
+          "itemIds": [
+            "geo-farming-hokkaido-rice"
+          ]
+        }
+      ],
+      "trivia": "根釧台地では、1956年ごろから別海町で酪農の実験集落「パイロットファーム」が、1973年からは「新酪農村」が建設されました。",
+      "asOf": "2024年",
+      "sources": [
+        "農林水産省 北海道農政事務所「北海道農業をめぐる情勢」（2024年） — https://www.maff.go.jp/hokkaido/policy/jyousei/attach/pdf/meguruzizyou_2024-27.pdf",
+        "コトバンク「根釧台地」（世界大百科事典・日本大百科全書・ブリタニカ国際大百科事典） — https://kotobank.jp/word/根釧台地",
+        "帝国書院「統計 何でも日本一 豚の飼養頭数」（令和6年畜産統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/321/",
+        "農林水産省「こどもそうだん 鹿児島県でさつまいもがたくさんつくられているのはなぜ？」 — https://www.maff.go.jp/j/heya/kodomo_sodan/0108/03.html"
+      ],
+      "order": 6
+    },
+    {
+      "id": "geo-farming-tea",
+      "title": "茶の産地",
+      "summary": "2024年産の荒茶（摘みたての葉を蒸して乾かしただけの、仕上げ前の茶）の生産量は、鹿児島県（2万7000t）が静岡県（2万5800t）を上回って1位だった。静岡県の牧ノ原は、1869年に徳川家の旧家臣の士族が入植して開墾を始め、大井川の川越人足も加わって開いた、総面積約5000ヘクタールの大茶園である。",
+      "year": {
+        "from": 1869
+      },
+      "place": {
+        "name": "静岡県牧ノ原・鹿児島県",
+        "region": "jp-22"
+      },
+      "tags": [
+        "茶",
+        "静岡",
+        "鹿児島"
+      ],
+      "trivia": "牧ノ原の開墾に加わった川越人足は、大井川で、旅人を肩車したり連台（人を乗せてかつぐ台）に乗せたりして渡していた人々で、明治になって川越の制度がなくなり、職を失っていました。",
+      "asOf": "2024年産",
+      "sources": [
+        "帝国書院「統計 何でも日本一 茶（荒茶）の生産」（令和6年産作物統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/42/",
+        "コトバンク「牧ノ原」（日本大百科全書・世界大百科事典） — https://kotobank.jp/word/牧ノ原",
+        "コトバンク「荒茶」（デジタル大辞泉） — https://kotobank.jp/word/荒茶",
+        "コトバンク「川越人足」（精選版 日本国語大辞典） — https://kotobank.jp/word/川越人足",
+        "島田市「日本一の広さを誇る大茶園」 — https://www.city.shimada.shizuoka.jp/kanko-docs/daichaen.html",
+        "島田市博物館「川越制度の歴史」 — https://www.city.shimada.shizuoka.jp/shimahaku/docs/kawagoshi-seido.html"
+      ],
+      "order": 7
+    },
+    {
+      "id": "geo-farming-shiome",
+      "title": "潮目と三陸沖",
+      "summary": "寒流と暖流がぶつかる境目を潮目（潮境）といい、日本では、寒流の親潮（千島海流）と暖流の黒潮（日本海流）が出会う三陸沖に多くできる。日本海側には、暖流の対馬海流と寒流のリマン海流が流れている。",
+      "why": "潮目では海水が集まり、栄養分が豊富でプランクトンが大量に発生するうえ、寒流と暖流それぞれの魚が集まるため、よい漁場になります。親潮はとくに栄養分に富んだ海流です。",
+      "place": {
+        "name": "三陸沖"
+      },
+      "tags": [
+        "潮目",
+        "海流",
+        "漁場"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "三陸海岸の南部はリアス海岸で、入り江では養殖も盛んです。",
+          "itemIds": [
+            "geo-landform-ria"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「潮目」（百科事典マイペディア・ブリタニカ国際大百科事典） — https://kotobank.jp/word/潮目",
+        "コトバンク「親潮」（デジタル大辞泉・日本大百科全書・世界大百科事典） — https://kotobank.jp/word/親潮",
+        "コトバンク「黒潮」（デジタル大辞泉） — https://kotobank.jp/word/黒潮",
+        "コトバンク「リマン海流」（デジタル大辞泉・日本大百科全書・ブリタニカ国際大百科事典） — https://kotobank.jp/word/リマン海流"
+      ],
+      "order": 8
+    },
+    {
+      "id": "geo-farming-distant-water",
+      "title": "遠洋漁業の衰退と200海里",
+      "summary": "日本の遠洋漁業の生産量は、1973年に400万t近くで最も多くなり、漁船漁業全体の約4割を占めた。1977年に米国やソ連などが沿岸から200海里（約370km）の水域を設定すると、大きく減った。",
+      "why": "各国が、沿岸から200海里の水域の水産資源を自国で管理し、外国の漁船の漁業を制限したため、日本の漁船はそれまでの漁場から撤退することになりました。",
+      "year": {
+        "from": 1977
+      },
+      "tags": [
+        "遠洋漁業",
+        "200海里",
+        "排他的経済水域"
+      ],
+      "sources": [
+        "水産庁「平成30年度 水産白書 我が国の漁業生産の変化」 — https://www.jfa.maff.go.jp/j/kikaku/wpaper/r01_h/trend/1/t1_f1_1.html",
+        "コトバンク「排他的経済水域」（世界大百科事典） — https://kotobank.jp/word/排他的経済水域"
+      ],
+      "order": 9
+    },
+    {
+      "id": "geo-farming-aquaculture",
+      "title": "養殖業と栽培漁業",
+      "summary": "養殖業は、稚魚や稚貝をいけすなどで食べられる大きさまで育てる漁業。栽培漁業は、卵から稚魚になるまでの弱い時期を人の手で守り、海に放流して成長したものをとる漁業。かき類の養殖は広島県が全国の59.8%、わかめ類は宮城県と岩手県で約8割、ほたてがいは北海道と青森県で約95%を占める（2023年）。",
+      "place": {
+        "name": "広島湾・三陸海岸・陸奥湾など",
+        "region": "jp-34"
+      },
+      "tags": [
+        "養殖業",
+        "栽培漁業",
+        "かき"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "広島市は、カキの養殖場が広がる広島湾に注ぐ太田川の三角州の上にあります。",
+          "itemIds": [
+            "geo-landform-delta"
+          ]
+        },
+        {
+          "axis": "地理",
+          "text": "わかめの養殖が盛んな宮城県・岩手県の三陸海岸の南部は、入り江の多いリアス海岸です。",
+          "itemIds": [
+            "geo-landform-ria"
+          ]
+        }
+      ],
+      "asOf": "2023年",
+      "sources": [
+        "農林水産省「こどもそうだん 栽培漁業と養殖業のちがいは？」 — https://www.maff.go.jp/j/heya/kodomo_sodan/0306/04.html",
+        "帝国書院「統計 何でも日本一 かき類の養殖」（令和5年漁業・養殖業生産統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/143/",
+        "帝国書院「統計 何でも日本一 わかめ類の養殖」（令和5年漁業・養殖業生産統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/144/",
+        "帝国書院「統計 何でも日本一 ほたてがいの養殖」（令和5年漁業・養殖業生産統計による） — https://www.teikokushoin.co.jp/statistics/no1/detail/142/",
+        "広島市「太田川と広島湾 森・川・海のつながり」 — https://www.city.hiroshima.lg.jp/business/sangyo/1021494/1026486/1026487/1033081/1017704.html"
+      ],
+      "order": 10
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-geo-farming-rice-map",
+      "type": "map",
+      "itemIds": [
+        "geo-farming-rice"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "2024年産の米の収穫量が全国1位の都道府県は？",
+      "map": "japan-prefectures",
+      "answer": "jp-15",
+      "explanation": "新潟県で、62万2800tでした。2位は北海道（56万2400t）、3位は秋田県（49万t）です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-rice-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-rice"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "新潟県で米づくりが盛んな理由として、最も適切なものは？",
+      "choices": [
+        {
+          "id": "water",
+          "text": "大きな川が雪解け水と肥えた土を運び、広い平野の田をうるおすから"
+        },
+        {
+          "id": "warm",
+          "text": "冬も暖かく、ビニールハウスで一年に何回も米を収穫できるから"
+        },
+        {
+          "id": "terrace",
+          "text": "水はけのよい台地が広がり、田に水がたまりにくいから"
+        },
+        {
+          "id": "city",
+          "text": "大都市のすぐ近くにあり、新鮮な米を短い時間で運べるから"
+        }
+      ],
+      "answer": "water",
+      "explanation": "新潟県では、信濃川や阿賀野川などの大きな川が、上流から豊富な雪解け水と肥えた土を運び、広い新潟平野の田をうるおします。冬の大雪は、春からの米づくりを支える水の源にもなっています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-rice-region",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-rice"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "2024年産の米の収穫量の上位3道県の組み合わせとして、正しいものは？",
+      "choices": [
+        {
+          "id": "north",
+          "text": "新潟県・北海道・秋田県"
+        },
+        {
+          "id": "kanto",
+          "text": "千葉県・茨城県・栃木県"
+        },
+        {
+          "id": "south",
+          "text": "鹿児島県・宮崎県・熊本県"
+        },
+        {
+          "id": "west",
+          "text": "岡山県・広島県・山口県"
+        }
+      ],
+      "answer": "north",
+      "explanation": "1位新潟県、2位北海道、3位秋田県で、4位宮城県、5位福島県と続きます。米の収穫量の上位には、北陸・東北・北海道の道県が多く並びます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-hokkaido-rice-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-hokkaido-rice"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "寒い北海道が全国有数の米どころになった理由として、最も適切なものは？",
+      "choices": [
+        {
+          "id": "improve",
+          "text": "品種改良と、客土などの土地改良を重ねてきたから"
+        },
+        {
+          "id": "warm",
+          "text": "暖流が流れこんで、夏も冬も本州より暖かいから"
+        },
+        {
+          "id": "forcing",
+          "text": "米をすべてビニールハウスの中で育てているから"
+        },
+        {
+          "id": "volcano",
+          "text": "火山灰が厚く積もり、水はけのよい土地になったから"
+        }
+      ],
+      "answer": "improve",
+      "explanation": "北海道の稲作は、寒さや、植物が分解されずに積もった泥炭地という不利な条件を、品種改良と、客土（ほかの場所から土を運び入れること）や用水・排水の整備などの土地改良で乗り越えてきました。2024年産の米の収穫量は、新潟県に次いで全国2位です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-hokkaido-rice-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-hokkaido-rice"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "北海道の石狩川流域などで行われてきた「客土」とは、どのようなこと？",
+      "choices": [
+        {
+          "id": "soil",
+          "text": "ほかの場所から土を運び入れて、田畑の土を良くすること"
+        },
+        {
+          "id": "rotate",
+          "text": "同じ畑で、年ごとに違う作物を順番に育てること"
+        },
+        {
+          "id": "terrace",
+          "text": "山の斜面を階段のように切り開いて、田をつくること"
+        },
+        {
+          "id": "reclaim",
+          "text": "海や湖に堤防をつくり、水を抜いて陸地にすること"
+        }
+      ],
+      "answer": "soil",
+      "explanation": "客土は、ほかの場所から土を運び入れて、田畑の土を良くすることです。石狩川流域の泥炭地では、客土によって、泥炭からの余分な栄養分の吸収をおさえ、良い味の米が育つようにしてきました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-hokkaido-rice-where",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-hokkaido-rice",
+        "geo-farming-livestock"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "北海道最大の水田地帯が広がっているのは、どこ？",
+      "choices": [
+        {
+          "id": "ishikari",
+          "text": "石狩川の流域"
+        },
+        {
+          "id": "konsen",
+          "text": "根釧台地"
+        },
+        {
+          "id": "okhotsk",
+          "text": "オホーツク海の沿岸"
+        },
+        {
+          "id": "shiretoko",
+          "text": "知床半島"
+        }
+      ],
+      "answer": "ishikari",
+      "explanation": "北海道最大の水田地帯は石狩川の流域です。用水路や排水の工事、泥炭地の開発で原野が水田に変わりました。北海道東部の根釧台地は夏も涼しく霧が多いため、稲作ではなく酪農が盛んです。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-forcing-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-forcing"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "ビニールハウスなどを使い、野菜をふつうより早い時期に収穫・出荷する栽培を何という？",
+      "choices": [
+        {
+          "id": "forcing",
+          "text": "促成栽培"
+        },
+        {
+          "id": "retarding",
+          "text": "抑制栽培"
+        },
+        {
+          "id": "suburban",
+          "text": "近郊農業"
+        },
+        {
+          "id": "rotation",
+          "text": "輪作"
+        }
+      ],
+      "answer": "forcing",
+      "explanation": "促成栽培です。冬でも暖かい高知県や宮崎県で盛んで、なすやピーマンなどを、ほかの産地より早い時期に出荷します。抑制栽培は逆に、ふつうより遅い時期に出荷する栽培です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-forcing-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-forcing"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "高知県や宮崎県で、冬にビニールハウスで野菜を育てて早く出荷する主なねらいは？",
+      "choices": [
+        {
+          "id": "price",
+          "text": "ほかの産地の出荷が少ない時期に出して、高い値段で売るため"
+        },
+        {
+          "id": "pest",
+          "text": "冬は害虫がいないので、農薬をまったく使わずに育てるため"
+        },
+        {
+          "id": "rice",
+          "text": "冬のあいだだけ田に水を張れないので、田を休ませないため"
+        },
+        {
+          "id": "export",
+          "text": "冬に収穫した野菜を、すべて外国に輸出するため"
+        }
+      ],
+      "answer": "price",
+      "explanation": "露地（屋根のない畑）で育てられる期間が短い野菜は、季節はずれの時期に高い値段で取引されることが多いため、冬でも暖かい気候を生かして、ほかの産地より早く出荷します。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-forcing-where",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-forcing"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "促成栽培が盛んな県の組み合わせとして、正しいものは？",
+      "choices": [
+        {
+          "id": "kochi-miyazaki",
+          "text": "高知県・宮崎県"
+        },
+        {
+          "id": "nagano-gunma",
+          "text": "長野県・群馬県"
+        },
+        {
+          "id": "aomori-iwate",
+          "text": "青森県・岩手県"
+        },
+        {
+          "id": "niigata-akita",
+          "text": "新潟県・秋田県"
+        }
+      ],
+      "answer": "kochi-miyazaki",
+      "explanation": "冬でも暖かい高知県や宮崎県では、ビニールハウスを使った促成栽培が盛んです。2024年産のなすの収穫量は高知県が1位、ピーマンは宮崎県が2位でした。長野県・群馬県は、夏の涼しさを生かした高冷地農業が盛んな県です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-highland-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-highland"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "長野県や群馬県の高原で、夏の涼しさを生かしてレタスやキャベツを育てる農業を何という？",
+      "choices": [
+        {
+          "id": "highland",
+          "text": "高冷地農業"
+        },
+        {
+          "id": "forcing",
+          "text": "促成栽培"
+        },
+        {
+          "id": "suburban",
+          "text": "近郊農業"
+        },
+        {
+          "id": "dairy",
+          "text": "酪農"
+        }
+      ],
+      "answer": "highland",
+      "explanation": "高冷地農業です。夏でも涼しい高原の気候を生かし、ほかの産地では暑くて育てにくい夏から秋にかけて、レタスやキャベツなどを出荷します。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-highland-map",
+      "type": "map",
+      "itemIds": [
+        "geo-farming-highland"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "標高800〜1200mの高原に畑が広がる嬬恋村を中心に、夏秋キャベツの収穫量が56年連続で全国1位（2025年産まで）の都道府県は？",
+      "map": "japan-prefectures",
+      "answer": "jp-10",
+      "explanation": "群馬県です。2025年産の夏秋キャベツの収穫量は24万5600tで、2位の長野県（5万100t）を大きく上回りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-highland-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-highland"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "高原でレタスやキャベツを育てて、夏に出荷する主なねらいは？",
+      "choices": [
+        {
+          "id": "season",
+          "text": "ほかの産地が暑くて育てにくい時期に出し、品薄の時に売るため"
+        },
+        {
+          "id": "frost",
+          "text": "高原は霜がまったく降りないので、一年中収穫できるため"
+        },
+        {
+          "id": "near",
+          "text": "高原は大都市に近いので、朝とれた野菜をすぐ店に並べるため"
+        },
+        {
+          "id": "rain",
+          "text": "高原は雨がとても多く、水やりの手間がかからないため"
+        }
+      ],
+      "answer": "season",
+      "explanation": "レタスやキャベツは暑さに弱く、夏はほかの産地では育てにくくなります。涼しい高原で育てて夏から秋に出荷すれば、品薄の時期に出せるので、高い値段で売れることが多くなります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-suburban-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-suburban"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "大都市の近くで、野菜・花・鶏卵などを生産する農業を何という？",
+      "choices": [
+        {
+          "id": "suburban",
+          "text": "近郊農業"
+        },
+        {
+          "id": "highland",
+          "text": "高冷地農業"
+        },
+        {
+          "id": "forcing",
+          "text": "促成栽培"
+        },
+        {
+          "id": "dairy",
+          "text": "酪農"
+        }
+      ],
+      "answer": "suburban",
+      "explanation": "近郊農業です。東京に近い千葉県や茨城県は野菜の大産地で、2024年産のだいこんの収穫量は千葉県が、ピーマンは茨城県が全国1位でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-suburban-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-suburban"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "近郊農業の利点として、最も適切なものは？",
+      "choices": [
+        {
+          "id": "fresh",
+          "text": "大都市に近く、新鮮なうちに短い時間で運べること"
+        },
+        {
+          "id": "cheap",
+          "text": "大都市の近くは、土地の値段がとても安いこと"
+        },
+        {
+          "id": "climate",
+          "text": "大都市の近くは、一年中暖かく野菜がよく育つこと"
+        },
+        {
+          "id": "wide",
+          "text": "大都市の近くは、広い土地で大規模に育てられること"
+        }
+      ],
+      "answer": "fresh",
+      "explanation": "近郊農業は、農産物を買う人が多い大都市に近いため、とれた野菜を新鮮なうちに、短い時間で運べます。一方で、大都市の近くは土地の値段や人件費が高いため、狭い土地で集約的に育てる農業が多くなります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-suburban-map",
+      "type": "map",
+      "itemIds": [
+        "geo-farming-suburban"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "東京に近く、2024年産のだいこんの収穫量が全国1位の都道府県は？",
+      "map": "japan-prefectures",
+      "answer": "jp-12",
+      "explanation": "千葉県で、13万5800tでした。東京に近い千葉県や茨城県では、大都市向けの野菜づくりが盛んです。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-fruit-match",
+      "type": "match",
+      "itemIds": [
+        "geo-farming-fruit"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "果物と、2024年産の収穫量が全国1位の県を結ぼう",
+      "left": [
+        {
+          "id": "apple",
+          "text": "りんご"
+        },
+        {
+          "id": "mikan",
+          "text": "みかん"
+        },
+        {
+          "id": "grape",
+          "text": "ぶどう"
+        }
+      ],
+      "right": [
+        {
+          "id": "aomori",
+          "text": "青森県"
+        },
+        {
+          "id": "wakayama",
+          "text": "和歌山県"
+        },
+        {
+          "id": "yamanashi",
+          "text": "山梨県"
+        }
+      ],
+      "pairs": [
+        [
+          "apple",
+          "aomori"
+        ],
+        [
+          "mikan",
+          "wakayama"
+        ],
+        [
+          "grape",
+          "yamanashi"
+        ]
+      ],
+      "explanation": "りんごは青森県（全国の60.8%）、みかんは和歌山県、ぶどうは山梨県が1位です。りんごは涼しい地域、みかんは暖かい地域で多く作られます。ぶどうは2位が長野県です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-fruit-apple",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-fruit"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "りんごの収穫量が、青森県や長野県で多い理由は？",
+      "choices": [
+        {
+          "id": "cool",
+          "text": "りんごは涼しい気候が栽培に向いているから"
+        },
+        {
+          "id": "warm",
+          "text": "りんごは冬も暖かい気候が栽培に向いているから"
+        },
+        {
+          "id": "wet",
+          "text": "りんごは雨がとても多い気候が栽培に向いているから"
+        },
+        {
+          "id": "coast",
+          "text": "りんごは潮風の当たる海岸が栽培に向いているから"
+        }
+      ],
+      "answer": "cool",
+      "explanation": "りんごは年平均気温7〜12℃ほどの涼しい所が栽培に向いています。2024年産の収穫量は、青森県が全国の60.8%、長野県が17.5%を占めました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-fruit-mikan",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-fruit"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "温州みかんの畑が、暖かい地域の山の斜面に多くつくられる理由は？",
+      "choices": [
+        {
+          "id": "slope",
+          "text": "日当たりと水はけのよい斜面が、栽培に向いているから"
+        },
+        {
+          "id": "cold",
+          "text": "斜面は平地より寒く、冷たい空気がみかんを甘くするから"
+        },
+        {
+          "id": "wet",
+          "text": "斜面には水がたまりやすく、いつも土がしめっているから"
+        },
+        {
+          "id": "flat",
+          "text": "平地はすべて水田に使われ、斜面しか残っていないから"
+        }
+      ],
+      "answer": "slope",
+      "explanation": "温州みかんは、比較的温暖な地域の、日当たりと水はけのよい斜面が栽培に向いています。2024年産のみかんの収穫量は、和歌山県・静岡県・愛媛県が上位でした。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-livestock-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-livestock"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "北海道東部の根釧台地で、酪農が広がった理由は？",
+      "choices": [
+        {
+          "id": "cool",
+          "text": "夏も涼しく霧で日照が少なく、穀物の畑作がうまくいかなかったから"
+        },
+        {
+          "id": "warm",
+          "text": "一年中暖かく、牧草が冬でも青々と育ち続けるから"
+        },
+        {
+          "id": "city",
+          "text": "大都市のすぐ近くにあり、牛乳を新鮮なまま運べるから"
+        },
+        {
+          "id": "rice",
+          "text": "水田に向いた低地が広く、稲わらをえさにできるから"
+        }
+      ],
+      "answer": "cool",
+      "explanation": "根釧台地は夏も涼しく、海霧で日照が少ないため、穀物を中心にした畑作がうまくいきませんでした。そこで牧草を育てて乳牛を飼う酪農が広がり、パイロットファームや新酪農村もつくられました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-livestock-milk",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-livestock"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "2024年、北海道の生乳の生産量は、全国のおよそどれくらいを占めた？",
+      "choices": [
+        {
+          "id": "quarter",
+          "text": "約4分の1"
+        },
+        {
+          "id": "third",
+          "text": "約3分の1"
+        },
+        {
+          "id": "over-half",
+          "text": "半分以上"
+        },
+        {
+          "id": "nine-tenths",
+          "text": "約10分の9"
+        }
+      ],
+      "answer": "over-half",
+      "explanation": "北海道の生乳の生産量は423万3000tで、全国の58%を占めました。全国の半分以上が北海道で生産されています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-livestock-map",
+      "type": "map",
+      "itemIds": [
+        "geo-farming-livestock"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "2024年の豚の飼養頭数が全国1位で、シラス台地が広がる都道府県は？",
+      "map": "japan-prefectures",
+      "answer": "jp-46",
+      "explanation": "鹿児島県で、約120万頭（全国の13.6%）でした。宮崎県や北海道でも多くの豚が飼われています。また、鹿児島県の水もちが悪く稲作に向かないシラス台地では、さつまいもが多く作られています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-tea-map",
+      "type": "map",
+      "itemIds": [
+        "geo-farming-tea"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "明治時代の初めに開墾され、日本最大級の茶の産地になった牧ノ原（牧之原台地）があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-22",
+      "explanation": "静岡県です。牧ノ原の茶園は総面積約5000ヘクタールで、日本一の広さを誇る大茶園です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-tea-who",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-tea"
+      ],
+      "asks": [
+        "who"
+      ],
+      "prompt": "1869年から、静岡県の牧ノ原を開墾して茶畑にしたのは、どのような人々？",
+      "choices": [
+        {
+          "id": "samurai",
+          "text": "徳川家の旧家臣の士族や、大井川の川越人足"
+        },
+        {
+          "id": "monks",
+          "text": "茶の栽培を広めようとした、京都の寺の僧たち"
+        },
+        {
+          "id": "foreign",
+          "text": "明治政府に招かれた、イギリスの農業技術者たち"
+        },
+        {
+          "id": "farmers",
+          "text": "北海道から移り住んできた、開拓使の農民たち"
+        }
+      ],
+      "answer": "samurai",
+      "explanation": "1869年（明治2年）、徳川家の旧家臣の士族が牧ノ原に入植して開墾を始め、川越の制度がなくなって職を失った大井川の川越人足も加わりました。やがて地元の農家に引き継がれ、大産地になりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-tea-rank",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-tea"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "2024年産の荒茶の生産量が全国1位だった県は？",
+      "choices": [
+        {
+          "id": "kagoshima",
+          "text": "鹿児島県"
+        },
+        {
+          "id": "shizuoka",
+          "text": "静岡県"
+        },
+        {
+          "id": "mie",
+          "text": "三重県"
+        },
+        {
+          "id": "kyoto",
+          "text": "京都府"
+        }
+      ],
+      "answer": "kagoshima",
+      "explanation": "2024年産は鹿児島県（2万7000t）が1位、静岡県（2万5800t）が2位で、2県で全国の7割以上を占めました。茶の産地といえば静岡県というイメージが強いですが、2024年産では鹿児島県が上回りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-shiome-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-shiome"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "寒流と暖流がぶつかる境目で、よい漁場になりやすい場所を何という？",
+      "choices": [
+        {
+          "id": "shiome",
+          "text": "潮目"
+        },
+        {
+          "id": "ria",
+          "text": "リアス海岸"
+        },
+        {
+          "id": "shelf",
+          "text": "大陸だな"
+        },
+        {
+          "id": "trench",
+          "text": "海溝"
+        }
+      ],
+      "answer": "shiome",
+      "explanation": "潮目（潮境）です。日本では、寒流の親潮と暖流の黒潮が出会う三陸沖に多くできます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-shiome-classify",
+      "type": "classify",
+      "itemIds": [
+        "geo-farming-shiome"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本の周りを流れる海流を、寒流と暖流に分けよう",
+      "buckets": [
+        {
+          "id": "cold",
+          "text": "寒流"
+        },
+        {
+          "id": "warm",
+          "text": "暖流"
+        }
+      ],
+      "entries": [
+        {
+          "id": "oyashio",
+          "text": "親潮（千島海流）",
+          "bucket": "cold"
+        },
+        {
+          "id": "kuroshio",
+          "text": "黒潮（日本海流）",
+          "bucket": "warm"
+        },
+        {
+          "id": "liman",
+          "text": "リマン海流",
+          "bucket": "cold"
+        },
+        {
+          "id": "tsushima",
+          "text": "対馬海流",
+          "bucket": "warm"
+        }
+      ],
+      "explanation": "親潮（千島海流）とリマン海流は寒流、黒潮（日本海流）と対馬海流は暖流です。太平洋側では親潮と黒潮が三陸沖で出会い、日本海側では対馬海流が北上し、リマン海流が大陸沿いに南下します。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-shiome-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-shiome"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "三陸沖などの潮目が、よい漁場になる理由は？",
+      "choices": [
+        {
+          "id": "plankton",
+          "text": "栄養分が豊富でプランクトンが多く、寒流と暖流の魚が集まるから"
+        },
+        {
+          "id": "warm",
+          "text": "一年中海水が温かく、熱帯の魚だけが集まってくるから"
+        },
+        {
+          "id": "shallow",
+          "text": "海がとても浅く、海底の魚を網で簡単にとれるから"
+        },
+        {
+          "id": "calm",
+          "text": "波も流れもまったくなく、魚が一か所にとどまるから"
+        }
+      ],
+      "answer": "plankton",
+      "explanation": "潮目では海水が集まり、栄養分が豊富でプランクトンが大量に発生します。さらに、寒流と暖流それぞれに乗ってきた魚が集まるため、よい漁場になります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-distant-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-distant-water"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "1970年代の後半から、日本の遠洋漁業が大きく減った主な理由は？",
+      "choices": [
+        {
+          "id": "eez",
+          "text": "各国が200海里の水域を設けて、外国の漁船を制限したから"
+        },
+        {
+          "id": "ships",
+          "text": "日本の漁船が古くなり、遠くの海まで行けなくなったから"
+        },
+        {
+          "id": "demand",
+          "text": "日本人が魚を食べなくなり、魚が売れなくなったから"
+        },
+        {
+          "id": "warming",
+          "text": "海水温が上がって、遠くの海の魚がいなくなったから"
+        }
+      ],
+      "answer": "eez",
+      "explanation": "1977年に米国やソ連などが200海里の水域を設定し、沿岸から200海里以内での外国の漁業を制限しました。日本の漁船はそれまでの漁場から撤退することになり、1973年に400万t近くあった遠洋漁業の生産量は大きく減りました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-distant-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-distant-water"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "沿岸国が水産資源などを自国で管理できる「200海里」の水域。200海里はおよそ何km？",
+      "choices": [
+        {
+          "id": "370",
+          "text": "約370km"
+        },
+        {
+          "id": "37",
+          "text": "約37km"
+        },
+        {
+          "id": "200",
+          "text": "約200km"
+        },
+        {
+          "id": "3700",
+          "text": "約3700km"
+        }
+      ],
+      "answer": "370",
+      "explanation": "200海里は約370kmです。沿岸国はこの範囲の水産資源や鉱物資源を管理できます（排他的経済水域）。日本も1977年に200海里の漁業水域を設定しました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-distant-year",
+      "type": "year",
+      "itemIds": [
+        "geo-farming-distant-water"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "米国やソ連などが200海里の水域を設定し、日本の遠洋漁業が大きな打撃を受けたのは何年？",
+      "answer": 1977,
+      "tolerance": 5,
+      "explanation": "1977年です。遠洋漁業の生産量は、その少し前の1973年に400万t近くで最も多くなっていました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-aquaculture-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-farming-aquaculture"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "養殖業と栽培漁業の違いとして、正しいものは？",
+      "choices": [
+        {
+          "id": "diff",
+          "text": "養殖業は出荷まで育て、栽培漁業は稚魚を放流してから成長したものをとる"
+        },
+        {
+          "id": "reverse",
+          "text": "養殖業は稚魚を放流してとり、栽培漁業は出荷までいけすで育てる"
+        },
+        {
+          "id": "sea-river",
+          "text": "養殖業は海だけで行い、栽培漁業は川や湖だけで行う漁業である"
+        },
+        {
+          "id": "same",
+          "text": "どちらも同じ意味で、地域によって呼び方が違うだけである"
+        }
+      ],
+      "answer": "diff",
+      "explanation": "養殖業は、稚魚や稚貝をいけすなどで食べられる大きさまで育てて出荷します。栽培漁業は、卵から稚魚になるまでの弱い時期を人の手で守り、海に放流して、成長したものをとります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-aquaculture-map",
+      "type": "map",
+      "itemIds": [
+        "geo-farming-aquaculture"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "かき類の養殖の収穫量が、全国の約6割を占めて1位（2023年）の都道府県は？",
+      "map": "japan-prefectures",
+      "answer": "jp-34",
+      "explanation": "広島県で、全国の59.8%を占めました。広島湾には、太田川などの川を通じて森の栄養分が運ばれ、全国有数のカキ養殖の漁場が広がっています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-farming-aquaculture-match",
+      "type": "match",
+      "itemIds": [
+        "geo-farming-aquaculture"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "養殖されている魚介類・海藻と、2023年の収穫量が1位の道県を結ぼう",
+      "left": [
+        {
+          "id": "oyster",
+          "text": "かき類"
+        },
+        {
+          "id": "wakame",
+          "text": "わかめ類"
+        },
+        {
+          "id": "scallop",
+          "text": "ほたてがい"
+        }
+      ],
+      "right": [
+        {
+          "id": "hiroshima",
+          "text": "広島県"
+        },
+        {
+          "id": "miyagi",
+          "text": "宮城県"
+        },
+        {
+          "id": "hokkaido",
+          "text": "北海道"
+        }
+      ],
+      "pairs": [
+        [
+          "oyster",
+          "hiroshima"
+        ],
+        [
+          "wakame",
+          "miyagi"
+        ],
+        [
+          "scallop",
+          "hokkaido"
+        ]
+      ],
+      "explanation": "かき類は広島県（全国の59.8%）、わかめ類は宮城県（51.5%）、ほたてがいは北海道（57.7%）が1位です。わかめ類は2位の岩手県と、ほたてがいは2位の青森県と合わせて、全国の大部分を占めます。",
+      "status": "active"
+    }
+  ]
+}
