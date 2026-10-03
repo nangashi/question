@@ -1,0 +1,1493 @@
+{
+  "items": [
+    {
+      "id": "geo-climate-monsoon",
+      "title": "季節風",
+      "summary": "日本付近では、夏は太平洋から南東の季節風が、冬は大陸から北西の季節風が吹く。冬の北西の季節風は、大陸（シベリア）で冷やされた寒気を運んでくる。",
+      "why": "陸は海より温まりやすく冷えやすいため、大陸と海の温度の差が季節によって逆になるからです。冬は冷え込んだ大陸に高気圧（シベリア高気圧）が発達して大陸から海へ、夏は太平洋の高気圧（太平洋高気圧）が勢力を強めて海から陸へと風が吹きます。",
+      "tags": [
+        "季節風",
+        "気圧配置"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "冬の北西の季節風が、日本海側に大雪を降らせます。",
+          "itemIds": [
+            "geo-climate-sea-of-japan-snow"
+          ]
+        },
+        {
+          "axis": "因果",
+          "text": "日本海側に雪を降らせた季節風は、山を越えて乾いた風になります。",
+          "itemIds": [
+            "geo-climate-pacific-winter"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「季節風」（デジタル大辞泉・日本大百科全書・世界大百科事典） — https://kotobank.jp/word/季節風",
+        "気象庁「日本の天候の概説」 — https://www.jma.go.jp/jma/kishou/know/kisetsu_riyou/tenkou/gaisetu.html",
+        "コトバンク「大陸性気候」（日本大百科全書） — https://kotobank.jp/word/大陸性気候"
+      ],
+      "order": 0
+    },
+    {
+      "id": "geo-climate-sea-of-japan-snow",
+      "title": "日本海側の冬の雪",
+      "summary": "冬の日本海側は雪や雨の日が多く、降水量が多い。金沢の1月の降水量は平年256.0mmで、東京（59.7mm）の4倍以上ある。",
+      "why": "大陸から吹く冷たく乾いた北西の季節風が、暖流の対馬海流が流れる日本海を渡るあいだに、海から大量の水蒸気と熱を受け取って雪雲になり、本州の中央の山脈にぶつかって上昇し、雪を降らせるためです。",
+      "place": {
+        "name": "日本海側の地域（北陸地方など）"
+      },
+      "tags": [
+        "日本海側",
+        "雪",
+        "季節風"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "大陸から吹く冬の北西の季節風が、雪のもとになる冷たい空気を運んできます。",
+          "itemIds": [
+            "geo-climate-monsoon"
+          ]
+        },
+        {
+          "axis": "比較",
+          "text": "山脈を越えた太平洋側では、同じ季節風が乾いた風になり、晴れの日が続きます。",
+          "itemIds": [
+            "geo-climate-pacific-winter"
+          ]
+        },
+        {
+          "axis": "地理",
+          "text": "季節風がぶつかる本州の中央には、3000m級の山々が連なる日本アルプスがあります。",
+          "itemIds": [
+            "geo-landform-japan-alps"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「日本海側気候」（世界大百科事典） — https://kotobank.jp/word/日本海側気候",
+        "気象庁「日本海の基礎知識」 — https://www.data.jma.go.jp/jsmarine/japansea.html",
+        "気象庁「日本の天候の概説」 — https://www.jma.go.jp/jma/kishou/know/kisetsu_riyou/tenkou/gaisetu.html",
+        "気象庁「金沢 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=56&block_no=47605",
+        "気象庁「東京 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662",
+        "新潟県「お米の質問箱」 — https://www.pref.niigata.lg.jp/sec/nosanengei/1249502659451.html"
+      ],
+      "order": 1
+    },
+    {
+      "id": "geo-climate-pacific-winter",
+      "title": "太平洋側の冬の晴天とからっ風",
+      "summary": "冬の太平洋側は晴れて乾燥した日が多く、東京の1月の降水量は平年59.7mmと少ない。群馬県（上州）などでは、冬に山から吹き下ろす冷たく乾いた北西の風を「からっ風」と呼ぶ。",
+      "why": "日本海側に雪を降らせた季節風が、山脈を越えるときに水分を失い、乾いた風となって太平洋側へ吹き下ろすためです。",
+      "place": {
+        "name": "群馬県（上州）など関東地方",
+        "region": "jp-10"
+      },
+      "tags": [
+        "太平洋側",
+        "からっ風",
+        "季節風"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "山脈の反対側の日本海側では、同じ季節風が大雪を降らせます。",
+          "itemIds": [
+            "geo-climate-sea-of-japan-snow"
+          ]
+        }
+      ],
+      "trivia": "群馬県では、からっ風が吹く乾いた気候と水はけのよい土が小麦づくりに向いていたため、米の裏作として小麦が作られ、うどんなどの粉ものの食文化が育ちました。",
+      "sources": [
+        "気象庁「日本の天候の概説」 — https://www.jma.go.jp/jma/kishou/know/kisetsu_riyou/tenkou/gaisetu.html",
+        "コトバンク「空っ風」（百科事典マイペディア・世界大百科事典） — https://kotobank.jp/word/空っ風",
+        "気象庁「東京 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662",
+        "農林水産省「うちの郷土料理 群馬県」 — https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/area_stories/gunma.html"
+      ],
+      "order": 2
+    },
+    {
+      "id": "geo-climate-tsuyu",
+      "title": "梅雨",
+      "summary": "6月から7月ごろ（沖縄・奄美では5月から6月ごろ）、北海道を除く日本で雨やくもりの日が続く時期。梅雨の終わりごろには、集中豪雨が起こりやすい。",
+      "why": "冷たく湿ったオホーツク海高気圧と、暖かく湿った太平洋高気圧の境目にできる梅雨前線（停滞前線）が、日本付近にとどまるためです。",
+      "tags": [
+        "梅雨",
+        "梅雨前線"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "梅雨前線は北海道まで北上してとどまることがほとんどないため、北海道には梅雨がはっきりしません。",
+          "itemIds": [
+            "geo-climate-hokkaido"
+          ]
+        },
+        {
+          "axis": "因果",
+          "text": "梅雨のころに強まるオホーツク海高気圧からは、東北の太平洋側に冷たい「やませ」が吹きこみます。",
+          "itemIds": [
+            "geo-climate-yamase"
+          ]
+        }
+      ],
+      "sources": [
+        "コトバンク「梅雨」（デジタル大辞泉・世界大百科事典・日本大百科全書） — https://kotobank.jp/word/梅雨",
+        "コトバンク「梅雨前線」（日本大百科全書・ブリタニカ国際大百科事典） — https://kotobank.jp/word/梅雨前線",
+        "気象庁「梅雨について（よくある質問）」 — https://www.jma.go.jp/jma/kishou/know/faq/faq33.html",
+        "気象庁「東北地方の夏の天候の特徴」 — https://www.data.jma.go.jp/cpd/j_climate/tohoku/summer.html",
+        "気象庁「日本の天候の概説」 — https://www.jma.go.jp/jma/kishou/know/kisetsu_riyou/tenkou/gaisetu.html"
+      ],
+      "order": 3
+    },
+    {
+      "id": "geo-climate-typhoon",
+      "title": "台風",
+      "summary": "北西太平洋や南シナ海の熱帯の海上で発生した熱帯低気圧のうち、最大風速がおよそ17m/s以上になったもの。発生・接近・上陸とも7月から10月にかけて多い。",
+      "why": "台風は、東風が吹く低い緯度では西へ進み、太平洋高気圧のまわりを回るように北上し、日本付近の高さまで来ると上空の強い西風（偏西風）に流されて、速い速度で北東へ進みます。",
+      "place": {
+        "name": "沖縄県など南西諸島",
+        "region": "jp-47"
+      },
+      "tags": [
+        "台風",
+        "災害"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "台風の通り道にあたる沖縄では、一年中温暖な気候に加えて、台風への備えが暮らしに表れています。",
+          "itemIds": [
+            "geo-climate-nansei"
+          ]
+        }
+      ],
+      "sources": [
+        "気象庁「台風とは」 — https://www.jma.go.jp/jma/kishou/know/typhoon/1-1.html",
+        "気象庁「台風の発生、接近、上陸、経路」 — https://www.jma.go.jp/jma/kishou/know/typhoon/1-4.html",
+        "沖縄県「沖縄の気候」（子ども向けページ） — https://www.pref.okinawa.jp/kyoiku/kodomo/1002657/1002661/index.html",
+        "沖縄県「伝統的な民家の風景」（子ども向けページ） — https://www.pref.okinawa.lg.jp/kyoiku/kodomo/1002657/1002666/1002667.html"
+      ],
+      "order": 4
+    },
+    {
+      "id": "geo-climate-setouchi",
+      "title": "瀬戸内の少ない雨",
+      "summary": "瀬戸内海沿岸は一年を通して晴れの日が多く、降水量が少ない。高松の年降水量は平年1150.1mmで、金沢（2401.5mm）の半分ほどである。",
+      "why": "北の中国山地と南の四国山地にはさまれていて、冬の北西の季節風も、夏の南東の季節風も山地にさえぎられ、湿った空気が届きにくいためです。",
+      "place": {
+        "name": "瀬戸内海沿岸（香川県・岡山県など）",
+        "region": "jp-37"
+      },
+      "tags": [
+        "瀬戸内",
+        "ため池",
+        "水不足"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "香川県の川は短く急で、降った雨がすぐ海へ流れ出てしまうことも、水不足の原因になりました。",
+          "itemIds": [
+            "geo-landform-steep-rivers"
+          ]
+        }
+      ],
+      "trivia": "香川県のため池は、数では全国3位ですが、面積あたりの数（密度）では1平方キロメートルあたり6.5か所で全国1位です。",
+      "sources": [
+        "コトバンク「瀬戸内式気候」（デジタル大辞泉・日本大百科全書・世界大百科事典） — https://kotobank.jp/word/瀬戸内式気候",
+        "気象庁「高松 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=72&block_no=47891",
+        "気象庁「金沢 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=56&block_no=47605",
+        "香川県「ため池の紹介」 — https://www.pref.kagawa.lg.jp/tochikai/about_tameike/introduction/main_intro.html",
+        "香川県「香川の水に関する疑問にお答えします」 — https://www.pref.kagawa.lg.jp/mizusigen/mizushigen/faq/f73sdo151214152351.html"
+      ],
+      "order": 5
+    },
+    {
+      "id": "geo-climate-inland",
+      "title": "中央高地（内陸）の気候",
+      "summary": "長野県などの中央高地は、降水量が少なく、夏と冬、昼と夜の気温差が大きい。松本の平均気温は1月が-0.3℃、8月が25.1℃で、その差は東京（5.4℃と26.9℃）より大きい。",
+      "why": "海から遠く、周りを山に囲まれているためです。台風や低気圧、前線の影響を受けにくいので雨が少なく、気温をやわらげる海（海風）の影響が少ないうえ、晴れた夜には熱が逃げて冷え込みやすいため、気温差が大きくなります。",
+      "place": {
+        "name": "長野県など中央高地",
+        "region": "jp-20"
+      },
+      "tags": [
+        "中央高地",
+        "内陸",
+        "気温差"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "長野県の周りには、3000m級の山々が連なる日本アルプスがそびえています。",
+          "itemIds": [
+            "geo-landform-japan-alps"
+          ]
+        },
+        {
+          "axis": "比較",
+          "text": "同じく雨の少ない瀬戸内は、海に面しているため、冬も比較的暖かい地域です。",
+          "itemIds": [
+            "geo-climate-setouchi"
+          ]
+        }
+      ],
+      "sources": [
+        "長野地方気象台「長野県の気候」 — https://www.data.jma.go.jp/nagano/shosai/kikou/kikou.html",
+        "気象庁「松本 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=48&block_no=47618",
+        "気象庁「東京 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662",
+        "コトバンク「大陸性気候」（日本大百科全書） — https://kotobank.jp/word/大陸性気候"
+      ],
+      "order": 6
+    },
+    {
+      "id": "geo-climate-hokkaido",
+      "title": "北海道の気候",
+      "summary": "冬の寒さが長く厳しく、夏は涼しい。札幌の平均気温は年9.2℃、1月-3.2℃（平年）。梅雨の現象はほとんど見られない。",
+      "why": "日本の北にあって、冬は北極や大陸からの寒気の影響を強く受けるためです。また、梅雨前線は北上するにつれて北海道付近では不明瞭になることが多く、梅雨のような天気が毎年決まった時期に現れるわけではありません。",
+      "place": {
+        "name": "北海道",
+        "region": "jp-01"
+      },
+      "tags": [
+        "北海道",
+        "梅雨"
+      ],
+      "links": [
+        {
+          "axis": "比較",
+          "text": "南の端の南西諸島では、1月でも平均気温が17℃を超えます。",
+          "itemIds": [
+            "geo-climate-nansei"
+          ]
+        }
+      ],
+      "sources": [
+        "気象庁「北海道地方の天候の特徴」 — https://www.data.jma.go.jp/cpd/j_climate/hokkaido/main.html",
+        "コトバンク「北海道」（日本大百科全書・世界大百科事典） — https://kotobank.jp/word/北海道",
+        "気象庁「札幌 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=14&block_no=47412",
+        "気象庁「梅雨について（よくある質問）」 — https://www.jma.go.jp/jma/kishou/know/faq/faq33.html"
+      ],
+      "order": 7
+    },
+    {
+      "id": "geo-climate-nansei",
+      "title": "南西諸島の気候",
+      "summary": "沖縄などの南西諸島は一年中暖かく、降水量が多い。那覇の平均気温は年23.3℃、1月でも17.3℃（平年）で、雨は梅雨（5〜6月）と台風の時期（8〜9月）に多い。",
+      "why": "亜熱帯にあたる北緯20度から30度のあいだにあり、近くを暖流の黒潮が流れる暖かい海に囲まれているためです。",
+      "place": {
+        "name": "沖縄県など南西諸島",
+        "region": "jp-47"
+      },
+      "tags": [
+        "南西諸島",
+        "亜熱帯",
+        "沖縄"
+      ],
+      "links": [
+        {
+          "axis": "地理",
+          "text": "沖縄は台風の通り道にあたり、暮らしにも台風への備えが表れています。",
+          "itemIds": [
+            "geo-climate-typhoon"
+          ]
+        },
+        {
+          "axis": "比較",
+          "text": "北の端の北海道では、札幌の1月の平均気温が-3.2℃です。",
+          "itemIds": [
+            "geo-climate-hokkaido"
+          ]
+        }
+      ],
+      "sources": [
+        "気象庁「沖縄地方の天候の特徴」 — https://www.data.jma.go.jp/cpd/j_climate/okinawa/main.html",
+        "気象庁「那覇 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=91&block_no=47936",
+        "沖縄県「沖縄の気候」（子ども向けページ） — https://www.pref.okinawa.jp/kyoiku/kodomo/1002657/1002661/index.html"
+      ],
+      "order": 8
+    },
+    {
+      "id": "geo-climate-yamase",
+      "title": "やませ",
+      "summary": "初夏から夏にかけて、北日本の太平洋側を中心に吹く、冷たく湿った東寄り（北東）の風。長く続くと低温と日照不足で、稲などの作物が育たない冷害を起こすことがある。",
+      "why": "冷たいオホーツク海の上にできるオホーツク海高気圧から、冷たく湿った空気が吹き出してくるためです。奥羽山脈などにさえぎられるため、日本海側にはほとんど届きません。",
+      "year": {
+        "from": 1993
+      },
+      "place": {
+        "name": "東北地方の太平洋側など北日本"
+      },
+      "tags": [
+        "やませ",
+        "冷害",
+        "東北"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "やませを吹き出すオホーツク海高気圧は、梅雨前線をつくる高気圧の一つでもあります。",
+          "itemIds": [
+            "geo-climate-tsuyu"
+          ]
+        }
+      ],
+      "trivia": "1993年はやませの影響などで記録的な冷夏となり、稲の作況指数（平年を100とした出来）は74まで落ちて、全国的に米が不足する「平成の米騒動」が起きました。",
+      "sources": [
+        "仙台管区気象台「やませ」 — https://www.data.jma.go.jp/sendai/information/100th/articles/disaster_yamase.html",
+        "コトバンク「やませ」（ブリタニカ国際大百科事典・百科事典マイペディア・世界大百科事典） — https://kotobank.jp/word/やませ",
+        "気象庁「東北地方の夏の天候の特徴」 — https://www.data.jma.go.jp/cpd/j_climate/tohoku/summer.html"
+      ],
+      "order": 9
+    },
+    {
+      "id": "geo-climate-regions",
+      "title": "日本の6つの気候区分",
+      "summary": "日本の気候は、中学校の地理では、北海道の気候・日本海側の気候・太平洋側の気候・中央高地（内陸）の気候・瀬戸内の気候・南西諸島の気候の6つに分けて学ぶことが多い。",
+      "tags": [
+        "気候区分"
+      ],
+      "links": [
+        {
+          "axis": "因果",
+          "text": "地域による気候の違いの多くは、季節風と山地の組み合わせから生まれます。",
+          "itemIds": [
+            "geo-climate-monsoon"
+          ]
+        }
+      ],
+      "sources": [
+        "札幌市教育委員会「中学校社会 日本の気候」学習資料 — https://www.city.sapporo.jp/kyoiku/shido/documents/2_2_2_12.pdf",
+        "気象庁「日本の天候の概説」 — https://www.jma.go.jp/jma/kishou/know/kisetsu_riyou/tenkou/gaisetu.html",
+        "気象庁「札幌 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=14&block_no=47412",
+        "気象庁「金沢 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=56&block_no=47605",
+        "気象庁「東京 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=44&block_no=47662",
+        "気象庁「松本 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=48&block_no=47618",
+        "気象庁「高松 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=72&block_no=47891",
+        "気象庁「那覇 平年値（1991〜2020年）」 — https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=91&block_no=47936"
+      ],
+      "order": 10
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-geo-climate-monsoon-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-monsoon"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "日本付近で吹く季節風の向きの組み合わせとして、正しいものは？",
+      "choices": [
+        {
+          "id": "se-nw",
+          "text": "夏は南東から、冬は北西から吹く"
+        },
+        {
+          "id": "nw-se",
+          "text": "夏は北西から、冬は南東から吹く"
+        },
+        {
+          "id": "ne-sw",
+          "text": "夏は北東から、冬は南西から吹く"
+        },
+        {
+          "id": "same",
+          "text": "夏も冬も、西から東へ吹く"
+        }
+      ],
+      "answer": "se-nw",
+      "explanation": "夏は太平洋から南東の季節風が、冬は大陸から北西の季節風が吹きます。季節によって風向きがほぼ逆になるのが季節風の特徴です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-monsoon-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-monsoon"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "季節風の向きが、夏と冬で逆になる理由は？",
+      "choices": [
+        {
+          "id": "land-sea",
+          "text": "陸と海の温まり方が違い、両者の温度差が季節で逆になるから"
+        },
+        {
+          "id": "rotation",
+          "text": "地球の自転の向きが、夏と冬で少しずつ入れ替わるから"
+        },
+        {
+          "id": "current",
+          "text": "夏と冬で、日本近海を流れる海流の向きが逆になるから"
+        },
+        {
+          "id": "sun",
+          "text": "夏は太陽が北から、冬は南から日本を照らすから"
+        }
+      ],
+      "answer": "land-sea",
+      "explanation": "陸は海より温まりやすく冷えやすい性質があります。冬は冷え込んだ大陸に高気圧（シベリア高気圧）が発達して大陸から海へ、夏は太平洋の高気圧が勢力を強めて海から陸へ風が吹きます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-monsoon-classify",
+      "type": "classify",
+      "itemIds": [
+        "geo-climate-monsoon",
+        "geo-climate-sea-of-japan-snow"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "夏の季節風と冬の季節風の特徴を分けよう",
+      "buckets": [
+        {
+          "id": "summer",
+          "text": "夏の季節風"
+        },
+        {
+          "id": "winter",
+          "text": "冬の季節風"
+        }
+      ],
+      "entries": [
+        {
+          "id": "se",
+          "text": "南東から吹く",
+          "bucket": "summer"
+        },
+        {
+          "id": "nw",
+          "text": "北西から吹く",
+          "bucket": "winter"
+        },
+        {
+          "id": "pacific",
+          "text": "太平洋から吹いてくる",
+          "bucket": "summer"
+        },
+        {
+          "id": "siberia",
+          "text": "大陸で冷やされた寒気を運ぶ",
+          "bucket": "winter"
+        },
+        {
+          "id": "snow",
+          "text": "日本海側に大雪を降らせる",
+          "bucket": "winter"
+        }
+      ],
+      "explanation": "夏の季節風は、太平洋から南東の風として吹きます。冬の季節風は、大陸（シベリア）で冷やされた寒気を北西の風として運び、日本海を渡って日本海側に大雪を降らせます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-snow-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-sea-of-japan-snow"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "冬の日本海側で雪が多くなる理由として、最も適切なものは？",
+      "choices": [
+        {
+          "id": "sea",
+          "text": "季節風が日本海で水蒸気を受け取り、山脈にぶつかって雪を降らせるから"
+        },
+        {
+          "id": "pacific",
+          "text": "太平洋から吹く湿った季節風が、本州を越えて日本海側に届くから"
+        },
+        {
+          "id": "typhoon",
+          "text": "冬になると台風が日本海を通り、大量の雪を運んでくるから"
+        },
+        {
+          "id": "cold",
+          "text": "日本海側は太平洋側より標高が高く、雨がすべて雪に変わるから"
+        }
+      ],
+      "answer": "sea",
+      "explanation": "大陸から吹く冷たく乾いた北西の季節風は、暖流の対馬海流が流れる日本海を渡るあいだに水蒸気と熱を受け取って雪雲になります。それが本州の中央の山脈にぶつかって上昇し、日本海側に雪を降らせます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-snow-where",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-sea-of-japan-snow"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "次の都市のうち、1月の降水量（平年）が最も多いのは？",
+      "choices": [
+        {
+          "id": "kanazawa",
+          "text": "金沢"
+        },
+        {
+          "id": "tokyo",
+          "text": "東京"
+        },
+        {
+          "id": "takamatsu",
+          "text": "高松"
+        },
+        {
+          "id": "matsumoto",
+          "text": "松本"
+        }
+      ],
+      "answer": "kanazawa",
+      "explanation": "日本海側の金沢は1月の降水量が平年256.0mmで、冬に雪や雨が多い日本海側の気候の特徴を示しています。太平洋側の東京は59.7mmで、冬は晴れて乾燥した日が多くなります。瀬戸内の高松や内陸の松本は、一年を通して降水量が少ない地域です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-snow-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-sea-of-japan-snow"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "新潟県の米づくりと、冬の雪との関係として正しいものは？",
+      "choices": [
+        {
+          "id": "melt",
+          "text": "雪解け水を集めた大きな川が、平野の田に豊かな水を運ぶ"
+        },
+        {
+          "id": "insulate",
+          "text": "冬のあいだに雪の下で稲を育て、春に早く収穫できる"
+        },
+        {
+          "id": "fertilizer",
+          "text": "雪にふくまれる塩分が、そのまま稲の肥料として役立つ"
+        },
+        {
+          "id": "none",
+          "text": "雪は米づくりのじゃまになり、収穫は雪の少ない年に多い"
+        }
+      ],
+      "answer": "melt",
+      "explanation": "新潟県では、信濃川や阿賀野川などの大きな川が、上流から豊富な雪解け水と肥えた土を運び、新潟平野の田をうるおします。冬の大雪は、春からの米づくりを支える水の源にもなっています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-dry-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-pacific-winter"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "冬の太平洋側で、晴れて乾燥した日が多くなる理由は？",
+      "choices": [
+        {
+          "id": "mountain",
+          "text": "季節風が山脈を越えるときに水分を失い、乾いた風になるから"
+        },
+        {
+          "id": "warm",
+          "text": "暖流の黒潮が、太平洋側の空気を温めて雲を消すから"
+        },
+        {
+          "id": "high",
+          "text": "冬の太平洋側には、台風が近づけない高い山があるから"
+        },
+        {
+          "id": "south",
+          "text": "冬は南から乾いた風が吹き、太平洋側に雲が届かないから"
+        }
+      ],
+      "answer": "mountain",
+      "explanation": "大陸から吹く北西の季節風は、日本海側に雪を降らせたあと、山脈を越えるときに水分を失います。乾いた風となって吹き下ろすため、太平洋側では冬に晴れて乾燥した日が多くなります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-dry-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-pacific-winter"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "群馬県などで「からっ風」と呼ばれているのは、どのような風？",
+      "choices": [
+        {
+          "id": "karakaze",
+          "text": "冬に山から吹き下ろす、冷たく乾いた北西の風"
+        },
+        {
+          "id": "yamase",
+          "text": "夏に海から吹きこむ、冷たく湿った北東の風"
+        },
+        {
+          "id": "typhoon",
+          "text": "秋に南の海からやってくる、雨をともなう強い風"
+        },
+        {
+          "id": "sea-breeze",
+          "text": "夏の昼間に海から陸へ吹く、すずしい南の風"
+        }
+      ],
+      "answer": "karakaze",
+      "explanation": "からっ風は、冬の季節風が山を越えて吹き下ろす、冷たく乾いた北西の風です。とくに群馬県（上州）でいわれ、「上州のからっ風」として知られます。夏に東北の太平洋側へ吹く冷たく湿った風は「やませ」です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-dry-map",
+      "type": "map",
+      "itemIds": [
+        "geo-climate-pacific-winter"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "冬に山から吹き下ろす冷たく乾いた北西の風が「上州のからっ風」と呼ばれる、上州にあたるのは現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-10",
+      "explanation": "上州は現在の群馬県です。群馬県では、からっ風の吹く乾いた気候が小麦づくりに向き、うどんなどの粉ものの食文化が育ちました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-tsuyu-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-tsuyu"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "梅雨に雨やくもりの日が続く理由は？",
+      "choices": [
+        {
+          "id": "front",
+          "text": "二つの高気圧の境目にできる前線が、日本付近にとどまるから"
+        },
+        {
+          "id": "monsoon",
+          "text": "大陸から吹く北西の季節風が、日本海で水蒸気を集めるから"
+        },
+        {
+          "id": "typhoon",
+          "text": "南の海で生まれた台風が、毎日のように日本に近づくから"
+        },
+        {
+          "id": "mountain",
+          "text": "春の雪解け水が蒸発して、山の上に雲がたまるから"
+        }
+      ],
+      "answer": "front",
+      "explanation": "冷たく湿ったオホーツク海高気圧と、暖かく湿った太平洋高気圧の境目に梅雨前線（停滞前線）ができ、日本付近にとどまるため、雨やくもりの日が続きます。夏に向けて梅雨前線が北上するか消えると、地域ごとに梅雨が明けて夏になります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-tsuyu-where",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-tsuyu",
+        "geo-climate-hokkaido"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "気象庁が、梅雨入りや梅雨明けを発表していない地方は？",
+      "choices": [
+        {
+          "id": "hokkaido",
+          "text": "北海道地方"
+        },
+        {
+          "id": "tohoku",
+          "text": "東北地方"
+        },
+        {
+          "id": "kinki",
+          "text": "近畿地方"
+        },
+        {
+          "id": "okinawa",
+          "text": "沖縄地方"
+        }
+      ],
+      "answer": "hokkaido",
+      "explanation": "梅雨前線は北海道付近では不明瞭になることが多く、梅雨のような天気が毎年決まった時期に現れるわけではないため、気象庁は北海道の梅雨入り・梅雨明けを発表していません。札幌の6月の降水量は平年60.4mmで、東京（167.8mm）の半分以下です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-tsuyu-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-tsuyu"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "梅雨の終わりごろに起こりやすい災害は？",
+      "choices": [
+        {
+          "id": "heavy-rain",
+          "text": "前線の活動が活発になって起こる集中豪雨"
+        },
+        {
+          "id": "snow",
+          "text": "大陸からの寒気が運んでくる記録的な大雪"
+        },
+        {
+          "id": "drought",
+          "text": "晴れの日が長く続くことによる水不足"
+        },
+        {
+          "id": "frost",
+          "text": "冷えこんだ夜明けに起こる霜による作物の被害"
+        }
+      ],
+      "answer": "heavy-rain",
+      "explanation": "梅雨の終わりごろには梅雨前線の活動が活発になり、局地的な集中豪雨が起こりやすくなります。川の氾濫や土砂崩れなどの水害につながることがあります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-typhoon-when",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-typhoon"
+      ],
+      "asks": [
+        "when"
+      ],
+      "prompt": "台風の発生・接近・上陸が多い時期は？",
+      "choices": [
+        {
+          "id": "jul-oct",
+          "text": "7月から10月ごろ"
+        },
+        {
+          "id": "jan-apr",
+          "text": "1月から4月ごろ"
+        },
+        {
+          "id": "apr-jun",
+          "text": "4月から6月ごろ"
+        },
+        {
+          "id": "nov-feb",
+          "text": "11月から2月ごろ"
+        }
+      ],
+      "answer": "jul-oct",
+      "explanation": "気象庁の平年値（1991〜2020年）では、台風の発生・接近・上陸とも、7月から10月にかけて最も多くなります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-typhoon-where",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-typhoon"
+      ],
+      "asks": [
+        "where",
+        "what"
+      ],
+      "prompt": "台風は、どこで発生した熱帯低気圧が発達したもの？",
+      "choices": [
+        {
+          "id": "tropical",
+          "text": "北西太平洋や南シナ海の、熱帯の海上"
+        },
+        {
+          "id": "siberia",
+          "text": "シベリアなど、冬の冷え込んだ大陸の上"
+        },
+        {
+          "id": "okhotsk",
+          "text": "オホーツク海の、冷たい海の上"
+        },
+        {
+          "id": "japan-sea",
+          "text": "対馬海流が流れる、冬の日本海の上"
+        }
+      ],
+      "answer": "tropical",
+      "explanation": "台風は、北西太平洋や南シナ海の熱帯の海上で発生した熱帯低気圧のうち、最大風速がおよそ17m/s以上になったものです。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-typhoon-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-typhoon"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "日本付近まで北上してきた台風が、北東へ速く進むようになるのはなぜ？",
+      "choices": [
+        {
+          "id": "westerly",
+          "text": "上空を吹く強い西風（偏西風）に流されるから"
+        },
+        {
+          "id": "monsoon",
+          "text": "大陸から吹く北西の季節風に押されるから"
+        },
+        {
+          "id": "current",
+          "text": "日本の南を流れる黒潮の流れに運ばれるから"
+        },
+        {
+          "id": "land",
+          "text": "陸地の上では、台風が自分で速く動けるようになるから"
+        }
+      ],
+      "answer": "westerly",
+      "explanation": "台風は、東風が吹く低い緯度では西へ進み、太平洋高気圧のまわりを回るように北上します。日本付近の高さまで来ると、上空の強い西風（偏西風）に流されて、速い速度で北東へ進みます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-typhoon-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-typhoon",
+        "geo-climate-nansei"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "台風がよく来る沖縄の家づくりの工夫として、正しいものは？",
+      "choices": [
+        {
+          "id": "fukugi",
+          "text": "家の周りをフクギの木や石垣で囲み、戦後は屋根の平らなコンクリートの家が増えた"
+        },
+        {
+          "id": "steep",
+          "text": "雪が積もらないよう屋根を急にし、戦後は木と紙でできた家が増えた"
+        },
+        {
+          "id": "stilt",
+          "text": "海からの高潮に備えて柱で床を高くし、戦後は木の高床の家が増えた"
+        },
+        {
+          "id": "open",
+          "text": "風通しを最優先して壁をなくし、戦後は大きなガラス窓の家が増えた"
+        }
+      ],
+      "answer": "fukugi",
+      "explanation": "沖縄では昔から、家の周りをフクギという、幹が固く葉の厚い木や石垣で囲んで台風に備えてきました。戦後になると、屋根を平らにしたコンクリートの家が建てられるようになりました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-setouchi-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-setouchi"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "瀬戸内海沿岸で、一年を通して降水量が少ない理由は？",
+      "choices": [
+        {
+          "id": "mountains",
+          "text": "北の中国山地と南の四国山地に、季節風がさえぎられるから"
+        },
+        {
+          "id": "inland",
+          "text": "海から遠い内陸にあり、湿った空気がまったく来ないから"
+        },
+        {
+          "id": "north",
+          "text": "日本の北の端にあり、梅雨前線がほとんど届かないから"
+        },
+        {
+          "id": "current",
+          "text": "沖を寒流が流れていて、海から水蒸気が出ないから"
+        }
+      ],
+      "answer": "mountains",
+      "explanation": "瀬戸内海沿岸は、北の中国山地と南の四国山地にはさまれています。冬の北西の季節風は中国山地に、夏の南東の季節風は四国山地にさえぎられ、湿った空気が届きにくいため、雨が少なく晴れの日が多くなります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-setouchi-map",
+      "type": "map",
+      "itemIds": [
+        "geo-climate-setouchi"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "雨の少ない瀬戸内の気候のもとで多くのため池がつくられ、ため池の密度（面積あたりの数）が全国1位なのは、どの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-37",
+      "explanation": "香川県です。雨が少なく、川が短く急で雨水がすぐ海へ流れ出てしまうため、人々は昔から多くのため池をつくって水を確保してきました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-setouchi-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-setouchi"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "雨の少ない香川県で、水不足に備えて行われてきたこととして正しいものは？",
+      "choices": [
+        {
+          "id": "tameike",
+          "text": "多くのため池をつくり、のちに吉野川の水を香川用水で引いた"
+        },
+        {
+          "id": "desalt",
+          "text": "海水から塩を取りのぞく工場を、江戸時代に各地に建てた"
+        },
+        {
+          "id": "snow",
+          "text": "冬に山に積もった雪を、氷室にたくわえて夏に使った"
+        },
+        {
+          "id": "move",
+          "text": "田をすべて畑に変え、水を使う作物を育てるのをやめた"
+        }
+      ],
+      "answer": "tameike",
+      "explanation": "香川県では昔から多くのため池をつくって水を確保してきました。1974年には、早明浦ダムにたくわえた吉野川の水を引く「香川用水」が使われ始め、今では県の水資源の約3割をまかなっています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-inland-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-inland"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "長野県などの中央高地（内陸）の気候の特徴として、正しいものは？",
+      "choices": [
+        {
+          "id": "range",
+          "text": "降水量が少なく、夏と冬、昼と夜の気温差が大きい"
+        },
+        {
+          "id": "snowy",
+          "text": "冬の降水量がとても多く、日本で最も雪が多い"
+        },
+        {
+          "id": "warm",
+          "text": "一年中暖かく、冬でも平均気温が15℃を超える"
+        },
+        {
+          "id": "rainy",
+          "text": "梅雨と台風の時期に、日本で最も雨が多くなる"
+        }
+      ],
+      "answer": "range",
+      "explanation": "中央高地は海から遠く山に囲まれているため、降水量が少なく、気温差が大きくなります。松本の平均気温は1月が-0.3℃、8月が25.1℃で、年降水量は平年1045.1mmです。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-inland-map",
+      "type": "map",
+      "itemIds": [
+        "geo-climate-inland"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "1月の平均気温が-0.3℃、8月が25.1℃と気温差が大きく、年降水量が少ない、中央高地の気候の松本市があるのは、現在のどの都道府県？",
+      "map": "japan-prefectures",
+      "answer": "jp-20",
+      "explanation": "松本市は長野県の中部にあります。長野県は海岸から遠く離れた内陸にあり、県全体で内陸特有の気候がはっきり表れます。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-inland-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-inland"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "中央高地で、夏と冬、昼と夜の気温差が大きくなる理由は？",
+      "choices": [
+        {
+          "id": "inland",
+          "text": "海から遠く、気温をやわらげる海の影響を受けにくいから"
+        },
+        {
+          "id": "north",
+          "text": "日本の北の端にあり、冬の寒気の影響を強く受けるから"
+        },
+        {
+          "id": "current",
+          "text": "近くを暖流と寒流が交互に流れ、気温を上下させるから"
+        },
+        {
+          "id": "typhoon",
+          "text": "台風の通り道にあり、夏だけ暑い空気が運ばれるから"
+        }
+      ],
+      "answer": "inland",
+      "explanation": "陸は海より温まりやすく冷えやすい性質があります。海から遠い中央高地は、気温をやわらげる海（海風）の影響が少なく、晴れた夜には熱が逃げて冷え込みやすいため、気温差が大きくなります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-hokkaido-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-hokkaido"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "北海道の気候の特徴として、正しいものは？",
+      "choices": [
+        {
+          "id": "cold",
+          "text": "冬の寒さが長く厳しく、梅雨がはっきりしない"
+        },
+        {
+          "id": "warm",
+          "text": "一年中温暖で、梅雨と台風の時期に雨が多い"
+        },
+        {
+          "id": "dry",
+          "text": "瀬戸内と同じく、一年中晴れて雨がとても少ない"
+        },
+        {
+          "id": "hot",
+          "text": "夏は全国で最も暑く、冬は雪がほとんど降らない"
+        }
+      ],
+      "answer": "cold",
+      "explanation": "北海道は冬の寒さが長く厳しく、夏は涼しい気候です。札幌の年平均気温は9.2℃で、梅雨の現象はほとんど見られません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-hokkaido-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-hokkaido",
+        "geo-climate-tsuyu"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "北海道に梅雨がはっきりしないと言われる理由は？",
+      "choices": [
+        {
+          "id": "front",
+          "text": "梅雨前線が、北海道付近では不明瞭になることが多いから"
+        },
+        {
+          "id": "high",
+          "text": "北海道の上空には、一年中高気圧がとどまっているから"
+        },
+        {
+          "id": "mountain",
+          "text": "高い山に囲まれ、雨雲がまったく入ってこないから"
+        },
+        {
+          "id": "snow",
+          "text": "6月になっても雪が降り、雨の日として数えないから"
+        }
+      ],
+      "answer": "front",
+      "explanation": "梅雨前線は夏に向けて北上しますが、北海道付近では不明瞭になることが多く、梅雨のような天気が毎年決まった時期に現れるわけではありません。そのため気象庁は、北海道の梅雨入り・梅雨明けを発表していません。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-nansei-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-nansei"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "南西諸島の気候の特徴として、正しいものは？",
+      "choices": [
+        {
+          "id": "warm",
+          "text": "一年中暖かく、梅雨と台風の時期に雨が多い"
+        },
+        {
+          "id": "cold",
+          "text": "冬の寒さが厳しく、梅雨がはっきりしない"
+        },
+        {
+          "id": "range",
+          "text": "夏と冬の気温差が大きく、一年中雨が少ない"
+        },
+        {
+          "id": "snow",
+          "text": "冬に北西の季節風で雪が多く降り積もる"
+        }
+      ],
+      "answer": "warm",
+      "explanation": "南西諸島は一年中暖かく、那覇の年平均気温は23.3℃です。雨は梅雨（5〜6月）と台風の時期（8〜9月）に多く、年降水量は平年2161.0mmあります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-nansei-where",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-nansei"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "1月の平均気温（平年）が17.3℃と、冬でも暖かい都市は？",
+      "choices": [
+        {
+          "id": "naha",
+          "text": "那覇"
+        },
+        {
+          "id": "takamatsu",
+          "text": "高松"
+        },
+        {
+          "id": "tokyo",
+          "text": "東京"
+        },
+        {
+          "id": "kanazawa",
+          "text": "金沢"
+        }
+      ],
+      "answer": "naha",
+      "explanation": "沖縄県の那覇です。1月の平均気温は、高松が5.9℃、東京が5.4℃、金沢が4.0℃で、那覇はそれより10℃以上も暖かくなっています。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-nansei-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-nansei"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "南西諸島が一年中暖かい理由は？",
+      "choices": [
+        {
+          "id": "subtropical",
+          "text": "亜熱帯にあたる緯度にあり、暖流の黒潮が流れる海に囲まれているから"
+        },
+        {
+          "id": "volcano",
+          "text": "島の多くが火山で、地下の熱が地面を一年中温めているから"
+        },
+        {
+          "id": "mountain",
+          "text": "高い山に囲まれていて、冬の冷たい季節風が届かないから"
+        },
+        {
+          "id": "inland",
+          "text": "大陸に近く、夏に温められた大陸の熱が冬まで伝わるから"
+        }
+      ],
+      "answer": "subtropical",
+      "explanation": "南西諸島は北緯20度から30度のあいだの亜熱帯にあり、近くを暖流の黒潮が流れる暖かい海に囲まれているため、一年中暖かく湿った気候になります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-yamase-what",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-yamase"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "東北地方などで「やませ」と呼ばれているのは、どのような風？",
+      "choices": [
+        {
+          "id": "yamase",
+          "text": "初夏から夏に吹く、冷たく湿った東寄りの風"
+        },
+        {
+          "id": "karakaze",
+          "text": "冬に山から吹き下ろす、冷たく乾いた北西の風"
+        },
+        {
+          "id": "typhoon",
+          "text": "秋に南の海から来る、雨をともなう強い風"
+        },
+        {
+          "id": "foehn",
+          "text": "春に山を越えて吹く、暖かく乾いた南の風"
+        }
+      ],
+      "answer": "yamase",
+      "explanation": "やませは、初夏から夏にかけて、オホーツク海高気圧から北日本の太平洋側に吹きこむ、冷たく湿った東寄りの風です。冬に山から吹き下ろす冷たく乾いた風は「からっ風」です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-yamase-where",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-yamase"
+      ],
+      "asks": [
+        "where"
+      ],
+      "prompt": "やませの影響を最も強く受けるのは、どこ？",
+      "choices": [
+        {
+          "id": "tohoku-pacific",
+          "text": "東北地方の太平洋側"
+        },
+        {
+          "id": "tohoku-japansea",
+          "text": "東北地方の日本海側"
+        },
+        {
+          "id": "setouchi",
+          "text": "瀬戸内海の沿岸"
+        },
+        {
+          "id": "okinawa",
+          "text": "沖縄などの南西諸島"
+        }
+      ],
+      "answer": "tohoku-pacific",
+      "explanation": "やませは北日本から関東地方の太平洋沿岸に吹きこみます。奥羽山脈などにさえぎられるため、日本海側にはほとんど広がらず、その間、日本海側は晴れて暑くなることもあります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-yamase-why",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-yamase"
+      ],
+      "asks": [
+        "why"
+      ],
+      "prompt": "やませが、夏でも冷たく湿った風になるのはなぜ？",
+      "choices": [
+        {
+          "id": "okhotsk",
+          "text": "冷たいオホーツク海の上の高気圧から吹き出す風だから"
+        },
+        {
+          "id": "siberia",
+          "text": "冷え込んだシベリアの大陸から吹いてくる風だから"
+        },
+        {
+          "id": "mountain",
+          "text": "雪の残る高い山の上から吹き下ろしてくる風だから"
+        },
+        {
+          "id": "arctic",
+          "text": "北極の氷の上から、まっすぐ吹いてくる風だから"
+        }
+      ],
+      "answer": "okhotsk",
+      "explanation": "やませは、冷たいオホーツク海の上にできるオホーツク海高気圧から吹き出す、冷たく湿った東寄りの風です。冬に大陸のシベリア高気圧から吹くのは、北西の季節風です。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-yamase-result",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-yamase"
+      ],
+      "asks": [
+        "result"
+      ],
+      "prompt": "やませが長く吹き続けると、どのような被害が起きることがある？",
+      "choices": [
+        {
+          "id": "cold",
+          "text": "低温と日照不足で、稲などが育たない冷害"
+        },
+        {
+          "id": "drought",
+          "text": "雨が降らず、田畑の水が足りなくなる干害"
+        },
+        {
+          "id": "snow",
+          "text": "季節はずれの大雪で、家がつぶれる雪害"
+        },
+        {
+          "id": "heat",
+          "text": "気温が上がりすぎて、作物が枯れる高温の害"
+        }
+      ],
+      "answer": "cold",
+      "explanation": "やませが長く続くと、低温と日照不足で稲などの作物が育たない冷害が起きることがあります。1993年はやませの影響などで記録的な冷夏となり、全国的に米が不足する「平成の米騒動」が起きました。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-regions-match",
+      "type": "match",
+      "itemIds": [
+        "geo-climate-regions",
+        "geo-climate-hokkaido",
+        "geo-climate-sea-of-japan-snow",
+        "geo-climate-pacific-winter",
+        "geo-climate-inland",
+        "geo-climate-setouchi"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "都市と、その都市が属する気候区分を結ぼう",
+      "left": [
+        {
+          "id": "sapporo",
+          "text": "札幌"
+        },
+        {
+          "id": "kanazawa",
+          "text": "金沢"
+        },
+        {
+          "id": "tokyo",
+          "text": "東京"
+        },
+        {
+          "id": "matsumoto",
+          "text": "松本"
+        },
+        {
+          "id": "takamatsu",
+          "text": "高松"
+        }
+      ],
+      "right": [
+        {
+          "id": "hokkaido",
+          "text": "北海道の気候"
+        },
+        {
+          "id": "japansea",
+          "text": "日本海側の気候"
+        },
+        {
+          "id": "pacific",
+          "text": "太平洋側の気候"
+        },
+        {
+          "id": "inland",
+          "text": "中央高地の気候"
+        },
+        {
+          "id": "setouchi",
+          "text": "瀬戸内の気候"
+        }
+      ],
+      "pairs": [
+        [
+          "sapporo",
+          "hokkaido"
+        ],
+        [
+          "kanazawa",
+          "japansea"
+        ],
+        [
+          "tokyo",
+          "pacific"
+        ],
+        [
+          "matsumoto",
+          "inland"
+        ],
+        [
+          "takamatsu",
+          "setouchi"
+        ]
+      ],
+      "explanation": "札幌は北海道の気候、金沢は日本海側の気候、東京は太平洋側の気候、松本は中央高地（内陸）の気候、高松は瀬戸内の気候に属します。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-regions-takamatsu",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-regions",
+        "geo-climate-setouchi"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "年降水量が平年1150.1mmと少なく、1月の平均気温は5.9℃と冬も比較的暖かい。この都市が属する気候区分は？",
+      "choices": [
+        {
+          "id": "setouchi",
+          "text": "瀬戸内の気候"
+        },
+        {
+          "id": "japansea",
+          "text": "日本海側の気候"
+        },
+        {
+          "id": "inland",
+          "text": "中央高地の気候"
+        },
+        {
+          "id": "hokkaido",
+          "text": "北海道の気候"
+        }
+      ],
+      "answer": "setouchi",
+      "explanation": "高松（瀬戸内の気候）です。雨が少ない点は中央高地の松本（年1045.1mm）と似ていますが、海に面しているため、1月の平均気温は松本（-0.3℃）よりずっと高くなります。",
+      "status": "active"
+    },
+    {
+      "id": "q-geo-climate-regions-kanazawa",
+      "type": "choice",
+      "itemIds": [
+        "geo-climate-regions",
+        "geo-climate-sea-of-japan-snow"
+      ],
+      "asks": [
+        "what"
+      ],
+      "prompt": "年降水量が平年2401.5mmと多く、とくに冬（1月256.0mm）に雪や雨が多い。この都市が属する気候区分は？",
+      "choices": [
+        {
+          "id": "japansea",
+          "text": "日本海側の気候"
+        },
+        {
+          "id": "pacific",
+          "text": "太平洋側の気候"
+        },
+        {
+          "id": "setouchi",
+          "text": "瀬戸内の気候"
+        },
+        {
+          "id": "nansei",
+          "text": "南西諸島の気候"
+        }
+      ],
+      "answer": "japansea",
+      "explanation": "金沢（日本海側の気候）です。太平洋側の東京は、冬（1月59.7mm）よりも梅雨や台風の時期（9月224.9mm）に雨が多くなります。南西諸島の那覇も雨は多いですが、冬でも暖かく、雪は降りません。",
+      "status": "active"
+    }
+  ]
+}
