@@ -32,11 +32,12 @@
 | [0005](0005-cloudflare-workers-d1.md) | Cloudflare Workers（静的配信 + Hono API）と D1 で構成する | 承認（一部実装済み: 静的配信。API と D1 は未実装） |
 | [0006](0006-learning-stats-for-claude.md) | 学習データを要約して Claude に連携し、定期実行で問題を改善する | 承認（未実装） |
 | [0007](0007-optional-oauth-login.md) | ログインは任意とし、Google / GitHub の OAuth でログインして同期する | 提案 |
-| [0008](0008-question-formats-and-data-model.md) | 出題形式とデータモデル（知識カードと問題の 2 層） | 承認（実装済み） |
+| [0008](0008-question-formats-and-data-model.md) | 出題形式とデータモデル（知識カードと問題の 2 層） | 承認（実装済み）。解答画面での「なぜ」表示は置換（→ 0013） |
 | [0009](0009-frontend-stack.md) | フロントエンドは Vite + Preact + TypeScript、パッケージ管理は pnpm | 承認（実装済み） |
 | [0010](0010-lesson-texts.md) | サブカテゴリに読み物を付け、節ごとに問題を解けるようにする | 承認（実装済み） |
 | [0011](0011-no-progressive-unlock.md) | 問題の段階的な解放をやめ、復習を優先して未学習の問題を読み物の順に出す | 承認（実装済み） |
 | [0012](0012-pwa-and-deploy.md) | PWA は vite-plugin-pwa で作り、main への push で Cloudflare Workers にデプロイする | 承認（実装済み） |
+| [0013](0013-no-why-on-answer-screen.md) | 解答画面に知識カードの「なぜ」を表示しない | 承認（実装済み） |
 
 ## テンプレート
 
