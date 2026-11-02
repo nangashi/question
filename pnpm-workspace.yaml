@@ -1,3 +1,8 @@
+# pnpm 9（Cloudflare Workers Builds の環境）は、このファイルに packages が無いと
+# install を「packages field missing or empty」で失敗させる。単一パッケージなのでルートだけを指定する。
+packages:
+  - '.'
+
 # pnpm 11 以降は、未許可の依存パッケージの build scripts があると install を
 # ERR_PNPM_IGNORED_BUILDS で失敗させる。Cloudflare Workers Builds が止まるので無効にする。
 strictDepBuilds: false
