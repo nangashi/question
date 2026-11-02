@@ -54,8 +54,7 @@ export function Play({ scope, sessionId }: { scope: string; sessionId?: string }
   };
   const cat = getTheme(ref.themeId)?.categories.find((c) => c.id === ref.categoryId);
   const trivia = q.itemIds.map((id) => getItem(id)?.item.trivia).find(Boolean);
-  // なぜは、知識カードが 1 つで、問題自体が「なぜ」を問うていない場合だけ表示する（解説と重なるため。ADR-0008）
-  const why = q.itemIds.length === 1 && !q.asks.includes("why") ? getItem(q.itemIds[0]!)?.item.why : undefined;
+  // 知識カードの「なぜ」は解答画面に出さない（答えの根拠ではなく知識の背景であり、根拠として読まれて混乱するため。ADR-0013）
   // 出題中はつながりから別の画面へ移らない（戻ると出題がやり直しになり、流れも途切れるため）
   const links = LinkList({ itemIds: q.itemIds, navigable: false });
   // 読み物の該当する節を、画面を移動せずにその場で読み返せるようにする（ADR-0010）
@@ -96,7 +95,6 @@ export function Play({ scope, sessionId }: { scope: string; sessionId?: string }
               attached
               sections={[
                 { label: "解説", icon: "book", body: <p class="body">{q.explanation}</p> },
-                { label: "なぜ", icon: "why", body: why && <p class="body">{why}</p> },
                 {
                   label: "読み物",
                   icon: "note",
