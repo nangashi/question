@@ -7,5 +7,7 @@
   "workers_dev": true,
   "assets": {
     "directory": "./dist"
-  }
+  },
+  // ブランチ・PR の `wrangler preview` に必要。空でよい（assets などはトップレベルの設定を使う）
+  "previews": {}
 }
